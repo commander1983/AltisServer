@@ -8,16 +8,16 @@
 
 _onScreenTime = 15;
 
-sleep 5; //Wait in seconds before the credits start after player is in-game
+sleep 8; //Wait in seconds before the credits start after player is in-game
  
 _role1 = "Herzlich Willkommen auf dem";
 _role1names = ["StaiyLite","Altis Life Server"];
-_role2 = "Webseite/Teamspeak";
-_role2names = ["www.staiylite.de","TeamspeakIP: staiylite.de"];
-_role3 = "Admins";
-_role3names = ["Staiy","Snerz","Spoilty","mantis","bekoo"];
-_role4 = "Aktuelle Neuerungen";
-_role4names = ["Neue Loadouts für Cops","Zentralbank ab 6 Cops","Masken entfernen"];
+_role2 = "Admins";
+_role2names = ["Staiy","Snerz","Spoilty","mantis","bekoo"];
+_role3 = "Webseite/ Teamspeak";
+_role3names = ["www.staiylite.de","TeamSpeakIP: ts.staiylite.de"];
+_role4 = "Aktuelle Neuerungen/ ChangeLog";
+_role4names = ["Loadout-Anpassung für Cops","Neues Ausbruchsystem","Einige Bug-Fixes","Weitere Infos und ChangeLog: www.staiylite.de"];
 
 {
 sleep 2;
