@@ -13,9 +13,9 @@ _display = findDisplay 2400;
 _list = _display displayCtrl 2402;
 _mylist = [];
 _data = call compile format["%1", _data];
-if(isNil "_data") exitWith {hint "Failed to fetch crimes";};
-if(typeName _data != "ARRAY") exitWith {hint "Failed to fetch crimes";};
-if(count _data == 0) exitWith {hint "Failed to fetch crimes";};
+if(isNil "_data") exitWith {hint "Fehler beim Laden";};
+if(typeName _data != "ARRAY") exitWith {hint "Fehler beim Laden";};
+if(count _data == 0) exitWith {hint "Fehler beim Laden";};
 lbClear _list;
 
 _crimes = _data select 0;
@@ -30,4 +30,4 @@ _bounty = _data select 1;
 	};
 } foreach _crimes;
 
-ctrlSetText[2403,format["Kopfgeld: $%1",[_bounty] call life_fnc_numberText]];
+ctrlSetText[2403,format["Kopfgeld: €%1",[_bounty] call life_fnc_numberText]];
