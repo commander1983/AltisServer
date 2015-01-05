@@ -151,12 +151,6 @@ class CfgSounds
 		sound[] = {"\sounds\Repair.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	class disko
-	{
-		name = "disko1";
-		sound[] = {"\sounds\disko1.ogg", db-1, 1};
-		titles[] = {};
-	};
 	class alarmanlage
 	{
 		name = "alarmanlage";
