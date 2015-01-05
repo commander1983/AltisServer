@@ -291,7 +291,7 @@ sell_array =
 	["keys",50],
 	["painkillers",5000],
 	["handcuffs",150],
-	["pille",10000],
+	["pille",5000],
 	["sperre",250],
 	["warnung",50],
 	
