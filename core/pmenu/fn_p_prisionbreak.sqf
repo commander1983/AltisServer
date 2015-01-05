@@ -6,13 +6,13 @@
 private["_shop","_display","_list","_array","_units","_Btn1","_unit"];
 _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
-if(player distance _shop > 2) exitWith {hint format ["You need to stay closer!"];};
+if(player distance _shop > 2) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
 
 createDialog "life_prision_list";
 _display = findDisplay 8100;
 _list = _display displayCtrl 8101;
 lbClear _list;
-ctrlSetText[8104,"Hacking system..."];
+ctrlSetText[8104,"POSL 2.0 - Hacking..."];
 _list = _display displayctrl 8101;
 _units = [];
 {
@@ -28,8 +28,8 @@ _units = [];
 	_list lbSetData [(lbSize _list)-1,str(_x)];
 	};
 } forEach _units;
-ctrlSetText[8104,"Connected to system..."];
+ctrlSetText[8104,"Verbunden!"];
 if(((lbSize _list)-1) == -1) then
 {
-	_list lbAdd "No prisoners...";
+	_list lbAdd "Keine Gefangenen!.";
 };

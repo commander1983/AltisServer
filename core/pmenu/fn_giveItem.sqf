@@ -10,19 +10,19 @@
 private["_unit","_val"];
 _val = ctrlText 2010;
 ctrlShow[2002,false];
-if((lbCurSel 2023) == -1) exitWith {hint "Niemand ausgewaehlt!";ctrlShow[2002,true];};
+if((lbCurSel 2023) == -1) exitWith {hint "Du hast niemanden ausgewählt!";ctrlShow[2002,true];};
 _unit = lbData [2023,lbCurSel 2023];
 _unit = call compile format["%1",_unit];
-if((lbCurSel 2005) == -1) exitWith {hint "Du musst einen Gegenstand waehlen.";ctrlShow[2002,true];};
+if((lbCurSel 2005) == -1) exitWith {hint "Du musst einen Gegenstand auswählen.";ctrlShow[2002,true];};
 _item = lbData [2005,(lbCurSel 2005)];
 if(isNil "_unit") exitWith {ctrlShow[2002,true];};
 if(_unit == player) exitWith {ctrlShow[2002,true];};
 if(isNull _unit) exitWith {ctrlShow[2002,true];};
 
 //A series of checks *ugh*
-if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Gib eine zahl ein.";ctrlShow[2002,true];};
-if(parseNumber(_val) <= 0) exitWith {hint "Du musst eine gueltige Zahl eingeben was du ihm geben willst";ctrlShow[2002,true];};
-if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Der Spieler ist zu weit weg";};
+if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Gib eine Zahl ein.";ctrlShow[2002,true];};
+if(parseNumber(_val) <= 0) exitWith {hint "Du musst eine gültige Zahl eingeben.";ctrlShow[2002,true];};
+if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Der Spieler ist zu weit weg.";};
 if(!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint "Das geht nicht, eventuell hast du zu wenig davon!";ctrlShow[2002,true];};
 [[_unit,_val,_item,player],"life_fnc_receiveItem",_unit,false] spawn life_fnc_MP;
 _type = [_item,0] call life_fnc_varHandle;

@@ -67,7 +67,7 @@ switch (true) do
 	
 	case (_item == "sperre"):
 	{
-		if(!isNull life_sperre) exitWith {hint "Du stellst schon eine Straßensperre auf!"};
+		if(!isNull life_sperre) exitWith {hint "Du stellst bereits eine Straßensperre auf!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_sperre;
@@ -76,7 +76,7 @@ switch (true) do
 	
 	case (_item == "warnung"):
 	{
-		if(!isNull life_warnung) exitWith {hint "Du stellst schon eine Pylone auf!"};
+		if(!isNull life_warnung) exitWith {hint "Du stellst bereits eine Pylone auf!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_warnung;
@@ -130,7 +130,7 @@ switch (true) do
 	
 	case (_item == "pickaxe"):
 	{
-		hint "Mit der Q Taste kannst du abbauen";
+		hint "Du kannst die Spitzhacke benutzen indem du  Q  drückst.";
 	};
 	
 	case (_item == "battery"):
@@ -138,7 +138,7 @@ switch (true) do
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			life_battery = 100;
-			hint "Dein Akku ist nun vollgeladen.";
+			hint "Du hast deine Handybatterie wurde gegen eine aufgeladene ausgetauscht.";
 		};
 	};
 	
@@ -173,10 +173,10 @@ switch (true) do
 					license_civ_permanent = true;
 				};
 			} else {
-				hint "Du brauchst Führerschein B und C um dieses Formular auszufuellen";
+				hint "Du benötigst einen Führerschein B und Führerschein C um dieses Formular ausfüllen zu können.";
 			};
 		} else {
-			hint "Das Formular koennen nur Zivilisten ausfuellen";
+			hint "Das Formular können nur Zivilisten ausfüllen!";
 		};
 	};
 	

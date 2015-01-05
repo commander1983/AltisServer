@@ -33,21 +33,21 @@ switch(_type) do
 	{
 		if(isNUll life_smartphoneTarget) exitWith {hint format["Du hast keine Person ausgwählt!"];};
 		ctrlShow[88885, false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[88885, true];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You sent %1 a message: %2",name life_smartphoneTarget,_msg];	
+		hint format["Du hast %1 folgende Nachricht gesendet: %2",name life_smartphoneTarget,_msg];	
 		ctrlShow[88885, true];
 		closeDialog 88883;
 	};
 	//copmessage
 	case 2:
 	{
-		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Die Polizei ist derzeit nicht zu erreichen. Bitte versuchen Sie es später nochmal."];};
+		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Polizeibeamter im Dienst. Bitte probieren Sie es später erneut."];};
 		ctrlShow[888895,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888895,true];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		_to = "The Police";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		_to = "der Polizei";
+		hint format["Du hast %1 folgenden Notruf gesendet: %2",_to,_msg];
 		ctrlShow[888895,true];
 		closeDialog 887890;
 	};
@@ -55,32 +55,32 @@ switch(_type) do
 	case 3:
 	{
 		ctrlShow[888896,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888896,true];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888896,true];};
 		[[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		_to = "The Admins";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		_to = "den Admins";
+		hint format["Du hast %1 folgende Nachricht gesendet: %2",_to,_msg];
 		ctrlShow[888896,true];
 		closeDialog 887890;
 	};
 	//emsrequest
 	case 4:
 	{
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit ist kein Sanitäter im Dienst. Bitte probiere es später nochmal."];};
+		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Sanitäter im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888899,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888899,true];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You have sent a message to all EMS Units.",_msg];
+		hint format["Du hast den Sanitätern folgenden Notruf gesendet: %1",_msg];
 		//ctrlShow[888899,true];
 		closeDialog 887890;
 	};
 	//adminToPerson
 	case 5:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "You are not an admin!";};
-		if(isNULL life_smartphoneTarget) exitWith {hint format["Keine Person ausgwählt!"];};
-		if(_msg == "") exitWith {hint "You must enter a message to send!";};
+		if((call life_adminlevel) < 1) exitWith {hint "Du bist kein Admin!";};
+		if(isNULL life_smartphoneTarget) exitWith {hint format["Es wurde keine Person ausgwählt!"];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";};
 		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To: %1 - Message: %2",name life_smartphoneTarget,_msg];
+		hint format["Du hast folgende Adminnachricht an %1 gesendet: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
 	//emergencyloading
@@ -98,31 +98,32 @@ switch(_type) do
 	//adminMsgAll
 	case 7:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "You are not an admin!";};
-		if(_msg == "") exitWith {hint "You must enter a message to send!";};
+		if((call life_adminlevel) < 1) exitWith {hint "Du bist kein Admin!";};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";};
 		[[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To All: %1",_msg];
+		hint format["Eine Adminnachricht wurde an jeden gesendet: %1",_msg];
 		closeDialog 887890;
 	};
 	
 	//adacrequest
 	case 8:
 	{
-		if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit ist kein Pannenhelfer im Dienst. Bitte probiere es später nochmal."];};
+		if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Pannenhelfer im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888900,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888900,true];};
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888900,true];};
 		[[ObjNull,_msg,player,6],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You have sent a message to all Adac Units.",_msg];
+		hint format["Du hast den Pannenhelfern folgende Nachricht gesendet: %1 ",_msg];
 		//ctrlShow[888900,true];
 		closeDialog 887890;
 	};
 	//coptozivi
 	case 9:
 	{
-		if(__GETC__(life_coplevel) < 4) exitWith {hint "Du bist nicht dazu Berechtigt!";};
-		if(_msg == "") exitWith {hint "You must enter a message to send!";};
+		if(__GETC__(life_coplevel) < 4) exitWith {hint "Dazu bist du nicht berechtigt!";};
+		if(playerSide != west || playerSide != east) exitWith {hint "Dazu bist du nicht berechtigt!";};	// Keine AHnung ob die if-Abfrage funktioniert. Hab die aus Gefühl heraus erstellt.
+		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";};
 		[[ObjNull,_msg,player,7],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Police Message Sent To All: %1",_msg];
+		hint format["Folgender Rundfunk wurde gesendet: %1",_msg];
 		closeDialog 888910;
 	};
 };
