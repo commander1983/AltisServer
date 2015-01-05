@@ -9,14 +9,8 @@ if((_vehicle getVariable ["nano_empd", false])) exitWith {};
 _vehicle setVariable["nano_empd",true,true];
 
 if(_vehicle isKindOf "Air") then {
-	_vehicle say3D "empwarn";
-	sleep 3.35;
-	_vehicle say3D "empwarn";
-	sleep 3.35;
-	_vehicle say3D "empwarn";
-	sleep 3.35;
 	if(local _vehicle) then {
-		_vehicle setFuel 0.075;
+		_vehicle setFuel 0.025;
 	}
 };
 
