@@ -80,7 +80,7 @@ player addItemToBackpack "muzzle_snds_H";
 player addItemToBackpack "optic_Hamr";
 
 mybackpack = unitBackpack player;
-mybackpack addItemCargoGlobal ["Toolkit", 2];
+mybackpack addItemCargoGlobal ["Toolkit", 1];
 mybackpack addItemCargoGlobal ["FirstAidKit", 4];
 //you can also y-inv items too like this
 life_inv_coffee = life_inv_coffee + 2;

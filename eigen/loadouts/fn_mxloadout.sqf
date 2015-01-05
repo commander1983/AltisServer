@@ -7,7 +7,7 @@ if(__GETC__(life_coplevel) < 3) exitwith {hint "Nur fuer Polizeimeister oder hoe
 if(playerSide != west) exitWith {hint "Du bist kein Polizist!";};
 if (vehicle player != player) exitWith { hint "Du kannst nicht im KFZ Sachen kaufen!" };
 if(!alive player) exitWith {hint"Du bist tot. Tote können nichts kaufen!";};
-_guncost = 17000;
+_guncost = 16000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MX Vollausstattung";
 _action = [
@@ -81,7 +81,7 @@ player addItemToBackpack "optic_Arco";
 
 
 mybackpack = unitBackpack player;
-mybackpack addItemCargoGlobal ["Toolkit", 2];
+mybackpack addItemCargoGlobal ["Toolkit", 1];
 mybackpack addItemCargoGlobal ["FirstAidKit", 4];
 //you can also y-inv items too like this
 life_inv_coffee = life_inv_coffee + 2;
