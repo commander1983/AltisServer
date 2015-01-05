@@ -195,6 +195,7 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='18'>• Illegale Waffen/Kleidung •</font></font><br/>
 Der Besitz folgender Waffen/Kleidung ist für Zivilisten/ Rebellen illegal:<br/>
 - TRG-21<br/>
+- TRG-20<br/>
 - MK20<br/>
 - MK200<br/>
 - Katiba 6.5mm<br/>
@@ -312,7 +313,9 @@ player createDiaryRecord ["lizenz",
 - <font color='#FFB573'>Apfel</font> : <font color='#FFB573'>Banane</font><br/>
 <br/>
 <br/>
-	
+		"
+	]
+	];
 // ##########-- BUSSGELDKATALOG --##########
 	
 	
@@ -754,7 +757,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - Schranke öffnen/schließen (5 Meter)
 <br/>
 <br/>
-<font color='#639C18'>L (mit P07 in Hand)</font><br/>
+<font color='#639C18'>O (mit P07 in Hand)</font><br/>
 - Geschwindigkeitsmessung Vornehmen
 <br/>
 <br/>		<!-- ########## ADAC und MEDIC STEUERUNG ########## -->

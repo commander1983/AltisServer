@@ -119,9 +119,15 @@ switch(_type) do
 	//coptozivi
 	case 9:
 	{
-		if(__GETC__(life_coplevel) < 4) exitWith {hint "Dazu bist du nicht berechtigt!";};
-		if(playerSide != west || playerSide != east) exitWith {hint "Dazu bist du nicht berechtigt!";};	// Keine AHnung ob die if-Abfrage funktioniert. Hab die aus Gefühl heraus erstellt.
-		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";};
+		if(__GETC__(life_coplevel) < 4) exitWith {
+			hint "Dazu bist du nicht berechtigt!";
+		};
+		if(side player != west) exitWith {
+			hint "Dazu bist du nicht berechtigt!";
+		};
+		if(_msg == "") exitWith {
+			hint "Du musst eine Nachricht eingeben!";
+		};
 		[[ObjNull,_msg,player,7],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Folgender Rundfunk wurde gesendet: %1",_msg];
 		closeDialog 888910;

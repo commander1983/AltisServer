@@ -54,8 +54,6 @@ player addMagazine "30Rnd_9x21_Mag";
 player addMagazine "30Rnd_9x21_Mag";
 player addMagazine "30Rnd_9x21_Mag";
 player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
 
 titleText ["...Rucksack nicht vergessen...","PLAIN"];
 player addBackPack "B_Carryall_cbr";
@@ -76,7 +74,7 @@ player addItemToBackpack "optic_ACO_grn_smg";
 
 
 mybackpack = unitBackpack player;
-mybackpack addItemCargoGlobal ["Toolkit", 3];
+mybackpack addItemCargoGlobal ["Toolkit", 2];
 mybackpack addItemCargoGlobal ["FirstAidKit", 4];
 //you can also y-inv items too like this
 life_inv_coffee = life_inv_coffee + 2;

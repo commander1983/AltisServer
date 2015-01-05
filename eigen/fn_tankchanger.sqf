@@ -12,7 +12,7 @@ while {true} do
 		case (_veh_type == "B_Truck_01_box_F"): {_factor = 3;};
 		case (_veh_type == "B_Truck_01_covered_F"): {_factor = 3;};
 		case (_veh_type == "B_Truck_01_transport_F"): {_factor = 3;};
-		case (_veh_type == "C_Heli_Light_01_civil_F"): {_factor = 3;};
+		case (_veh_type == "C_Heli_Light_01_civil_F"): {_factor = 1;};
 		default {_factor = 5;};
 	};
 	

@@ -18,6 +18,6 @@ while {true} do
 	if(!alive _vehicle) exitWith {};
 	if(isNull _vehicle) exitWith {};
 	_vehicle say3D "SirenLong";
-	sleep 5.7;			// Testweise. Vorher: 4,7
+	sleep 6;			// Testweise. Vorher: 4,7
 	if(!(_vehicle getVariable "siren")) exitWith {};
 };

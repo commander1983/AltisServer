@@ -52,7 +52,8 @@ if(_shooter isKindOf "Man" && alive player) then
 		detach player;
 		life_isdowned = false;
 		player allowDamage true;
-	};
+	} else {
+	player setDamage 0.5;
 }
 
 	else
