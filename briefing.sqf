@@ -9,6 +9,7 @@ player createDiarySubject ["illegalewaffen","Illegale Waffen"];
 player createDiarySubject ["illegaleitems","Illegale Items"];
 player createDiarySubject ["platzh3","==================="];
 player createDiarySubject ["lizenz","Lizenzen"];
+player createDiarySubject ["cocks","Cocktails"];
 player createDiarySubject ["platzh4","==================="];
 player createDiarySubject ["bußgeld","Bußgeldkatalog"];
 player createDiarySubject ["platzh5","==================="];
@@ -289,6 +290,28 @@ player createDiaryRecord ["lizenz",
 		]
 	];
 
+// ##########-- COCKTAILS (no dicktails) bekoo VS murphy--##########
+
+
+	player createDiaryRecord ["cocks",
+		[
+			"Cocktails",
+				"
+<font color='#FF0000'><font size='18'>• Cocktails •</font></font><br/>
+<font color='#7BC618'>Hier befinden sich alle Rezepte um Cocktails herzustellen. Das Mischverhältnis ist immer 50:50. Wenn du z.B. 3 Pfirsiche verwendest, musst du ebenfalls 3 Birnen verwenden.</font><br/>
+<br/>
+<font color='#D63194'>Sex on the beach</font><br/>
+- <font color='#FFB573'>Pfirsiche</font> : <font color='#FFB573'>Birnen</font><br/>
+<br/>
+<br/>
+<font color='#D63194'>Pina Colada</font><br/>
+- <font color='#FFB573'>Banane</font> : <font color='#FFB573'>Kirsche</font><br/>
+<br/>
+<br/>
+<font color='#D63194'>Mai Tai</font><br/>
+- <font color='#FFB573'>Apfel</font> : <font color='#FFB573'>Banane</font><br/>
+<br/>
+<br/>
 	
 // ##########-- BUSSGELDKATALOG --##########
 	
