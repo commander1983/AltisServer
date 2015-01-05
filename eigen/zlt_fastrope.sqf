@@ -4,9 +4,9 @@
 #define MAX_SPEED_ROPES_AVAIL 30
 
 
-#define STR_TOSS_ROPES "Seil abwerfen"
+#define STR_TOSS_ROPES "Seil Abwerfen"
 #define STR_FAST_ROPE "Abseilen"
-#define STR_CUT_ROPES "Seil reinziehen"
+#define STR_CUT_ROPES "Seil Einziehen"
 
 
 if (isdedicated) exitwith {};
