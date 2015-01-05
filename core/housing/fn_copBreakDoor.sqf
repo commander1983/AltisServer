@@ -25,10 +25,10 @@ _title = localize "STR_House_Raid_Progress";
 _ui = uiNamespace getVariable "life_progress";
 _progressBar = _ui displayCtrl 38201;
 _titleText = _ui displayCtrl 38202;
-_titleText ctrlSetText format["%2 (1%1)...","%",_title];
+_titleText ctrlSetText format["%2 (1%1) - ","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
-_cpRate = 0.0092;
+_cpRate = 0.0065;			// Von 0,0092 auf 0,0065 geändert - Testweise! KA ob das geht --- Extra so wenig, da das Durchsuchen länger dauern soll (man braucht in RL auch keine Stunde um eine Tür aufzubrechen)
 
 [[2,"STR_House_Raid_NOTF",true,[(_house getVariable "house_owner") select 1]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 
@@ -41,7 +41,7 @@ while {true} do
 	};
 	_cP = _cP + _cpRate;
 	_progressBar progressSetPosition _cP;
-	_titleText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_title];
+	_titleText ctrlSetText format["%3 (%1%2) - ",round(_cP * 100),"%",_title];
 	if(_cP >= 1 OR !alive player) exitWith {};
 	if(life_interrupted) exitWith {};
 };
