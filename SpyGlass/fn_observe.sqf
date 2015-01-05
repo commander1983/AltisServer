@@ -13,4 +13,4 @@ _pReason = [_this,2,"",[""]] call BIS_fnc_param;
 
 if(_pName == "" OR _pUID == "" OR _pReason == "") exitWith {}; //Bad params passed..
 
-diag_log format["||SPY-GLASS Observes|| Name: %1 | UID: %2 | Reason: %3",_pName,_pUID,_pReason]; //Outputs to RPT for external programs to parse,log,react to.
+diag_log format["||SPY-GLASS Entdeckung|| Name: %1 | UID: %2 | Grund: %3",_pName,_pUID,_pReason]; //Outputs to RPT for external programs to parse,log,react to.
