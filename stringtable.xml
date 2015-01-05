@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Altis Life RPG">
+	<Package name="Global">
+		<Key ID="STR_Global_Close">
+			<Original>Schließen</Original>
+		</Key>
+		<Key ID="STR_Global_Sell">
+			<Original>Verkaufen</Original>
+		</Key>
+		<Key ID="STR_Global_Buy">
+			<Original>Kaufen</Original>
+		</Key>
+		<Key ID="STR_Global_Give">
+			<Original>Geben</Original>
+		</Key>
+		<Key ID="STR_Global_Use">
+			<Original>Benutzen</Original>
+		</Key>
+		<Key ID="STR_Global_Remove">
+			<Original>Entfernen</Original>
+		</Key>
+		<Key ID="STR_Global_Settings">
+			<Original>Einstellungen</Original>
+		</Key>
+		<Key ID="STR_Global_RentVeh">
+			<Original>Mieten</Original>
+		</Key>
+		<Key ID="STR_Global_Retrieve">
+			<Original>Abrufen</Original>
+		</Key>
+		<Key ID="STR_Global_NoSelection">
+			<Original>Sie haben nichts ausgewählt!</Original>
+		</Key>
+		<Key ID="STR_Global_Yes">
+			<Original>Ja</Original>
+		</Key>
+		<Key ID="STR_Global_No">
+			<Original>Nein</Original>
+		</Key>
+		<Key ID="STR_Global_Cancel">
+			<Original>Abbrechen</Original>
+		</Key>
+	</Package>
+	<Package name="ATM_Strings">
+		<Key ID="STR_ATM_Title">
+			<Original>Bankaccount</Original>
+		</Key>
+		<Key ID="STR_ATM_Withdraw">
+			<Original>Abheben</Original>
+		</Key>
+		<Key ID="STR_ATM_Deposit">
+			<Original>Einzahlen</Original>
+		</Key>
+		<Key ID="STR_ATM_Transfer">
+			<Original>Überweisen</Original>
+		</Key>
+		<Key ID="STR_ATM_GreaterThan">
+			<Original>Du kannst nicht mehr als 999,999€ gleichzeitig einzahlen!</Original>
+		</Key>
+		<Key ID="STR_ATM_notnumeric">
+			<Original>Das Eingegebene ist keine Zahl!</Original>
+		</Key>
+		<Key ID="STR_ATM_DepositMSG">
+			<Original>Du hast %1€ auf dein Konto eingezahlt!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_NoneSelected">
+			<Original>Du musst jemanden auswählen!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_DoesntExist">
+			<Original>Die ausgewählte Person existiert nicht!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_TransferMax">
+			<Original>Du kannst nicht mehr als 999,999€ überweisen!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_NotEnoughFunds">
+			<Original>Diese Summe befindet sich nicht auf deinem Bankkonto!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_SentMoneyFail">
+			<Original>Du hast nicht genug Geld auf deinem Konto um %1€ zu überweisen.\nDu benötigst Weitere %2€ um die Überweisungsgebühren decken zu können.</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_SentMoneySuccess">
+			<Original>Du hast %2 %1€ überwiesen.\n\nEs fallen Überweisungsgebühren in Höhe von %3€ an.</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_WithdrawMax">
+			<Original>Du kannst nicht mehr als 999.999€ abheben!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_WithdrawMin">
+			<Original>Du kannst nicht weniger als 250€ abheben</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_WithdrawSuccess">
+			<Original>Du hast %1€ von deinem Konto abgehoben.</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_NotEnoughCash">
+			<Original>Du hast nicht so viel Geld Bar dabei!</Original>
+ 		</Key>
+ 		<Key ID="STR_ATM_DepositGang">
+			<Original>Du hast %1€ auf dein Konto eingezahlt.</Original>
+ 		</Key>
+	</Package>
+	<Package name="Cell_Phone">
+		<Key ID="STR_CELL_Title">
+ 			<Original>Altis Mobilfunk</Original>
+		</Key>
+		<Key ID="STR_CELL_TextToSend">
+			<Original>Deine Nachricht:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextMSGBtn">
+			<Original>Nachricht:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextPolice">
+			<Original>Polizei</Original>
+		</Key>
+		<Key ID="STR_CELL_TextAdmins">
+			<Original>An Admins</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMsg">
+			<Original>Adminnachricht</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMSGAll">
+			<Original>Admin Msg</Original>
+		</Key>
+		<Key ID="STR_CELL_EMSRequest">
+			<Original>Sanitäter</Original>
+		</Key>
+		<Key ID="STR_CELL_AdacRequest">
+			<Original>Pannenhilfe</Original>
+		</Key>
+		<Key ID="STR_CELL_COPMSG">
+			<Original>Cop All</Original>
+		</Key>
+	</Package>
+	<Package name="Chop_Shop">
+		<Key ID="STR_ChopShop_Title">
+			<Original>Illegaler Fahrzeughändler</Original>
+		</Key>
+	</Package>
+	<Package name="Gang_Menu">
+		<Key ID="STR_Gang_Title">
+			<Original>Gang-Verwaltung</Original>
+		</Key>
+		<Key ID="STR_Gang_Title2">
+			<Original>Gang Übersicht - Aktuelle Gangs</Original>
+		</Key>
+		<Key ID="STR_Gang_Join">
+			<Original>Beitreten</Original>
+		</Key>
+		<Key ID="STR_Gang_Leave">
+			<Original>Verlassen</Original>
+		</Key>
+		<Key ID="STR_Gang_UpgradeSlots">
+			<Original>Mehr Slots</Original>
+		</Key>
+		<Key ID="STR_Gang_Kick">
+			<Original>Kick</Original>
+		</Key>
+		<Key ID="STR_Gang_SetLeader">
+			<Original>Neuer Anführer</Original>
+		</Key>
+		<Key ID="STR_Gang_PriceTxt">
+			<Original>Eine Gang kostet %1€</Original>
+		</Key>
+		<Key ID="STR_Gang_Create">
+			<Original>Erstellen</Original>
+		</Key>
+		<Key ID="STR_Gang_YGN">
+			<Original>-Dein Gang Name-</Original>
+		</Key>
+		<Key ID="STR_Gang_MainMenu">
+			<Original>Du bist in keiner Gang, was möchtest du machen?</Original>
+		</Key>
+		<Key ID="STR_Gang_Browse">
+			<Original>Durchsuchen</Original>
+		</Key>
+		<Key ID="STR_Gang_Invite_Player">
+			<Original>Person Einladen</Original>
+		</Key>
+		<Key ID="STR_Gang_Disband_Gang">
+			<Original>Gang Auflösen</Original>
+		</Key>
+		<Key ID="STR_Gang_Invitation">
+			<Original>Gang Einladung </Original>	
+		</Key>
+		<Key ID="STR_Gang_Transfer">
+			<Original>Gangführung übertragen</Original>	
+		</Key>
+		<Key ID="STR_Gang_UpgradeMax">
+			<Original>Upgrade Maximum von erlaubten Gang-Mitglieder</Original>	
+		</Key>
+	</Package>
+		<Package name="Admin_Menu">
+		<Key ID="STR_Admin_Title">
+			<Original>Admin Menu</Original>
+			<English>Admin Menu</English>
+			<German>Admin-Menü</German>
+			<Italian>Menu Admin</Italian>
+			<French>Menu Admin</French>
+			<Portuguese>Menu do Admin</Portuguese>
+		</Key>
+		<Key ID="STR_Admin_GetID">
+			<Original>Get ID</Original>
+			<English>Get ID</English>
+			<German>ID Abfragen</German>
+			<French>Obtenir ID</French>
+			<Italian>Vedi ID</Italian>
+			<Portuguese>Menu do Admin</Portuguese>
+		</Key>
+		<Key ID="STR_Admin_Spectate">
+			<Original>Spectate</Original>
+			<English>Spectate</English>
+			<German>Zuschauen</German>
+			<French>Regardez</French>
+		</Key>
+		<Key ID="STR_Admin_Teleport">
+			<Original>Teleport</Original>
+			<English>Teleport</English>
+			<German>Teleport</German>
+			<French>Teleport</French>
+		</Key>
+		<Key ID="STR_Admin_TpHere">
+			<Original>TP Here</Original>
+			<English>TP Here</English>
+			<German>TP Hier</German>
+			<French>TP Ici</French>
+		</Key>
+		<Key ID="STR_Admin_Debug">
+			<Original>Debug</Original>
+			<English>Debug</English>
+			<German>Debug</German>
+			<French>Debug</French>
+		</Key>
+		<Key ID="STR_Admin_Compensate">
+			<Original>Comp</Original>
+			<English>Comp</English>
+			<German>Vergüten</German>
+			<French>Comp</French>
+		</Key>
+		<Key ID="STR_Admin_God">
+			<Original>GodMode</Original>
+			<English>GodMode</English>
+			<German>Gott</German>
+			<French>Dieu</French>
+		</Key>
+		<Key ID="STR_Admin_Freeze">
+			<Original>Freeze</Original>
+			<English>Freeze</English>
+			<German>Einfrieren</German>
+			<French>Geler</French>
+		</Key>
+		<Key ID="STR_Admin_Markers">
+			<Original>Markers</Original>
+			<English>Markers</English>
+			<German>Marker</German>
+			<French>Markers</French>
+		</Key>
+		<Key ID="STR_ANOTF_CompWarn">
+			<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
+			<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
+			<German>To Be Changed</German>
+			<French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
+		</Key>
+		<Key ID="STR_ANOTF_Success">
+			<Original>You have added $%1 to your account.</Original>
+			<English>You have added $%1 to your account.</English>
+			<German>Du hast %1€ auf deinen Account hinzugefügt.</German>
+			<French>Vous avez ajouté $%1 à votre compte</French>
+		</Key>
+		<Key ID="STR_ANOTF_Fail">
+			<Original>You can not go above 999999.</Original>
+			<English>You can not go above 999999.</English>
+			<German>Nicht mehr als 999,999€.</German>
+			<French>Vous ne pouvez pas aller au-dessus $999999</French>
+		</Key>
+		<Key ID="STR_ANOTF_Amount">
+			<Original>Please type in the amount to compensate.</Original>
+			<English>Please type in the amount to compensate.</English>
+			<German>Bitte geben Sie einen Wert ein!</German>
+			<French>S'il vous plaît entrer la quantité pour compenser</French>
+		</Key>
+		<Key ID="STR_ANOTF_Frozen">
+			<Original>You have disabled %1's input.</Original>
+			<English>You have disabled %1's input.</English>
+			<German>Du hast %1's Steuerung eingefroren.</German>
+			<French>Vous avez désactivé %1's contrôles</French>
+		</Key>
+		<Key ID="STR_ANOTF_Unfrozen">
+			<Original>You have enabled %1's input.</Original>
+			<English>You have enabled %1's input.</English>
+			<German>Du hast %1's Steuerung freigegeben.</German>
+			<French>Vous avez permis %1's contrôles</French>
+		</Key>
+		<Key ID="STR_ANOTF_Error">
+			<Original>You can't do that dumbass.</Original>
+			<English>You can't do that dumbass.</English>
+			<German>Du kannst das nicht tuen. LOL!</German>
+			<French>Vous ne pouvez pas le faire sur vous-même</French>
+		</Key>
+		<Key ID="STR_ANOTF_ErrorLevel">
+			<Original>Your Admin Level is not high enough.</Original>
+			<English>Your Admin Level is not high enough.</English>
+			<German>Dein Adminlevel ist zu niedrig.</German>
+			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+		</Key>
+		<Key ID="STR_ANOTF_MDisabled">
+			<Original>Player Markers Disabled.</Original>
+			<English>Player Markers Disabled.</English>
+			<German>Spieler Marker deaktiviert.</German>
+			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+		</Key>
+		<Key ID="STR_ANOTF_MEnabled">
+			<Original>Player Markers Enabled.</Original>
+			<English>Player Markers Enabled.</English>
+			<German>Spieler Marker aktiviert.</German>
+			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+		</Key>		
+	</Package>
+	<Package name="Gang_Notification">
+		<Key ID="STR_GNOTF_CreateGang">
+			<Original>Sie müssen zuerst in einer Gang sein!</Original>	
+		</Key>
+		<Key ID="STR_GNOTF_Controlled">
+			<Original>Ihre Gang hat bereits die Kontrolle über dieses Versteck!</Original>	
+		</Key>
+		<Key ID="STR_GNOTF_Captured">
+			<Original>Nur eine Person kann das Versteck einnehmen!</Original>	
+		</Key>
+		<Key ID="STR_GNOTF_AlreadyControlled">
+			<Original>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt; Sind Sie sicher, dass Sie dieses Versteck übernehmen wollen?</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CurrentCapture">
+			<Original>Versteck ist derzeit unter Kontrolle ...</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CaptureCancel">
+			<Original>Einnehmen Abgebrochen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Capturing">
+			<Original>Versteck Einnehmen...</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CaptureSuccess">
+			<Original>%1 und seine Bande: %2 - haben die Kontrolle über ein lokales Versteck übernommen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Over32">
+			<Original>Ihr Gangname ist zu lang! Maximal 32 Zeichen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_IncorrectChar">
+			<Original>Sie haben ein Ungültiges Zeichen in ihrem Namen. Er kann nur aus Zahlen und Buchstaben bestehen</Original>	
+		</Key>
+		<Key ID="STR_GNOTF_NotEnoughMoney">
+			<Original>Sie haben nicht genug Geld auf Ihrem Bankkonto.\n\nEs fehlen: %1€</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CreateSuccess">
+			<Original>Sie haben die Gang %1 für %2€ erstellt!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandWarn">
+			<Original>Sie sind dabei die Gang aufzulösen.\nDurch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Sind Sie sicher, dass Sie die Gruppe auflösen wollen?\nSie erhalten den Preis für die Erstellung &lt;t color='#8cff9b'&gt;NICHT&lt;/t&gt; zurück.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandGangPro">
+			<Original>Gang auflösung...</Original>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandGangCanc">
+			<Original>Auflösung Abgebrochen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandWarn_2">
+			<Original>== ! Die Gruppenleitung hat die Gang aufgelöst/ gelöscht ! ==</Original>
+		</Key>
+		<Key ID="STR_GNOTF_InviteMSG">
+			<Original>%1 hat Sie zu einer Bande namens %2 eingeladen &lt;br/&gt; Wenn Sie die Einladung annehmen sind Sie Teil der Gang!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_InvitePlayerMSG">
+			<Original>Sie sind dabei %1 in Ihre Gang einzuladen.\nSollten Sie akzeptieren, hat er Zugang zu den Mitteln der Gang.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_SelectPerson">
+			<Original>Du musst eine Person auswählen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_InviteSent">
+			<Original>Sie haben eine Einladung an %1 gesendet!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_InviteCancel">
+			<Original>Einladung Abgebrochen</Original>
+		</Key>
+		<Key ID="STR_GNOTF_KickSelf">
+			<Original>Sie können sich nicht selbst kicken!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_MaxSlot">
+			<Original>Ihre Gang hat die maximale Anzahl an Plätzen erreicht.\nBitte erhöhe dein Spielerlimit!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_SelectKick">
+			<Original>Du musst eine Person auswählen um diese zu Kicken!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_LeaderLeave">
+			<Original>Sie können die Gang nicht verlassen, ohne die Ernennung eines neuen Anführer!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_TransferMSG">
+			<Original>Sie sind dabei, die Führung %1 zu übertragen &lt;br/&gt;Durch die Übertragung der Führung werden Sie keine Kontrolle mehr über die Gang haben!!!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_TransferCancel">
+			<Original>Übertragung der Führung abgebrochen.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_TransferSelf">
+			<Original>Sie sind bereits der Gruppenleiter!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_TransferSelect">
+			<Original>Sie müssen erst eine Person auswählen!</Original>
+		</Key>
+		<Key ID="STR_GNOTF_MaxMemberMSG">
+			<Original>Sie sind dabei, die maximale Anzahl an Mitgliedern zu erhöhen</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CurrentMax">
+			<Original>Aktuelle Max: %1</Original>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeMax">
+			<Original>UpGrade Max: %2</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Price">
+			<Original>Preis:</Original>
+		</Key>
+		<Key ID="STR_GNOTF_NotEoughMoney_2">
+			<Original>Sie haben nicht genug Geld auf Ihrem Bankkonto, um die Slotzahl zu erhöhen.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Current">
+			<Original>Aktuell:</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Lacking">
+			<Original>Ohne:</Original>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeSuccess">
+			<Original>Sie haben von %1 zu %2 Plätzen für &lt;t color='#8cff9b'&gt;%3€&lt;/t&gt; aufgerüstet</Original>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeCancel">
+			<Original>Upgrade abgebrochen.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_Funds">
+			<Original>Geld:</Original>
+		</Key>
+		<Key ID='STR_GNOTF_GangLeader'>
+			<Original>(Anführer)</Original>
+		</Key>
+		<Key ID="STR_NOTF_Frozen">
+			<Original>You have been frozen by an administrator</Original>
+			<English>You have been frozen by an administrator</English>
+			<German>Du wurdest von einem Administrator eingefroren.</German>
+		</Key>
+		<Key ID="STR_NOTF_Unfrozen">
+			<Original>You have been unfrozen by an administrator</Original>
+			<English>You have been unfrozen by an administrator</English>
+			<German>Du wurdest von einem Administrator aufgetaut.</German>
+		</Key>
+	</Package>
+	<Package name="Garage_Strings">
+		<Key ID="STR_Garage_Title">
+			<Original>Fahrzeug Garage</Original>
+		</Key>
+		<Key ID="STR_Garage_GetVehicle">
+			<Original>Ausparken</Original>	
+		</Key>
+		<Key ID="STR_Garage_SellVehicle">
+			<Original>Verkaufen</Original>
+		</Key>
+		<Key ID="STR_Garage_SellPrice">
+			<Original>Verkaufspreis</Original>
+		</Key>
+		<Key ID="STR_Garage_SFee">
+			<Original>Lagergebühr</Original>
+		</Key>
+		<Key ID="STR_Garage_NoVehicles">
+			<Original>Keine Fahrzeuge in der Garage gefunden.</Original>
+		</Key>
+		<Key ID="STR_Garage_CashError">
+			<Original>Sie haben keine %1€ auf Ihrem Bankkonto</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawningVeh">
+			<Original>Fahrzeug wird bereitgestellt.\nBitte warten!</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Destroyed">
+			<Original>Sorry, aber dein %1 wurde zerstört und wurde auf den Schrottplatz geschickt.</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Active">
+			<Original>Dein %1 ist bereits ausgeparkt worden.</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawnPointError">
+			<Original>Ein Fahrzeug blockiert den Spawnpunkt!</Original>
+		</Key>
+		<Key ID="STR_Garage_SoldCar">
+			<Original>Das Fahrzeug wurde für %1€ verkauft.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NotPersistent">
+			<Original>Das Fahrzeug ist ein Mietwagen und kann daher nicht eingeparkt werden.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NoOwnership">
+			<Original>Das Fahrzeug gehört nicht Ihnen und kann daher nicht eingeparkt werden.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_Success">
+			<Original>Ihr Fahrzeug wurde eingeparkt!</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_Server">
+			<Original>Der Server versucht das Fahrzeug zu speichern ...</Original>	
+		</Key>
+		<Key ID="STR_Garage_Selection_Error">
+			<Original>Die Auswahl hat einen Fehler...</Original>
+		</Key>
+		<Key ID="STR_Garage_NoNPC">
+			<Original>Es ist kein Fahrzeug in der Nähe.</Original>
+		</Key>
+	</Package>
+	<Package name="Key_Chain">
+		<Key ID="STR_Keys_Title">
+			<Original>Schlüsselbund - Aktuelle Liste</Original>
+		</Key>
+		<Key ID="STR_Keys_DropKey">
+			<Original>Wegwerfen</Original>
+		</Key>
+		<Key ID="STR_Keys_GiveKey">
+			<Original>Geben</Original>
+		</Key>
+	</Package>
+	<Package name="Player_Menu">
+		<Key ID="STR_PM_Title">
+			<Original>Personen Menü</Original>
+		</Key>
+		<Key ID="STR_PM_cItems">
+			<Original>Aktuelle Items</Original>
+		</Key>
+		<Key ID="STR_PM_Licenses">
+			<Original>Lizenzen</Original>
+		</Key>
+		<Key ID="STR_PM_MoneyStats">
+			<Original>Finanzen</Original>
+		</Key>
+		<Key ID="STR_PM_MyGang">
+			<Original>Meine Gang</Original>
+		</Key>
+		<Key ID="STR_PM_WantedList">
+			<Original>Fahndung</Original>
+		</Key>
+		<Key ID="STR_PM_CellPhone">
+			<Original>Handy</Original>
+		</Key>
+		<Key ID="STR_PM_KeyChain">
+			<Original>Schlüsselbund</Original>
+		</Key>
+		<Key ID="STR_PM_AdminMenu">
+			<Original>Admin-Menü</Original>
+		</Key>
+		<Key ID="STR_PM_SyncData">
+			<Original>Speichern</Original>
+		</Key>
+	</Package>
+	<Package name="Settings_Menu">
+		<Key ID="STR_SM_Title">
+			<Original>Einstellungen</Original>
+		</Key>
+		<Key ID="STR_SM_onFoot">
+			<Original>Zu Fuß:</Original>
+		</Key>
+		<Key ID="STR_SM_inCar">
+			<Original>Auto:</Original>
+		</Key>
+		<Key ID="STR_SM_inAir">
+			<Original>Luft:</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip1">
+			<Original>Sichtweite zu Fuß</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip2">
+			<Original>Sichtweite in Landfahrzeugen</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip3">
+			<Original>Sichtweite in Luftfahrzeugen</Original>
+		</Key>
+		<Key ID="STR_SM_PlayerTags">
+			<Original>Spieler Namen</Original>
+		</Key>
+		<Key ID="STR_SM_TagsON">
+			<Original>Tags EIN</Original>
+		</Key>
+		<Key ID="STR_SM_TagsOFF">
+			<Original>Tags AUS</Original>
+		</Key>
+		<Key ID="STR_SM_SC">
+			<Original>Sidechat Einstellungen</Original>
+		</Key>
+		<Key ID="STR_SM_SCOFF">
+			<Original>Sidechat AUS</Original>
+		</Key>
+		<Key ID="STR_SM_SCON">
+			<Original>Sidechat EIN</Original>
+		</Key>
+	</Package>
+	<Package name="Virt_Shop">
+		<Key ID="STR_VS_SI">
+			<Original>Shop</Original>
+		</Key>
+		<Key ID="STR_VS_PI">
+			<Original>Inventar</Original>
+		</Key>
+		<Key ID="STR_VS_BuyItem">
+			<Original>Kaufen</Original>
+		</Key>
+		<Key ID="STR_VS_SellItem">
+			<Original>Verkaufen</Original>
+		</Key>
+	</Package>
+	<Package name="Spawn_Menu">
+		<Key ID="STR_Spawn_Title">
+			<Original>Bitte Spawn auswählen:</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawn">
+			<Original>Spawn</Original>
+		</Key>
+		<Key ID="STR_Spawn_CSP">
+			<Original>Aktueller Spawnpunkt</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawned">
+			<Original>Du bist gespawnt in</Original>
+		</Key>
+	</Package>
+	<Package name="Ticket_Menu">
+		<Key ID="STR_Ticket_GiveTicket">
+			<Original>Ausstellen</Original>
+		</Key>
+		<Key ID="STR_Ticket_PayTicket">
+			<Original>Bezahlen</Original>
+		</Key>
+		<Key ID="STR_Ticket_RefuseTicket">
+			<Original>Ablehnen</Original>
+		</Key>
+	</Package>
+	<Package name="Trunk_Menu">
+		<Key ID="STR_Trunk_TInventory">
+			<Original>Lager Inventar</Original>
+		</Key>
+		<Key ID="STR_Trunk_PInventory">
+			<Original>Spieler Inventar</Original>
+		</Key>
+		<Key ID="STR_Trunk_Take">
+			<Original>Nehmen</Original>
+		</Key>
+		<Key ID="STR_Trunk_Store">
+			<Original>Reinlegen</Original>
+		</Key>
+	</Package>
+	<Package name="Wanted_Menu">
+		<Key ID="STR_Wanted_Title">
+			<Original>APD Fahndungsliste</Original>
+		</Key>
+		<Key ID="STR_Wanted_Pardon">
+			<Original>Streichen</Original>
+		</Key>
+	</Package>
+	<Package name="Animals">
+		<Key ID="STR_ANIM_Salema">
+			<Original>Salema</Original>
+		</Key>
+		<Key ID="STR_ANIM_Ornate">
+			<Original>Lyrakaiserfisch</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mackerel">
+			<Original>Mackerel</Original>
+		</Key>
+		<Key ID="STR_ANIM_Tuna">
+			<Original>Thunfisch</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mullet">
+			<Original>Mullet</Original>
+		</Key>
+		<Key ID="STR_ANIM_Catshark">
+			<Original>Katzenhai</Original>
+		</Key>
+		<Key ID="STR_ANIM_Rabbit">
+			<Original>Hase</Original>
+		</Key>
+	</Package>
+	<Package name="Smartphone">
+		<Key ID="STR_PM_Smartphone">
+			<Original>Handy</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_TITLE">
+			<Original>Handy Menue</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
+			<Original>Kontaktliste</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
+			<Original>Nachrichten  | von | wann</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
+			<Original>Nachricht zum lesen auswaehlen</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SCHREIBEN">
+			<Original>Schreiben</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NOTRUF">
+			<Original>Notruf</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Absenden">
+			<Original>Absenden</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
+			<Original>Nachricht an:</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Notruftitle">
+			<Original>NOTRUFE | Spam führt zum Kick/Ban!</Original>
+		</Key>
+	</Package>
+	<Package name="Notifications">
+		<Key ID="STR_NOTF_NE_1">
+			<Original>Du hast keine %1€ für eine(n) %2 .</Original>
+		</Key>
+		<Key ID="STR_NOTF_B_1">
+			<Original>Du hast eine(n) %1 für %2€ gekauft.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Arrested_1">
+			<Original>%1 wurde von %2 in das Gefängnis gesteckt.</Original>
+		</Key>
+		 <Key ID="STR_pInAct_RemoveWeapons">
+			<Original>Waffen Nehmen</Original>
+		</Key>
+		<Key ID="STR_NOTF_Fishing">
+			<Original>Du hast einen %1 gefangen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_CaughtTurtle">
+			<Original>Du hast etwas Schildkrötenfleisch bekommen.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Earned_1">
+			<Original>Du hast %1€ verdient.</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDrop">
+			<Original>Werfe Fischernetz aus ...</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDropFail">
+			<Original>Kein Fisch gefangen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetUp">
+			<Original>Fischernetz eingeholt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_InvFull">
+			<Original>Dein Inventar ist voll.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Gathering">
+			<Original>Sammle %1 ...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ChopSoldCar">
+			<Original>Du hast einen %1 für %2€ verkauft.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Picked">
+			<Original>Du hast %1 %2 aufgesammelt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Collected">
+			<Original>Du hast %1 gesammelt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPStart">
+			<Original>Bringe dieses Paket zu %1!</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPTask">
+			<Original>Bringe dieses Paket zu %1!</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPFailed">
+			<Original>Das Paket wurde zerstört da du gestorben bist.</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_NoCash">
+			<Original>Du hast keine %1€ um geheilt zu werden.</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healing">
+			<Original>Bitte still stehen...</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_ToFar">
+			<Original>Du musst in der Nähe des Doktors bleiben, während du geheilt wirst!</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healed">
+			<Original>Du wurdest komplett geheilt!\nSchönen Tag noch.</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpounded">
+			<Original>%1 dein %2 wird von der Polizei beschlagnahmt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpoundedADAC">
+			<Original>%1 dein %2 wird von der Pannenhilfe abgeschleppt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpoundedPerm">
+			<Original>%1 dein %2 wird von der Polizei einkassiert.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounding">
+			<Original>Fahrzeug Beschlagnahmen...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingPerm">
+			<Original>Fahrzeug Einkassieren...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelled">
+			<Original>Beschlagnahmen abgebrochen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelledPerm">
+			<Original>Einkassieren abgebrochen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounded">
+			<Original>Du hast einen %1 beschlagnahmt!\n\nFür die Arbeit wurden dir %2€ gutgeschrieben!</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundedPerm">
+			<Original>Du hast einen %1 einkassiert!\n\nFür die Arbeit wurden dir %2€ gutgeschrieben!</Original>
+		</Key>
+		<Key ID="STR_NOTF_HasImpounded">
+			<Original>%1 hat %2's %3 beschlagnahmt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_HasImpoundedPerm">
+			<Original>%1 hat %2's %3 einkassiert.</Original>
+		</Key>
+		<Key ID="STR_NOTF_AbortESC">
+			<Original>Abbruch möglich in %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceIsMining">
+			<Original>Dieses Fahrzeug ist bereits am Sammeln.</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceFull">
+			<Original>Das Fahrzeug ist voll.</Original>
+		</Key>
+		<Key ID="STR_NOTF_notNearResource">
+			<Original>Du bist nicht in der nähe einer Mine</Original>
+		</Key>
+		<Key ID="STR_NOTF_MiningStopped">
+			<Original>Du kannst das Fahrzeug nicht starten solange es am Sammeln ist!</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMining">
+			<Original>Das Fahrzeug sammelt...</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMined">
+			<Original>Sammeln abgeschlossen!\nDas Gerät hat %1 gesammelt!</Original>
+		</Key>
+		<Key ID="STR_NOTF_OutOfFuel">
+			<Original>Das Fahrzeug hat keinen Sprit mehr!</Original>
+		</Key>
+		<Key ID="STR_NOTF_SpikeStrip">
+			<Original>Sie haben das Krallenband verpackt!</Original>
+		</Key>
+		<Key ID="STR_NOTF_PickedEvidence">
+			<Original>Du hast %1 als Beweis gefunden.\nDu hast %2€ als Belohnung erhalten.</Original>
+		</Key>
+		<Key ID="STR_NOTF_PickedMoney">
+			<Original>Sie haben %1€ aufgehoben.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Bail_Post">
+			<Original>Sie müssen mindestens 3 Minuten lang im Gefängnis bevor sie sich frei kaufen können.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Bail_NotEnough">
+			<Original>Sie haben keine %1€ auf Ihrem Bankkonto um die Kaution zu zahlen.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Bail_Bailed">
+			<Original>%1 hat die Kaution gezahlt und wurde aus dem Knast entlassen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_VehicleNear">
+			<Original>Es ist kein Fahrzeug in der Nähe ...</Original>
+		</Key>
+		<Key ID="STR_NOTF_Restrained">
+			<Original>%1 wurde von %2 festgenommen.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Searching">
+			<Original>Durchsuche...</Original>
+		</Key>
+		<Key ID="STR_NOTF_SearchVehFail">
+			<Original>Das Fahrzeug konnte nicht durchsucht werden!</Original>
+		</Key>
+		<Key ID="STR_NOTF_VehCheat">
+			<Original>Über das Fahrzeug gibt es keine Informationen.\nEs wurde vermutlich durch Cheats gespawnt oder es ist ein Bug.\n\nEventuell einem Admin melden!</Original>
+		</Key>
+		<Key ID="STR_NOTF_Action">
+			<Original>Sie sind bereits in einer Aktion. Bitte warten Sie bis diese beendet wurde.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Unrestrain">
+			<Original>%1 wurde von %2 freigelassen.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Robbed">
+			<Original>\n%1 hat %2 %3€ gestohlen!\n</Original>
+		</Key>
+		<Key ID="STR_NOTF_RobFail">
+			<Original>%1 hat kein Geld dabei!</Original>
+		</Key>
+		<Key ID="STR_NOTF_Tazed">
+			<Original>%1 wurde von %2 getazert.</Original>
+		</Key>
+		<Key ID="STR_NOTF_VehContraband">
+			<Original>Ein Fahrzeug wurde durchsucht und es wurden Drogen/ Schmuggelware im Wert von %1€ beschlagnahmt!</Original>
+		</Key>
+		<Key ID="STR_NOTF_PulledOut">
+			<Original>Sie wurden aus dem Fahrzeug herausgezogen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_GivenItem">
+			<Original>%1 hat Ihnen %2 %3 gegeben.</Original>
+		</Key>
+		<Key ID="STR_NOTF_GivenMoney">
+			<Original>%1 hat Ihnen %2€ gegeben.</Original>
+		</Key>
+		<Key ID="STR_NOTF_SendingData">
+			<Original>Sende Informationen an den Server. Bitte haben Sie Geduld...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ActionCancel">
+			<Original>Aktion abgebrochen</Original>
+		</Key>
+		<Key ID="STR_NOTF_ActionInProc">
+			<Original>Es wird zurzeit etwas gemacht...</Original>
+		</Key>
+		<Key ID="STR_NOTF_NoSpace">
+			<Original>Sie haben nicht genug Platz für diese Menge!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NotEnoughMoney">
+			<Original>Sie haben nicht so viel Geld!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NotACop">
+			<Original>Sie sind kein Polizist!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NotASupport">
+			<Original>Sie sind kein Pannenhelfer/Snitaeter!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NotARebell">
+			<Original>Sie sind kein Rebell!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NotAPruefer">
+			<Original>Sie sind kein Fahrpruefer(ab Adac Lvl 4)</Original>
+		</Key>
+		<Key ID="STR_NOTF_NoRoom">
+			<Original>Sie haben nicht genug Platz für dieses Item.</Original>
+		</Key>
+ 		<Key ID="STR_NOTF_RapidAction">
+ 			<Original>Die Aktionstaste kann nicht so schnell hintereinander genutzt werden!\nDies verhindert Bugusing!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_NotEnoughFunds">
+			<Original>Du hast nicht genug Geld auf deinem Bankkonto!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_CouldntAdd">
+			<Original>Konnte nicht deinem Inventar hinzugefügt werden!</Original>
+ 		</Key>
+		<Key ID="STR_NOTF_EatMSG_1">
+			<Original>Du hast eine Weile nichts gegessen!\nDein Magen ist schon am knurren...</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_2">
+			<Original>Du hast angefangen zu verhungern!\nDu solltest schnell etwas zu dir nehmen!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_3">
+			<Original>Du wirst nun zu Tode hungern wenn du nichts isst!!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_Death">
+			<Original>=== Du bist verhungert ===</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_1">
+			<Original>Du hast eine Weile nichts getrunken!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_2">
+			<Original>Du hast seit Längerem nichts mehr getrunken!\nDu solltest ein Schluck Wasser zu dir nehmen!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_3">
+			<Original>Du leidest unter schwerer Dehydrierung!!</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_Death">
+			<Original>=== Du bist verdurstet ===</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_MaxWeight">
+			<Original>Du trägst zuviele Sachen mit dir herum!</Original>
+		</Key>
+		<Key ID="STR_NOTF_SearchVeh">
+			<Original>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Fahrzeuginfo&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Besitzer&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Original>
+ 		</Key>
+		<Key ID="STR_NOTF_CannotSearchPerson">
+			<Original>Diese Person kann nicht durchsucht werden.</Original>
+		</Key>
+		
+		<Key ID="STR_NOTF_Repairing">
+			<Original>%1 wird repariert...</Original>
+ 		</Key>
+		<Key ID="STR_NOTF_RepairingInVehicle">
+			<Original>Du musst außerhalb des Fahrzeuges sein, damit du es reparieren kannst.</Original>
+ 		</Key>
+ 		<Key ID="STR_NOTF_RepairedVehicle">
+			<Original>Du hast das Fahrzeug repariert!</Original>
+ 		</Key>		
+		
+		<Key ID="STR_NOTF_Gather_Success">
+			<Original>Du hast %2 %1 gesammelt.</Original>
+		</Key>
+		<Key ID="STR_NOTF_GatherVeh">
+			<Original>Du kannst nicht aus dem Fahrzeug heraus Arbeiten!</Original>
+		</Key>
+		<Key ID="STR_NOTF_NoLootingPerson">
+			<Original>Hier kannst du nicht reinschauen!</Original>
+		</Key>
+	</Package>	
+	<Package name="Jail_Strings">
+		<Key ID="STR_Jail_Warn">
+			<Original>Du wurdest ins Gefängnis gesteckt. Warte deine Haftzeit ab.\n\nSolltest du Respawnen oder dich selbst töten verdoppelt sich die Haftzeit.\nBugUsing wird mit einem Bann bestraft!</Original>
+		</Key>
+		<Key ID="STR_Jail_LicenseNOTF">
+			<Original>Bei der Verhaftung wurden Ihnen folgende Lizenzen entzogen:\nWaffenschein\nRebellenausbildung</Original>
+		</Key>
+		<Key ID="STR_Jail_EscapeNOTF">
+			<Original>%1 ist aus dem Staatsgefängnis ausgebrochen!</Original>
+		</Key>
+		<Key ID="STR_Jail_EscapeSelf">
+			<Original>Du wurdest ins Gefängnis gesteckt. Warte deine Haftzeit ab.\n\nSolltest du Respawnen oder dich selbst töten verdoppelt sich die Haftzeit.\nBugUsing wird mit einem Bann bestraft!</Original>
+		</Key>
+		<Key ID="STR_Jail_Released">
+			<Original>Sie haben Ihre Zeit im Gefängnis abgesessen. Sie wurden freigelassen.</Original>
+		</Key>
+		<Key ID="STR_Jail_Time">
+			<Original>Verbleibende Zeit </Original>
+		</Key>
+		<Key ID="STR_Jail_Pay">
+			<Original>Kaution Zahlen</Original>
+		</Key>
+		<Key ID="STR_Jail_Price">
+			<Original>Kautions Preis:</Original>
+		</Key>
+		<Key ID="STR_Jail_Paid">
+			<Original>Du hast deine Kaution bezahlt und bist nun wieder frei.</Original>
+		</Key>
+	</Package>
+	<Package name="Civ_Strings">
+		<Key ID="STR_Civ_KnockedOut">
+			<Original>== %1 hat Sie niedergeschlagen ==</Original>
+		</Key>
+		<Key ID="STR_Civ_LicenseRemove_1">
+			<Original>Sie haben alle Ihre KFZ-Lizenzen wegen VDM bzw. Personen überfahren verloren!\nBesorgen Sie sich umgehend einen neuen Führerschein!</Original>
+		</Key>
+		<Key ID="STR_Civ_LicenseRemove_2">
+			<Original>Der Waffenschein wurde Ihnen entzogen, da Sie eine Person getötet haben.\nDas Tragen einer Waffe ohne Waffenschein ist eine Straftat!!</Original>
+		</Key>
+		<Key ID="STR_Civ_RobFail">
+			<Original>Sie hatten kein Geld ...</Original>
+		</Key>
+		<Key ID="STR_Civ_Robbed">
+			<Original>Du hast %1€ gestohlen.</Original>
+		</Key>
+		<Key ID="STR_Civ_VaultEmpty">
+			<Original>Der Tresor ist leer!</Original>
+		</Key>
+		<Key ID="STR_Civ_VaultInUse">
+			<Original>Jemand hat bereits Zugang zu dem Tresor!</Original>
+		</Key>
+		<Key ID="STR_Civ_NotEnoughCops">
+			<Original>Es müssen 4 Polizisten online sein um fortfahren zu können!</Original>
+		</Key>
+		<Key ID="STR_Civ_SafeInv">
+			<Original>Inventar Speichern</Original>
+		</Key>
+		<Key ID="STR_Civ_SelectItem">
+			<Original>Du musst ein Item auswählen</Original>
+		</Key>
+		<Key ID="STR_Civ_IsntEnoughGold">
+			<Original>Es sind keine %1 Platin im Tresor!</Original>
+		</Key>
+	</Package>
+	<Package name="Cop_Strings">
+		<Key ID="STR_Cop_TicketError">
+			<Original>Der Bußgeldkatalog konnte nicht geöffnet werden!</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket">
+			<Original>%1 Ticket Ausstellen</Original>
+		</Key>
+		<Key ID="STR_Cop_TicketNil">
+			<Original>Person ist nil (Error/NoUnit)</Original>
+		</Key>
+		<Key ID="STR_Cop_TicketExist">
+			<Original>Diese Person gibt es nicht!</Original>
+		</Key>
+		<Key ID="STR_Cop_TicketNum">
+			<Original>Das ist keine Zahl!</Original>
+		</Key>
+		<Key ID="STR_Cop_TicketOver100">
+			<Original>Strafzettel können nicht mehr als 500.000€ betragen!</Original>
+		</Key>
+		<Key ID="STR_Cop_TicketGive">
+			<Original>%1 hat %3 einen Strafzettel von %2€ ausgestellt.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnough">
+			<Original>Sie haben nicht genug Geld auf Ihrem Bankkonto um den Strafzettel zu zahlen!</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnoughNOTF">
+			<Original>%1 kann den Strafzettel nicht zahlen, da er nicht genug Geld hat.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_Paid">
+			<Original>Sie haben den Strafzettel von %1€ bezahlt.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_PaidNOTF">
+			<Original>%1 hat den Strafzettel von %2€ bezahlt.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_PaidNOTF_2">
+			<Original>%1 hat den Strafzettel bezahlt.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_GUI_Given">
+			<Original>%1 hat dir einen Strafzettel von %2€ ausgestellt.</Original>
+		</Key>
+		<Key ID="STR_Cop_Ticket_Refuse">
+			<Original>%1 verweigert den Strafzettel zu zahlen.</Original>
+		</Key>
+		<Key ID="STR_Cop_BountyRecieve">
+			<Original>Sie haben ein Kopfgeld in Höhe von %1€ für die Festnahme eines Kriminellen bekommen!</Original>
+		</Key>
+		<Key ID="STR_Cop_BountyKill">
+			<Original>Sie haben ein Kopfgeld in Höhe von %1€ für die Tötung eines Kriminellen bekommen! Bei einer Festnahme wären es %2€ gewesen...</Original>
+		</Key>
+		<Key ID="STR_Cop_Contraband">
+			<Original>Bei %1 wurden Drogen/ Schmuggelware im Wert von %2€ sichergestellt.</Original>
+		</Key>
+		<Key ID="STR_Cop_IllegalItems">
+			<Original>Illegale Gegenstände</Original>
+		</Key>
+		<Key ID="STR_Cop_Robber">
+			<Original>== %1 wurde als Bankräuber identifiziert ==</Original>
+		</Key>
+		<Key ID="STR_Cop_NoIllegal">
+			<Original>Keine Illegalen Gegenstände</Original>
+		</Key>
+		<Key ID="STR_Cop_NotaDoor">
+			<Original>Sie sind nicht in der Nähe einer Tür!</Original>
+		</Key>
+		<Key ID="STR_Cop_EnablePiP">
+			<Original>Sie müssen Picture in Picture (PiP) in Ihren Video-Einstellungen aktivieren, um diese Funktion nutzen zu können!</Original>
+		</Key>
+		<Key ID="STR_Cop_Licenses">
+			<Original>Lizenzen:</Original>
+		</Key>
+		<Key ID="STR_Cop_NoLicenses">
+			<Original>Keine Lizenzen:</Original>
+		</Key>
+		<Key ID="STR_Cop_NoIllegalVeh">
+			<Original>Nichts Illegales in diesem Fahrzeug!</Original>
+		</Key>
+		<Key ID="STR_Cop_VehEmpty">
+			<Original>Dieses Fahrzeug ist leer!</Original>
+		</Key>
+		<Key ID="STR_Cop_RobberDead">
+			<Original>%1€ wurden vom Bankraub zurückgegeben da die Räuber verstorben sind.</Original>
+		</Key>
+		<Key ID="STR_Cop_RepairVault">
+			<Original>Repariere den Tresor...</Original>
+		</Key>
+		<Key ID="STR_Cop_VaultRepaired">
+			<Original>Der Tresor ist nun repariert und wieder sicher!</Original>
+		</Key>
+		<Key ID="STR_Cop_VaultLocked">
+			<Original>Der Tresor ist bereits verschlossen worden.</Original>
+		</Key>
+		<Key ID="STR_Cop_VaultUnder1">
+			<Original>Werte unter 1 sind ungültig!</Original>
+		</Key>
+		<Key ID="STR_Cop_OnlyGold">
+			<Original>Du kannst nur Platin in den Tresor lagern!</Original>
+		</Key>
+		<Key ID="STR_Cop_NotEnoughGold">
+			<Original>Du hast kein(e) %1 Platin!</Original>
+		</Key>
+		<Key ID="STR_Cop_CantRemove">
+			<Original>Es konnten keine Items aus dem Inventar gelöscht werden, um Sie in den Tresor einzulagern!</Original>
+		</Key>
+		<Key ID="STR_Cop_CouldntSearch">
+			<Original>%1 konnte nicht durchsucht werden!</Original>
+		</Key>
+		<Key ID="STR_Cop_RepairingDoor">
+			<Original>Tür wird repariert...</Original>
+		</Key>
+		<Key ID="STR_Cop_NoLicensesFound">
+			<Original>Keine Lizenzen&lt;br/&gt;</Original>
+		</Key>
+		<Key ID="STR_Cop_DealerQuestion">
+			<Original>In letzter Zeit waren keine Personen bei mir und haben etwas verkauft!</Original>
+		</Key>
+		<Key ID="STR_Cop_DealerMSG">
+			<Original>Ja, ich kenne da einige Namen: \n </Original>
+		</Key>
+		<Key ID="STR_Cop_Radar">
+			<Original>Radar</Original>
+		</Key>
+		<Key ID="STR_Cop_VehSpeed">
+			<Original>Geschwindigkeit: %1 km/h</Original>
+		</Key>
+		<Key ID="STR_Cop_ExcessiveRestrain">
+			<Original>Du wurdest automatisch entfesselt!</Original>
+		</Key>
+		<Key ID="STR_Cop_Retrained">
+			<Original>Du wurdest von %1 festgenommen!</Original>
+		</Key>
+	</Package>
+	<Package name="MISC_Strings">
+		<Key ID="STR_MISC_TooMuch">
+			<Original>Du hast versucht %1 %2 %3 zu geben, aber die Person keinen Platz.</Original>
+		</Key>
+		<Key ID="STR_MISC_TooMuch_2">
+			<Original>Du hast %1 %2 %3 zurückgegeben, da du nicht so viel tragen kannst.</Original>
+		</Key>
+		<Key ID="STR_MISC_TooMuch_3">
+			<Original>%1 hat %2 %3 zurückgegeben, da er nicht soviel tragen kann.</Original>
+		</Key>
+		<Key ID="STR_MISC_AttachmentMSG">
+			<Original>Möchtest du dies zu deinem Inventar oder auf die Waffe hinzufügen? Solltest du es auf die Waffe setzen, wird dein jetziger Aufsatz entfernt!</Original>
+		</Key>
+		<Key ID="STR_MISC_Attachment">
+			<Original>Aufsatzplatz Besetzt</Original>
+		</Key>
+		<Key ID="STR_MISC_Weapon">
+			<Original>Waffen</Original>
+		</Key>
+		<Key ID="STR_MISC_Inventory">
+			<Original>Inventar</Original>
+		</Key>
+		<Key ID="STR_MISC_Backpack">
+			<Original>Sie haben keine Berechtigung in andere Rucksäcke zu schauen!</Original>
+		</Key>
+		<Key ID="STR_MISC_VehInventory">
+			<Original>Das Fahrzeug ist abgeschlossen. Somit können Sie nicht auf das Inventar zugreifen.</Original>
+		</Key>
+		<Key ID="STR_MISC_VehInvUse">
+			<Original>Auf den Kofferraum wird bereit zugegriffen!</Original>
+		</Key>
+		<Key ID="STR_MISC_DialogError">
+			<Original>Erstellen des Dialogs gescheitert...</Original>
+		</Key>
+		<Key ID="STR_MISC_VehUnlock">
+			<Original>Aufgeschlossen!</Original>
+		</Key>
+		<Key ID="STR_MISC_VehLock">
+			<Original>Abgeschlossen!</Original>
+		</Key>
+		<Key ID="STR_MISC_SirensON">
+			<Original>== Sirene Aktiviert ==</Original>
+		</Key>
+		<Key ID="STR_MISC_SirensOFF">
+			<Original>== Sirene Deaktiviert ==</Original>
+		</Key>
+		<Key ID="STR_MISC_NoStorageWarn">
+			<Original>Sie müssen Lagerboxen kaufen um etwas lagern zu können!</Original>
+		</Key>
+		<Key ID="STR_MISC_NoStorageVeh">
+			<Original>Dieses Fahrzeug ist nicht zum Speichern von virtuellen Gegenständen geeignet...</Original>
+		</Key>
+		<Key ID="STR_MISC_Weight">
+			<Original>Gewicht:</Original>
+		</Key>
+		<Key ID="STR_MISC_HouseStorage">
+			<Original>Lagerplatz</Original>
+		</Key>
+		<Key ID="STR_MISC_VehStorage">
+			<Original>Kofferraum</Original>
+		</Key>
+		<Key ID="STR_MISC_VehDoesntExist">
+			<Original>Entweder das Fahrzeug ist nicht vorhanden oder es wurde zerstört.</Original>
+		</Key>
+		<Key ID="STR_MISC_WrongNumFormat">
+			<Original>Ungültiges Format</Original>
+		</Key>
+		<Key ID="STR_MISC_Under1">
+			<Original>Werte unter 1 sind ungültig!</Original>
+		</Key>
+		<Key ID="STR_MISC_NotEnough">
+			<Original>Diese Anzahl ist nicht verfügbar.</Original>
+		</Key>
+	</Package>
+	<Package name="Housing_Strings">
+		<Key ID="STR_House_ContainerError">
+			<Original>Fehler beim Speichern der Container, es konnte kein Haus gefunden werden. Eventuell ein Bug?</Original>
+		</Key>
+		<Key ID="STR_House_ContainerDeny">
+			<Original>Der Besitzer dieses Hauses hat seine Lagerboxen nicht publik zugänglich gemacht.</Original>
+		</Key>
+		<Key ID="STR_House_Door_Unlock">
+			<Original>Sie haben die Tür entriegelt.</Original>
+		</Key>
+		<Key ID="STR_House_Door_Lock">
+			<Original>Sie haben die Tür verriegelt.</Original>
+		</Key>
+		<Key ID="STR_House_Door_NotNear">
+			<Original>Du bist nicht in der Nähe einer Tür!</Original>
+		</Key>
+		<Key ID="STR_House_Sell_Process">
+			<Original>Dieses Haus wurde vor Kurzem verkauft aber ist noch in der Datenbank.\nDatenbank arbeitet daran...</Original>
+		</Key>
+		<Key ID="STR_House_License">
+			<Original>Sie haben keine Hausbesitzer Lizenz!</Original>
+		</Key>
+		<Key ID="STR_House_Max_House">
+			<Original>Sie können nur %1 Häuser besitzen.</Original>
+		</Key>
+		<Key ID="STR_House_NotEnough">
+			<Original>Sie haben nicht genug Geld!</Original>
+		</Key>
+		<Key ID="STR_House_BuyMSG">
+			<Original>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;%1€&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</Original>
+		</Key>
+		<Key ID="STR_House_Purchase">
+			<Original>Haus Verkaufen</Original>
+		</Key>
+		<Key ID="STR_House_Raid_NoOwner">
+			<Original>Dieses Haus gehört niemanden.</Original>
+		</Key>
+		<Key ID="STR_House_Raid_OwnerOff">
+			<Original>Der Hausbesitzer ist nicht anwesend und daher kann die Tür nicht aufgebrochen werden.</Original>
+		</Key>
+		<Key ID="STR_House_Raid_DoorUnlocked">
+			<Original>Die Tür ist bereits offen. - Die Tür wurde bereits repariert.</Original>
+		</Key>
+		<Key ID="STR_House_Raid_Progress">
+			<Original>Türschloss aufbrechen...</Original>
+		</Key>
+		<Key ID="STR_House_Raid_NOTF">
+			<Original>%1's Haus wird von der Polizei aufgebrochen!</Original>
+		</Key>
+		<Key ID="STR_House_Raid_Owner">
+			<Original>Hauseigentümer</Original>
+		</Key>
+		<Key ID="STR_House_Raid_Nothing">
+			<Original>Dieses Haus ist leer.</Original>
+		</Key>
+		<Key ID="STR_House_Raid_Searching">
+			<Original>Durchsuche das Haus...</Original>
+		</Key>
+		<Key ID="STR_House_Raid_TooFar">
+			<Original>Die Entfernung zum Haus ist zu groß!</Original>
+		</Key>
+		<Key ID="STR_House_Raid_Successful">
+			<Original>Ein Haus wurde durchsucht und es wurden Drogen/ Schmuggelware im Wert von %1€ beschlagnahmt.</Original>
+		</Key>
+		<Key ID="STR_House_Raid_NoIllegal">
+			<Original>Nichts Illegales in diesem Haus.</Original>
+		</Key>
+		<Key ID="STR_House_StorageUnlock">
+			<Original>Lagerplatz geöffnet</Original>
+		</Key>
+		<Key ID="STR_House_StorageLock">
+			<Original>Lagerplatz geschlossen</Original>
+		</Key>
+		<Key ID="STR_House_LockingUp">
+			<Original>Haus schließen, bitte warten ...</Original>
+		</Key>
+		<Key ID="STR_House_LockedUp">
+			<Original>Haus wurde gesperrt.</Original>
+		</Key>
+		<Key ID="STR_House_SellHouseMSG">
+			<Original>Sind Sie sicher, dass Sie Ihr Haus verkaufen? Es wird für &lt;t color='#8cff9b'&gt;%1€&lt;/t&gt; verkauft.\nAll Ihre momentanen Items im Haus werden entfernt</Original>
+		</Key>
+	</Package>
+	<Package name="Vehicle_Service">
+		<Key ID="STR_Service_Chopper_NoAir">
+			<Original>Es ist kein Helikopter auf dem Landeplatz!</Original>
+		</Key>
+		<Key ID="STR_Serive_Chopper_NotEnough">
+			<Original>Du benötigst 1000€ um deinen Helikopter reparieren und betanken zu lassen.</Original>
+		</Key>
+		<Key ID="STR_Service_Chopper_Servicing">
+			<Original>Helicopter Wartung</Original>
+		</Key>
+		<Key ID="STR_Service_Chopper_Missing">
+			<Original>Das Fahrzeug wurde zerstört oder es befindet sich nicht auf dem dazugehörigen Landeplatz!</Original>
+		</Key>
+		<Key ID="STR_Service_Chopper_Done">
+			<Original>Der Helikopter wurde repariert und aufgetankt.</Original>
+		</Key>
+	</Package>
+	<Package name="Life_Items">
+		<Key ID="STR_Item_Cannabis">
+			<Original>Cannabis</Original>
+		</Key>
+		<Key ID="STR_Item_Apple">
+			<Original>Apfel</Original>
+		</Key>
+		<Key ID="STR_Item_Apples">
+			<Original>Äpfel</Original>
+		</Key>
+		<Key ID="STR_Item_Cocaine">
+			<Original>Kokain</Original>
+		</Key>
+		<Key ID="STR_Item_Heroin">
+			<Original>Heroin</Original>
+		</Key>
+		<Key ID="STR_Item_Oil">
+			<Original>Öl</Original>
+		</Key>
+		<Key ID="STR_Item_Peach">
+			<Original>Pfirsich</Original>
+		</Key>
+		<Key ID="STR_Item_Peaches">
+			<Original>Pfirsiche</Original>
+		</Key>
+		<Key ID="STR_Item_OilU">
+			<Original>Rohöl</Original>
+		</Key>
+		<Key ID="STR_Item_OilP">
+			<Original>Öl</Original>
+		</Key>
+		<Key ID="STR_Item_HeroinU">
+			<Original>Unverarbeitetes Heroin</Original>
+		</Key>
+		<Key ID="STR_Item_HeroinP">
+			<Original>Heroin</Original>
+		</Key>
+		<Key ID="STR_Item_Marijuana">
+			<Original>Marihuana</Original>
+		</Key>
+		<Key ID="STR_Item_RabbitMeat">
+			<Original>Kaninchenfleisch</Original>
+		</Key>
+		<Key ID="STR_Item_SalemaMeat">
+			<Original>Goldstrieme</Original>
+		</Key>
+		<Key ID="STR_Item_OrnateMeat">
+			<Original>Lyrakaiserfisch</Original>
+		</Key>
+		<Key ID="STR_Item_MackerelMeat">
+			<Original>Makrele</Original>
+		</Key>
+		<Key ID="STR_Item_TunaMeat">
+			<Original>Thunfisch</Original>
+		</Key>
+		<Key ID="STR_Item_MulletMeat">
+			<Original>Meeräsche</Original>
+		</Key> 
+		<Key ID="STR_Item_CatSharkMeat">
+			<Original>Katzenhai</Original>
+		</Key>
+		<Key ID="STR_Item_TurtleMeat">
+			<Original>Schildkröten</Original>
+		</Key>
+		<Key ID="STR_Item_FishingPole">
+			<Original>Angel</Original>
+		</Key>
+		<Key ID="STR_Item_WaterBottle">
+			<Original>Wasserflasche</Original>
+		</Key>
+		<Key ID="STR_Item_Coffee">
+			<Original>Kaffee</Original>
+		</Key>
+		<Key ID="STR_Item_TurtleSoup">
+			<Original>Schildkrötensuppe</Original>
+		</Key>
+		<Key ID="STR_Item_Donuts">
+			<Original>Donuts</Original>
+		</Key>
+		<Key ID="STR_Item_FuelF">
+			<Original>Benzinkanister</Original>
+		</Key>
+		<Key ID="STR_Item_Pickaxe">
+			<Original>Spitzhacke</Original>
+		</Key>
+		<Key ID="STR_Item_CopperOre">
+			<Original>Kupfererz</Original>
+		</Key>
+		<Key ID="STR_Item_IronOre">
+			<Original>Eisenerz</Original>
+		</Key>
+		<Key ID="STR_Item_IronIngot">
+			<Original>Eisenbarren</Original>
+		</Key>
+		<Key ID="STR_Item_CopperIngot">
+			<Original>Kupferbarren</Original>
+		</Key>
+		<Key ID="STR_Item_Sand">
+			<Original>Sand</Original>
+		</Key>
+		<Key ID="STR_Item_Salt">
+			<Original>Salzgestein</Original>
+		</Key>
+		<Key ID="STR_Item_SaltR">
+			<Original>Verfeinertes Salz</Original>
+		</Key>
+		<Key ID="STR_Item_Glass">
+			<Original>Glas</Original>
+		</Key>
+		<Key ID="STR_Item_DiamondC">
+			<Original>Diamant</Original>
+		</Key>
+		<Key ID="STR_Item_DiamondU">
+			<Original>Rohdiamant</Original>
+		</Key>
+		<Key ID="STR_Item_TBacon">
+			<Original>Speck</Original>
+		</Key>
+		<Key ID="STR_Item_RedGull">
+			<Original>Energy-Drink</Original>
+		</Key>
+		<Key ID="STR_Item_Lockpick">
+			<Original>Dietrich</Original>
+		</Key>
+		<Key ID="STR_Item_Rock">
+			<Original>Stein</Original>
+		</Key>
+		<Key ID="STR_Item_CementBag">
+			<Original>Zement Sack</Original>
+		</Key>
+		<Key ID="STR_Item_GoldBar">
+			<Original>Platin</Original>
+		</Key>
+		<Key ID="STR_Item_BCharge">
+			<Original>Sprengladung</Original>
+		</Key>
+		<Key ID="STR_Item_BCutter">
+			<Original>Bolzenschneider</Original>
+		</Key>
+		<Key ID="STR_Item_DefuseKit">
+			<Original>Entschärfungs Kit</Original>
+		</Key>
+		<Key ID="STR_Item_StorageBS">
+			<Original>Kleine Lager Box</Original>
+		</Key>
+		<Key ID="STR_Item_StorageBL">
+			<Original>Große Lager Box</Original>
+		</Key>
+		<Key ID="STR_Item_CocaineU">
+			<Original>Unverarbeitetes Kokain</Original>
+		</Key>
+		<Key ID="STR_Item_CocaineP">
+			<Original>Kokain</Original>
+		</Key>
+		<Key ID="STR_Item_SpikeStrip">
+			<Original>Nagelband</Original>
+		</Key>
+	</Package>
+	<Package name="Life_License">
+		<Key ID="STR_License_Driver">
+			<Original>Führerschein B</Original>
+		</Key>
+		<Key ID="STR_License_Pilot">
+			<Original>Pilotenschein</Original>
+		</Key>
+		<Key ID="STR_License_Heroin">
+			<Original>Heroin Ausbildung</Original>
+		</Key>
+		<Key ID="STR_License_Oil">
+			<Original>Öl Verarbeitung</Original>
+		</Key>
+		<Key ID="STR_License_Diving">
+			<Original>Taucherschein</Original>
+		</Key>
+		<Key ID="STR_License_Boat">
+			<Original>Bootschein</Original>
+		</Key>
+		<Key ID="STR_License_Firearm">
+			<Original>Waffenschein</Original>
+		</Key>
+		<Key ID="STR_License_Swat">
+			<Original>SWAT Lizenz</Original>
+		</Key>
+		<Key ID="STR_License_CG">
+			<Original>Küstenwache</Original>
+		</Key>
+		<Key ID="STR_License_Rebel">
+			<Original>Rebellenausbildung</Original>
+		</Key>
+		<Key ID="STR_License_Truck">
+			<Original>Führerschein C</Original>
+		</Key>
+		<Key ID="STR_License_Diamond">
+			<Original>Diamantverarbeitung</Original>
+		</Key>
+		<Key ID="STR_License_Copper">
+			<Original>Kupferverarbeitung</Original>
+		</Key>
+		<Key ID="STR_License_Iron">
+			<Original>Eisenverarbeitung</Original>
+		</Key>
+		<Key ID="STR_License_Sand">
+			<Original>Sandaufbereitung</Original>
+		</Key>
+		<Key ID="STR_License_Salt">
+			<Original>Salzverarbeitung</Original>
+		</Key>
+		<Key ID="STR_License_Cocaine">
+			<Original>Kokain Ausbildung</Original>
+		</Key>
+		<Key ID="STR_License_Marijuana">
+			<Original>Marihuana Ausbildung</Original>
+		</Key>
+		<Key ID="STR_License_Cement">
+			<Original>Zementmisch Lizenz</Original>
+		</Key>
+		<Key ID="STR_License_Home">
+			<Original>Hausbesitzer Lizenz</Original>
+		</Key>
+	</Package>
+	<Package name="More_Item_Strings">
+		<Key ID="STR_ISTR_Blast_VaultOnly">
+			<Original>Das kann nur an einem Tresor benutzt werden!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_AlreadyPlaced">
+			<Original>Es gibt bereits eine Ladung am Tresor.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_AlreadyOpen">
+			<Original>Der Tresor ist bereits offen.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Placed">
+			<Original>Eine Sprengladung wurde am Tresor angebracht!\nNicht mehr lange bis zur Detonation!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_KeepOff">
+			<Original>Der Timer läuft! Halten Sie die Polizei vom Tresor fern!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Disarmed">
+			<Original>Die Ladung wurde entschärft!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Opened">
+			<Original>Der Tresor ist jetzt offen!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_NotNear">
+			<Original>Das ist keine Haustür!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_AlertFed">
+			<Original>=== !!! JEMAND BRICHT IN DIE ZENTRALBANK EIN !!! ===</Original>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_AlertHouse">
+			<Original>%1 wurde gesehen wie er in ein Haus eingebrochen ist!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_Process">
+			<Original>Schloss aufbrechen...</Original>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Nothing">
+			<Original>Es gibt keine Ladung am Tresor!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Process">
+			<Original>Ladung entschärfen...</Original>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Success">
+			<Original>Die Ladung wurde entschärft!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_NotLooking">
+			<Original>Du musst auf das Fahrzeug schauen um es zu betanken.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_NotNear">
+			<Original>Sie muessen naeher am Fahrzeug sein.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_Process">
+			<Original>Betanke %1...</Original>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_Success">
+			<Original>Sie haben ihren %1 aufgetankt!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_AlreadyHave">
+			<Original>Diesen Schlüssel besitzen Sie bereits!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Process">
+			<Original>%1 aufbrechen</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_TooFar">
+			<Original>Sie haben sich zu weit entfernt.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Success">
+			<Original>Eine Schlüsselkopie wurde zu Ihrem Schlüsselbund hinzugefügt.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Failed">
+			<Original>Der Dietrich ist gebrochen.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Lock_FailedNOTF">
+			<Original>%1 wurde gesehen wir er ein Fahrzeug aufbrechen wollte!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Pick_NotNear">
+			<Original>Du bist nicht in der Nähe einer Mine!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Pick_MineVeh">
+			<Original>Sie können nicht in einem Auto abbauen!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Pick_Success">
+			<Original>Sie haben %2x %1 abgebaut</Original>
+		</Key>
+		<Key ID="STR_ISTR_Spike_Place">
+			<Original>Nagelband platzieren</Original>
+		</Key>
+		<Key ID="STR_ISTR_Spike_Pack">
+			<Original>Nagelband aufheben</Original>
+		</Key>
+		<Key ID="STR_ISTR_Box_NotinHouse">
+			<Original>Du musst in deinem Haus sein um dies zu Platzieren!</Original>
+		</Key>
+		<Key ID="STR_ISTR_Box_HouseFull">
+			<Original>Es kann kein weiterer Lagercontainer in dein Haus gestellt werden.</Original>
+		</Key>
+		<Key ID="STR_ISTR_Box_HouseFull_2">
+			<Original>Es ist kein Platz mehr für einen Lagercontainer.</Original>
+		</Key>
+		<Key ID="STR_ISTR_SelectItemFirst">
+			<Original>Du musst zuerst einen Gegenstand auswählen!</Original>
+		</Key>
+		<Key ID="STR_ISTR_RedGullEffect">
+			<Original>Du kannst jetzt für 3 Minuten weiterlaufen</Original>
+		</Key>
+		<Key ID="STR_ISTR_SpikesDeployment">
+			<Original>Du stellst bereits ein Nagelband auf</Original>
+		</Key>
+		<Key ID="STR_ISTR_RefuelInVehicle">
+			<Original>Du kannst ein Fahrzeug nicht betanken während du dich darin befindest!</Original>
+		</Key>
+		<Key ID="STR_ISTR_NotUsable">
+			<Original>Dieser Gegenstand ist nicht nutzbar.</Original>
+		</Key>
+	</Package>
+		<Package name="Process_Action">
+		<Key ID="STR_Process_Oil">
+			<Original>Raffiniere Rohöl...</Original>
+		</Key>
+		<Key ID="STR_Process_Diamond">
+			<Original>Schleife Diamanten...</Original>
+		</Key>
+		<Key ID="STR_Process_Heroin">
+			<Original>Verarbeite Heroin...</Original>
+		</Key>
+		<Key ID="STR_Process_Copper">
+			<Original>Schmelze Kupfer ein...</Original>
+		</Key>
+		<Key ID="STR_Process_Iron">
+			<Original>Schmelze Eisen ein...</Original>
+		</Key>
+		<Key ID="STR_Process_Sand">
+			<Original>Schmelze Sand ein...</Original>
+		</Key>
+		<Key ID="STR_Process_Salt">
+			<Original>Verfeinere Salz...</Original>
+		</Key>
+		<Key ID="STR_Process_Cocaine">
+			<Original>Verarbeite Kokain...</Original>
+		</Key>
+		<Key ID="STR_Process_Marijuana">
+			<Original>Trockne Cannabis...</Original>
+		</Key>
+		<Key ID="STR_Process_Cement">
+			<Original>Mische Zement an...</Original>
+		</Key>
+		<Key ID="STR_Process_Stay">
+			<Original>Sie müssen 10 Meter in der Nähe bleiben!</Original>
+		</Key>
+		<Key ID="STR_Process_License">
+			<Original>Sie brauchen %1€ um ohne eine Lizenz zu verarbeiten!</Original>
+		</Key>
+		<Key ID="STR_Process_Processed">
+			<Original>Sie haben %1 in %2 verarbeitet.</Original>
+		</Key>
+		<Key ID="STR_Process_Processed2">
+			<Original>Sie haben %1 in %2 für %3€ verarbeitet.</Original>
+		</Key>
+	</Package>
+	<Package name="Gather_Items">
+		<Key ID="STR_Gather_Apples">
+			<Original>Pflücke Äpfel...</Original>
+		</Key>
+		<Key ID="STR_Gather_Peaches">
+			<Original>Pflücke Pfirsiche...</Original>
+		</Key>
+		<Key ID="STR_Gather_Heroin">
+			<Original>Sammle Heroin...</Original>
+		</Key>
+		<Key ID="STR_Gather_Cannabis">
+			<Original>Sammle Cannabis...</Original>
+		</Key>
+		<Key ID="STR_Gather_Cocaine">
+			<Original>Sammle Kokain...</Original>
+		</Key>
+	</Package>
+	<Package name="Medical_Strings">
+		<Key ID="STR_Medic_Online">
+			<Original>Sanitäter Online: %1</Original>
+		</Key>
+		<Key ID="STR_Medic_Near">
+			<Original>Sanitäter in der Nähe:%1</Original>
+		</Key>
+		<Key ID="STR_Medic_Request">
+			<Original>%1 benötigt Hilfe!</Original>
+		</Key>
+		<Key ID="STR_Medic_Respawn">
+			<Original>Respawn in: %1 verfügbar</Original>
+		</Key>
+		<Key ID="STR_Medic_Respawn_2">
+			<Original>Sie können nun respawnen!</Original>
+		</Key>
+		<Key ID="STR_Medic_RevivePay">
+			<Original>%1 hat dich wiederbelebt.\nEine Gebühr in Höhe von %2€ wurde von deinem Bankkonto für die Dienste abgehoben!</Original>
+		</Key>
+		<Key ID="STR_Medic_AlreadyReviving">
+			<Original>Jemand anderes belebt diese Person bereits wieder!</Original>
+		</Key>
+		<Key ID="STR_Medic_Progress">
+			<Original>Wiederbelebung %1...</Original>
+		</Key>
+		<Key ID="STR_Medic_RevivedRespawned">
+			<Original>Diese Person ist entweder respawnt oder ist bereits wiederbelebt worden.</Original>
+		</Key>
+		<Key ID="STR_Medic_RevivePayReceive">
+			<Original>Sie haben %1 wieder belebt und bekamen %2€ für Ihre Dienste.</Original>
+		</Key>
+		<Key ID="STR_Medic_TooFar">
+			<Original>Der Körper und Sie haben sich voneinander entfernt.</Original>
+		</Key>
+	</Package>
+		<Package name="Federal_Reserve">
+		<Key ID="STR_NOTF_FRRobbery_fail">
+			<Original>Der Raub ist fehlgeschlagen!</Original>
+		</Key>
+		<Key ID="STR_NOTF_FRRobbery_Success">
+			<Original>%1€ wurde beim Raub auf die Zentralbank gestohlen!</Original>
+		</Key>
+		<Key ID="STR_FEDR_VInUse">
+			<Original>Der Tresor wird bereits von jemand Anderem ausgeraubt!</Original>
+		</Key>
+		<Key ID="STR_FEDR_VRecently">
+			<Original>Der Tresor wurde bereits vor Kurzem ausgeraubt.</Original>
+		</Key>
+	</Package>
+	<Package name="Other_GUI_Stuff">
+		<Key ID="STR_GUI_Garage">
+			<Original>Garage</Original>
+		</Key>
+		<Key ID="STR_GUI_YourVeh">
+			<Original>Ihre Fahrzeuge</Original>
+		</Key>
+		<Key ID="STR_GUI_VehInfo">
+			<Original>Fahrzeuginformationen</Original>
+		</Key>
+		<Key ID="STR_GUI_PlayerReveal">
+			<Original>Zeigt automatisch nächstgelegene Objekte innerhalb von 15m an. Deaktiviere dies wenn du Leistungprobleme hast!</Original>
+		</Key>
+		<Key ID="STR_GUI_PlayTags">
+			<Original>Namensschildanzeige von Spielern über dem Kopf umschalten.</Original>
+		</Key>
+		<Key ID="STR_GUI_ShopStock">
+			<Original>Shop Stock</Original>
+		</Key>
+	</Package>
+		<Package name="Player_Interaction">
+		<Key ID="STR_pInAct_Title">
+			<Original>Personen-Interaktions Menü</Original>
+		</Key>
+		<Key ID="STR_pInAct_PutInCar">
+			<Original>Ins Fahrzeug</Original>
+		</Key>
+		<Key ID="STR_pInAct_Unrestrain">
+			<Original>Entfesseln</Original>
+		</Key>
+		<Key ID="STR_pInAct_checkLicenses">
+			<Original>Lizenzen Prüfen</Original>
+		</Key>
+		<Key ID="STR_pInAct_SearchPlayer">
+			<Original>Durchsuchen</Original>
+		</Key>
+		<Key ID="STR_pInAct_StopEscort">
+			<Original>Eskorte Stoppen</Original>
+		</Key>
+		<Key ID="STR_pInAct_Escort">
+			<Original>Eskortieren</Original>
+		</Key>
+		<Key ID="STR_pInAct_TicketBtn">
+			<Original>Ticket Geben</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest">
+			<Original>Ins Gefängnis</Original>
+		</Key>
+		<Key ID="STR_pInAct_Repair">
+			<Original>Tür Reparieren</Original>
+		</Key>
+		<Key ID="STR_pInAct_CloseOpen">
+			<Original>Öffnen/Schließen</Original>
+		</Key>
+		<Key ID="STR_pInAct_BreakDown">
+			<Original>Tür Aufbrechen</Original>
+		</Key>
+		<Key ID="STR_pInAct_SearchHouse">
+			<Original>Durchsuche Haus</Original>
+		</Key>
+		<Key ID="STR_pInAct_LockHouse">
+			<Original>Haus Schliessen</Original>
+		</Key>
+		<Key ID="STR_pInAct_BuyHouse">
+			<Original>Hausinfo</Original>
+		</Key>
+		<Key ID="STR_pInAct_SellGarage">
+			<Original>Garage Verkaufen</Original>
+		</Key>
+		<Key ID="STR_pInAct_AccessGarage">
+			<Original>Garage</Original>
+		</Key>
+		<Key ID="STR_pInAct_StoreVeh">
+			<Original>Fahrzeug Einparken</Original>
+		</Key>
+		<Key ID="STR_pInAct_SellHouse">
+			<Original>Haus Verkaufen</Original>
+		</Key>
+		<Key ID="STR_pInAct_UnlockStorage">
+			<Original>Lagerplatz Öffnen</Original>
+		</Key>
+		<Key ID="STR_pInAct_LockStorage">
+			<Original>Lagerplatz Schließen</Original>
+		</Key>
+		<Key ID="STR_pInAct_LightsOff">
+			<Original>Licht Aus</Original>
+		</Key>
+		<Key ID="STR_pInAct_LightsOn">
+			<Original>Licht An</Original>
+		</Key>
+		<Key ID="STR_pInAct_DepositToGang">
+			<Original>Einzahlen (Gangkonto)</Original>
+		</Key>
+		<Key ID="STR_pInAct_driverfalse">
+            <Original>Lizenz entnehmen</Original>
+        </Key>
+		<Key ID="STR_pInAct_driverfalseB">
+            <Original>B Führerschein</Original>
+        </Key>
+		<Key ID="STR_pInAct_driverfalseC">
+            <Original>C Führerschein</Original>
+        </Key>
+		<Key ID="STR_pInAct_driverfalsePerm">
+            <Original>Permanent Führerschein</Original>
+        </Key>
+		<Key ID="STR_pInAct_driverfalseWaffen">
+            <Original>Waffenlizenz</Original>
+        </Key>
+	</Package>
+		<Package name="Vehicle_Interaction">
+		<Key ID="STR_vInAct_Title">
+			<Original>Fahrzeuginteraktions Menü</Original>
+		</Key>
+		<Key ID="STR_vInAct_Unflip">
+			<Original>Umdrehen</Original>
+		</Key>
+		<Key ID="STR_vInAct_GetInKart">
+			<Original>Reinsetzen</Original>
+		</Key>
+		<Key ID="STR_vInAct_PushBoat">
+			<Original>Boot Schieben</Original>
+		</Key>
+		<Key ID="STR_vInAct_Repair">
+			<Original>Reparieren</Original>
+		</Key>
+		<Key ID="STR_vInAct_Registration">
+			<Original>Zulassung</Original>
+		</Key>
+		<Key ID="STR_vInAct_SearchVehicle">
+			<Original>Durchsuchen</Original>
+		</Key>
+		<Key ID="STR_vInAct_PullOut">
+			<Original>Rausziehen</Original>
+		</Key>
+		<Key ID="STR_vInAct_Impound">
+			<Original>Beschlagnahmen</Original>
+		</Key>
+		<Key ID="STR_vInAct_DeviceMine">
+			<Original>Gerät Starten</Original>
+		</Key>
+		
+		<Key ID="STR_vInAct_Impound_Perm">
+            <Original>Permanent Beschlagnahmen</Original>
+        </Key>
+		
+	</Package>
+	<Package name="Session_Strings">
+		<Key ID="STR_Session_Query">
+			<Original>Frage Spieler Informationen zur UID [%1] ab...     -     Bitte haben Sie Geduld!</Original>
+		</Key>
+		<Key ID="STR_Session_QueryFail">
+			<Original>Der Server hat keine Spieler Informationen zu Ihrer UID gefunden! Versuche Spieler in die Datenbank hinzuzufügen...   -   Dies dauert einen Moment...</Original>
+		</Key>
+		<Key ID="STR_Session_Error">
+			<Original>Es gab einen Fehler beim Versuch den Client einzurichten! Verständige bitte einen Admin.</Original>
+		</Key>
+		<Key ID="STR_Session_Received">
+			<Original>Empfangene Daten vom Server...    -     Überprüfen...</Original>
+		</Key>
+		<Key ID="STR_Session_SyncdAlready">
+			<Original>Sie haben die Sync-Option bereits verwendet.\nSie können diese Funktion nur einmal alle 5 Minuten verwenden!</Original>
+		</Key>
+		<Key ID="STR_Session_SyncCheater">
+			<Original>Aufgrund Cheater/Hacker bzw. Skript-Kiddies ist das BIS MP Framework beschädigt. Verständige umgehend einen Admin!</Original>
+		</Key>
+		<Key ID="STR_Session_SyncData">
+			<Original>Synchronisieren der Spieler Informationen mit dem Server.\n\nBitte warte 30 Sekunden bis zum LogOut.</Original>
+		</Key>
+	</Package>
+	<Package name="Shop_Strings">
+		<Key ID="STR_Shop_ATMRobbed">
+			<Original>Da Sie die Bank/Tankstelle ausgeraubt haben können Sie den ATM für 5 Minuten nicht nutzen.</Original>
+		</Key>
+		<Key ID="STR_Shop_NoClothes">
+			<Original>Es wurde keine Kleidung ausgewählt.</Original>
+		</Key>
+		<Key ID="STR_Shop_NotEnoughClothes">
+			<Original>Sie haben nicht genügend Geld dabei um Kleidung zu kaufen!</Original>
+		</Key>
+		<Key ID="STR_Shop_Total">
+			<Original>Gesamtpreis:</Original>
+		</Key>
+		<Key ID="STR_Shop_NoSelection">
+			<Original>Keine Auswahl</Original>
+		</Key>
+		<Key ID="STR_Shop_NoDisplay">
+			<Original>Keine Anzeige</Original>
+		</Key>
+		<Key ID="STR_Shop_NoVehNear">
+			<Original>Es ist kein Fahrzeug in der Nähe um es zu Verkaufen.</Original>
+		</Key>
+		<Key ID="STR_Shop_ChopShopError">
+			<Original>Ein Problem trat auf beim Versuch das Wagenhändler Shop-Menü aufzurufen.</Original>
+		</Key>
+		<Key ID="STR_Shop_ChopShopSelling">
+			<Original>Verkaufe das Fahrzeug...</Original>
+		</Key>
+		<Key ID="STR_Shop_NotaCiv">
+			<Original>Sie müssen ein Zivilist sein, um diesen Shop nutzen zu können!</Original>
+		</Key>
+		<Key ID="STR_Shop_NotaCop">
+			<Original>Sie sind kein Polizist!</Original>
+		</Key>
+		<Key ID="STR_Shop_NotaReb">
+			<Original>Sie besitzen keine Rebellenausbildung!</Original>
+		</Key>
+		<Key ID="STR_Shop_NotaDive">
+			<Original>Sie benötigen eine Lizenz, um diesen Tauchershop nutzen zu können!</Original>
+		</Key>
+		<Key ID="STR_Shop_YouNeed">
+			<Original>Sie benötigen eine %1 um in diesem Shop einkaufen zu können!</Original>
+		</Key>
+		<Key ID="STR_Shop_UI_Clothing">
+			<Original>Kleidung</Original>
+		</Key>
+		<Key ID="STR_Shop_UI_Hats">
+			<Original>Hüte</Original>
+		</Key>
+		<Key ID="STR_Shop_UI_Glasses">
+			<Original>Brillen</Original>
+		</Key>
+		<Key ID="STR_Shop_UI_Vests">
+			<Original>Westen</Original>
+		</Key>
+		<Key ID="STR_Shop_UI_Backpack">
+			<Original>Rucksäcke</Original>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_VehExist">
+			<Original>Dort ist bereits ein Auto.</Original>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_NotEnough">
+			<Original>Sie haben nicht genug Geld um ihr Auto zurück zu bekommen.</Original>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_Success">
+			<Original>Sie haben Ihren %1 für %3€ einparkt.</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_DidntPick">
+			<Original>Sie haben kein Fahrzeug ausgewählt!</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_NotEnough">
+			<Original>Sie haben nicht genug Geld um dieses Fahrzeug zu kaufen.\n\nEs fehlen: %1€</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_NoLicense">
+			<Original>Sie haben nicht die benötigte Lizenz!</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_Block">
+			<Original>Derzeit blockiert ein Fahrzeug den Spawn-Punkt!</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_Bought">
+			<Original>Sie kaufen %1 für %2€</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Rental">
+			<Original>Mietpreis:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Ownership">
+			<Original>Kaufpreis:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_MaxSpeed">
+			<Original>Max. Geschwindigkeit:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_HPower">
+			<Original>PS:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_PSeats">
+			<Original>Passagiersitze:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Trunk">
+			<Original>Kofferaum:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Fuel">
+			<Original>Tank:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Armor">
+			<Original>Munition:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_RetrievalP">
+			<Original>Ausparkgebühr:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_SellP">
+			<Original>Verkaufspreis:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Color">
+			<Original>Lackierung:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_NotAllowed">
+			<Original>Du bist nicht befugt diesen Shop zu nutzen!</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_Nothing">
+			<Original>Sie müssen ein Item auswählen um es zu Verkaufen!</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_NoNum">
+			<Original>Das ist keine Zahl!</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_NotEnough">
+			<Original>Du hast nicht so viel zum Verkaufen!</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_Gang_FundsMSG">
+			<Original>Die Gang hat genügend Geld auf dem Konto; willst du mit deinem Geld oder mit dem Gangkonto zahlen</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_Gang_Funds">
+			<Original>Gangkonto:</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_YourFunds">
+			<Original>Bargeld</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_YourorGang">
+			<Original>Bezahlen Sie mit Bargeld oder mit dem Gangkonto?</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_UI_GangFunds">
+			<Original>Gangkonto</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_UI_YourCash">
+			<Original>Bargeld</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_BoughtGang">
+			<Original>Du kaufst %1 %2 für %3€ mit dem Gangkonto.</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_BoughtItem">
+			<Original>Du kaufst %1 %2 für %3€.</Original>
+		</Key>
+		<Key ID="STR_Shop_Virt_SellItem">
+			<Original>Du verkaufst %1 %2 für %3€.</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_NoSelect">
+			<Original>Sie müssen ein Item auswählen um es zu Kaufen/ Verkaufen</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_Sold">
+			<Original>Du hast %1 für &lt;t color='#8cff9b'&gt;%2€&lt;/t&gt; verkauft</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_BoughtGang">
+			<Original>Du hast %1 für &lt;t color='#8cff9b'&gt;%2€&lt;/t&gt; gekauft</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_BoughtItem">
+			<Original>Du hast %1 für &lt;t color='#8cff9b'&gt;%2€&lt;/t&gt; gekauft</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_ShopInv">
+			<Original>Shop Inventar</Original>
+		</Key>
+		<Key ID="STR_Shop_Weapon_YourInv">
+			<Original>Dein Inventar</Original>
+		</Key>
+	</Package>
+	<Package name="FSM_Strings">
+		<Key ID="STR_FSM_Paycheck">
+			<Original>Nächster Gehaltsscheck in %1 Minuten.</Original>
+		</Key>
+		<Key ID="STR_FSM_MissedPay">
+			<Original>Sie haben den letzten Gehaltsscheck verpasst, da Sie zu diesem Zeitpunkt tot waren.</Original>
+		</Key>
+		<Key ID="STR_FSM_ReceivedPay">
+			<Original>Sie haben einen Gehaltsscheck von %1€ erhalten!</Original>
+		</Key>
+	</Package>
+</Project>
