@@ -3450,7 +3450,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1657;
+		items=1660;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -11392,7 +11392,7 @@ class Mission
 		class Item746
 		{
 			position[]={3672.4895,11.109658,13206.01};
-			azimut=-442.63351;
+			azimut=-442.634;
 			id=939;
 			side="EMPTY";
 			vehicle="Land_City_8m_F";
@@ -12455,7 +12455,7 @@ class Mission
 		};
 		class Item846
 		{
-			position[]={3097.9031,0,12744.247};
+			position[]={3097.3447,-0.00057299435,12744.406};
 			azimut=208.4558;
 			offsetY=0.30000001;
 			id=1039;
@@ -19199,7 +19199,7 @@ class Mission
 		};
 		class Item1488
 		{
-			position[]={3121.1975,0,12757.263};
+			position[]={3118.6042,-0.014079973,12751.36};
 			azimut=26.175089;
 			offsetY=0.5;
 			id=1681;
@@ -21026,6 +21026,39 @@ class Mission
 			vehicle="Land_Sunshade_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1657
+		{
+			position[]={3100.842,-0.12943539,12755.486};
+			azimut=477.9158;
+			offsetY=0.5;
+			id=1850;
+			side="EMPTY";
+			vehicle="Land_HBarrierBig_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,0.1]; this enableSimulation false;";
+		};
+		class Item1658
+		{
+			position[]={3097.5303,-0.0070353895,12749.393};
+			azimut=477.9158;
+			offsetY=0.5;
+			id=1851;
+			side="EMPTY";
+			vehicle="Land_HBarrierBig_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,0.1]; this enableSimulation false;";
+		};
+		class Item1659
+		{
+			position[]={3129.7649,-0.13481221,12736.64};
+			azimut=477.9158;
+			offsetY=0.5;
+			id=1852;
+			side="EMPTY";
+			vehicle="Land_HBarrierBig_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,0.1]; this enableSimulation false;";
 		};
 	};
 	class Markers
@@ -23253,7 +23286,7 @@ class Mission
 		};
 		class Item266
 		{
-			position[]={3121.2366,0,12757.229};
+			position[]={3118.4436,-0.017455816,12751.287};
 			name="atm_1_3_11_5_5_1";
 			text="Bank";
 			type="loc_Tourism";
@@ -23325,12 +23358,12 @@ class Mission
 		};
 		class Item274
 		{
-			position[]={15776.533,14.262505,17450.951};
-			name="Grenze_1_1";
-			text="Grenzübergang 1";
-			type="mil_arrow";
-			colorName="ColorWhite";
-			angle=-85.392166;
+			position[]={15786.595,14.206869,17433.84};
+			name="Zollstation";
+			text="Zollstation";
+			type="loc_Tree";
+			colorName="ColorBlue";
+			angle=-85.392197;
 		};
 		class Item275
 		{
