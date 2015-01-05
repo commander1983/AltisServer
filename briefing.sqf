@@ -47,7 +47,8 @@ player createDiarySubject ["platzh6","==================="];
 2. Eine Safezone beträgt immer 50 Meter um jeden der oben genannten Punkten.<br/>
 3. Jegliche Straftaten sind in diesen Zonen verboten.<br/>
 4. Das Abfeuern von Schusswaffen ist in Safezonen Verboten!<br/>
-5. Das Missachten der SafeZone Regel kann im schlimmsten Fall mit einem Bann bestraft werden!
+5. Das Missachten der SafeZone Regel kann im schlimmsten Fall mit einem Bann bestraft werden!<br/>
+6. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§4 NewLife Regelung</font></font><br/>
@@ -420,7 +421,13 @@ Drogenbesitz/ Schmuggelware/ illegale Ware ::<br/>
 <br/>
 <br/>
 <br/>
-Handel Schmuggelware: 150.000
+<font color='#FF3118'>Handel Schmuggelware:</font><br/>
+- 150.000
+<br/>
+<br/>
+<br/>
+<font color='#FF3118'>Schmuggelware im Haus:</font><br/>
+- 250.000
 <br/>
 <br/>
 				"
@@ -449,7 +456,7 @@ Handel Schmuggelware: 150.000
 <br/>
 <br/>
 <font color='#FF3118'>Besitz einer illegalen Waffe<font size='8'>siehe: Illegale Waffen</font>:</font><br/>
-- 5.000 - 25.000 <font size='10'>Waffe Beschlagnahmen</font>
+- 50.000 - 115.000 <font size='10'>Waffe Beschlagnahmen</font>
 <br/>
 <br/>
 <font color='#FF3118'>Schusswaffengebrauch innerorts:</font><br/>
