@@ -15,9 +15,9 @@ _role1names = ["StaiyLite","Altis Life Server"];
 _role2 = "Webseite/Teamspeak";
 _role2names = ["www.staiylite.de","TeamspeakIP: staiylite.de"];
 _role3 = "Admins";
-_role3names = ["Staiy","Micha","Snerz","Spoilty","Oesi94","mantis","bekoo"];
+_role3names = ["Staiy","Snerz","Spoilty","mantis","bekoo"];
 _role4 = "Aktuelle Neuerungen";
-_role4names = ["Permanente WantedListe","Donatorspawn","Zentralbank ab 6 Cops","Masken entfernen"];
+_role4names = ["Neue Loadouts für Cops","Zentralbank ab 6 Cops","Masken entfernen"];
 
 {
 sleep 2;

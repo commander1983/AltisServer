@@ -3,7 +3,7 @@ disableSerialization;
 
 _rscLayer = "osefStatusBar" call BIS_fnc_rscLayer;
 _rscLayer cutRsc["osefStatusBar","PLAIN"];
-systemChat format["Wikommen auf dem Server", _rscLayer];
+systemChat format["Willkommen auf dem Server", _rscLayer];
 
 [] spawn {
 	sleep 5;

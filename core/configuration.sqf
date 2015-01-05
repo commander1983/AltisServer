@@ -329,8 +329,8 @@ buy_array =
 [
 	["rabbit",6],
 	["water",7],
-	["donuts",5],
-	["coffee",10],
+	["Currywurst",5],
+	["Bier",10],
 	["tbacon",8],
 	["lockpick",1500],
 	["pickaxe",250],

@@ -486,10 +486,6 @@ class Life_Client_Core
 		class cleanStation {};
 		class tankchanger {};
 		class useStation {};
-		class diskolights {};
-		class diskolightson {};
-		class diskomusik {};
-		class diskorauch {};
 	};
 	
 	class loadouts

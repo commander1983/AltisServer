@@ -31,7 +31,7 @@ switch(_type) do
 	//normal message
 	case 1:
 	{
-		if(isNUll life_smartphoneTarget) exitWith {hint format["Keine Person ausgwählt!"];};
+		if(isNUll life_smartphoneTarget) exitWith {hint format["Du hast keine Person ausgwählt!"];};
 		ctrlShow[88885, false];
 		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
