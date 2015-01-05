@@ -122,7 +122,7 @@ switch(_type) do
 		if(__GETC__(life_coplevel) < 4) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
-		if(side player != west) exitWith {
+		if(side player != west || side player != east) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
 		if(_msg == "") exitWith {
