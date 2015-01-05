@@ -54,8 +54,10 @@ if(_shooter isKindOf "Man" && alive player) then
 		player allowDamage true;
 	};
 }
+
 	else
 {
 	_unit allowDamage true;
 	life_isdowned = false;
+	player setDamage 0.5;
 };
