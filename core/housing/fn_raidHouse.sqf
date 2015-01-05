@@ -26,7 +26,7 @@ _titleText = _ui displayCtrl 38202;
 _titleText ctrlSetText format["%2 (1%1) - ","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
-_cpRate = 0.0025;		// Von 0,0075 auf 0,0025 geändert -- Testweise. KA ob das geht.
+_cpRate = 0.000025;		// Von 0,0075 auf 0,0025 geändert -- Testweise. KA ob das geht.
 
 while {true} do
 {
