@@ -51,14 +51,13 @@ if(_shooter isKindOf "Man" && alive player) then
 		disableUserInput false;
 		detach player;
 		life_isdowned = false;
+		player setDamage 0.5;
 		player allowDamage true;
-	} else {
-	player setDamage 0.5;
+	}
 }
 
 	else
 {
 	_unit allowDamage true;
 	life_isdowned = false;
-	player setDamage 0.5;
 };

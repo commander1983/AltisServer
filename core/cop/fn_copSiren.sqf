@@ -18,6 +18,6 @@ while {true} do
 	if(!alive _vehicle) exitWith {};
 	if(isNull _vehicle) exitWith {};
 	_vehicle say3D "SirenLong";
-	sleep 6;			// Testweise. Vorher: 4,7
+	sleep 5.8;			// Testweise. 6 = Kurze Pause , 4.7 = Standard , 5.8 Testweise
 	if(!(_vehicle getVariable "siren")) exitWith {};
 };
