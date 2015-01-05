@@ -7,9 +7,9 @@
 private["_cpRate","_title","_progressBar","_titleText","_cp","_ui","_object"];
 _object = _this Select 0;  
 //Setup the progress bar
-_cpRate = 0.0005;
+_cpRate = 0.0025;
 disableSerialization;
-_title = "Breaking out prisoner";
+_title = "Breche Gefängnis auf";
 
 life_action_inUse = true;
 
