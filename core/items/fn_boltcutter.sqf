@@ -10,7 +10,7 @@ _building = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if({side _x == west} count playableUnits < 6) exitWith {hint localize "STR_Civ_NotEnoughCops"};
 
 if(isNull _building) exitWith {_ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
-if(!(_building isKindOf "House_F")) exitWith {hint "You are not looking at a house door."; _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
+if(!(_building isKindOf "House_F")) exitWith {hint "Du schaust auf keinen Hauseingang."; _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
 if(isNil "life_boltcutter_uses") then {life_boltcutter_uses = 0;};
 
 if((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _building OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _building) then {

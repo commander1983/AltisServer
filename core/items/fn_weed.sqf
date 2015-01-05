@@ -10,8 +10,8 @@
 closeDialog 0;
 
 //Little hint then wait a litle before starting drugs effects
-hint "Winners don't use drugs !";
-sleep 3;
+hint "Gewinner benutzen keine Drogen...";
+sleep 5;
 
 //Activate ppEffects we need
 "chromAberration" ppEffectEnable true;

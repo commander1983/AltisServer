@@ -11,7 +11,7 @@ _sperre attachTo[player,[0,5.5,0.2]];
 _sperre setDir 90;
 _sperre setVariable["item","sperreDeployed",true];
 
-life_action_sperreDeploy = player addAction["<t color='#00FF00'>Straﬂensperre aufstellen</t>",{if(!isNull life_sperre) then {detach life_sperre; life_sperre = ObjNull;}; player removeAction life_action_sperreDeploy; life_action_sperreDeploy = nil;},"",999,false,false,"",'!isNull life_sperre'];
+life_action_sperreDeploy = player addAction["<t color='#00FF00'>Straﬂensperre Aufstellen</t>",{if(!isNull life_sperre) then {detach life_sperre; life_sperre = ObjNull;}; player removeAction life_action_sperreDeploy; life_action_sperreDeploy = nil;},"",999,false,false,"",'!isNull life_sperre'];
 life_sperre = _sperre;
 waitUntil {isNull life_sperre};
 if(!isNil "life_action_sperreDeploy") then {player removeAction life_action_sperreDeploy;};
