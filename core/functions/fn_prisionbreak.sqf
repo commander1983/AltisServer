@@ -17,3 +17,4 @@ _obj = objNull;
 
 
 [_obj] spawn life_fnc_progressBaren;
+[[2,"-- JEMAND BRICHT IN DAS STAATSGEFÄNGNIS VON ALTIS EIN --"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;	//gucken ob's geht haha xD

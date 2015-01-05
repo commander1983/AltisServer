@@ -12,7 +12,7 @@ createDialog "life_prision_list";
 _display = findDisplay 8100;
 _list = _display displayCtrl 8101;
 lbClear _list;
-ctrlSetText[8104,"POSL 2.0 - Hacking..."];
+ctrlSetText[8104,"APBO_SL 2.0 - Hacking..."];
 _list = _display displayctrl 8101;
 _units = [];
 {
