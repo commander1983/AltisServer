@@ -7,6 +7,7 @@ private["_shop","_display","_list","_array","_units","_Btn1","_unit"];
 _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
 <<<<<<< HEAD
+<<<<<<< HEAD
 if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Laptop heran!"];};
 =======
 <<<<<<< HEAD
@@ -15,6 +16,9 @@ if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Lap
 if(player distance _shop > 1) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
 >>>>>>> origin/master
 >>>>>>> origin/master
+=======
+if(player distance _shop > 1) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
+>>>>>>> parent of 30586af... ä
 
 createDialog "life_prision_list";
 _display = findDisplay 8100;
