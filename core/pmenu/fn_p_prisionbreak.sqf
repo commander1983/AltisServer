@@ -17,7 +17,7 @@ _list = _display displayctrl 8101;
 _units = [];
 {
 	if(side _x == civilian) then {_units pushBack _x;};
-} forEach nearestObjects [getMarkerPos "jail_marker",["Man"],20]; 
+} forEach nearestObjects [getMarkerPos "jail_marker",["Man"],17]; 
 // 15 = distance from jail_marker
 // this adds all the prisioners around the jail_marker within 15 meters
 
