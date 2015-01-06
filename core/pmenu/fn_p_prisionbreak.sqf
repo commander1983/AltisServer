@@ -6,13 +6,21 @@
 private["_shop","_display","_list","_array","_units","_Btn1","_unit"];
 _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
+<<<<<<< HEAD
 if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Laptop heran!"];};
+=======
+<<<<<<< HEAD
+if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Laptop heran!"];};
+=======
+if(player distance _shop > 1) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 createDialog "life_prision_list";
 _display = findDisplay 8100;
 _list = _display displayCtrl 8101;
 lbClear _list;
-ctrlSetText[8104,"APBO_SL 2.0 - Hacking..."];
+ctrlSetText[8104,"APBO_SL v2.0 - Hacking..."];
 _list = _display displayctrl 8101;
 _units = [];
 {
@@ -28,9 +36,9 @@ _units = [];
 	_list lbSetData [(lbSize _list)-1,str(_x)];
 	};
 } forEach _units;
-ctrlSetText[8104,"Gehackt!"];
+ctrlSetText[8104,"APBO_SL v2.0 - Gehackt!"];
 if(((lbSize _list)-1) == -1) then
 {
-	_display ctrlShow false;
+	_display closeDisplay 8100;
 	hint "Es befindet sich zurzeit kein Gefangener im Staatsgefängnis";
 };
