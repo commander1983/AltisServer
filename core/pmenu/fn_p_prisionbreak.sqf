@@ -8,7 +8,12 @@ _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Laptop heran!"];};
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Laptop heran!"];};
@@ -16,9 +21,13 @@ if(player distance _shop > 1) exitWith {hint format ["Du musst näher an den Lap
 if(player distance _shop > 1) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
 >>>>>>> origin/master
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
 if(player distance _shop > 1) exitWith {hint format ["Du musst naeher an den Laptop heran!"];};
 >>>>>>> parent of 30586af... ä
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 createDialog "life_prision_list";
 _display = findDisplay 8100;
@@ -29,7 +38,7 @@ _list = _display displayctrl 8101;
 _units = [];
 {
 	if(side _x == civilian) then {_units pushBack _x;};
-} forEach nearestObjects [getMarkerPos "jail_marker",["Man"],17]; 
+} forEach nearestObjects [getMarkerPos "jail_marker",["Man"],20]; 
 // 15 = distance from jail_marker
 // this adds all the prisioners around the jail_marker within 15 meters
 
@@ -40,7 +49,7 @@ _units = [];
 	_list lbSetData [(lbSize _list)-1,str(_x)];
 	};
 } forEach _units;
-ctrlSetText[8104,"APBO_SL v2.0 - Gehackt!"];
+ctrlSetText[8104,"APBO_SL v2.0 - Hacked!"];
 if(((lbSize _list)-1) == -1) then
 {
 	_display closeDisplay 8100;
