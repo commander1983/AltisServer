@@ -110,7 +110,7 @@ class marketView
 		class RscText_1003: RscText
 		{
 			idc = 1003;
-			text = "Letzte änderungen"; //--- ToDo: Localize;
+			text = "Letzte Änderungen"; //--- ToDo: Localize;
 			x = 20.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 10.5 * GUI_GRID_H + GUI_GRID_Y; //13.5
 			w = 13 * GUI_GRID_W;
