@@ -238,6 +238,7 @@ switch(_shop) do
 					["6Rnd_45ACP_Cylinder",nil,100],
 					["NVGoggles_OPFOR","NV Schwarz",8500],
 					["NVGoggles_INDEP","NV Gruen",8500],
+					["Rangefinder",nil,7500],
 					["U_B_Protagonist_VR","Bootcamp",1500],
 					["G_Balaclava_blk",nil,25],
 					["G_Balaclava_lowprofile",nil,20],
