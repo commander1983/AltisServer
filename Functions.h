@@ -501,7 +501,7 @@ class Life_Client_Core
 		
 	};
 	
-	/*class Special
+	class Special
 	{
 		file = "core\special";
 		class openEmpMenu {};
@@ -511,7 +511,7 @@ class Life_Client_Core
 		class empVehicle {};
 		class vehicleWarned {};
 		class vehicleEmpd {};
-	};*/
+	};
 	
 	class anstrich
 	{
