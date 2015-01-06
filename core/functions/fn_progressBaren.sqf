@@ -7,7 +7,7 @@
 private["_cpRate","_title","_progressBar","_titleText","_cp","_ui","_object"];
 _object = _this Select 0;  
 //Setup the progress bar
-_cpRate = 0.0025;
+_cpRate = 0.0010;
 disableSerialization;
 _title = "Breche Gefängnis auf";
 
@@ -15,7 +15,7 @@ life_action_inUse = true;
 
 //Setup the progress bar
 disableSerialization;
-_title = "Breaking out prisoner";
+_title = "Breche Gefängnis auf";
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNamespace getVariable "life_progress";
 _progressBar = _ui displayCtrl 38201;
