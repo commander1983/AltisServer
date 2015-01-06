@@ -31,5 +31,6 @@ _units = [];
 ctrlSetText[8104,"Verbunden!"];
 if(((lbSize _list)-1) == -1) then
 {
+	_display ctrlShow false;
 	hint "Es befindet sich zurzeit kein Gefangener im Staatsgefängnis";
 };

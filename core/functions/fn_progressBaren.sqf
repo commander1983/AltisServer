@@ -9,13 +9,13 @@ _object = _this Select 0;
 //Setup the progress bar
 _cpRate = 0.0010;
 disableSerialization;
-_title = "Breche Gefängnis auf";
+_title = "Breche das Gefängnis auf";
 
 life_action_inUse = true;
 
 //Setup the progress bar
 disableSerialization;
-_title = "Breche Gefängnis auf";
+_title = "Breche das Gefängnis auf";
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNamespace getVariable "life_progress";
 _progressBar = _ui displayCtrl 38201;
