@@ -73,7 +73,7 @@ switch (_var) do
 	case "life_inv_uranu": {"Uran"};
 	case "life_inv_uranp": {"Uranium"};
 	case "life_inv_frogs": {"Tryptophan"};
-	case "life_inv_frogslsd": {"Lysergsaeurediethylamid"};
+	case "life_inv_frogslsd": {"Lysergsäurediethylamid"};
 	case "life_inv_handcuffs": {"Handschellen"};
 	case "life_inv_banane": {"Banane"};
 	case "life_inv_cerises": {"Kirsche"};
@@ -83,11 +83,11 @@ switch (_var) do
 	case "life_inv_birne": {"Birne"};
 	case "life_inv_pille": {"Zyankalikapsel"};	
 	case "life_inv_battery": {"Handybatterie"};
-	case "life_inv_keys": {"Handschellenschluessel"};
-	case "life_inv_painkillers": {"Pain Killers"};
+	case "life_inv_keys": {"Handschellenschlüssel"};
+	case "life_inv_painkillers": {"Pain Killer"};
 	case "life_inv_warnung": {"Pylone"};
 	case "life_inv_sperre": {"Straßensperre"};
-	case "life_inv_license": {"Fuehrerscheinformular"};
+	case "life_inv_license": {"Führerscheinformular"};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -113,15 +113,15 @@ switch (_var) do
 	case "license_civ_home": {(localize "STR_License_Home")};
 	
 	case "license_civ_meth": {"Crystal-Methtraining"};
-	case "license_civ_grapes": {"Staatl.Brenn Lizens"};
-	case "license_civ_moonshine": {"Schwarzbrenn Lizens"};
-	case "license_civ_gold": {"Gold Lizens"};
-	case "license_civ_silber": {"Silber Lizens"};
+	case "license_civ_grapes": {"Staatl.-Brenn Lizenz"};
+	case "license_civ_moonshine": {"Schwarzbrenn Lizenz"};
+	case "license_civ_gold": {"Gold Lizenz"};
+	case "license_civ_silber": {"Silber Lizenz"};
 	case "license_civ_uran": {"Urantraining"};
-	case "license_civ_lsd": {"Lysergsaeurediethylamidtraining"};
-	case "license_civ_pcola": {"Pina colada Mix"};
-	case "license_civ_sotb": {"Sex on the Beach Mix"};
-	case "license_civ_mait": {"Mai Tai Mix"};	
-	case "license_civ_gang": {"Gang Lizens"};
+	case "license_civ_lsd": {"Lysergsäurediethylamidtraining"};
+	case "license_civ_pcola": {"Pina-Colada Mix"};
+	case "license_civ_sotb": {"Sex-on-the-Beach Mix"};
+	case "license_civ_mait": {"Mai-Tai Mix"};	
+	case "license_civ_gang": {"Gang Lizenz"};
 	case "license_civ_permanent": {"Führerschein Permanent"};
 };
