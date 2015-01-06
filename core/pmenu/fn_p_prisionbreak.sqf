@@ -28,7 +28,7 @@ _units = [];
 	_list lbSetData [(lbSize _list)-1,str(_x)];
 	};
 } forEach _units;
-ctrlSetText[8104,"Hacken!"];
+ctrlSetText[8104,"Gehackt!"];
 if(((lbSize _list)-1) == -1) then
 {
 	_display ctrlShow false;
