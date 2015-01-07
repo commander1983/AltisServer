@@ -122,10 +122,10 @@ _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 _Btn8 ctrlSetText localize "STR_pInAct_RemoveWeapons";
 _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeWeaponAction; closeDialog 0;";
 
-_Btn9 ctrlSetTooltip "Handy entnehmen";
+_Btn9 ctrlSetTooltip "Handy Entnehmen";
 _Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_HandyEntnehmen; closeDialog 0;";
 
-_Btn10 ctrlSetTooltip "Maske entfernen";
+_Btn10 ctrlSetTooltip "Maske Entfernen";
 _Btn10 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeMaskdrop; closeDialog 0;";
 
 //_Btn11 ctrlSetText localize "STR_pInAct_driverfalse";
