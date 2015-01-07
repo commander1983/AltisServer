@@ -49,7 +49,7 @@ player createDiarySubject ["platzh6","==================="];
 3. Jegliche Straftaten sind in diesen Zonen verboten.<br/>
 4. Das Abfeuern von Schusswaffen ist in Safezonen Verboten!<br/>
 5. Das Missachten der SafeZone Regel kann im schlimmsten Fall mit einem Bann bestraft werden!<br/>
-6. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde.
+6. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde. Es dürfen keine Unbeteiligten mit in die Sache hineingezogen werden! So ist z.B. das Einparken von illegalen Fahrzeugen während einer Verfolgung in eine Safezone nicht erlaubt.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§4 NewLife Regelung</font></font><br/>
@@ -61,7 +61,7 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§5 Fahrzeug Zerstörung</font></font><br/>
-1. Das Zerstören von Fahrzeugen/ Luftfahrzeugen und Booten ist verboten.<br/>
+1. Das mutwillige Zerstören von Fahrzeugen/ Luftfahrzeugen und Booten ist verboten.<br/>
 2. Das absichtliche Zerstören anderer Fahrzeuge durch das eigene Fahrzeug oder mit Hilfe von Waffen ist verboten!<br/>
 3. Das Missachten der Regelung kann mit einem Bann bestraft werden.
 <br/>
@@ -76,34 +76,35 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <font color='#FF0000'><font size='16'>§7 Kommunikation</font></font><br/>
 1. Das Sprechen im Sidechat ist TABU!<br/>
-2. Das Abspielen von Musik im Voicechat ist verboten.<br/>
-3. Das Posten von Links ist verboten (Fremdwerbung),<br/>
-4. Sollte ein Sanitäter zum Wiederbeleben requestet werden so wird eine mögliche Nachricht des Sanitäters unten Links im Chat dargestellt.<br/>
+2. Das Abspielen von Musik ist in allen Kanälen zu unterlassen!<br/>
+3. Das Posten von Links ist verboten (Fremdwerbung).<br/>
+4. Sollte ein Sanitäter zum Wiederbeleben requestet werden, so wird eine mögliche Nachricht des Sanitäters unten Links im Chat dargestellt.<br/>
 5. Das Beleidigen von Zivilisten und Beamten ohne Roleplay-Hintergrund ist verboten.<br/>
 6. Rassismus ist auf dem gesamten Server untersagt.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§8 Verhalten bei polizeilichen Maßnahmen</font></font><br/>
 1. Den Anweisungen der Polizisten ist jeder Zeit Folge zu leisten!<br/>
-2. Wer eine Waffe bei sich führt sollte dies dem Polizisten mitteilen bevor man aus einem Auto steigt.<br/>
-3. Widerstand oder das Missachten der Anweisungen wird im schlimmsten Fall mit dem Gebrauch der Schusswaffe bzw. des Tasers beantwortet.<br/>
-4. Das Betreten der Polizei HQs auf gesamt Altis einschließlich des Gefängnis, ohne die Erlaubnis eines Polizeibeamten, ist strengstens untersagt. Zuwiederhandlung wird mit einer Inhaftierung und eventuellem Beschuss geahndet!
+2. Wer eine Waffe bei sich führt sollte dies dem Polizisten mitteilen bevor man aus einem Auto steigt und die Waffe unmittelbar nach dem Aussteigen, wegstecken!<br/>
+3. Widerstand oder das Missachten der Anweisungen der Polizeibeamten wird im schlimmsten Fall mit dem Gebrauch der Schusswaffe bzw. des Tasers geahndet.<br/>
+4. Das Betreten der Polizei HQs auf gesamt Altis einschließlich des Gefängnis, ohne die Erlaubnis eines Polizeibeamten, ist strengstens untersagt. Zuwiederhandlung wird mit einer Inhaftierung und eventuellem Beschuss geahndet!<br/>
+5. Die Polizeibeamten haben das Recht Platzverweise auszustellen. Wer diesem Verweis nicht nach kommt, betretet somit eine Sperrzone und wird nach einmaliger Warnung für 5 Monate hinter Gittern gesetzt.<br/>
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§9 Razzien und Camping</font></font><br/>
 1. Bei einer Razzia müssen mindestens vier Beamte Anwesend sein.<br/>
-2. Bei einer Razzia darf jede Person zunächst kontrolliert und festgehalten werden.<br/>
+2. Bei einer Razzia darf jede Person zunächst kontrolliert und festgehalten werden bis die Roleplay-Handlung vorbei ist.<br/>
 3. Nach einer Razzia darf das entsprechende Gebiet für mindestens 30 Minuten nicht erneut betreten werden.<br/>
-4. Polizisten dürfen sich zur Observierung für maximal 15 Minuten im entsprechende Gebiet aufhalten.
+4. Polizisten dürfen sich zur Observierung für maximal 15 Minuten im entsprechenden Gebiet aufhalten.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§10 Festnahmen und Bußgelder</font></font><br/>
-1. Jeder Polizist ist angehalten, Bußgelder statt Gefängnisstrafen zu verhängen.<br/>
+1. Jeder Polizist ist angehalten, Bußgelder statt Gefängnisstrafen zu verhängen (Außnahmen: §10, 3).<br/>
 2. Der Bußgeldkatalog ist hierbei bindend.<br/>
 3. Wiederholungstäter sind zu inhaftieren!<br/>
 4. Jeder Bürger hat das Recht zu erfahren, wieso er festgenommen wurde/ wird.<br/>
 5. Jeder Bürger hat das Recht darauf, seine Rechte vorgelesen zu bekommen.<br/>
-6. Sollte ein Bußgeld verhängt und bezahlt worden sein, ist der Gefangene umgehend freizulassen, außer es geht eine Weitere Gefahr von ihm aus.<br/>
+6. Sollte ein Bußgeld verhängt und bezahlt worden sein, ist der Gefangene umgehend freizulassen, außer es geht eine weitere Gefahr von ihm aus.<br/>
 7. Bei bestimmten Delikten ist die Polizei berechtigt Lizenzen zu entfernen.
 <br/>
 <br/>
@@ -112,7 +113,7 @@ player createDiarySubject ["platzh6","==================="];
 2. Bei einer Fahrzeugkontrolle ist für die Absicherung der Polizeikräfte zu sorgen.<br/>
 3. Ein Checkpoint muss aus mindestens drei Polizisten und zwei Fahrzeugen bestehen.<br/>
 4. Solange ein Checkpoint besetzt ist dürfen Polizisten sich an diesem Wiederbeleben lassen.<br/>
-5. Das Umfahren eines Checkpoints (sei es mobil oder fest) stellt eine Straftat dar.
+5. Das Umfahren eines Checkpoints (sei es mobil oder fest) stellt eine Straftat dar und kann ggf. mit Beschuss geahndet werden.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§12 Umgang mit Sanitätern und Pannenhelfern</font></font><br/>
@@ -130,12 +131,13 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <font color='#FF0000'><font size='16'>§14 Plündern / Looten</font></font><br/>
 1. Das Plündern von Items, Waffen und Kleidungsstücke ist nicht mehr möglich.<br/>
-2. Das Ausnutzen von bestimmten Bugs um beispielsweise die Waffen aufzuheben, ist Bug-Abuse und wird dementsprechend bestraft.
+1.1 Darunter fällt auch das Hand-Icon (Aufheben) sowie das Neu-Bewaffnen an Rucksäcken oder Ähnlichem.<br/>
+2. Das Ausnutzen von bestimmten Bugs um beispielsweise die Waffe(n) aufzuheben, ist Bug-Abuse und wird dementsprechend bestraft.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§15 Hot-Spots</font></font><br/>
 1. Bei Hot-Spots darf man ohne Vorwarnung scharf auf die Polizei schiessen. Die Zivilisten müssen weiterhin nach den normalen Regeln behandelt werden.<br/>
-2. Zu Hot-Spots zählen: Drogendealer, Zentralbank, Schwarzmarkt, Drogenfelder sowie deren Verarbeitung und Gang Hideouts.
+2. Zu Hot-Spots zählen: Drogendealer, Zentralbank, Schwarzmarkt, Drogenfelder sowie deren Verarbeitung und Gang-Hideouts.
 <br/>
 <br/>
 				"
@@ -159,7 +161,7 @@ player createDiarySubject ["platzh6","==================="];
 6. Mit Waffen auf Fahrzeuge zu Feuern ohne RP-Hintergrund ist untersagt.<br/>
 7. Autos stehlen direkt nach dem Aussteigen, ohne dem Piloten/Fahrer Zeit zu geben das Fahrzeug abzuschließen, ist ein Banngrund!<br/>
 8. Absichtliches vor ein Auto werfen um verletzt zu werden oder zu sterben ist verboten!<br/>
-9. Sollte sich ein Einsatzfahrzeug mit Martinshorn/ Sirene näheren müssen die Fahrzeuge die sich auf der Fahrbahn befinden ihre Geschwindigkeit verlangsamen und sich an den rechten Straßenrand begeben!<br/>
+9. Sollte sich ein Einsatzfahrzeug mit Martinshorn/ Sirene näheren müssen die Fahrzeuge die sich auf der Fahrbahn befinden ihre Geschwindigkeit verlangsamen und sich an den rechten Straßenrand begeben. Sollte man diesem nicht Nachkommen, behindert man hierbei die Arbeit eines Beamten und man wird zur Rechenschaft gezogen werden.<br/>
 10. Der Kavala Markt ist nicht für Fahrzeuge die größer als der Truck Boxer sind (LKWs) zu befahren.<br/>
 11. Das Herumfahren in einem Hunter oder dem bewaffneten Offroader ist eine Straftat. Diese Fahrzeuge sind auf gesamt Altis verboten!<br/>
 12. Auch die Pannenhelfer und Sanitäter haben sich, wenn Sie nicht im Einsatz sind, an diese Regeln zu halten!
@@ -176,8 +178,8 @@ player createDiarySubject ["platzh6","==================="];
 1. Das Benutzen eines Helikopters als Kamikaze-Objekt ist Verboten und führt zum Bann.<br/>
 2. Das Überfliegen oder Hovern über Städte ist verboten. Die Polizeibeamten sind dazu berechtigt, den Helikopter scharf unter Beschuss nehmen. Ausgenommen von dieser Regel sind Sanitäter und Pannenhelfer.<br/>
 3. Es ist nicht erlaubt innerhalb einer geschlossenen Ortschaft zu landen. In Notfällen sind Pannenhelfer und Sanitäter von dieser Regelung ausgenommen.<br/>
-3.1. Es ist ebenfalls verboten, auf Straßen zu landen. Ausßnahme stehen für Sanitäter und Pannenhelfer.<br/>
-4. Das Hovern und Landen über dem Staatsgefängnis von Altis ist untersagt. Eine Zuwiederhandlung wird mit Beschuss geahndet!
+3.1. Es ist ebenfalls verboten, auf Straßen zu landen. Außnahme stehen für Sanitäter und Pannenhelfer.<br/>
+4. Das Hovern, Überfliegen und Landen über/auf dem Staatsgefängnis von Altis ist untersagt. Eine Zuwiederhandlung wird mit Beschuss geahndet!
 <br/>
 <br/>
 				"
