@@ -11,7 +11,7 @@ _guncost = 18000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MK18 Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten.",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"
@@ -76,14 +76,15 @@ player addItem "NVGoggles";
 player assignItem "NVGoggles";
 player addItem "Rangefinder";
 player assignItem "Rangefinder";
-player addItemToBackpack "muzzle_snds_B";
-player addItemToBackpack "optic_Arco";
 player addItemToBackpack "optic_SOS";
 player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
+// Attachment to Weapon 
+player addPrimaryWeaponItem "muzzle_snds_B";
+player addPrimaryWeaponItem "optic_Arco";
 
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 2];
@@ -100,7 +101,7 @@ life_inv_redgull = life_inv_redgull + 10;
 reload player;
 titleText [format["Hier, Ihre %1",_loadoutName],"PLAIN"];
 } else {
-			hint"Dann ein anderes mal.";
+			hint"Dann ein anderes Mal.";
 };
 
 [] spawn life_fnc_updateClothing;

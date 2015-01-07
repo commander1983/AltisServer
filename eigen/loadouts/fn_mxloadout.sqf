@@ -11,7 +11,7 @@ _guncost = 16000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MX Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten.",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"
@@ -77,12 +77,13 @@ player addItem "NVGoggles";
 player assignItem "NVGoggles";
 player addItem "Rangefinder";
 player assignItem "Rangefinder";
-player addItemToBackpack "muzzle_snds_H";
-player addItemToBackpack "optic_Arco";
 // Munition in Rucksack
 player addItemToBackpack "30Rnd_65x39_caseless_mag";
 player addItemToBackpack "30Rnd_65x39_caseless_mag";
 player addItemToBackpack "30Rnd_65x39_caseless_mag";
+// Attachment to Weapon 
+player addPrimaryWeaponItem "muzzle_snds_H";
+player addPrimaryWeaponItem "optic_Arco";
 
 
 mybackpack = unitBackpack player;

@@ -11,7 +11,7 @@ _guncost = 9000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "Taser Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten.",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"

@@ -11,7 +11,7 @@ _guncost = 12000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "Tasergewehr Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten.",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"
@@ -71,11 +71,12 @@ player addItem "NVGoggles";
 player assignItem "NVGoggles";
 player addItem "Rangefinder";
 player assignItem "Rangefinder";
-player addItemToBackpack "muzzle_snds_L";
-player addItemToBackpack "optic_ACO_grn_smg";
 //2 Magazine (Fixed)
 player addItemToBackpack "30Rnd_9x21_Mag";
 player addItemToBackpack "30Rnd_9x21_Mag";
+//Attachment to Primary Weapon
+player addPrimaryWeaponItem "muzzle_snds_L";
+player addPrimaryWeaponItem "optic_ACO_grn_smg";
 
 
 mybackpack = unitBackpack player;
