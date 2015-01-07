@@ -3472,7 +3472,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1680;
+		items=1687;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -21298,6 +21298,88 @@ class Mission
 			vehicle="Land_LampHalogen_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
+		};
+		class Item1680
+		{
+			position[]={3655.252,10.459643,13087.607};
+			azimut=363.98654;
+			offsetY=0.1;
+			id=1874;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1681
+		{
+			position[]={3650.7017,10.357966,13087.725};
+			azimut=363.41354;
+			offsetY=0.1;
+			id=1875;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1682
+		{
+			position[]={3646.2544,10.203878,13087.791};
+			azimut=362.66852;
+			offsetY=0.1;
+			id=1876;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1683
+		{
+			position[]={3656.7534,10.525594,13083.898};
+			azimut=629.12;
+			id=1877;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_ARMEX_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""images\signt_nolkw.paa""];";
+		};
+		class Item1684
+		{
+			position[]={3642.9751,10.159586,13087.81};
+			azimut=363.98654;
+			offsetY=0.1;
+			id=1878;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1685
+		{
+			position[]={3638.4248,10.15943,13087.927};
+			azimut=363.41354;
+			offsetY=0.1;
+			id=1879;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1686
+		{
+			position[]={3633.9775,10.186204,13087.993};
+			azimut=362.66852;
+			offsetY=0.1;
+			id=1880;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
 		};
 	};
 	class Markers
