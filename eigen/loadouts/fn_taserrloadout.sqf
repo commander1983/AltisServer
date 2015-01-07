@@ -69,11 +69,10 @@ player addItem "ItemGPS";
 player assignItem "ItemGPS";
 player addItem "NVGoggles";
 player assignItem "NVGoggles";
-player addItem "Rangefinder";
-player assignItem "Rangefinder";
 //2 Magazine (Fixed)
 player addItemToBackpack "30Rnd_9x21_Mag";
 player addItemToBackpack "30Rnd_9x21_Mag";
+player addItemToBackpack "Rangefinder";
 //Attachment to Primary Weapon
 player addPrimaryWeaponItem "muzzle_snds_L";
 player addPrimaryWeaponItem "optic_ACO_grn_smg";

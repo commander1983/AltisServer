@@ -73,8 +73,7 @@ player addItem "ItemGPS";
 player assignItem "ItemGPS";
 player addItem "NVGoggles";
 player assignItem "NVGoggles";
-player addItem "Rangefinder";
-player assignItem "Rangefinder";
+player addItemToBackpack "Rangefinder";
 // Attachment to Weapon
 player addPrimaryWeaponItem "muzzle_snds_H";
 player addPrimaryWeaponItem "optic_Arco";
