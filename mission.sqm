@@ -158,8 +158,8 @@ class Mission
 		year=2014;
 		month=8;
 		day=11;
-		hour=21;
-		minute=15;
+		hour=4;
+		minute=55;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
