@@ -43,6 +43,19 @@ player addUniform "U_Rangemaster";
 player addHeadgear "H_Beret_blk_POLICE";
 player addVest "V_Rangemaster_belt";
 
+player addItem "ItemMap";
+player assignItem "ItemMap";
+player addItem "ItemCompass";
+player assignItem "ItemCompass";
+player addItem "ItemRadio";
+player assignItem "ItemRadio";
+player addItem "ItemGPS";
+player assignItem "ItemGPS";
+player addItem "NVGoggles";
+player assignItem "NVGoggles";
+player addItem "Rangefinder";
+player assignItem "Rangefinder";
+
 sleep 2;
 
 player addWeapon "hgun_P07_snds_F";
@@ -58,18 +71,6 @@ sleep 2;
 
 titleText ["...Rucksack nicht vergessen...","PLAIN"];
 player addBackPack "B_Carryall_cbr";
-player addItem "ItemMap";
-player assignItem "ItemMap";
-player addItem "ItemCompass";
-player assignItem "ItemCompass";
-player addItem "ItemRadio";
-player assignItem "ItemRadio";
-player addItem "ItemGPS";
-player assignItem "ItemGPS";
-player addItem "NVGoggles";
-player assignItem "NVGoggles";
-player addItem "Rangefinder";
-player assignItem "Rangefinder";
 
 
 mybackpack = unitBackpack player;
