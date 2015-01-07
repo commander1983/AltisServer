@@ -54,7 +54,7 @@ while {true} do
 		
 	};
 	
-	if(player distance (getMarkerPos "jail_marker") > 150) exitWith
+	if(player distance (getMarkerPos "jail_marker") > 100) exitWith
 	{
 		_esc = true;
 	};
