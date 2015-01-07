@@ -29,6 +29,10 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 		
 		while{true} do
 		{
+		if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
+		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
+		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
+		};
 			sleep 0.30;
 			_cP = _cP + 0.01;
 			_progress progressSetPosition _cP;
