@@ -18,7 +18,7 @@ if(count _ret > 0) then { life_bail_amount = _time * 30; } else { life_bail_amou
 _esc = false;
 _bail = false;
 
-if(_time <= 0) then { _time = time + (15 * 60); hintC "Please Report to Admin: JAIL_FALLBACK_15, time is zero!"; };
+if(_time <= 0) then { _time = time + (15 * 60); hintC "BITTE EINEM ADMIN MELDEN: JAIL_FALLBACK_15, time is zero!"; };
 
 [_bad,_time] spawn
 {
@@ -45,11 +45,11 @@ while {true} do
 		_countDown = if(round (_time - time) > 60) then {format["%1 minute(s)",round(round(_time - time) / 60)]} else {format["%1 second(s)",round(_time - time)]};
 		if(isNil "life_canpay_bail") then
 		{
-			hintSilent format["Verbleibende Zeit:\n %1\n\nKaution Bezahlen:\nKautionspreis: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
+			hintSilent format["Verbleibende Zeit: \n %1\n \n Kaution Bezahlen: \n Kautionspreis: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
 		}
 		else
 		{
-			hintSilent format["Verbleibende Zeit:\n %1\n",_countDown];
+			hintSilent format["Verbleibende Zeit: \n %1 \n",_countDown];
 		};
 		
 	};
@@ -79,14 +79,15 @@ switch (true) do
 	{
 		life_is_arrested = false;
 		life_bail_paid = false;
-		hint "You have paid your bail and are now free.";
+		hint "Du hast die Kaution bezahlt und bist nun Frei.";
 		serv_wanted_remove = [player];
 		player setPos (getMarkerPos "jail_release");
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 		removeUniform player;
-		player addUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "images\kleidung\jail.jpg"];
+		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
+		sleep 3;
+		[] call SOCK_fnc_updateRequest;
 	};
 	
 	case (_esc) :
@@ -96,6 +97,8 @@ switch (true) do
 		[[0,"STR_Jail_EscapeNOTF",true,[profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 		[[getPlayerUID player,profileName,"901"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 		[5] call SOCK_fnc_updatePartial;
+		sleep 3;
+		[] call SOCK_fnc_updateRequest;
 	};
 	
 	case (alive player && !_esc && !_bail) :
@@ -107,5 +110,7 @@ switch (true) do
 		removeUniform player;
 		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
+		sleep 3;
+		[] call SOCK_fnc_updateRequest;
 	};
 };

@@ -60,7 +60,6 @@ if("ItemRadio" in assignedItems player) then {
 [[player,_bad,_time],"life_fnc_jailSys",false,false] spawn life_fnc_MP; //Give time ##80 to jailSys, if not BAD save time variable in DB, if not, load <-- Replace Old Line With This
 [5] call SOCK_fnc_updatePartial;
 
-sleep 5;
+sleep 3;
 [] call SOCK_fnc_updateRequest;
-hint "Data Synced";
 //[1,false] call SOCK_fnc_updateRequest;
