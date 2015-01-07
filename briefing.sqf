@@ -37,19 +37,21 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='16'>§2 Exploits, Hacks und Bugs</font></font><br/>
 1. Das Ausnutzen von Bugs ist Verboten!<br/>
 1.1 Das Nutzen von Cheats, Hacks, Exploits und Scripten ist verboten!<br/>
-1.2. Das Nutzen von gecheateten Items/ Fahrzeugen ist zu unterlassen! Dies ist einem Administrator mitzuteilen. Ein Verstoß kann mit einem Bann bestraft werden.<br/>
+1.2. Das Nutzen von gecheateten Items/ Fahrzeugen/ Objekten ist zu unterlassen! Dies ist einem Administrator mitzuteilen. Ein Verstoß kann mit einem Bann bestraft werden.<br/>
 1.3. Sollte dir jemand einen seltsam hohen Geldbetrag überweisen, ohne Grund, ist dies ebenfalls einem Administrator mitzuteilen. <br/>
-1.4. Das Processen durch Wände, glitchen/durchspringen durch Wände etc. fällt ebenso unter Bugusing und wird dementsprechend bestraft.<br/>
+1.4. Das Processen, Glitchen oder Durchspringen durch Fahrzeuge/ Wände bzw. Objekte fällt ebenso unter Bugusing und wird dementsprechend bestraft.<br/>
 2. Bugs sind im Forum zu Melden!
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§3 Safezone</font></font><br/>
 1. Alle Geldautomaten, Lizenzhändler, Fahrzeughändler, Donatershop und Garagen sind Safezonen. Diese werden durch einen grünen Kreis markiert!<br/>
 2. Eine Safezone beträgt immer 50 Meter um jeden der oben genannten Punkten.<br/>
-3. Jegliche Straftaten sind in diesen Zonen verboten.<br/>
+3. Jegliche Straftaten sind in diesen Zonen (Safezonen) verboten.<br/>
+3.1 Darunter fällt auch das Festnehmen, Foltern, Einsteigen in offene Fahrzeuge und Ausrauben von Personen (auch wenn sich die Person sich ergibt).<br/>
+3.2 Das Missachten führt zum Bann.<br/>
 4. Das Abfeuern von Schusswaffen ist in Safezonen Verboten!<br/>
-5. Das Missachten der SafeZone Regel kann im schlimmsten Fall mit einem Bann bestraft werden!<br/>
-6. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde. Es dürfen keine Unbeteiligten mit in die Sache hineingezogen werden! So ist z.B. das Einparken von illegalen Fahrzeugen während einer Verfolgung in eine Safezone nicht erlaubt.
+5. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde. Es dürfen keine Unbeteiligten mit in die Sache hineingezogen oder gar verletzt werden! So ist z.B. das Einparken von illegalen Fahrzeugen während einer Polizei Verfolgung nicht erlaubt.<br/>
+6. Das Missachten der SafeZone Regel kann im schlimmsten Fall mit einem Bann bestraft werden!
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§4 NewLife Regelung</font></font><br/>
@@ -88,7 +90,6 @@ player createDiarySubject ["platzh6","==================="];
 2. Wer eine Waffe bei sich führt sollte dies dem Polizisten mitteilen bevor man aus einem Auto steigt und die Waffe unmittelbar nach dem Aussteigen, wegstecken!<br/>
 3. Widerstand oder das Missachten der Anweisungen der Polizeibeamten wird im schlimmsten Fall mit dem Gebrauch der Schusswaffe bzw. des Tasers geahndet.<br/>
 4. Das Betreten der Polizei HQs auf gesamt Altis einschließlich des Gefängnis, ohne die Erlaubnis eines Polizeibeamten, ist strengstens untersagt. Zuwiederhandlung wird mit einer Inhaftierung und eventuellem Beschuss geahndet!<br/>
-5. Die Polizeibeamten haben das Recht Platzverweise auszustellen. Wer diesem Verweis nicht nach kommt, betretet somit eine Sperrzone und wird nach einmaliger Warnung für 5 Monate hinter Gittern gesetzt.<br/>
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§9 Razzien und Camping</font></font><br/>
@@ -131,7 +132,6 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <font color='#FF0000'><font size='16'>§14 Plündern / Looten</font></font><br/>
 1. Das Plündern von Items, Waffen und Kleidungsstücke ist nicht mehr möglich.<br/>
-1.1 Darunter fällt auch das Hand-Icon (Aufheben) sowie das Neu-Bewaffnen an Rucksäcken oder Ähnlichem.<br/>
 2. Das Ausnutzen von bestimmten Bugs um beispielsweise die Waffe(n) aufzuheben, ist Bug-Abuse und wird dementsprechend bestraft.
 <br/>
 <br/>
@@ -293,7 +293,7 @@ player createDiaryRecord ["lizenz",
 		]
 	];
 
-// ##########-- COCKTAILS (no dicktails) bekoo VS murphy--##########
+// ##########-- COCKTAILS (no dicktails) bekoo VS murphy . everybody loves bekoo. he is the troll-master at whole altis life --##########
 
 
 	player createDiaryRecord ["cocks",
