@@ -59,7 +59,9 @@ player createDiarySubject ["platzh6","==================="];
 1.1 Es gibt keine Zeitbegrenzung mehr. Dies zählt also für die gesamte Roleplay Situation.<br/>
 2. Solltest du durch einen Medic wiederbelebt worden sein, verfällt die NewLife Regel.<br/>
 3. Beim Verwenden einer Zyankalikapsel wirst du nicht von der Fahndungsliste entfernt.<br/>
-3.1 Cyanidtod ist das Gleiche wie Erschossen werden - nicht mehr in die RP-Handlung eingreifen!
+3.1 Cyanidtod ist das Gleiche wie Erschossen werden - nicht mehr in die RP-Handlung eingreifen!<br/>
+4. Sobald man den Server verlässt (Verbindungsabbruch, Spielfehler o.Ä.) darfst du nicht mehr in die Roleplay-Handlung eingreifen!<br/>
+5. Das Missachten dieser Regel führt zu einem Bann!
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§5 Fahrzeug Zerstörung</font></font><br/>

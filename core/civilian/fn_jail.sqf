@@ -52,8 +52,8 @@ removeAllWeapons player;
 
 // Pruefe fuer Handy ausgerüstet , falls ja entfernen
 if("ItemRadio" in assignedItems player) then {
-	player removeWeapon "ItemRadio";
-}
+	player removeweapon "ItemRadio";
+} else {};
 
 {player removeMagazine _x} foreach (magazines player);
 
