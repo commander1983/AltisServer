@@ -6,7 +6,7 @@ if(!((typeOf _vehicle) in ["B_Quadbike_01_F","C_Hatchback_01_sport_F","C_Offroad
 if(count (crew (_vehicle)) == 0) exitWith {};
 if(!alive _vehicle) exitWith {};
 
-_targets = nearestObjects [_vehicle, ["Car"], 250];
+_targets = nearestObjects [_vehicle, ["Car","Air"], 250];
 _validtargets = [];
 {if (alive _x) then {_validtargets set [(count _validtargets),_x];};} foreach _targets;
 
