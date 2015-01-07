@@ -29,6 +29,7 @@ removeUniform player;
 removeVest player;
 removeBackpack player;
 player addUniform "U_I_HeliPilotCoveralls";
+sleep 1;
 [] call life_fnc_updateClothing;
 
 if(_bad) then
@@ -48,6 +49,12 @@ if(player distance (getMarkerPos "jail_marker") > 120) then
 life_is_arrested = true;
 
 removeAllWeapons player;
+
+// Pruefe fuer Handy ausgerüstet , falls ja entfernen
+if("ItemRadio" in assignedItems player) then {
+	player removeWeapon "ItemRadio";
+}
+
 {player removeMagazine _x} foreach (magazines player);
 
 [[player,_bad,_time],"life_fnc_jailSys",false,false] spawn life_fnc_MP; //Give time ##80 to jailSys, if not BAD save time variable in DB, if not, load <-- Replace Old Line With This
