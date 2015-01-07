@@ -7,7 +7,7 @@ if(__GETC__(life_coplevel) < 5) exitwith {hint "Nur für Oberkommissare oder hö
 if(playerSide != west) exitWith {hint "Du bist kein Polizist!";};
 if (vehicle player != player) exitWith { hint "Du kannst nicht im KFZ Sachen kaufen!" };
 if(!alive player) exitWith {hint"Du bist tot. Tote können nichts kaufen!";};
-_guncost = 18000;
+_guncost = 15000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MXSW Vollausstattung";
 _action = [
@@ -51,13 +51,11 @@ player addWeapon "arifle_MX_SW_Black_F";
 player selectWeapon "hgun_P07_snds_F";
 player addMagazine "30Rnd_9x21_Mag";
 player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "100Rnd_65x39_caseless_mag_Tracer";
-player addMagazine "100Rnd_65x39_caseless_mag_Tracer";
-player addMagazine "100Rnd_65x39_caseless_mag_Tracer";
-player addMagazine "100Rnd_65x39_caseless_mag_Tracer";
-player addMagazine "100Rnd_65x39_caseless_mag_Tracer";
+player addItemToVest "100Rnd_65x39_caseless_mag_Tracer";
+player addItemToVest "100Rnd_65x39_caseless_mag_Tracer";
+player addItemToVest "100Rnd_65x39_caseless_mag_Tracer";
+player addItemToVest "100Rnd_65x39_caseless_mag_Tracer";
+player addItemToVest "100Rnd_65x39_caseless_mag_Tracer";
 
 sleep 2;
 
@@ -74,6 +72,11 @@ player assignItem "ItemGPS";
 player addItem "NVGoggles";
 player assignItem "NVGoggles";
 player addItemToBackpack "Rangefinder";
+// Munition im Rucksack
+player addItemToBackpack "30Rnd_9x21_Mag";
+player addItemToBackpack "HandGrenade_Stone";
+player addItemToBackpack "HandGrenade_Stone";
+player addItemToBackpack "100Rnd_65x39_caseless_mag_Tracer";
 // Attachment to Weapon
 player addPrimaryWeaponItem "muzzle_snds_H";
 player addPrimaryWeaponItem "optic_Arco";
@@ -81,7 +84,7 @@ player addPrimaryWeaponItem "optic_Arco";
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 2];
 mybackpack addItemCargoGlobal ["FirstAidKit", 4];
-//you can also y-inv items too like this
+/*
 life_inv_coffee = life_inv_coffee + 2;
 life_inv_donuts = life_inv_donuts + 10;
 life_inv_spikeStrip = life_inv_spikeStrip + 1;
@@ -89,6 +92,7 @@ life_inv_handcuffs = life_inv_handcuffs + 6;
 life_inv_battery = life_inv_battery + 1;
 life_inv_keys = life_inv_keys + 1;
 life_inv_redgull = life_inv_redgull + 10;
+*/
 
 reload player;
 titleText [format["Sie sind vollständig nach der %1 ausgestattet.",_loadoutName],"PLAIN"];
