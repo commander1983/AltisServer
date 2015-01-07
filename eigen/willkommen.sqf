@@ -17,7 +17,7 @@ _role2names = ["Staiy","Snerz","Spoilty","mantis","bekoo"];
 _role3 = "Webseite/ Teamspeak";
 _role3names = ["www.staiylite.de","TeamSpeakIP: ts.staiylite.de"];
 _role4 = "Aktuelle Neuerungen/ ChangeLog";
-_role4names = ["Loadout-Anpassung für Cops","Neues Ausbruchsystem","Einige Bug-Fixes","Weitere Infos und ChangeLog: www.staiylite.de"];
+_role4names = ["Cop Shop Änderung","Neues Ausbruchsystem","Neue Map","Weitere Infos und ChangeLog: www.staiylite.de"];
 
 {
 sleep 2;

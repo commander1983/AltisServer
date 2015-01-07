@@ -1,24 +1,24 @@
 #include <macro.h>
 private ["_loadoutName","_action","_guncost"];
 
-if(__GETC__(life_donator) == 0) exitwith {hint "Nur fuer Donator";};
-if(__GETC__(life_coplevel) < 6) exitwith {hint "Nur fuer Hauptkommissare oder hoeher";};
+if(__GETC__(life_donator) == 0) exitwith {hint "Nur für Donator!";};
+if(__GETC__(life_coplevel) < 6) exitwith {hint "Nur für Hauptkommissare oder höher!";};
 
 if(playerSide != west) exitWith {hint "Du bist kein Polizist!";};
 if (vehicle player != player) exitWith { hint "Du kannst nicht im KFZ Sachen kaufen!" };
-if(!alive player) exitWith {hint"Du bist tot. Tote k�nnen nichts kaufen!";};
+if(!alive player) exitWith {hint"Du bist tot. Tote können nichts kaufen!";};
 _guncost = 18000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MK18 Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! :%1: Das wird dich %2� kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"
 		] call BIS_fnc_guiMessage;
 if(_action) then {
 			
-hint parseText format["Du kaufst die %1 fuer <t color='#8cff9b'>%2�</t>",_loadoutName,[_guncost] call life_fnc_numberText];
+hint parseText format["Du kaufst die %1 fuer <t color='#8cff9b'>%2€</t>",_loadoutName,[_guncost] call life_fnc_numberText];
 ja_dzep = ja_dzep - _guncost;
 
 titleText[format["Das macht %1 bitte",[_guncost] call life_fnc_numberText],"PLAIN"];
@@ -44,6 +44,8 @@ player addHeadgear "H_Beret_blk_POLICE";
 player addgoggles "G_Aviator";
 player addVest "V_TacVest_blk_POLICE";
 
+sleep 2;
+
 player addWeapon "hgun_P07_snds_F";
 player addWeapon "srifle_EBR_F";
 player selectWeapon "hgun_P07_snds_F";
@@ -57,15 +59,11 @@ player addMagazine "20Rnd_762x51_Mag";
 player addMagazine "20Rnd_762x51_Mag";
 player addMagazine "20Rnd_762x51_Mag";
 player addMagazine "20Rnd_762x51_Mag";
-player addMagazine "20Rnd_762x51_Mag";
-player addMagazine "20Rnd_762x51_Mag";
-player addMagazine "20Rnd_762x51_Mag";
-player addMagazine "20Rnd_762x51_Mag";
-player addMagazine "20Rnd_762x51_Mag";
+
+sleep 2;
 
 titleText ["...Rucksack nicht vergessen...","PLAIN"];
 player addBackPack "B_Carryall_cbr";
-
 player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemCompass";
@@ -81,6 +79,11 @@ player assignItem "Rangefinder";
 player addItemToBackpack "muzzle_snds_B";
 player addItemToBackpack "optic_Arco";
 player addItemToBackpack "optic_SOS";
+player addItemToBackpack "20Rnd_762x51_Mag";
+player addItemToBackpack "20Rnd_762x51_Mag";
+player addItemToBackpack "20Rnd_762x51_Mag";
+player addItemToBackpack "20Rnd_762x51_Mag";
+player addItemToBackpack "20Rnd_762x51_Mag";
 
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 2];

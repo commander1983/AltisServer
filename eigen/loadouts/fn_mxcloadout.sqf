@@ -1,24 +1,24 @@
 #include <macro.h>
 private ["_loadoutName","_action","_guncost"];
 
-if(__GETC__(life_donator) == 0) exitwith {hint "Nur fuer Donator";};
-if(__GETC__(life_coplevel) < 3) exitwith {hint "Nur fuer Polizeihauptmeister oder hoeher";};
+if(__GETC__(life_donator) == 0) exitwith {hint "Nur für Donator!";};
+if(__GETC__(life_coplevel) < 3) exitwith {hint "Nur für Polizeihauptmeister oder höher!";};
 
 if(playerSide != west) exitWith {hint "Du bist kein Polizist!";};
 if (vehicle player != player) exitWith { hint "Du kannst nicht im KFZ Sachen kaufen!" };
-if(!alive player) exitWith {hint"Du bist tot. Tote k�nnen nichts kaufen!";};
+if(!alive player) exitWith {hint"Du bist tot. Tote können nichts kaufen!";};
 _guncost = 17000;
 if(ja_dzep < _guncost) exitWith {hint format[localize "STR_NOTF_LO_NoCash",_guncost];};
 _loadoutName = "MXC Vollausstattung";
 _action = [
-			format["Dein komplettes Inventar wird durch den Kauf entfernt! :%1: Das wird dich %2� kosten",_loadoutName,[_guncost] call life_fnc_numberText],
+			format["Dein komplettes Inventar wird durch den Kauf entfernt! Die %1 wird dich %2€ kosten",_loadoutName,[_guncost] call life_fnc_numberText],
 			"Purchase Loadout",
 			"Purchase",
 			"No"
 		] call BIS_fnc_guiMessage;
 if(_action) then {
 			
-hint parseText format["Du kaufst die %1 fuer <t color='#8cff9b'>%2�</t>",_loadoutName,[_guncost] call life_fnc_numberText];
+hint parseText format["Du kaufst die %1 fuer <t color='#8cff9b'>%2€</t>",_loadoutName,[_guncost] call life_fnc_numberText];
 ja_dzep = ja_dzep - _guncost;
 
 titleText[format["Das macht %1 bitte",[_guncost] call life_fnc_numberText],"PLAIN"];
@@ -44,6 +44,8 @@ player addHeadgear "H_Beret_blk_POLICE";
 player addgoggles "G_Aviator";
 player addVest "V_TacVest_blk_POLICE";
 
+sleep 2;
+
 player addWeapon "hgun_P07_snds_F";
 player addWeapon "arifle_MXC_Black_F";
 player selectWeapon "hgun_P07_snds_F";
@@ -59,8 +61,8 @@ player addMagazine "30Rnd_65x39_caseless_mag";
 player addMagazine "30Rnd_65x39_caseless_mag";
 player addMagazine "30Rnd_65x39_caseless_mag";
 player addMagazine "30Rnd_65x39_caseless_mag";
-player addMagazine "30Rnd_65x39_caseless_mag";
-player addMagazine "30Rnd_65x39_caseless_mag";
+
+sleep 2;
 
 titleText ["...Rucksack nicht vergessen...","PLAIN"];
 player addBackPack "B_Carryall_cbr";
@@ -78,6 +80,9 @@ player addItem "Rangefinder";
 player assignItem "Rangefinder";
 player addItemToBackpack "muzzle_snds_H";
 player addItemToBackpack "optic_Hamr";
+// Munition in Rucksack
+player addItemToBackpack "30Rnd_65x39_caseless_mag";
+player addItemToBackpack "30Rnd_65x39_caseless_mag";
 
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 1];
@@ -92,9 +97,9 @@ life_inv_keys = life_inv_keys + 1;
 life_inv_redgull = life_inv_redgull + 10;
 
 reload player;
-titleText [format["Hier, Ihre %1",_loadoutName],"PLAIN"];
+titleText [format["Sie sind vollständig nach der %1 ausgestattet.",_loadoutName],"PLAIN"];
 } else {
-			hint"Dann ein anderes mal.";
+			hint"Dann ein anderes Mal.";
 };
 
 [] spawn life_fnc_updateClothing;

@@ -781,7 +781,6 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 • Snerz<br/>
 • Staiy<br/>
 • bekoo<br/>
-• Oesi<br/>
 • mantis
 <br/>
 <br/>
@@ -790,7 +789,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <br/>
 <br/>
 <font color='#D60000'><font size='16'>TeamSpeak3:</font></font><br/>
-• Unseren TeamSpeak3 Server: staiylite.de
+• Unseren TeamSpeak3 Server: ts.staiylite.de
 <br/>
 <br/>
 <font color='#218429'><font size='16'>Support:</font></font><br/>
