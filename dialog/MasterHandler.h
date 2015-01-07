@@ -36,6 +36,4 @@
 #include "channel.hpp"
 #include "compensate.hpp"
 
-#include "veh_repaint.hpp"
-
 #include "smartphone.hpp"
