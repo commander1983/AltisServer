@@ -158,7 +158,8 @@ class Mission
 		year=2014;
 		month=8;
 		day=11;
-		minute=5;
+		hour=21;
+		minute=15;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
@@ -3471,7 +3472,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1677;
+		items=1680;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -19226,8 +19227,8 @@ class Mission
 		};
 		class Item1490
 		{
-			position[]={3624.4041,10.086221,13113.606};
-			azimut=-130.35832;
+			position[]={3624.6431,10.084953,13113.845};
+			azimut=38.124645;
 			id=1684;
 			side="EMPTY";
 			vehicle="Land_Obstacle_Cross_F";
@@ -21267,6 +21268,36 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1677
+		{
+			position[]={5220.9404,20.678326,14201.964};
+			azimut=421.18253;
+			id=1871;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item1678
+		{
+			position[]={5263.0557,21.65056,14177.639};
+			azimut=392.70749;
+			id=1872;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item1679
+		{
+			position[]={5237.666,22.467236,14144.512};
+			azimut=421.33514;
+			id=1873;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
 		};
 	};
 	class Markers
@@ -23583,26 +23614,26 @@ class Mission
 		};
 		class Item276
 		{
-			position[]={5328.2764,21.937042,14481.219};
+			position[]={5324.5425,21.253483,14491.663};
 			name="SaveZone_5_1_26";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="Horizontal";
-			a=40;
-			b=20;
-			angle=-17.051907;
+			a=60;
+			b=50;
+			angle=-17.051901;
 		};
 		class Item277
 		{
-			position[]={9488.7627,131.3494,15190.603};
+			position[]={9534.6045,127.11562,15085.767};
 			name="SaveZone_5_1_27";
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="Horizontal";
-			a=400;
-			b=400;
+			a=100;
+			b=100;
 		};
 		class Item278
 		{
