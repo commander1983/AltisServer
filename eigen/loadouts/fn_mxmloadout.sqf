@@ -47,7 +47,7 @@ player addVest "V_TacVest_blk_POLICE";
 sleep 2;
 
 player addWeapon "hgun_P07_snds_F";
-player addWeapon "arifle_MX_Black_F";
+player addWeapon "arifle_MXM_Black_F";
 player selectWeapon "hgun_P07_snds_F";
 player addMagazine "30Rnd_9x21_Mag";
 player addMagazine "30Rnd_9x21_Mag";
