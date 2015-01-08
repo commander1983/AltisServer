@@ -1712,7 +1712,7 @@
 			<Original>Mische Zement an...</Original>
 		</Key>
 		<Key ID="STR_Process_Stay">
-			<Original>Sie müssen 10 Meter in der Nähe bleiben!</Original>
+			<Original>Sie müssen 3 Meter in der Nähe bleiben!</Original>
 		</Key>
 		<Key ID="STR_Process_License">
 			<Original>Sie brauchen %1€ um ohne eine Lizenz zu verarbeiten!</Original>
