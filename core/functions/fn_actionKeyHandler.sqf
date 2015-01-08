@@ -122,3 +122,17 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then
 		};
 	};
 };
+
+if(isPlayer _curTarget && _curTarget isKindOf "Man") then 
+{
+	if(playerSide == west && player distance cursorTarget < 3 && !(player getVariable ["surrender", false])) then //Wenn COP
+	{
+		if(_curTarget getVariable["surrender",false]) then
+		{
+			if(!dialog) then
+			{
+				[_curTarget] call life_fnc_copInteractionMenu;
+			};
+		};
+	};
+};	
