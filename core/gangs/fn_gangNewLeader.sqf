@@ -22,7 +22,7 @@ _action = [
 
 if(_action) then {
 	_unitID = getPlayerUID _unit;
-	if(_unitID == "") exitWith {hint "Bad UID?"}; //Unlikely?
+	if(_unitID == "") exitWith {hint "Keine unitID gefunden!"}; //Unlikely?
 	grpPlayer setVariable["gang_owner",_unitID,true];
 	grpPlayer selectLeader _unit;
 	[[_unit,grpPlayer],"TON_fnc_clientGangLeader",_unit,false] spawn life_fnc_MP; //Boot that bitch!
