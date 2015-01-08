@@ -153,7 +153,7 @@ switch (_code) do
 	{
 		if(!_alt && !_ctrlKey && !_shift) then
 		{
-			if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+			if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed && !life_action_gather && !life_knockout) then
 			{
 				if (player getVariable ["surrender", false]) then
 				{
