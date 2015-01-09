@@ -6,14 +6,6 @@
 	Main functionality for gathering.
 */
 
-_playerUserID = getPlayerUID player;
-
-		// Wenn Ergeben, dann nix Farmen, sondern ""Admin Report"" ;D
-if(player getVariable ["surrender", false]) exitWith {
-	life_action_gather = true; 			// Long text of doom haha
-	hint parseText format ["<t color='#ff0000' size='2' align='center'>ACHTUNG</t><br/><br/><t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird!<br/>Ein Admin wurde bereits kontaktiert.</t><br/><br/><br/><t color='#00ccff' size='1.5'>Spieler:</t> %1<br/><t color='#00ccff' size='1.5'>UID:</t> %2", profileName, _playerUserID];
-	sleep 5;	// Strafe muss sein -> 5 Sekunden lang nichts tun.
-};
 
 if(isNil "life_action_gather") then {life_action_gather = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
@@ -25,11 +17,23 @@ life_action_gather = true;
 
 //Find out what zone we're near
 {
-	if(player distance (getMarkerPos _x) < 75) exitWith {_zone = _x;};
-} foreach _resourceZones;
+	if(player distance (getMarkerPos _x) < 75) exitWith {
+		_zone = _x;
+	};
+} 
+foreach _resourceZones;
 
 if(_zone == "") exitWith {
 	life_action_inUse = false;
+};
+
+
+_playerUserID = getPlayerUID player;
+	// Wenn Ergeben, dann nix Farmen, sondern ""Admin Report"" ;D
+if((_zone != "") && player getVariable ["surrender", false]) exitWith {
+	life_action_gather = true; 			// Long text of doom haha
+	hint parseText format ["<t color='#ff0000' size='2' align='center'>ACHTUNG</t><br/><br/><t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird!<br/>Ein Admin wurde bereits kontaktiert.</t><br/><br/><br/><t color='#00ccff' size='1.2'>Spieler:</t> %1<br/><t color='#00ccff' size='1.2'>UID:</t> %2", profileName, _playerUserID];
+	sleep 5;	// Strafe muss sein -> 5 Sekunden lang nichts tun.
 };
 
 //Get the resource that will be gathered from the zone name...
