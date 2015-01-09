@@ -5,8 +5,8 @@
 	Description:
 	Main functionality for gathering.
 */
-if (life_fnc_surrender) exitWith {};
 
+if(player getVariable ["surrender", false]) exitWith {hint "EulenPower";};
 
 if(isNil "life_action_gather") then {life_action_gather = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
