@@ -6,7 +6,7 @@
 	Main functionality for gathering.
 */
 
-if(player getVariable ["surrender", false]) exitWith {hint "EulenPower";};
+if(player getVariable ["surrender", false]) exitWith {};
 
 if(isNil "life_action_gather") then {life_action_gather = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
@@ -53,10 +53,10 @@ for "_i" from 0 to 2 do
 	sleep 2.5;
 };
 
-if(([true,_gather,_diff] call life_fnc_handleInv)) then
+if(([true,_gather,_diff] call life_fnc_handleInv) && (player getVariable["surrender",false])) then
 {
 	_itemName = [([_gather,0] call life_fnc_varHandle)] call life_fnc_varToStr;
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
-};
+} else {};
 
 life_action_inUse = false;
