@@ -53,7 +53,7 @@ for "_i" from 0 to 2 do
 	sleep 2.5;
 };
 
-if(([true,_gather,_diff] call life_fnc_handleInv) && (player getVariable["surrender",false])) then
+if(([true,_gather,_diff] call life_fnc_handleInv) && (player getVariable["surrender",true])) then
 {
 	_itemName = [([_gather,0] call life_fnc_varHandle)] call life_fnc_varToStr;
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
