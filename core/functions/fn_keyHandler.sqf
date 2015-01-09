@@ -463,7 +463,7 @@ switch (_code) do
 			};
 		};
 	};
-	
+/*	
 	//EMP Konsole - K
     case 37:
     {
@@ -472,7 +472,7 @@ switch (_code) do
             [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
         };
     };
-	
+*/	
 	case 79:
 	{
 		if(_shift) then {_handled = true;};
