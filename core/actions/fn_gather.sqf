@@ -10,7 +10,7 @@ _playerUserID = getPlayerUID player;
 
 if(player getVariable ["surrender", false]) exitWith {
 	life_action_gather = true; 
-	hint format ["<t color='#ff0000' size='1.5' align='center' shadow='1' shadowColor='#000000'>ACHTUNG</t>\n\n<t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird! Ein Admin wurde bereits kontaktiert.</t>\n\n\n<t color='#00ccff'Spieler:</t> %1\n<t color='#00ccff'>UID:</t> %2", player, _playerUserID]
+	hint parseText format ["<t color='#ff0000' size='1.5' align='center'>ACHTUNG</t><br/><br/><t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird! Ein Admin wurde bereits kontaktiert.</t><br/><br/><br/><t color='#00ccff'Spieler:</t> %1<br/><t color='#00ccff'>UID:</t> %2", profileName, _playerUserID]
 };
 
 if(isNil "life_action_gather") then {life_action_gather = false;};
