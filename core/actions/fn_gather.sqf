@@ -8,7 +8,10 @@
 
 _playerUserID = getPlayerUID player;
 
-if(player getVariable ["surrender", false]) exitWith {hint format ["<t color='#ff0000' size='1.5' align='center' shadow='1' shadowColor='#000000'>ACHTUNG</t>\n\n<t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird! Ein Admin wurde bereits kontaktiert.</t>\n\n\n<t color='#00ccff'Spieler:</t> %1\n<t color='#00ccff'>UID:</t> %2", player, _playerUserID]};
+if(player getVariable ["surrender", false]) exitWith {
+	life_action_gather = true; 
+	hint format ["<t color='#ff0000' size='1.5' align='center' shadow='1' shadowColor='#000000'>ACHTUNG</t>\n\n<t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird! Ein Admin wurde bereits kontaktiert.</t>\n\n\n<t color='#00ccff'Spieler:</t> %1\n<t color='#00ccff'>UID:</t> %2", player, _playerUserID]
+};
 
 if(isNil "life_action_gather") then {life_action_gather = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
@@ -55,10 +58,10 @@ for "_i" from 0 to 2 do
 	sleep 2.5;
 };
 
-if(([true,_gather,_diff] call life_fnc_handleInv) && (player getVariable["surrender",true])) then
+if(([true,_gather,_diff] call life_fnc_handleInv)) then
 {
 	_itemName = [([_gather,0] call life_fnc_varHandle)] call life_fnc_varToStr;
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
-} else {};
+};
 
 life_action_inUse = false;
