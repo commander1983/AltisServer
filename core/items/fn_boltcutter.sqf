@@ -44,6 +44,7 @@ _cP = 0.01;
 switch (typeOf _building) do {
 	case "Land_Dome_Big_F": {_cpRate = 0.003;};
 	case "Land_CargoBox_V1_F": {_cpRate = 0.003};
+	default {_cpRate = 0.000001;}
 };
 
 while {true} do
