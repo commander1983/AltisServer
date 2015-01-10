@@ -92,6 +92,7 @@ player createDiarySubject ["platzh6","==================="];
 2. Wer eine Waffe bei sich führt sollte dies dem Polizisten mitteilen bevor man aus einem Auto steigt und die Waffe unmittelbar nach dem Aussteigen, wegstecken!<br/>
 3. Widerstand oder das Missachten der Anweisungen der Polizeibeamten wird im schlimmsten Fall mit dem Gebrauch der Schusswaffe bzw. des Tasers geahndet.<br/>
 4. Das Betreten der Polizei HQs auf gesamt Altis einschließlich des Gefängnis, ohne die Erlaubnis eines Polizeibeamten, ist strengstens untersagt. Zuwiederhandlung wird mit einer Inhaftierung und eventuellem Beschuss geahndet!<br/>
+5. Den Polizeibeamten ist es gestattet, Kriminelle welche eine Waffe gezogen haben und/oder (vermutlich) in illegale Handlungen verwickelt sind die gegen das Grundgesetz verstoßen, ohne Vorwarnung den Kriminellen zu tasern oder im aller schlimmsten Fall scharf zu beschießen.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§9 Razzien und Camping</font></font><br/>
