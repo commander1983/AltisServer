@@ -47,7 +47,7 @@ player createDiarySubject ["platzh6","==================="];
 1. Alle Geldautomaten, Lizenzhändler, Fahrzeughändler, Donatershop und Garagen sind Safezonen. Diese werden durch einen grünen Kreis markiert!<br/>
 2. Eine Safezone beträgt immer 50 Meter um jeden der oben genannten Punkten.<br/>
 3. Jegliche Straftaten sind in diesen Zonen (Safezonen) verboten.<br/>
-3.1 Darunter fällt auch das Festnehmen, Foltern, Einsteigen in offene Fahrzeuge und Ausrauben von Personen (auch wenn sich die Person sich ergibt).<br/>
+3.1 Darunter fällt auch das Festnehmen, Foltern, Einsteigen in offene Fahrzeuge die dir nicht gehören und Ausrauben von Personen (auch wenn sich die Person sich ergibt).<br/>
 3.2 Das Missachten führt zum Bann.<br/>
 4. Das Abfeuern von Schusswaffen ist in Safezonen Verboten!<br/>
 5. Wenn du dich während einer Roleplay-Handlung in eine Safezone flüchtest, ist diese Safezone solange aufgehoben, bis die Handlung beendet wurde. Es dürfen keine Unbeteiligten mit in die Sache hineingezogen oder gar verletzt werden! So ist z.B. das Einparken von illegalen Fahrzeugen während einer Polizei Verfolgung nicht erlaubt.<br/>
