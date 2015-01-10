@@ -16,9 +16,9 @@ _rand = [0,4] call life_fnc_randomRound;
 
 switch(_rand) do 
 {
-	case 0:
+	case 0:		// Magen
 	{
-		hintSilent "Du hast dem Spieler in den Magen geschlagen.";
+		hintSilent "Du hast der Person in den Magen geschlagen!";
 		//Play sound on _unit
 		
 		//Damage _unit
@@ -35,11 +35,11 @@ switch(_rand) do
 		
 		_unit setFatigue _fatigue;
 	
-		[player,"punch"] call life_fnc_globalSound;
+		[_unit,"punch"] call life_fnc_globalSound;
 	};
-	case 1:
+	case 1:		// Gesicht
 	{
-		hintSilent "Du hast dem Spieler ins Gesicht geschlagen.";
+		hintSilent "Du hast der Person eine Ohrfeige gegeben!";
 		//Play sound on _unit
 		
 		//Damage _unit
@@ -48,17 +48,24 @@ switch(_rand) do
 		
 		_unit setDamage _damage;
 		
+		enableCamShake true;
+		
+		_unit addCamShake[15, 2, 9];
+		
+		enableCamShake false;
+		
+		
 		//Fatigure unit
 		_fatigue = getFatigue _unit;
 		_fatigue = _fatigue + 0.25;
 		
 		if(_fatigue >= 1) then { _fatigue = 1; };
 		
-		[player,"punch"] call life_fnc_globalSound;
+		[_unit,"punch"] call life_fnc_globalSound;
 	};
-	case 2:
+	case 2:		// Schienbein
 	{
-		hintSilent "Du hast dem Spieler getreten.";
+		hintSilent "Du hast der Person gegen das Schienbein getreten!";
 		//Play sound on _unit
 		
 		//Damage _unit
@@ -73,11 +80,11 @@ switch(_rand) do
 		
 		if(_fatigue >= 1) then { _fatigue = 1; };
 		
-		[player,"punch_break"] call life_fnc_globalSound;
+		[_unit,"punch_break"] call life_fnc_globalSound;
 	};
-	case 3:
+	case 3:		// Eier
 	{
-		hintSilent "Du hast dem Spieler in die Eier getreten.";
+		hintSilent "Du hast der Person in die Eier getreten!";
 		//Play sound on _unit
 		
 		//Damage _unit
@@ -86,12 +93,17 @@ switch(_rand) do
 		
 		_unit setDamage _damage;
 		
+		enableCamShake true;
+		
+		_unit addCamShake[10, 2, 6];
+		
+		enableCamShake false;
 		_unit setFatigue 1;
-		[player,"punch_balls"] call life_fnc_globalSound;
+		[_unit,"punch_balls"] call life_fnc_globalSound;
 	};
-	default
+	default		// Zaehne
 	{
-		hintSilent "Du hast dem Spieler einige Zaehne ausgeschlagen.";
+		hintSilent "Du hast der Person einige Zähne ausgeschlagen!";
 		//Play sound on _unit
 		
 		//Damage _unit
@@ -106,7 +118,7 @@ switch(_rand) do
 		
 		if(_fatigue >= 1) then { _fatigue = 1; };
 		
-		[player,"punch"] call life_fnc_globalSound;
+		[_unit,"punch"] call life_fnc_globalSound;
 	};
 };
 
