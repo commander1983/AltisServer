@@ -15,7 +15,7 @@ if(isNil "life_boltcutter_uses") then {life_boltcutter_uses = 0;};
 
 if((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _building OR (nearestObject [[16019.5,16952.9,0],"Land_CargoBox_V1_F"]) == _building) then {
 	[[[1,2],"STR_ISTR_Bolt_AlertFed",true,[]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-} else exitWith {};
+} else {};
 
 _doors = getNumber(configFile >> "CfgVehicles" >> (typeOf _building) >> "NumberOfDoors");
 

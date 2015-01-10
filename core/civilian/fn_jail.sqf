@@ -27,7 +27,6 @@ player setPos (getMarkerPos "jail_marker");
 //Lets add jail outfits
 removeUniform player;
 removeVest player;
-removeBackpack player;
 player addUniform "U_I_HeliPilotCoveralls";
 sleep 1;
 [] call life_fnc_updateClothing;
