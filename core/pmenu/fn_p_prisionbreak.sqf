@@ -8,7 +8,7 @@ _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
 if(player distance _shop > 2) exitWith {};	// Distanz zu gross
 if(playersNumber west < 3) exitWith {	// Check for cops online - 3 minimum
-	hint parseText format "<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>SystemHack Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.inject_hack</t><br/>System ist offline. Versuchen Sie es später erneut!";
+	hint parseText format ["<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>SystemHack Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.inject_hack</t><br/>System ist offline. Versuchen Sie es später erneut!"];
 };
 
 createDialog "life_prision_list";
