@@ -48,13 +48,6 @@ switch(_rand) do
 		
 		_unit setDamage _damage;
 		
-		enableCamShake true;
-		
-		_unit addCamShake[15, 2, 9];
-		
-		enableCamShake false;
-		
-		
 		//Fatigure unit
 		_fatigue = getFatigue _unit;
 		_fatigue = _fatigue + 0.25;
@@ -93,11 +86,6 @@ switch(_rand) do
 		
 		_unit setDamage _damage;
 		
-		enableCamShake true;
-		
-		_unit addCamShake[10, 2, 6];
-		
-		enableCamShake false;
 		_unit setFatigue 1;
 		[_unit,"punch_balls"] call life_fnc_globalSound;
 	};
