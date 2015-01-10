@@ -25,7 +25,7 @@ diag_log "::Life Client:: User actions completed";
 diag_log "::Life Client:: Waiting for server functions to transfer..";
 waitUntil {(!isNil {TON_fnc_clientGangLeader})};
 diag_log "::Life Client:: Received server functions.";
-0 cutText ["Waiting for the server to be ready...","BLACK FADED"];
+0 cutText ["Warte auf den Server...","BLACK FADED"];
 0 cutFadeOut 99999999;
 diag_log "::Life Client:: Waiting for the server to be ready..";
 waitUntil{!isNil "life_server_isReady"};
@@ -37,7 +37,7 @@ if(!isNil "life_server_extDB_notLoaded") exitWith {
 };
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
-0 cutText["Finishing client setup procedure","BLACK FADED"];
+0 cutText["Beendige Client-Setup Prozedur...","BLACK FADED"];
 0 cutFadeOut 9999999;
 
 //diag_log "::Life Client:: Group Base Execution";
