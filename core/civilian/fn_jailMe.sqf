@@ -18,7 +18,7 @@ if(count _ret > 0) then { life_bail_amount = _time * 30; } else { life_bail_amou
 _esc = false;
 _bail = false;
 
-if(_time <= 0) then { _time = time + (15 * 60); hintC "BITTE EINEM ADMIN MELDEN: JAIL_FALLBACK_15, time is zero!"; };
+if(_time <= 0) then { _time = time + (15 * 60); hintC "BITTE EINEM ADMIN MELDEN: JAIL_FALLBACK_15 Zeit ist zero bzw. NULL"; };
 
 [_bad,_time] spawn
 {
@@ -42,14 +42,14 @@ while {true} do
 {
 	if((round(_time - time)) > 0) then
 	{
-		_countDown = if(round (_time - time) > 60) then {format["%1 minute(s)",round(round(_time - time) / 60)]} else {format["%1 second(s)",round(_time - time)]};
+		_countDown = if(round (_time - time) > 60) then {format["%1 Minute(n)",round(round(_time - time) / 60)]} else {format["%1 Sekunde(n)",round(_time - time)]};
 		if(isNil "life_canpay_bail") then
 		{
-			hintSilent format["Verbleibende Zeit: \n %1\n \n Kaution Bezahlen: \n Kautionspreis: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
+			hintSilent parseText format["<t align='center' size='1.3'>Verbleibende Haftzeit</t><t color='#FF0000' size='2.3' align='center'><br/>%1</t><br/><br/><br/><br/><t align='center' size='1.3'>Kautionspreis</t><br/><t color='#00CCFF' size='2.3' align='center'>%2€</t>",_countDown,[life_bail_amount] call life_fnc_numberText];
 		}
 		else
 		{
-			hintSilent format["Verbleibende Zeit: \n %1 \n",_countDown];
+			hintSilent parseText format["<t align='center' size='1.3'>Verbleibende Haftzeit</t><t color='#FF0000' size='2.3' align='center'><br/>%1</t>",_countDown];
 		};
 		
 	};
@@ -79,7 +79,7 @@ switch (true) do
 	{
 		life_is_arrested = false;
 		life_bail_paid = false;
-		hint "Du hast die Kaution bezahlt und bist nun Frei.";
+		hint parseText format ["<t align='center' size='1.5' color='#00cc00'>Kaution Bezahlt</t><br/>Da du deine Kaution bezahlt hast bist du nun wieder auf freiem Fuß. Die Gefängnisleitung hofft, dass du dich verbessert hast. Verhalte dich also anständig!"];
 		serv_wanted_remove = [player];
 		player setPos (getMarkerPos "jail_release");
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
