@@ -43,8 +43,8 @@ _cP = 0.01;
 
 switch (typeOf _building) do {
 	case "Land_Dome_Big_F": {_cpRate = 0.003;};
-	case "Land_Research_house_V1_F": {_cpRate = 0.00015;};
-	default {[]};
+	case "Land_Research_house_V1_F": {_cpRate = 0.002;};
+	default {_cpRate = 0.0000000000001};
 };
 
 while {true} do
