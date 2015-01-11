@@ -17,4 +17,4 @@ _obj = objNull;
 
 
 [_obj] spawn life_fnc_progressBaren;
-[[[2,1]"--- JEMAND HACKT DAS SYSTEM DES STAATSGEFÄNGNISES VON ALTIS ---"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP; //hint + mid_text
+[[[2,1],"--- JEMAND HACKT DAS SYSTEM DES STAATSGEFÄNGNISES VON ALTIS ---"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP; //hint + mid_text

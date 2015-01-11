@@ -7,7 +7,7 @@ private["_shop","_display","_list","_array","_units","_Btn1","_unit"];
 _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
 if(player distance _shop > 2) exitWith {};	// Distanz zu gross
-if(playersNumber west > 0) exitWith {	// Check for cops online - 3 minimum
+if(playersNumber west < 3) exitWith {	// Check for cops online - 3 minimum
 	hint parseText format ["<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>SystemHack Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.inject_hack</t><br/>System ist offline. Versuchen Sie es später erneut!"];
 };
 
@@ -37,5 +37,5 @@ ctrlSetText[8104,"APBO_SL v2.0 - Hacked!"];
 if(((lbSize _list)-1) == -1) then
 {
 	_display closeDisplay 8100;
-	hint "<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>PlayerFinder Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.player_find</t><br/>Es wurde keinen Eintrag in der Datenbank des Staatsgefängnises gefunden!";
+	hint parseText format ["<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>PlayerFinder Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.player_find</t><br/>Es wurde keinen Eintrag in der Datenbank des Staatsgefängnises gefunden!"];
 };
