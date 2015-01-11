@@ -29,7 +29,7 @@ while {(uniform player) == "U_Rangemaster"} do
 	switch (__GETC__(life_medicLevel)) do 
 		{
 			case 1: {
-			player setObjectTextureGlobal [0,"images\kleidung\med_1.jpg"];
+			player setObjectTextureGlobal [0,"images\kleidung\med_0.jpg"];
 			};
 			
 			case 2: {
