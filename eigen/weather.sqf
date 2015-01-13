@@ -30,11 +30,11 @@ _maxTimeBetweenWeatherChangesMin = 360;
 
 // Fog intensity never falls below this value. Must be between 0 and 1 and less than or equal to _maximumFog
 // (0 = no fog, 1 = pea soup). (Suggested value: 0).
-_minimumFog = 0;
+_minimumFog = 0.001;
 
 // Fog intensity never exceeds this value. Must be between 0 and 1 and greater than or equal to _minimumFog
 // (0 = no fog, 1 = pea soup). (Suggested value: 0.8).
-_maximumFog = 0;
+_maximumFog = 0.001;
 
 // New ArmA3 facilities added by Bewilderbeest
 _minimumFogDecay = 0.001;
