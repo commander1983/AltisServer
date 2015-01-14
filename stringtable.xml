@@ -1030,7 +1030,7 @@
 			<Original>Jemand hat bereits Zugang zu dem Tresor!</Original>
 		</Key>
 		<Key ID="STR_Civ_NotEnoughCops">
-			<Original>Es müssen 4 Polizisten online sein um fortfahren zu können!</Original>
+			<Original>Es müssen 6 Polizisten online sein um fortfahren zu können!</Original>
 		</Key>
 		<Key ID="STR_Civ_SafeInv">
 			<Original>Inventar Speichern</Original>
