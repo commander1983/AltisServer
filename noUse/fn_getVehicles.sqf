@@ -34,7 +34,7 @@ if(_side == "Error") exitWith {
 	[[[]],"life_fnc_impoundMenu",(owner _unit),false] spawn life_fnc_MP;
 };
 
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='%1' AND alive='0' AND side='%2' AND type='%3'",_pid,_side,_type];
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='%1' AND alive='1' AND active='0' AND side='%2' AND type='%3'",_pid,_side,_type];
 
 waitUntil{sleep (random 0.3); !DB_Async_Active};
 _tickTime = diag_tickTime;
@@ -46,7 +46,7 @@ diag_log format["Time to complete: %1 (in seconds)",(diag_tickTime - _tickTime)]
 diag_log format["Result: %1",_queryResult];
 diag_log "------------------------------------------------";
 
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='%1' AND alive='0' AND side='%2' AND type='%3'",_pid,_side,_type];   //abfrage für kaputte Fahrzeuge
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='%1' AND alive='0' AND active='0' AND side='%2' AND type='%3'",_pid,_side,_type];   //abfrage für kaputte Fahrzeuge
 
 waitUntil{sleep (random 0.3); !DB_Async_Active};
 _tickTime = diag_tickTime;
