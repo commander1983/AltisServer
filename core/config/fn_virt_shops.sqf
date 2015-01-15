@@ -21,7 +21,7 @@ switch (_shop) do
 	case "iron": {["Kupfer / Eisen - Haendler",["iron_r","copper_r"]]};
 	case "diamond": {["Diamant Haendler",["diamondc"]]};
 	case "salt": {["Salz Haendler",["salt_r"]]};
-	case "cop": {["Polizeiitemladen",["handcuffs","keys","donuts","coffee","spikeStrip","water","rabbit","redgull","fuelF","battery","sperre","warnung","defusekit","coppainkillers"]]};
+	case "cop": {["Polizeiitemladen",["handcuffs","keys","donuts","coffee","spikeStrip","water","rabbit","redgull","fuelF","battery","officerlockpick","sperre","warnung","defusekit","coppainkillers"]]};
 	case "cement": {["Zement Haendler",["cement"]]};
 	case "beer": {["Schnappsladen",["vodka"]]};
 	case "gas": {["Tankstelle",["water","redgull","tbacon","fuelF","pickaxe"]]};
@@ -30,7 +30,7 @@ switch (_shop) do
 	case "blackmarket": {["Schwarzmarkt",["moonshine","uranp"]]};
 	case "rebel": {["Rebellenshop",["handcuffs","keys","pickaxe","fuelF","water","battery","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
 	case "gang": {["Gangshop",["handcuffs","keys","pickaxe","fuelF","battery","water","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
-	case "adacmed": {["Sani/Medic",["water","redgull","tbacon","fuelF","battery","lockpick","sperre","warnung"]]};
+	case "adacmed": {["Sani/Medic",["water","redgull","tbacon","fuelF","battery","officerlockpick","sperre","warnung"]]};
 	case "gold": {["Platin ankauf",["goldbar"]]};
 	case "pruefung": {["Fuehrerscheinformular",["license"]]};
 	case "kristall": {["SchmuckJuwelier",["kristalle"]]};
