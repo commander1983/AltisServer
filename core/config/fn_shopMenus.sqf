@@ -32,6 +32,12 @@ switch (_shop) do
 		ctrlShow[2503,false];
 	};
 	
+	case "copdonator":
+	{
+		ctrlSetText[2505,"Cop Donator Shop"];
+		ctrlShow[2503,false];
+	};	
+	
 	case "gun":
 	{
 		ctrlSetText[2505,"Altis Gun Store"];
@@ -84,12 +90,6 @@ switch (_shop) do
 	{
 		ctrlSetText[2505,"Admin Shop"];
 	};
-	
-	case "copdonator":
-	{
-		ctrlSetText[2505,"Cop Donator Shop"];
-		ctrlShow[2503,false];
-	};	
 };
 
 ["guns"] call life_fnc_shops_changeMenu;
