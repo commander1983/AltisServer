@@ -25,8 +25,8 @@ switch (_shop) do
 	case "cement": {["Zement Haendler",["cement"]]};
 	case "beer": {["Schnappsladen",["vodka"]]};
 	case "gas": {["Tankstelle",["water","redgull","tbacon","fuelF","pickaxe"]]};
-	case "juwelg": {["Juwelier",["goldp"]]};
-	case "juwels": {["Juwelier",["silberp"]]};
+	case "goldu": {["Juwelier",["goldp"]]};
+	case "silberu": {["Juwelier",["silberp"]]};
 	case "blackmarket": {["Schwarzmarkt",["moonshine","uranp"]]};
 	case "rebel": {["Rebellenshop",["handcuffs","keys","pickaxe","fuelF","water","battery","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
 	case "gang": {["Gangshop",["handcuffs","keys","pickaxe","fuelF","battery","water","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};

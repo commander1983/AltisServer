@@ -892,7 +892,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Juwelier"",life_fnc_virt_menu,""juwel""]; this setVariable[""realname"",""Silberjuwelier""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Juwelier"",life_fnc_virt_menu,""silberu""]; this setVariable[""realname"",""Silberjuwelier""];";
 				};
 				class Item3
 				{
@@ -2797,13 +2797,13 @@ class Mission
 				class Item7
 				{
 					position[]={10555.637,106.5051,19005.07};
-					azimut=190.1115;
+					azimut=190.11099;
 					special="NONE";
 					id=154;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Juwelier"",life_fnc_virt_menu,""juwel""]; this setVariable[""realname"",""Goldjuwelier""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Juwelier"",life_fnc_virt_menu,""goldu""]; this setVariable[""realname"",""Goldjuwelier""];";
 				};
 				class Item8
 				{
