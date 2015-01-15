@@ -24658,8 +24658,8 @@ class Mission
 			position[]={23745.451,5.23,16167.021};
 			name="kristall_1";
 			text="Kristallmine";
-			type="mil_warning";
-			colorName="ColorGreen";
+			type="b_unknown";
+			colorName="ColorOrange";
 		};
 		class Item288
 		{
@@ -24667,7 +24667,7 @@ class Mission
 			name="Kristalle";
 			text="Kristallverarbeiter";
 			type="b_unknown";
-			colorName="ColorGreen";
+			colorName="ColorOrange";
 			angle=1.12009;
 		};
 		class Item289
@@ -24742,7 +24742,7 @@ class Mission
 			name="Juwelier";
 			text="Schmuck Juwelier";
 			type="b_unknown";
-			colorName="ColorGreen";
+			colorName="ColorOrange";
 			angle=-0.60203898;
 		};
 	};
