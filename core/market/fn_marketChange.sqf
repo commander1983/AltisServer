@@ -82,7 +82,8 @@ switch(true) do
 		[[0,"News: Anleger verlieren Vertrauen in Gold!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		
 		["goldu", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell; 
-		["goldp", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell; 
+		["goldp", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell;
+		["kristalle", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell;
 		
 		diag_log "+Market+ Event goldm";
 	};
@@ -131,7 +132,7 @@ switch(true) do
 	{
 		[[0,"News: Immer mehr Schmuck wird verkauft!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		
-		//Erhöhe Marktpreis mit marketSell
+		//Niedriger Marktpreis mit marketSell
 		["kristalle", [4,10] call life_fnc_randomRound, true] call life_fnc_marketBuy; 	
 		
 		diag_log "+Market+ Event kristalle";
