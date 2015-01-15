@@ -85,6 +85,7 @@ switch (_var) do
 	case "life_inv_battery": {"Handybatterie"};
 	case "life_inv_keys": {"Handschellenschlüssel"};
 	case "life_inv_painkillers": {"Pain Killer"};
+	case "life_inv_coppainkillers": {"Pain Killer"};
 	case "life_inv_warnung": {"Pylone"};
 	case "life_inv_sperre": {"Straßensperre"};
 	case "life_inv_license": {"Führerscheinformular"};

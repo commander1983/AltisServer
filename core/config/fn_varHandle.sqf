@@ -86,6 +86,7 @@ switch (_mode) do
 			case "pille": {"life_inv_pille"};
 			case "battery": {"life_inv_battery"};
 			case "painkillers": {"life_inv_painkillers"};
+			case "coppainkillers": {"life_inv_coppainkillers"};
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
 			case "sperre": {"life_inv_sperre"};
@@ -168,6 +169,7 @@ switch (_mode) do
 			case "life_inv_battery": {"battery"};
 			case "life_inv_keys": {"keys"};
 			case "life_inv_painkillers": {"painkillers"};
+			case "life_inv_coppainkillers": {"coppainkillers"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
 			case "life_inv_sperre": {"sperre"};

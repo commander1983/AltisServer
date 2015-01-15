@@ -76,6 +76,7 @@ switch (_item) do
 	case "defusekit": {2};
 	case "keys": {1};
 	case "painkillers": {5};
+	case "coppainkillers": {5};
 	case "storagesmall": {5};
 	case "storagebig": {10};
 	case "sperre": {8};

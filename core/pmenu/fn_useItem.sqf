@@ -150,6 +150,14 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "coppainkillers"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			player setDamage 0;
+		};
+	};
+	
 	case (_item == "pille"):									   
 	{															  
 		if(([false,_item,1] call life_fnc_handleInv)) then		  
