@@ -33,5 +33,5 @@ switch (_shop) do
 	case "adacmed": {["Sani/Medic",["water","redgull","tbacon","fuelF","battery","lockpick","sperre","warnung"]]};
 	case "gold": {["Platin ankauf",["goldbar"]]};
 	case "pruefung": {["Fuehrerscheinformular",["license"]]};
-	case "kristall": {["Juwelier",["kristalle"]]};
+	case "kristall": {["Juwelier_1",["kristalle"]]};
 };
