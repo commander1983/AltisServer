@@ -292,7 +292,7 @@ switch(_shop) do
 					["arifle_MXM_F",nil,5000],
 					["arifle_MX_SW_F",nil,5000],
 					["30Rnd_65x39_caseless_mag",nil,100],
-					["100Rnd_65x39_caseless_mag_Tracer",nil,100],
+					["100Rnd_65x39_caseless_mag_Tracer",nil,100]
 				]
 				];
 			};
