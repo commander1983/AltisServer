@@ -24658,7 +24658,7 @@ class Mission
 			name="kristall_1";
 			text="Kristallmine";
 			type="mil_triangle";
-			colorName="ColorBraun";
+			colorName="ColorBrown";
 		};
 		class Item288
 		{
@@ -24666,7 +24666,7 @@ class Mission
 			name="Kristalle";
 			text="Kristallverarbeiter";
 			type="mil_box";
-			colorName="ColorBraun";
+			colorName="ColorBrown";
 			angle=1.12009;
 		};
 		class Item289
