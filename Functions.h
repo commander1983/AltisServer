@@ -281,6 +281,7 @@ class Life_Client_Core
 		class maskdrop {};
 		class prisionbreak {};
 		class progressBaren {};
+		class adaceinsatz {};
 	};
 	
 	class Network

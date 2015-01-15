@@ -97,8 +97,8 @@ switch(_shop) do
 						["ItemGPS",nil,100],
 						["ToolKit",nil,2500],
 						["FirstAidKit",nil,1000],
-						["NVGoggles",nil,8500],
-						["Rangefinder",nil,7500],
+						["NVGoggles",nil,10000],
+						["Rangefinder",nil,10000],
 						["ItemRadio","Handy",500]
 					]
 				];
@@ -139,8 +139,8 @@ switch(_shop) do
 						["ItemGPS",nil,100],
 						["ToolKit",nil,2500],
 						["FirstAidKit",nil,1000],
-						["NVGoggles",nil,8500],
-						["Rangefinder",nil,7500],
+						["NVGoggles",nil,10000],
+						["Rangefinder",nil,10000],
 						["ItemRadio","Handy",500]
 					]
 				];

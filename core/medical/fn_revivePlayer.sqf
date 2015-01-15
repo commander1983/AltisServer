@@ -33,9 +33,9 @@ _cP = 0.01;
 //Lets reuse the same thing!
 while {true} do
 {
-	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
+	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic1") then {
+        [[player,"ainvpknlmstpsnonwnondnon_medic1","ainvpknlmstpsnonwnondnon_medic2","ainvpknlmstpsnonwnondnon_medic3","ainvpknlmstpsnonwnondnon_medic4","ainvpknlmstpsnonwnondnon_medic5"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
+        player playMoveNow "AinvPknlMstpSnonWnonDnon_medic1";
 	};
 	sleep 0.15;
 	_cP = _cP + 0.01;

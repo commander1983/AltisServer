@@ -148,3 +148,12 @@ if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (g
 {
 	_Btn6 ctrlEnable false;
 };
+
+if(_curTarget getVariable["surrender",false]) then
+{
+	_Btn1 ctrlShow false;
+	_Btn4 ctrlShow false;
+	_Btn6 ctrlShow false;
+	_Btn7 ctrlShow false;
+	_Btn8 ctrlShow false;
+};
