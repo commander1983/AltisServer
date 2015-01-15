@@ -84,6 +84,12 @@ switch (_shop) do
 	{
 		ctrlSetText[2505,"Admin Shop"];
 	};
+	
+	case "copdonator":
+	{
+		ctrlSetText[2505,"Cop Donator Shop"];
+		ctrlShow[2503,false];
+	};	
 };
 
 ["guns"] call life_fnc_shops_changeMenu;
