@@ -83,7 +83,6 @@ switch(true) do
 		
 		["goldu", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell; 
 		["goldp", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell;
-		["kristalle", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell;
 		
 		diag_log "+Market+ Event goldm";
 	};
