@@ -95,8 +95,8 @@ switch(_shop) do
 						["optic_DMS",nil,10000],
 						["acc_flashlight",nil,1000],
 						["ItemGPS",nil,100],
-						["ToolKit",nil,2000],
-						["FirstAidKit",nil,750],
+						["ToolKit",nil,2500],
+						["FirstAidKit",nil,1000],
 						["NVGoggles",nil,8500],
 						["Rangefinder",nil,7500],
 						["ItemRadio","Handy",500]
@@ -137,8 +137,8 @@ switch(_shop) do
 						["optic_DMS",nil,10000],
 						["acc_flashlight",nil,1000],
 						["ItemGPS",nil,100],
-						["ToolKit",nil,2000],
-						["FirstAidKit",nil,750],
+						["ToolKit",nil,2500],
+						["FirstAidKit",nil,1000],
 						["NVGoggles",nil,8500],
 						["Rangefinder",nil,7500],
 						["ItemRadio","Handy",500]
@@ -236,9 +236,9 @@ switch(_shop) do
 					["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,500],
 					["hgun_Pistol_heavy_02_Yorris_F",nil,12500],
 					["6Rnd_45ACP_Cylinder",nil,100],
-					["NVGoggles_OPFOR","NV Schwarz",8500],
-					["NVGoggles_INDEP","NV Gruen",8500],
-					["Rangefinder",nil,7500],
+					["NVGoggles_OPFOR","NV Schwarz",8000],
+					["NVGoggles_INDEP","NV Gruen",8000],
+					["Rangefinder",nil,8000],
 					["U_B_Protagonist_VR","Bootcamp",1500],
 					["G_Balaclava_blk",nil,25],
 					["G_Balaclava_lowprofile",nil,20],
@@ -263,7 +263,7 @@ switch(_shop) do
 					["optic_SOS",nil,10000],
 					["optic_DMS",nil,10000],
 					["ToolKit",nil,2000],
-					["FirstAidKit",nil,750]
+					["FirstAidKit",nil,800]
 				]
 				];
 			};
