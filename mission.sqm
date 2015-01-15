@@ -3485,8 +3485,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					text="Juwelier";
-					init="this allowDamage false; this enableSimulation false; this addAction[""Juwelier_1"",life_fnc_virt_menu,""kristall""]; this setVariable[""realname"",""Juwelier""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""SchmuckJuwelier"",life_fnc_virt_menu,""kristall""]; this setVariable[""realname"",""Schmuck Juwelier""];";
 				};
 			};
 		};
@@ -24658,16 +24657,16 @@ class Mission
 			position[]={23745.451,5.23,16167.021};
 			name="kristall_1";
 			text="Kristallmine";
-			type="b_unknown";
-			colorName="ColorOrange";
+			type="mil_triangle";
+			colorName="ColorBraun";
 		};
 		class Item288
 		{
 			position[]={16753.736,9.7358999,13650.713};
 			name="Kristalle";
 			text="Kristallverarbeiter";
-			type="b_unknown";
-			colorName="ColorOrange";
+			type="mil_box";
+			colorName="ColorBraun";
 			angle=1.12009;
 		};
 		class Item289
