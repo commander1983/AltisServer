@@ -274,8 +274,8 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
+			case (playerSide != west): {"Du bist kein Polizist"};
 			case (__GETC__(life_donator) == 0): {"Du bist kein Donator!"};
-			
 			case (__GETC__(life_donator) == 1):
 			{
 				["Cop Donator Shop",

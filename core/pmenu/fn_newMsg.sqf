@@ -113,7 +113,6 @@ switch(_type) do
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888900,true];};
 		[[ObjNull,_msg,player,6],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Du hast den Pannenhelfern folgende Nachricht gesendet: %1 ",_msg];
-		[] spawn life_fnc_adaceinsatz;
 		//ctrlShow[888900,true];
 		closeDialog 887890;
 	};
