@@ -38,7 +38,7 @@ class pInteraction_Reb
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = 37401;
-			text = "Rebellenmenue";
+			text = "Rebellenmenu";
 			x = BGX;
 			y = BGY;
 			w = BGW;

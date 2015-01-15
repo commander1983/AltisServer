@@ -34,7 +34,7 @@ class pInteraction_Menu
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = 37401;
-			text = "$STR_vInAct_Title";
+			text = "Personenmenu";
 			x = BGX;
 			y = BGY;
 			w = BGW;
@@ -258,7 +258,7 @@ class vInteraction_Menu
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = 37401;
-			text = "$STR_vInAct_Title";
+			text = "Fahrzeugmenu";
 			x = BGX;
 			y = BGY;
 			w = BGW;
