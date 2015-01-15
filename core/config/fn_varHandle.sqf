@@ -92,6 +92,8 @@ switch (_mode) do
 			case "sperre": {"life_inv_sperre"};
 			case "warnung": {"life_inv_warnung"};
 			case "license": {"life_inv_license"};
+			case "kristall": {"life_inv_kristall"};
+			case "kristalle": {"life_inv_kristalle"};
 		};
 	};
 	
@@ -175,6 +177,8 @@ switch (_mode) do
 			case "life_inv_sperre": {"sperre"};
 			case "life_inv_warnung": {"warnung"};
 			case "life_inv_license": {"license"};
+			case "life_inv_kristall": {"kristall"};
+			case "life_inv_kristalle": {"kristalle"};
 		};
 	};
 };

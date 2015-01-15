@@ -44,4 +44,5 @@ switch (_type) do
 	case "sotb": {1000};
 	case "mait": {1000};
 	case "home": {175000};
+	case "kristall": {50000};
 };

@@ -127,6 +127,15 @@ switch(true) do
 		
 		diag_log "+Market+ Event turtlep";
 	};
+	case (_rand <= 121): //10% Schmuck höher
+	{
+		[[0,"News: Immer mehr Schmuck wird verkauft!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		
+		//Erhöhe Marktpreis mit marketSell
+		["kristalle", [4,10] call life_fnc_randomRound, true] call life_fnc_marketBuy; 	
+		
+		diag_log "+Market+ Event kristalle";
+	};
 	default //market change: default version
 	{
 		//diag_log format["[MARKET] marketChange did nothing. Rand=%1", _rand];

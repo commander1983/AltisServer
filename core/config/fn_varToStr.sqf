@@ -89,6 +89,8 @@ switch (_var) do
 	case "life_inv_warnung": {"Pylone"};
 	case "life_inv_sperre": {"Straßensperre"};
 	case "life_inv_license": {"Führerscheinformular"};
+	case "life_inv_kristall": {"Kristall"};
+	case "life_inv_kristalle": {"Schmuck"};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -125,4 +127,5 @@ switch (_var) do
 	case "license_civ_mait": {"Mai-Tai Mix"};	
 	case "license_civ_gang": {"Gang Lizenz"};
 	case "license_civ_permanent": {"Führerschein Permanent"};
+	case "license_civ_kristall": {"Kristall Lizenz"};
 };

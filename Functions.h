@@ -144,6 +144,7 @@ class Life_Client_Core
 		class copShowLicense{};
 		class copLicenseShown {};
 		class removeMaskdrop {};
+		class gatherKristall {};
 	};
 	
 	class Housing

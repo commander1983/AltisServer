@@ -200,7 +200,10 @@ life_inv_items =
 	"life_inv_storagebig",
 	"life_inv_warnung",
 	"life_inv_sperre",
-	"life_inv_license"
+	"life_inv_license",
+	"life_inv_kristall",
+	"life_inv_kristalle"
+	
 ];
 
 //Setup variable inv vars.
@@ -240,7 +243,8 @@ life_licenses =
 	["license_civ_sotb","civ"],
 	["license_civ_mait","civ"],
 	["license_civ_home","civ"],
-	["license_civ_permanent","civ"]
+	["license_civ_permanent","civ"],
+	["license_civ_kristall","civ"]
 ];
 
 //Setup License Variables
@@ -323,7 +327,9 @@ sell_array =
 	["frogs",250],
     ["frogslsd",1000],
 	["goldbar",9000],
-	["license",10000]
+	["license",10000],
+	["kristall",800],
+	["kristalle",2000]
 ];
 __CONST__(sell_array,sell_array);
 

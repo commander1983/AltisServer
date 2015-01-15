@@ -29,8 +29,9 @@ switch (_shop) do
 	case "juwels": {["Juwelier",["silberp"]]};
 	case "blackmarket": {["Schwarzmarkt",["moonshine","uranp"]]};
 	case "rebel": {["Rebellenshop",["handcuffs","keys","pickaxe","fuelF","water","battery","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
-	case "gang": {["Gangshop",["handcuffs","keys","pickaxe","fuelF","battery","water","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
+	case "gang": {["Gangshop",["handcuffs","keys","pickaxe","fuelF","water","redgull","tbacon","lockpick","boltcutter","blastingcharge","painkillers","pille"]]};
 	case "adacmed": {["Sani/Medic",["water","redgull","tbacon","fuelF","battery","lockpick","sperre","warnung"]]};
 	case "gold": {["Platin ankauf",["goldbar"]]};
 	case "pruefung": {["Fuehrerscheinformular",["license"]]};
+	case "kristall": {["Juwelier",["kristalle"]]};
 };

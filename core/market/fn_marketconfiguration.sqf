@@ -20,7 +20,8 @@ life_market_resources = [
 			["cement",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -34,7 +35,8 @@ life_market_resources = [
 			["oilp",1],
 			["vodka",1],
 			["cement",1],
-			["silberp",1]
+			["silberp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -48,7 +50,8 @@ life_market_resources = [
 			["cement",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -62,7 +65,8 @@ life_market_resources = [
 			["cement",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -76,7 +80,8 @@ life_market_resources = [
 			["oilp",1],
 			["vodka",1],
 			["cement",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -90,7 +95,8 @@ life_market_resources = [
 			["cement",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -104,7 +110,8 @@ life_market_resources = [
 			["cement",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -118,7 +125,8 @@ life_market_resources = [
 			["oilp",1],
 			["cement",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
@@ -132,11 +140,27 @@ life_market_resources = [
 			["oilp",1],
 			["vodka",1],
 			["silberp",1],
-			["goldp",1]
+			["goldp",1],
+			["kristalle",1]
 		]
 	],
 	
 	["copper_r", 750, 225, 1050, 3, 1.5,
+		[ 
+			["diamondc",1], 
+			["iron_r",1],
+			["oilp",1],
+			["salt_r",1],
+			["glass",1],
+			["cement",1],
+			["vodka",1],
+			["silberp",1],
+			["goldp",1],
+			["kristalle",1]
+		]
+	],
+	
+		["kristalle", 2000, 1500, 2500, 3, 1.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],

@@ -51,6 +51,7 @@ switch (_mode) do
 			case "pcola": {_var = "license_civ_pcola"};
 			case "home": {_var = "license_civ_home"};
 			case "permanent": {_var = "license_civ_permanent"};
+			case "kristall": {_var = "license_civ_kristall"};
 			default {_var = ""};
 		};
 	};
@@ -93,6 +94,7 @@ switch (_mode) do
 			case "license_civ_pcola": {_var = "pcola"};
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_permanent": {_var = "permanent"};
+			case "license_civ_kristall": {_var = "kristall"};
 			default {_var = ""};
 		};
 	};

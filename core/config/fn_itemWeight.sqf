@@ -82,5 +82,7 @@ switch (_item) do
 	case "sperre": {8};
 	case "warnung": {3};
 	case "license": {1};
+	case "kristall": {4};
+	case "kristalle": {2};
 	default {1};
 };
