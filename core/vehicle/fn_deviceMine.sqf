@@ -12,7 +12,7 @@ closeDialog 0; //Close the interaction menu.
 life_action_inUse = true; //Lock out the interaction menu for a bit..
 _weight = [_vehicle] call life_fnc_vehicleWeight;
 if((_weight select 1) >= (_weight select 0)) exitWith {hint localize "STR_NOTF_DeviceFull"; life_action_inUse = false;};
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","gold_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","silber_1","cerises_1","cerises_2","cerises_3","cerises_4","banane_1","banane_2","banane_3","banane_4","birne_1","birne_2","birne_3","birne_4"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","gold_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","silber_1","cerises_1","cerises_2","cerises_3","cerises_4","banane_1","banane_2","banane_3","banane_4","birne_1","birne_2","birne_3","birne_4","kristall_1"];
 _zone = "";
 
 //Find out what zone we're near
@@ -41,6 +41,7 @@ _item = switch(true) do {
 	case (_zone in ["oil_1","oil_2"]): {"oilu"};
 	case (_zone in ["rock_1"]): {"rock"};
 	case (_zone in ["silber_1"]): {"silberu"};
+	case (_zone in ["kristall_1"]): {"kristall"};
 	default {""};
 };
 
