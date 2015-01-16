@@ -28,6 +28,12 @@ switch (_vehicle) do
 			case 9: {_color = "Rebel Camo";};
 			case 10: {_color = "Sanitaeter";};
 			case 11: {_color = "Pannenhilfe"};
+			case 12: {_color = "Staiy Gruen";};
+			case 13: {_color = "Braun";};
+			case 14: {_color = "Schwarz";};
+			case 15: {_color = "Blau";};
+			case 16: {_color = "Rot";};
+			case 17: {_color = "Weiss";};
 		};
 	};
 
@@ -74,6 +80,14 @@ switch (_vehicle) do
 			case 10: {_color = "Kapow";};
 			case 11: {_color = "Polizei";};
 			case 12: {_color = "Donator P"};
+			case 13: {_color = "Beige";};
+			case 14: {_color = "Gruen";};
+			case 15: {_color = "Blau";};
+			case 16: {_color = "Dunkel Blau";};
+			case 17: {_color = "Gelb";};
+			case 18: {_color = "Weiss";};
+			case 19: {_color = "Grau";};
+			case 20: {_color = "Schwarz";};
 		};
 	};
 	
@@ -92,6 +106,11 @@ switch (_vehicle) do
 			case 8: {_color = "Kapow";};
 			case 9: {_color = "Notarzt"};
 			case 10: {_color = "Donator P"};
+			case 11: {_color = "Rot";};
+			case 12: {_color = "Dunkel Blau";};
+			case 13: {_color = "Orange";};
+			case 14: {_color = "Tan";};
+			case 15: {_color = "Gruen";};
 		};
 	};
 	
@@ -109,6 +128,9 @@ switch (_vehicle) do
 			case 7: {_color = "Donator P"};
 			case 8: {_color = "Fahrschule"};
 			case 9: {_color = "Notarzt"};
+			case 10: {_color = "Dunkel Rot";};
+			case 11: {_color = "Silver";};
+			case 12: {_color = "Orange";};
 		};
 	};
 	
@@ -124,6 +146,9 @@ switch (_vehicle) do
 			case 5: {_color = "Gruen/Sand";};
 			case 6: {_color = "Gruen/Braun";};
 			case 7: {_color = "Grau/Sand"};
+			case 8: {_color = "Weiss";};
+			case 9: {_color = "Rot";};
+			case 10: {_color = "Mr Slushy";};
 		};
 	};
 	
@@ -139,6 +164,9 @@ switch (_vehicle) do
 			case 5: {_color = "Gruen/Sand";};
 			case 6: {_color = "Gruen/Braun";};
 			case 7: {_color = "Grau/Sand"};
+			case 8: {_color = "Weiss";};
+			case 9: {_color = "Rot";};
+			case 10: {_color = "Mr Slushy";};
 		};
 	};
 
@@ -176,6 +204,8 @@ switch (_vehicle) do
 			case 0: {_color = "Orange/Blau";};
 			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
+			case 3: {_color = "Orange/Blau";};
+			case 4: {_color = "BROfrost"};
 		};
 	};
 	
@@ -186,6 +216,8 @@ switch (_vehicle) do
 			case 0: {_color = "Orange/Blau";};
 			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
+			case 3: {_color = "Orange/Blau";};
+			case 4: {_color = "BROfrost"};
 		};
 	};
 	
@@ -196,6 +228,8 @@ switch (_vehicle) do
 			case 0: {_color = "Orange/Blau";};
 			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
+			case 3: {_color = "Orange/Blau";};
+			case 4: {_color = "BROfrost"};
 		};
 	};
 	
@@ -230,6 +264,20 @@ switch (_vehicle) do
 			case 16: {_color = "Sanitaeter";};
 			case 17: {_color = "Pannenhilfe"};
 			case 18: {_color = "Donator P"};
+			case 19: {_color = "Blueline";};
+			case 20: {_color = "Rot/Weiss";};
+			case 21: {_color = "Grau Orange";};
+			case 22: {_color = "Blau/Grau";};
+			case 23: {_color = "Schatten";};
+			case 24: {_color = "Gruen/Weiss";};
+			case 25: {_color = "Weiss/Orange";};
+			case 26: {_color = "Redline";};
+			case 27: {_color = "Rot/Schwarz";};
+			case 28: {_color = "Tiger";};
+			case 29: {_color = "Wellen";};
+			case 30: {_color = "Gruen";};
+			case 31: {_color = "Gruen Camo";};
+			case 32: {_color = "Schwarz";};
 		};
 	};
 	
@@ -253,6 +301,10 @@ switch (_vehicle) do
 			case 2: {_color = "Digi Gruen";};
 			case 3: {_color = "Desert Digi";};
 			case 4: {_color = "Sanitaeter"};
+			case 5: {_color = "Schwarz";};
+			case 6: {_color = "Weiss / Blau";};
+			case 7: {_color = "Digi Gruen";};
+			case 8: {_color = "Desert Digi";};
 		};
 	};
 	
@@ -282,6 +334,20 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Wasp"};
 			case 13: {_color = "Wellen"};
+			case 14: {_color = "Blau"};
+			case 15: {_color = "Digi"};
+			case 16: {_color = "Elliptical"};
+			case 17: {_color = "Furios"};
+			case 18: {_color = "Grau"};
+			case 19: {_color = "Jeans"};
+			case 20: {_color = "Light"};
+			case 21: {_color = "Schatten"};
+			case 22: {_color = "Sheriff"};
+			case 23: {_color = "Speedy"};
+			case 24: {_color = "Sunn"};
+			case 25: {_color = "Vrana"};
+			case 26: {_color = "Wasp"};
+			case 27: {_color = "Wellen"};
 		};
 	};
 };

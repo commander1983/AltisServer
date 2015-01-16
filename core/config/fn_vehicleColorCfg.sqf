@@ -30,7 +30,13 @@ switch (_vehicle) do
 			[_path2 + "quadbike_01_indp_co.paa","reb"],
 			[_path3 + "quadbike_01_indp_hunter_co.paa","reb"],
 			["images\vehicles\med_quadbike.jpg","med"],
-			["images\vehicles\adac_quadbike.jpg","adac"]
+			["images\vehicles\adac_quadbike.jpg","adac"],
+			["images\vehicles\civ_quad.jpg","civ"],
+			[_path + "quadbike_01_co.paa","civ"],
+			[_path2 + "quadbike_01_civ_black_co.paa","civ"],
+			[_path2 + "quadbike_01_civ_blue_co.paa","civ"],
+			[_path2 + "quadbike_01_civ_red_co.paa","civ"],
+			[_path2 + "quadbike_01_civ_white_co.paa","civ"]
 		];
 	};
 	
@@ -78,7 +84,15 @@ switch (_vehicle) do
 			["images\vehicles\civ_hatchback_racing.jpg","donate"],
 			["images\vehicles\civ_hatchback_kapow.jpg","donate"],
 			["images\vehicles\cop\cop_hatchback.jpg","cop"],
-			["images\vehicles\cop\cop_hatchback_d.jpg","donatecop"]
+			["images\vehicles\cop\cop_hatchback_d.jpg","donatecop"],
+			[_path + "hatchback_01_ext_base01_co.paa","donate"],
+			[_path + "hatchback_01_ext_base02_co.paa","donate"],
+			[_path + "hatchback_01_ext_base03_co.paa","donate"],
+			[_path + "hatchback_01_ext_base04_co.paa","donate"],
+			[_path + "hatchback_01_ext_base06_co.paa","donate"],
+			[_path + "hatchback_01_ext_base07_co.paa","donate"],
+			[_path + "hatchback_01_ext_base08_co.paa","donate"],
+			[_path + "hatchback_01_ext_base09_co.paa","donate"]
 		];
 	};
 	
@@ -97,7 +111,12 @@ switch (_vehicle) do
 			["images\vehicles\civ_hatchback_racing.jpg","donate"],
 			["images\vehicles\civ_hatchback_kapow.jpg","donate"],
 			["images\vehicles\med_hatchback.jpg","med"],
-			["images\vehicles\cop\cop_hatchback_d.jpg","donatecop"]
+			["images\vehicles\cop\cop_hatchback_d.jpg","donatecop"],
+			[_path + "hatchback_01_ext_sport01_co.paa","donate"],
+			[_path + "hatchback_01_ext_sport02_co.paa","donate"],
+			[_path + "hatchback_01_ext_sport03_co.paa","donate"],
+			[_path + "hatchback_01_ext_sport05_co.paa","donate"],
+			[_path + "hatchback_01_ext_sport06_co.paa","donate"]
 		];
 	};
 	
@@ -115,7 +134,10 @@ switch (_vehicle) do
 			["images\vehicles\civ_suv_pink.jpg","donate"],
 			["images\vehicles\cop\cop_suv_d.jpg","donatecop"],
 			["images\vehicles\civ_suv.jpg","adac"],
-			["images\vehicles\med_suv.jpg","med"]
+			["images\vehicles\med_suv.jpg","med"],
+			[_path + "suv_01_ext_co.paa","donate"],
+			[_path + "suv_01_ext_03_co.paa","donate"],
+			[_path + "suv_01_ext_04_co.paa","donate"]
 		];
 	};
 	
@@ -132,7 +154,10 @@ switch (_vehicle) do
 			[_path2 + "van_01_ext_ig_03_co.paa","donate"],
 			[_path2 + "van_01_ext_ig_04_co.paa","donate"],
 			[_path2 + "van_01_ext_ig_05_co.paa","donate"],
-			[_path2 + "van_01_ext_ig_08_co.paa","donate"]
+			[_path2 + "van_01_ext_ig_08_co.paa","donate"],
+			[_path + "van_01_ext_co.paa","donate"],
+			[_path + "van_01_ext_red_co.paa","donate"],
+			["images\vehicles\civ_box1.jpg","donate","images\vehicles\civ_box.jpg"]
 		];
 	};
 	
@@ -149,7 +174,10 @@ switch (_vehicle) do
 			[_path2 + "van_01_ext_ig_03_co.paa","donate"],
 			[_path2 + "van_01_ext_ig_04_co.paa","donate"],
 			[_path2 + "van_01_ext_ig_05_co.paa","donate"],
-			[_path2 + "van_01_ext_ig_08_co.paa","donate"]
+			[_path2 + "van_01_ext_ig_08_co.paa","donate"],
+			[_path + "van_01_ext_co.paa","donate"],
+			[_path + "van_01_ext_red_co.paa","donate"],
+			["images\vehicles\civ_box1.jpg","donate","images\vehicles\civ_box.jpg"]
 		];
 	};
 	
@@ -188,7 +216,9 @@ switch (_vehicle) do
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
 			["#(argb,8,8,3)color(1,1,1,1)","donate","#(argb,8,8,3)color(0,0,0,1)"],
-			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_2.jpg"]
+			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_2.jpg"],
+			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","donate","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
+			["images\vehicles\zamak_1.jpg","donate","images\vehicles\zamak_2.jpg"]
 		];
 	};
 	
@@ -198,7 +228,9 @@ switch (_vehicle) do
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
 			["#(argb,8,8,3)color(1,1,1,1)","donate","#(argb,8,8,3)color(0,0,0,1)"],
-			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_2.jpg"]
+			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_2.jpg"],
+			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","donate","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
+			["images\vehicles\zamak_1.jpg","donate","images\vehicles\zamak_2.jpg"]
 		];
 	};
 	
@@ -244,7 +276,21 @@ switch (_vehicle) do
 			[_path2 + "heli_light_01_ext_ion_co.paa","reb"],
 			["images\vehicles\med_hummingbird.jpg","med"],
 			["images\vehicles\adac_hummingbird.jpg","adac"],
-			["images\vehicles\cop\cop_hummingbird_d.jpg","donatecop"]
+			["images\vehicles\cop\cop_hummingbird_d.jpg","donatecop"],
+			[_path + "heli_light_01_ext_blueline_co.paa","donate"],
+			[_path + "heli_light_01_ext_elliptical_co.paa","donate"],
+			[_path + "heli_light_01_ext_graywatcher_co.paa","donate"],
+			[_path + "heli_light_01_ext_jeans_co.paa","donate"],
+			[_path + "heli_light_01_ext_shadow_co.paa","donate"],
+			[_path + "heli_light_01_ext_sheriff_co.paa","donate"],
+			[_path + "heli_light_01_ext_speedy_co.paa","donate"],
+			[_path + "heli_light_01_ext_sunset_co.paa","donate"],
+			[_path + "heli_light_01_ext_vrana_co.paa","donate"],
+			[_path + "heli_light_01_ext_wasp_co.paa","donate"],
+			[_path + "heli_light_01_ext_wave_co.paa","donate"],
+			[_path2 + "heli_light_01_ext_blufor_co.paa","donate"],
+			[_path2 + "heli_light_01_ext_indp_co.paa","donate"],
+			[_path2 + "heli_light_01_ext_ion_co.paa","donate"]
 		];
 	};
 	
@@ -257,7 +303,10 @@ switch (_vehicle) do
 			[_path + "heli_light_02_ext_civilian_co.paa","civ"],
 			[_path + "heli_light_02_ext_indp_co.paa","reb"],
 			[_path + "heli_light_02_ext_opfor_co.paa","donate"],
-			["images\vehicles\med_orca.jpg","med"]
+			["images\vehicles\med_orca.jpg","med"],
+			[_path + "heli_light_02_ext_co.paa","donate"],
+			[_path + "heli_light_02_ext_civilian_co.paa","donate"],
+			[_path + "heli_light_02_ext_indp_co.paa","donate"]
 		];
 	};
 	
@@ -298,7 +347,21 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_coxt_wasp_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"]
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_blueline_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_elliptical_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_furious_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_jeans_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_light_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_speedy_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_coxt_wasp_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","donate"],
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","donate"]
 		];
 	};
 };
