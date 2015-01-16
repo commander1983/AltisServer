@@ -13,7 +13,7 @@ life_action_in_use = true;
 titleText["Verwandelt Kristall","PLAIN"];
 titleFadeOut 5;
 sleep 5;
-if(([true,"kristall",1] call life_fnc_handleInv)) then
+if(([true,"kristall",1] call life_fnc_handleInv)) exitWith {};
 
 };
 
