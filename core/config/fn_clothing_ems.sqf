@@ -63,7 +63,8 @@ switch (_filter) do
 			["G_Squares",nil,10],
 			["G_Aviator",nil,100],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["G_Diving",nil,50]
 		];
 	};
 	
@@ -71,6 +72,7 @@ switch (_filter) do
 	case 3:
 	{
 		[
+			["V_RebreatherB",nil,500]
 		];
 	};
 	

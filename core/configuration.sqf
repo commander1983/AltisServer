@@ -107,7 +107,7 @@ switch (playerSide) do
 	
 	case independent: {
 		ja_pare = 5000;
-		life_paycheck = 1000;
+		life_paycheck = 0;
 	};
 	
 	case east:

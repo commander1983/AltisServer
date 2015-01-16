@@ -102,6 +102,7 @@ switch (_vehicle) do
 			case 6: {_color = "PinkKitty"};
 			case 7: {_color = "Donator P"};
 			case 8: {_color = "Fahrschule"};
+			case 9: {_color = "Notarzt"};
 		};
 	};
 	
