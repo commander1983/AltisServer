@@ -143,7 +143,7 @@ if(count (handGunItems player) > 0) then
 	["life_inv_battery",life_inv_battery],["life_inv_handcuffs",life_inv_handcuffs],["life_inv_spikeStrip",life_inv_spikeStrip],
 	["life_inv_spikeStrip",life_inv_spikeStrip],["life_inv_defusekit",life_inv_defusekit],["life_inv_fuelF",life_inv_fuelF],
 	["life_inv_sperre",life_inv_sperre],["life_inv_warnung",life_inv_warnung],["life_inv_keys",life_inv_keys],
-	["life_inv_officerlockpick",life_inv_officerlockpick],["life_inv_lockpick",life_inv_lockpick]
+	["life_inv_lockpick",life_inv_lockpick]
 ];
 
 _ret pushBack _uItems;

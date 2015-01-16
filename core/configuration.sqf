@@ -158,7 +158,6 @@ life_inv_items =
 	"life_inv_glass",
 	"life_inv_tbacon",
 	"life_inv_lockpick",
-	"life_inv_officerlockpick",
 	"life_inv_redgull",
 	"life_inv_peach",
 	"life_inv_diamond",
