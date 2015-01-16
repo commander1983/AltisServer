@@ -23,7 +23,7 @@ switch (_vehicle) do
 			case 4: {_color = "Schwarz";};
 			case 5: {_color = "Blau";};
 			case 6: {_color = "Rot";};
-			case 7: {_color = "Weis";};
+			case 7: {_color = "Weiss";};
 			case 8: {_color = "Digi Gruen";};
 			case 9: {_color = "Rebel Camo";};
 			case 10: {_color = "Sanitaeter";};
@@ -60,7 +60,7 @@ switch (_vehicle) do
 			case 2: {_color = "Blau";};
 			case 3: {_color = "Dunkel Blau";};
 			case 4: {_color = "Gelb";};
-			case 5: {_color = "Weis";};
+			case 5: {_color = "Weiss";};
 			case 6: {_color = "Grau";};
 			case 7: {_color = "Schwarz";};
 			case 8: {_color = "PinkKitty";};
@@ -109,7 +109,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Weis";};
+			case 0: {_color = "Weiss";};
 			case 1: {_color = "Rot";};
 			case 2: {_color = "Mr Slushy";};
 			case 3: {_color = "Sand";};
@@ -124,7 +124,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Weis";};
+			case 0: {_color = "Weiss";};
 			case 1: {_color = "Rot";};
 			case 2: {_color = "Mr Slushy";};
 			case 3: {_color = "Sand";};
@@ -167,7 +167,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Orange/Blau";};
-			case 1: {_color = "Schwarz/Weis";};
+			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
 		};
 	};
@@ -177,7 +177,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Orange/Blau";};
-			case 1: {_color = "Schwarz/Weis";};
+			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
 		};
 	};
@@ -187,7 +187,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Orange/Blau";};
-			case 1: {_color = "Schwarz/Weis";};
+			case 1: {_color = "Schwarz/Weiss";};
 			case 2: {_color = "BROfrost"};
 		};
 	};
@@ -242,7 +242,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Schwarz";};
-			case 1: {_color = "Weis / Blau";};
+			case 1: {_color = "Weiss / Blau";};
 			case 2: {_color = "Digi Gruen";};
 			case 3: {_color = "Desert Digi";};
 			case 4: {_color = "Sanitaeter"};

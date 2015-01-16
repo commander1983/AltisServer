@@ -39,7 +39,7 @@ switch (_vehicle) do
 		_path = "\A3\soft_F\Offroad_01\Data\";
 		_ret = 
 		[
-			[_path + "offroad_01_ext_co.paa","civ"],
+			[_path + "offroad_01_ext_co.paa","civ, donate"],
 			[_path + "offroad_01_ext_BASE01_CO.paa","civ"],
 			[_path + "offroad_01_ext_BASE02_CO.paa","civ"],
 			[_path + "offroad_01_ext_BASE03_CO.paa","civ"],

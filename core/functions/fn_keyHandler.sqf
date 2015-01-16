@@ -242,6 +242,7 @@ switch (_code) do
 			"I_Heli_Transport_02_F",
 			"I_MRAP_03_F",
 			"B_Heli_Transport_03_unarmed_F"
+			"O_Heli_Transport_04_F"
 			]) then {
 				if(!isNil {vehicle player getVariable "lights"}) then {
 					[vehicle player] call life_fnc_adacsirenLights;

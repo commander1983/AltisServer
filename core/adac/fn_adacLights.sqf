@@ -17,6 +17,7 @@ switch (typeOf _vehicle) do {
 	case "I_Heli_Transport_02_F": { _attach = [[-1, -2.8, 0.55], [1, -2.8, 0.55]]; };
 	case "I_MRAP_03_F": { _attach = [[-0.93, 2.26, -0.77], [0.93, 2.26, -0.77]]; };	
 	case "B_Heli_Transport_03_unarmed_F": { _attach = [[-1, -2.8, 0.55], [1, -2.8, 0.55]]; };
+	case "O_Heli_Transport_04_F": { _attach = [[-1, -2.8, 0.55], [1, -2.8, 0.55]]; };
 };
 
 _lightRed = [20, 20, 0.1];

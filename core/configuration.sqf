@@ -439,7 +439,7 @@ life_garage_prices =
     ["C_Boat_Civil_01_police_F",3000],
     ["B_Boat_Armed_01_minigun_F",8750],
     ["B_MRAP_01_F",15000],
-    ["I_MRAP_03_F",15000],
+    ["I_MRAP_03_F",5000],
     ["I_Heli_light_03_unarmed_F",25000],
 	["C_Kart_01_Blu_F",6250],
     ["C_Kart_01_Fuel_F",6250],
@@ -448,9 +448,12 @@ life_garage_prices =
     ["O_Truck_03_transport_F",12500],
     ["O_Truck_03_covered_F",15000],
     ["O_Truck_03_repair_F",17500],
-	["B_Heli_Transport_03_unarmed_F",25000],
+	["B_Heli_Transport_03_unarmed_F",5000],
 	["C_Heli_Light_01_civil_F",12500],
-	["O_Heli_Transport_04_covered_F",25000]
+	["O_Heli_Transport_04_covered_F",25000],
+	["O_Heli_Transport_04_F",5000],
+	["O_Truck_03_fuel_F",17500],
+	["O_Truck_03_device_F",17500]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -490,6 +493,7 @@ life_garage_sell =
 	["O_Truck_03_covered_F",70000],
 	["B_Heli_Transport_03_unarmed_F",100000],
 	["C_Heli_Light_01_civil_F",20000],
-	["O_Heli_Transport_04_covered_F",7000]
+	["O_Heli_Transport_04_covered_F",7000],
+	["O_Heli_Transport_04_F",100000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
