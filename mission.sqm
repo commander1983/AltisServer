@@ -22807,7 +22807,7 @@ class Mission
 			position[]={8651.8809,180.83044,18283.117};
 			name="dimond_1_1";
 			text="Sandverarbeitung";
-			type="mil_triangle";
+			type="mil_box";
 			colorName="ColorBrown";
 			angle=-80.305901;
 		};
