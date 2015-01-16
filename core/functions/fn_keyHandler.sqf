@@ -241,7 +241,7 @@ switch (_code) do
 			"B_Truck_01_transport_F",
 			"I_Heli_Transport_02_F",
 			"I_MRAP_03_F",
-			"B_Heli_Transport_03_unarmed_F"
+			"B_Heli_Transport_03_unarmed_F,"
 			"O_Heli_Transport_04_F"
 			]) then {
 				if(!isNil {vehicle player getVariable "lights"}) then {

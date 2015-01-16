@@ -108,7 +108,8 @@ switch (_vehicle) do
 			["images\vehicles\civ_suv_rebelle.jpg","donate"],
 			["images\vehicles\civ_suv_pink.jpg","donate"],
 			["images\vehicles\cop\cop_suv_d.jpg","donatecop"],
-			["images\vehicles\civ_suv.jpg","adac"]
+			["images\vehicles\civ_suv.jpg","adac"],
+			["images\vehicles\med_suv.jpg","med"]
 		];
 	};
 	

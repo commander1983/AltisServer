@@ -62,22 +62,23 @@ switch (_shop) do
 		if(__GETC__(life_mediclevel) > 0) then
 		{
 			_return pushBack ["B_Quadbike_01_F",1000];
-		};
-		
-			if(__GETC__(life_mediclevel) > 2) then
-		{
-			_return pushBack ["C_Hatchback_01_sport_F",2500];
+			_return pushBack ["C_Offroad_01_F",5000];
 		};
 		
 		if(__GETC__(life_mediclevel) > 1) then
 		{
-			_return pushBack ["C_Offroad_01_F",5000];
+			_return pushBack ["C_Hatchback_01_sport_F",2500];
+		};
+
+		if(__GETC__(life_mediclevel) > 2) then
+		{
+			_return pushBack ["C_SUV_01_F",2500];
 		};
 	};
 	
 	case "med_air_hs": 
 	{
-		if(__GETC__(life_mediclevel) > 2) then
+		if(__GETC__(life_mediclevel) > 1) then
 		{
 			_return pushBack ["B_Heli_Light_01_F",50000];
 		};
