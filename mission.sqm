@@ -22229,7 +22229,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=296;
+		items=297;
 		class Item0
 		{
 			position[]={8444.1855,93.040619,25195.545};
@@ -24524,9 +24524,10 @@ class Mission
 		};
 		class Item274
 		{
-			position[]={25339.373,81.127533,21831.682};
+			position[]={25339.221,81.124191,21832.518};
 			name="cop_air_3";
 			type="Empty";
+			angle=-430.43686;
 		};
 		class Item275
 		{
@@ -24715,9 +24716,9 @@ class Mission
 		};
 		class Item293
 		{
-			position[]={15072.403,17.91,17108.152};
+			position[]={15065.021,17.91,17111.037};
 			name="SaveZone_5_1_4_5";
-			markerType="ELLIPSE";
+			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="Horizontal";
@@ -24726,14 +24727,15 @@ class Mission
 		};
 		class Item294
 		{
-			position[]={15128.399,17.91,17220.668};
+			position[]={15128.399,17.91,17241.869};
 			name="SaveZone_5_1_4_6";
-			markerType="ELLIPSE";
+			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="Horizontal";
-			a=50;
-			b=50;
+			a=60;
+			b=60;
+			angle=-44.2318;
 		};
 		class Item295
 		{
@@ -24743,6 +24745,18 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=-0.60203898;
+		};
+		class Item296
+		{
+			position[]={17543.289,12.492364,13293.857};
+			name="SaveZone_5_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Horizontal";
+			a=100;
+			b=100;
+			angle=-42.686798;
 		};
 	};
 };
