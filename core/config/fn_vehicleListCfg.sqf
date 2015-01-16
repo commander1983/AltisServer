@@ -229,7 +229,6 @@ switch (_shop) do
 			_return pushBack ["I_Truck_02_transport_F",52000];
 			_return pushBack ["I_Truck_02_covered_F",60000];
 			_return pushBack ["I_Truck_02_box_F",76000];
-			_return pushBack ["B_Truck_01_transport_F",200000];
 			_return pushBack ["B_Truck_01_covered_F",240000];
 			_return pushBack ["B_Truck_01_box_F",400000];
 			_return pushBack ["O_Truck_03_transport_F",200000];

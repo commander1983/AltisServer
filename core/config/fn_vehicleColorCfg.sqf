@@ -240,7 +240,9 @@ switch (_vehicle) do
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
 			["#(argb,8,8,3)color(1,1,1,1)","donate","#(argb,8,8,3)color(0,0,0,1)"],
-			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_3.jpg"]
+			["images\vehicles\zamak_1.jpg","civ","images\vehicles\zamak_3.jpg"],
+			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","donate","#(argb,8,8,3)color(0.047,0.322,0.875,1)"],
+			["images\vehicles\zamak_1.jpg","donate","images\vehicles\zamak_3.jpg"]
 		];
 	};
 	
