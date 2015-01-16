@@ -97,7 +97,7 @@ switch (playerSide) do
 	case west: 
 	{
 		ja_pare = 5000;
-		life_paycheck = 500;
+		life_paycheck = 750;
 	};
 	case civilian: 
 	{
@@ -453,7 +453,8 @@ life_garage_prices =
 	["O_Heli_Transport_04_covered_F",25000],
 	["O_Heli_Transport_04_F",5000],
 	["O_Truck_03_fuel_F",17500],
-	["O_Truck_03_device_F",17500]
+	["O_Truck_03_device_F",17500],
+	["O_Heli_Transport_04_medevac_F",5000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -494,6 +495,7 @@ life_garage_sell =
 	["B_Heli_Transport_03_unarmed_F",100000],
 	["C_Heli_Light_01_civil_F",20000],
 	["O_Heli_Transport_04_covered_F",7000],
-	["O_Heli_Transport_04_F",100000]
+	["O_Heli_Transport_04_F",100000],
+	["O_Heli_Transport_04_medevac_F",100000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

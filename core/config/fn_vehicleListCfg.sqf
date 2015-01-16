@@ -87,6 +87,11 @@ switch (_shop) do
 		{
 			_return pushBack ["O_Heli_Light_02_unarmed_F",75000];
 		};
+		
+		if(__GETC__(life_mediclevel) > 4) then
+		{
+			_return pushBack ["O_Heli_Transport_04_medevac_F",75000];
+		};
 	};
 	
 	
