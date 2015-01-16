@@ -371,7 +371,7 @@ class vInteraction_Menu
 			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
-			y = BGY + 0.27;
+			y = BGY + 0.17;
 			w = 0.24;
 			h = 0.038;
 		};
@@ -383,7 +383,7 @@ class vInteraction_Menu
 			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
-			y = BGY + 0.32;
+			y = BGY + 0.27;
 			w = 0.24;
 			h = 0.038;
 		};

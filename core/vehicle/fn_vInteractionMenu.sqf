@@ -74,9 +74,11 @@ if(playerSide == west) then {
 			if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
 		};
 	};
-	
-} else {
-	if(playerSide != east) then {
+	_Btn8 ctrlShow false;
+	_Btn9 ctrlShow false;
+};
+
+	if(playerSide == civilian) then {
 		if(_curTarget isKindOf "Ship") then {
 			_Btn2 ctrlSetText localize "STR_vInAct_PushBoat";
 			_Btn2 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
@@ -116,11 +118,10 @@ if(playerSide == west) then {
 		_Btn5 ctrlShow false;
 		_Btn6 ctrlShow false;
 		_Btn7 ctrlShow false;
+		_Btn8 ctrlShow false;
+		_Btn9 ctrlShow false;
 	};
-	_Btn5 ctrlShow false;
-	_Btn6 ctrlShow false;
-	_Btn7 ctrlShow false;
-};
+
 
 if(playerSide == east) then {
 	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
@@ -148,12 +149,39 @@ if(playerSide == east) then {
 		};
 	};
 	
-	_Btn8 ctrlSetText localize "STR_vInAct_Unlock";
-    _Btn8 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
+	_Btn9 ctrlSetText localize "STR_vInAct_Unlock";
+	_Btn9 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
 	
-	_Btn9 ctrlSetText localize "STR_vInAct_Lock";
-    _Btn9 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
 	
 	_Btn6 ctrlShow false;
 	_Btn7 ctrlShow false;
+	_Btn8 ctrlShow false;
 };
+
+if(playerSide == independent) then {
+		if(_curTarget isKindOf "Ship") then {
+			_Btn2 ctrlSetText localize "STR_vInAct_PushBoat";
+			_Btn2 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
+			if(_curTarget isKindOf "Ship" && {local _curTarget} && {count crew _curTarget == 0}) then { _Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false};
+		} else {
+			if(typeOf (_curTarget) in ["C_Kart_01_Blu_F","C_Kart_01_Red_F","C_Kart_01_Fuel_F","C_Kart_01_Vrana_F","B_Heli_Transport_03_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F","O_Heli_Transport_04_ammo_F","O_Heli_Transport_04_bench_F","O_Heli_Transport_04_box_F","O_Heli_Transport_04_covered_F","O_Heli_Transport_04_fuel_F","O_Heli_Transport_04_medevac_F","O_Heli_Transport_04_repair_F"]) then {
+				_Btn2 ctrlSetText localize "STR_vInAct_GetInKart";
+				_Btn2 buttonSetAction "player moveInDriver life_vInact_curTarget; closeDialog 0;";
+				if(count crew _curTarget == 0 && {canMove _curTarget} && {locked _curTarget == 0}) then {_Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false};
+			} else {
+				_Btn2 ctrlSetText localize "STR_vInAct_Unflip";
+				_Btn2 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
+				if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn2 ctrlEnable false;} else {_Btn2 ctrlEnable true;};
+			};
+		};
+		
+	_Btn8 ctrlSetText localize "STR_vInAct_Unlock";
+	_Btn8 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
+		
+		_Btn4 ctrlShow false;
+		_Btn3 ctrlShow false;
+		_Btn5 ctrlShow false;
+		_Btn6 ctrlShow false;
+		_Btn7 ctrlShow false;
+		_Btn9 ctrlShow false;
+		};

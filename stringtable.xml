@@ -1936,10 +1936,7 @@
         </Key>
 		
 		<Key ID="STR_vInAct_Unlock">
-			<Original>Unlock</Original>
-		</Key>
-		<Key ID="STR_vInAct_Lock">
-			<Original>Lock!</Original>
+			<Original>Auf-/ Abschließen</Original>
 		</Key>
 		
 	</Package>
