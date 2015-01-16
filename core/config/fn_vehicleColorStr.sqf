@@ -48,6 +48,12 @@ switch (_vehicle) do
 			case 10: {_color = "PinkKitty";};
 			case 11: {_color = "Colt"};
 			case 12: {_color = "Donator P"};
+			case 13: {_color = "Rot";};
+			case 14: {_color = "Gelb";};
+			case 15: {_color = "Weiss";};
+			case 16: {_color = "Blau";};
+			case 17: {_color = "Dunkelrot";};
+			case 18: {_color = "Blau / Weiss";};
 		};
 	};
 	

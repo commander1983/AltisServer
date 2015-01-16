@@ -39,7 +39,7 @@ switch (_vehicle) do
 		_path = "\A3\soft_F\Offroad_01\Data\";
 		_ret = 
 		[
-			[_path + "offroad_01_ext_co.paa","civ, donate"],
+			[_path + "offroad_01_ext_co.paa","civ"],
 			[_path + "offroad_01_ext_BASE01_CO.paa","civ"],
 			[_path + "offroad_01_ext_BASE02_CO.paa","civ"],
 			[_path + "offroad_01_ext_BASE03_CO.paa","civ"],
@@ -51,7 +51,13 @@ switch (_vehicle) do
 			["images\vehicles\civ_offroad_hugo.jpg","donate"],
 			["images\vehicles\civ_offroad_pink.jpg","donate"],
 			["images\vehicles\civ_offroad_colt.jpg","donate"],
-			["images\vehicles\cop\cop_offroader_d.jpg","donatecop"]
+			["images\vehicles\cop\cop_offroader_d.jpg","donatecop"],
+			[_path + "offroad_01_ext_co.paa","donate"],
+			[_path + "offroad_01_ext_BASE01_CO.paa","donate"],
+			[_path + "offroad_01_ext_BASE02_CO.paa","donate"],
+			[_path + "offroad_01_ext_BASE03_CO.paa","donate"],
+			[_path + "offroad_01_ext_BASE04_CO.paa","donate"],
+			[_path + "offroad_01_ext_BASE05_CO.paa","donate"]
 		];
 	};
 	
