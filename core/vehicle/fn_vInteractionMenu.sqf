@@ -12,8 +12,10 @@
 #define Btn5 37454
 #define Btn6 37455
 #define Btn7 37456
+#define Btn8 37457
+#define Btn9 37458
 #define Title 37401
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9"];
 if(!dialog) then {
 	createDialog "vInteraction_Menu";
 };
@@ -30,6 +32,8 @@ _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
+_Btn8 = _display displayCtrl Btn8;
+_Btn9 = _display displayCtrl Btn9;
 life_vInact_curTarget = _curTarget;
 
 //Set Repair Action
@@ -143,6 +147,12 @@ if(playerSide == east) then {
 			if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
 		};
 	};
+	
+	_Btn8 ctrlSetText localize "STR_vInAct_Unlock";
+    _Btn8 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
+	
+	_Btn9 ctrlSetText localize "STR_vInAct_Lock";
+    _Btn9 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockVehicle;";
 	
 	_Btn6 ctrlShow false;
 	_Btn7 ctrlShow false;

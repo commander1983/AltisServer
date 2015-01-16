@@ -1935,6 +1935,13 @@
             <Original>Permanent Beschlagnahmen</Original>
         </Key>
 		
+		<Key ID="STR_vInAct_Unlock">
+			<Original>Unlock</Original>
+		</Key>
+		<Key ID="STR_vInAct_Lock">
+			<Original>Lock!</Original>
+		</Key>
+		
 	</Package>
 	<Package name="Session_Strings">
 		<Key ID="STR_Session_Query">
