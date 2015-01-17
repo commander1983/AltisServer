@@ -37,6 +37,7 @@ life_bet = false;
 life_removeWanted = false;
 Life_request_timer = false;
 life_channel_send = true;
+life_fadeSound = false;
 life_god = false; //Add this
 life_frozen = false; //And this
 life_markers = false; //Finally this

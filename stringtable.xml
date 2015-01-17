@@ -977,6 +977,9 @@
 		<Key ID="STR_NOTF_NoLootingPerson">
 			<Original>Hier kannst du nicht reinschauen!</Original>
 		</Key>
+		<Key ID="STR_NOTF_vProzess">
+			<Original>Raus aus der Karre du Lusche!</Original>
+		</Key>
 	</Package>	
 	<Package name="Jail_Strings">
 		<Key ID="STR_Jail_Warn">

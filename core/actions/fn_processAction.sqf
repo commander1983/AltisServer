@@ -10,7 +10,7 @@ _vendor = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _type = [_this,3,"",[""]] call BIS_fnc_param;
 //Error check
 if(isNull _vendor OR _type == "" OR (player distance _vendor > 3)) exitWith {};
-
+if(vehicle player != player) exitWith {hint localize "STR_NOTF_vProzess"};
 _error = false;
 //unprocessed item,processed item, cost if no license,Text to display (I.e Processing  (percent) ...",processing 2Items?, (only for processing with 2) second Item.
 _itemInfo = switch (_type) do

@@ -465,16 +465,17 @@ switch (_code) do
 			};
 		};
 	};
-/*	
+	
 	//EMP Konsole - K
-    case 37:
+    case 207:
     {
-        if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player && (typeOf vehicle player) in ["B_Heli_Light_01_F","I_Heli_light_03_unarmed_F"])) then
-        {
-            [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
-        };
+         if(!_alt && !_ctrlKey && !_shift) then
+    {
+        [] call life_fnc_fadeSound;
+        _handled = true;
     };
-*/	
+    };
+	
 	case 79:
 	{
 		if(_shift) then {_handled = true;};

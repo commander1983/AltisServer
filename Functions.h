@@ -282,6 +282,7 @@ class Life_Client_Core
 		class maskdrop {};
 		class prisionbreak {};
 		class progressBaren {};
+		class fadeSound {};
 	};
 	
 	class Network
