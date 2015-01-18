@@ -466,7 +466,7 @@ switch (_code) do
 		};
 	};
 	
-	//EMP Konsole - K
+	//Earplugs - END 
     case 207:
     {
          if(!_alt && !_ctrlKey && !_shift) then
@@ -479,7 +479,7 @@ switch (_code) do
 	case 79:
 	{
 		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained")) then
+		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
 		{
 			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
 		};
@@ -488,7 +488,7 @@ switch (_code) do
 	case 80:
 	{
 		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained")) then
+		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
 		{
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
 		};
@@ -497,7 +497,7 @@ switch (_code) do
 	case 81:
 	{
 		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained")) then
+		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
 		{
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
 		};
@@ -506,9 +506,18 @@ switch (_code) do
 	case 75:
 	{
 		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained")) then
+		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
 		{
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+		};
+	};
+	
+	case 71:
+	{
+		if(_shift) then {_handled = true;};
+		if (_shift && !(player getVariable "restrained") && !(vehicle player != player) && (playerSide == west)) then
+		{
+			player playMove "ActsPercMstpSnonWnonDnon_listeningToRadio_Loop";
 		};
 	};
 	
