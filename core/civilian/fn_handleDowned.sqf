@@ -43,7 +43,7 @@ if(_shooter isKindOf "Man" && alive player) then
 		sleep 8;
 		//if(!(player getVariable "restrained")) then {
 			[[player,"AinjPpneMstpSnonWrflDnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-			sleep 22;
+			sleep 8;
 		//};
 		//if (!(player getVariable "restrained")) then {
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
