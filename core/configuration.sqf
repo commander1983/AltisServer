@@ -428,7 +428,7 @@ life_garage_prices =
     ["I_Truck_02_transport_F",7500],
     ["I_Truck_02_box_F",12500],
     ["B_Truck_01_covered_F",17500],
-    ["B_Truck_01_transport_F",15000],
+    ["B_Truck_01_transport_F",5000],
     ["B_Truck_01_box_F", 17500],
     ["O_MRAP_02_F",15000],
     ["B_Heli_Light_01_F",12500],
