@@ -21,7 +21,7 @@ switch (_shop) do
 	case "iron": {["Kupfer / Eisen - Haendler",["iron_r","copper_r"]]};
 	case "diamond": {["Diamant Haendler",["diamondc"]]};
 	case "salt": {["Salz Haendler",["salt_r"]]};
-	case "cop": {["Polizeiitemladen",["handcuffs","keys","donuts","coffee","spikeStrip","water","rabbit","redgull","fuelF","battery","sperre","warnung","defusekit","coppainkillers","lockpick"]]};
+	case "cop": {["Polizeiitemladen",["handcuffs","keys","donuts","coffee","spikeStrip","water","rabbit","redgull","fuelF","battery","sperre","warnung","defusekit","coppainkillers"]]};
 	case "cement": {["Zement Haendler",["cement"]]};
 	case "beer": {["Schnappsladen",["vodka"]]};
 	case "gas": {["Tankstelle",["water","redgull","tbacon","fuelF","pickaxe"]]};
