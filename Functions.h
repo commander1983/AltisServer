@@ -421,6 +421,7 @@ class Life_Client_Core
 		class heroine {};
 		class jerryRefuel {};
 		class lockpick {};
+		class lockpickV {};
 		class pickaxeUse {};
 		class weed {};
 		class flashbang {};

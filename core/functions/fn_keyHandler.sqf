@@ -512,15 +512,6 @@ switch (_code) do
 		};
 	};
 	
-	case 71:
-	{
-		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained") && !(vehicle player != player) && (playerSide == west)) then
-		{
-			player playMove "ActsPercMstpSnonWnonDnon_listeningToRadio_Loop";
-		};
-	};
-	
 	case 62:
 	{
 		if (_alt) then

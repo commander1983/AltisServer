@@ -33,7 +33,7 @@ _cP = 0.01;
 //Lets reuse the same thing!
 while {true} do
 {
-	if(animationState player != "AinvPknlMstpsnonWnonDnon_medic1" ) then {
+	if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
 	player action ["SwitchWeapon", player, player, 100];   //EDIT
 	player playMove "AinvPknlMstpsnonWnonDnon_medic_1"; //Durée action 6.5 secondes
 	player playActionNow "stop";
