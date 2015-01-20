@@ -79,7 +79,8 @@ class Mission
 		"A3_Structures_F_EPA_Civ_Constructions",
 		"A3_Structures_F_Heli_Ind_Machines",
 		"A3_Structures_F_Heli_Civ_Garbage",
-		"A3_Structures_F_EPB_Civ_Garbage"
+		"A3_Structures_F_EPB_Civ_Garbage",
+		"A3_Structures_F_Civ_Garbage"
 	};
 	addOnsAuto[]=
 	{
@@ -152,6 +153,7 @@ class Mission
 		"A3_Structures_F_Heli_Ind_Machines",
 		"A3_Structures_F_Heli_Civ_Garbage",
 		"A3_Structures_F_EPB_Civ_Garbage",
+		"A3_Structures_F_Civ_Garbage",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -3544,14 +3546,14 @@ class Mission
 					vehicle="C_man_polo_2_F_euro";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false;";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Autogarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }]; this addAction[""Heli Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }];";
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=1821;
+		items=1828;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -11014,7 +11016,7 @@ class Mission
 			offsetY=0.80000001;
 			id=899;
 			side="EMPTY";
-			vehicle="Land_Sunshade_F";
+			vehicle="Land_Sink_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
 		};
@@ -13299,7 +13301,7 @@ class Mission
 		class Item917
 		{
 			position[]={22161.551,3.3757558,14418.681};
-			azimut=-273.62408;
+			azimut=-273.62399;
 			id=1114;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -22809,7 +22811,7 @@ class Mission
 		};
 		class Item1810
 		{
-			position[]={15145.616,17.725811,17276.988};
+			position[]={15145.218,17.737217,17276.592};
 			azimut=44.402618;
 			special="NONE";
 			id=2007;
@@ -22820,7 +22822,7 @@ class Mission
 		};
 		class Item1811
 		{
-			position[]={15143.948,17.663771,17278.613};
+			position[]={15143.55,17.676514,17278.217};
 			azimut=45.6903;
 			special="NONE";
 			id=2008;
@@ -22929,10 +22931,93 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
 		};
+		class Item1821
+		{
+			position[]={3642.3018,10.162611,13115.211};
+			azimut=182.646;
+			special="NONE";
+			id=2018;
+			side="EMPTY";
+			vehicle="Land_Garbage_line_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1822
+		{
+			position[]={3635.4802,10.13,13106.12};
+			azimut=182.298;
+			special="NONE";
+			id=2019;
+			side="EMPTY";
+			vehicle="Land_Garbage_square5_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1823
+		{
+			position[]={3639.1904,10.139016,13105.958};
+			azimut=182.298;
+			special="NONE";
+			id=2020;
+			side="EMPTY";
+			vehicle="Land_Garbage_square5_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1824
+		{
+			position[]={3643.0605,10.159657,13099.144};
+			azimut=182.298;
+			special="NONE";
+			id=2021;
+			side="EMPTY";
+			vehicle="Land_Garbage_square5_F";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item1825
+		{
+			position[]={15142.416,17.89509,17270.631};
+			azimut=98.865402;
+			special="NONE";
+			id=2022;
+			side="EMPTY";
+			vehicle="Land_Tyres_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1826
+		{
+			position[]={15145.524,17.859989,17273.303};
+			azimut=48.563499;
+			special="NONE";
+			id=2023;
+			side="EMPTY";
+			vehicle="Land_Tyre_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1827
+		{
+			position[]={15144.567,17.890087,17272.467};
+			azimut=48.563499;
+			special="NONE";
+			id=2024;
+			side="EMPTY";
+			vehicle="Land_Tyre_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
 	};
 	class Markers
 	{
-		items=298;
+		items=299;
 		class Item0
 		{
 			position[]={8444.1855,93.040619,25195.545};
@@ -25468,6 +25553,13 @@ class Mission
 			text="Reparaturwerkstatt";
 			type="b_maint";
 			colorName="ColorYellow";
+		};
+		class Item298
+		{
+			position[]={15149.788,17.906782,17266.205};
+			name="werk_1";
+			type="Empty";
+			angle=44.383457;
 		};
 	};
 };
