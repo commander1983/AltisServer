@@ -279,21 +279,21 @@ switch(_shop) do
 			case (__GETC__(life_donator) == 1):
 			{
 				["Cop Donator Shop",
-				[
-					["H_Watchcap_blk","Beanie",50],
-					["NVGoggles_OPFOR","NV Schwarz",800],
-					["NVGoggles_INDEP","NV Gruen",800],
-					["Rangefinder",nil,800],
-					["ItemGPS",nil,100],
-					["ToolKit",nil,500],
-					["FirstAidKit",nil,250],
-					["arifle_MXC_F",nil,5000],
-					["arifle_MX_F",nil,5000],
-					["arifle_MXM_F",nil,5000],
-					["arifle_MX_SW_F",nil,5000],
-					["30Rnd_65x39_caseless_mag",nil,100],
-					["100Rnd_65x39_caseless_mag_Tracer",nil,100]
-				]
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250],
+						["arifle_MXC_F",nil,5000],
+						["arifle_MX_F",nil,5000],
+						["arifle_MXM_F",nil,5000],
+						["arifle_MX_SW_F",nil,5000],
+						["30Rnd_65x39_caseless_mag",nil,100],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,100]
+					]
 				];
 			};
 		};
