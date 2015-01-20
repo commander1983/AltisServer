@@ -3546,7 +3546,7 @@ class Mission
 					vehicle="C_man_polo_2_F_euro";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Autogarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }]; this addAction[""Heli Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Auto Werkstatt"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }]; this addAction[""Heli Werkstatt"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_vgetVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_vimpound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""werk_1"";  }];";
 				};
 			};
 		};
