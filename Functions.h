@@ -447,12 +447,14 @@ class Life_Client_Core
 		class progressBar {};
 		class impoundMenu {};
 		class unimpound {};
+		class vunimpound {};
 		class repair {};
 		class sellGarage {};
 		class bankDeposit {};
 		class bankWithdraw {};
 		class bankTransfer {};
 		class garageLBChange {};
+		class vgarageLBChange {};
 		class safeInventory {};
 		class safeOpen {};
 		class safeTake {};

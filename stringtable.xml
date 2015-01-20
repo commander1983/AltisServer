@@ -28,6 +28,9 @@
 		<Key ID="STR_Global_Retrieve">
 			<Original>Abrufen</Original>
 		</Key>
+		<Key ID="STR_Global_vRetrieve">
+			<Original>Reparieren</Original>
+		</Key>
 		<Key ID="STR_Global_NoSelection">
 			<Original>Sie haben nichts ausgewählt!</Original>
 		</Key>
@@ -1797,8 +1800,14 @@
 		<Key ID="STR_GUI_Garage">
 			<Original>Garage</Original>
 		</Key>
+		<Key ID="STR_GUI_vGarage">
+			<Original>Werkstatt</Original>
+		</Key>
 		<Key ID="STR_GUI_YourVeh">
 			<Original>Ihre Fahrzeuge</Original>
+		</Key>
+		<Key ID="STR_GUI_sYourVeh">
+			<Original>Schrottplatz</Original>
 		</Key>
 		<Key ID="STR_GUI_VehInfo">
 			<Original>Fahrzeuginformationen</Original>
@@ -2074,6 +2083,9 @@
 		</Key>
 		<Key ID="STR_Shop_Veh_UI_RetrievalP">
 			<Original>Ausparkgebühr:</Original>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_vRetrievalP">
+			<Original>Aufbereitungsgebühr:</Original>
 		</Key>
 		<Key ID="STR_Shop_Veh_UI_SellP">
 			<Original>Verkaufspreis:</Original>
