@@ -231,7 +231,6 @@ class Life_Client_Core
 		file = "core\functions";
 		class accType {};
 		class actionKeyHandler {};
-		class adaceinsatz {};
 		class animSync {};
 		class calWeightDiff {};
 		class clearVehicleAmmo {};
