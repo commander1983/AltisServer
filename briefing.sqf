@@ -292,6 +292,7 @@ player createDiaryRecord ["lizenz",
 - <font color='#D6C610'>Ölsäuberungs-Lizenz:</font> 20.000,-<br/>
 - <font color='#D6C610'>Goldschmelz-Lizenz:</font> 30.000,-<br/>
 - <font color='#D6C610'>Diamantenschleif-Lizenz:</font> 40.000,-<br/>
+- <font color='#D6C610'>Kristallverarbeitungs-Lizenz:</font> 50.000,-<br/>
 				"
 		]
 	];
@@ -713,7 +714,7 @@ player createDiaryRecord ["steuerung",
 <font color='#94D6CE'>INFO:</font><br/>
 Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstellungen -> Steuerung -> Ind. Steuerung -> Aktionstate 10 -> DEINE TASTE
 <br/>
-<br/>		<!-- ########## ZIVILISTEN und REBELLEN STEUERUNG ########## -->
+<br/>
 <br/>
 <font size='18'><font color='#9C2994'>Zivilist/Rebelle</font></font><br/>
 <font color='#639C18'>SHIFT + G (Waffe in Hand)</font><br/>
@@ -730,6 +731,9 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <br/>
 <font color='#639C18'>Windowstaste</font><br/>
 - Farmen / Sammeln
+<br/>
+<font color='#639C18'>END Taste</font><br/>
+- Earplugs einsetzen / entfernen
 <br/>
 <br/>		<!-- ########## POLIZEI STEUERUNG ########## -->
 <br/>
