@@ -33,7 +33,7 @@ if (playerSide == civilian) then {
 			[[_vid,_pid,(getMarkerPos life_garage_sp),_unit,_price,markerDir life_garage_sp],"TON_fnc_spawnVehicle",false,false] spawn life_fnc_MP;
 		};
 	};
-};
+} else {hint parseText format ["Nur Zivilisten dürfen diese Garage verwenden."];};
 
 if (playerSide == civilian) then {
 
@@ -51,7 +51,7 @@ if (playerSide == civilian) then {
 			[[_vid,_pid,(getMarkerPos life_garage_sp),_unit,_price,markerDir life_garage_sp],"TON_fnc_spawnVehicle",false,false] spawn life_fnc_MP;
 		};
 	};
-};
+} else {hint parseText format ["Nur Zivilisten dürfen diese Garage verwenden."];};
 
 if (playerSide != civilian) then {
 
@@ -69,7 +69,7 @@ if (playerSide != civilian) then {
 			[[_vid,_pid,(getMarkerPos life_garage_sp),_unit,_price,markerDir life_garage_sp],"TON_fnc_spawnVehicle",false,false] spawn life_fnc_MP;
 		};
 	};
-} else {hint parseText format ["Du bist kein Beamter!"];};
+} else {hint parseText format ["Nur Beamte dürfen diese Garage verwenden!"];};
 
 hint localize "STR_Garage_SpawningVeh";
 
