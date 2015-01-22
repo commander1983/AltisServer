@@ -17,7 +17,7 @@ _unit = player;
 
 if(isNil "_vehicle") exitWith {hint localize "STR_Garage_Selection_Error"};
 
-if [(playerSide == civilian) && (__GETC__(life_donator) == 0)] then {
+if [(playerSide == civilian) && (life_donator == 0)] then {
 
 	_price = [_vehicle,__GETC__(life_vgarage_prices)] call TON_fnc_index;
 	if(_price == -1) then {_price = 1000;} else {_price = (__GETC__(life_vgarage_prices) select _price) select 1;};
@@ -35,7 +35,7 @@ if [(playerSide == civilian) && (__GETC__(life_donator) == 0)] then {
 	};
 };
 
-if [(playerSide == civilian) && (__GETC__(life_donator) == 1)] then {
+if [(playerSide == civilian) && (life_donator == 1)] then {
 
 	_price = [_vehicle,__GETC__(life_dgarage_prices)] call TON_fnc_index;
 	if(_price == -1) then {_price = 1000;} else {_price = (__GETC__(life_dgarage_prices) select _price) select 1;};
