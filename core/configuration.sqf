@@ -539,3 +539,83 @@ life_vgarage_prices =
 	["O_Heli_Transport_04_medevac_F",175000]
 ];
 __CONST__(life_vgarage_prices,life_vgarage_prices);
+
+life_dgarage_prices =
+[
+	["B_Quadbike_01_F",1000],
+    ["C_Hatchback_01_F",10000],
+    ["C_Offroad_01_F", 12000],
+    ["B_G_Offroad_01_F",70000],
+    ["C_SUV_01_F",26000],
+    ["C_Van_01_transport_F",39000],
+    ["C_Hatchback_01_sport_F",999999],
+    ["I_Heli_Transport_02_F",2800000],
+    ["C_Van_01_box_F",50000],
+    ["I_Truck_02_covered_F",130000],
+    ["I_Truck_02_transport_F",110000],
+    ["I_Truck_02_box_F",160000],
+    ["B_Truck_01_covered_F",500000],
+    ["B_Truck_01_transport_F",25000],
+    ["B_Truck_01_box_F", 850000],
+    ["O_MRAP_02_F",60000],
+    ["B_Heli_Light_01_F",1500000],
+    ["O_Heli_Light_02_unarmed_F",3500000],
+    ["B_MRAP_01_F",2275000],
+    ["I_MRAP_03_F",70000],
+    ["I_Heli_light_03_unarmed_F",70000],
+	["C_Kart_01_Blu_F",16000],
+    ["C_Kart_01_Fuel_F",16000],
+    ["C_Kart_01_Red_F",16000],
+    ["C_Kart_01_Vrana_F",16000],
+    ["O_Truck_03_transport_F",350000],
+    ["O_Truck_03_covered_F",420000],
+    ["O_Truck_03_repair_F",700000],
+	["B_Heli_Transport_03_unarmed_F",175000],
+	["C_Heli_Light_01_civil_F",1500000],
+	["O_Heli_Transport_04_covered_F",3900000],
+	["O_Heli_Transport_04_F",175000],
+	["O_Truck_03_fuel_F",700000],
+	["O_Truck_03_device_F",750000],
+	["O_Heli_Transport_04_medevac_F",175000]
+];
+__CONST__(life_dgarage_prices,life_dgarage_prices);
+
+life_egarage_prices =
+[
+	["B_Quadbike_01_F",1000],
+    ["C_Hatchback_01_F",10000],
+    ["C_Offroad_01_F", 12000],
+    ["B_G_Offroad_01_F",70000],
+    ["C_SUV_01_F",26000],
+    ["C_Van_01_transport_F",39000],
+    ["C_Hatchback_01_sport_F",999999],
+    ["I_Heli_Transport_02_F",2800000],
+    ["C_Van_01_box_F",50000],
+    ["I_Truck_02_covered_F",130000],
+    ["I_Truck_02_transport_F",110000],
+    ["I_Truck_02_box_F",160000],
+    ["B_Truck_01_covered_F",500000],
+    ["B_Truck_01_transport_F",25000],
+    ["B_Truck_01_box_F", 850000],
+    ["O_MRAP_02_F",60000],
+    ["B_Heli_Light_01_F",1500000],
+    ["O_Heli_Light_02_unarmed_F",3500000],
+    ["B_MRAP_01_F",2275000],
+    ["I_MRAP_03_F",70000],
+    ["I_Heli_light_03_unarmed_F",70000],
+	["C_Kart_01_Blu_F",16000],
+    ["C_Kart_01_Fuel_F",16000],
+    ["C_Kart_01_Red_F",16000],
+    ["C_Kart_01_Vrana_F",16000],
+    ["O_Truck_03_transport_F",350000],
+    ["O_Truck_03_covered_F",420000],
+    ["O_Truck_03_repair_F",700000],
+	["B_Heli_Transport_03_unarmed_F",175000],
+	["C_Heli_Light_01_civil_F",1500000],
+	["O_Heli_Transport_04_covered_F",3900000],
+	["O_Heli_Transport_04_F",175000],
+	["O_Truck_03_fuel_F",700000],
+	["O_Truck_03_device_F",750000],
+	["O_Heli_Transport_04_medevac_F",175000]
+];
+__CONST__(life_egarage_prices,life_egarage_prices);
