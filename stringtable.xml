@@ -1803,6 +1803,12 @@
 		<Key ID="STR_GUI_vGarage">
 			<Original>Werkstatt</Original>
 		</Key>
+		<Key ID="STR_GUI_dGarage">
+			<Original>Donator Werkstatt</Original>
+		</Key>
+		<Key ID="STR_GUI_eGarage">
+			<Original>Beamten Werkstatt</Original>
+		</Key>
 		<Key ID="STR_GUI_YourVeh">
 			<Original>Ihre Fahrzeuge</Original>
 		</Key>

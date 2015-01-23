@@ -711,9 +711,12 @@ player createDiaryRecord ["steuerung",
 - Fahrzeug-Kofferraum öffnen
 <br/>
 <br/>
+<font color='#639C18'>END Taste</font><br/>
+- Earplugs einsetzen / entfernen
+<br/>
+<br/>
 <font color='#94D6CE'>INFO:</font><br/>
 Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstellungen -> Steuerung -> Ind. Steuerung -> Aktionstate 10 -> DEINE TASTE
-<br/>
 <br/>
 <br/>
 <font size='18'><font color='#9C2994'>Zivilist/Rebelle</font></font><br/>
@@ -731,9 +734,6 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <br/>
 <font color='#639C18'>Windowstaste</font><br/>
 - Farmen / Sammeln
-<br/>
-<font color='#639C18'>END Taste</font><br/>
-- Earplugs einsetzen / entfernen
 <br/>
 <br/>		<!-- ########## POLIZEI STEUERUNG ########## -->
 <br/>

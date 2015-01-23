@@ -448,6 +448,8 @@ class Life_Client_Core
 		class impoundMenu {};
 		class unimpound {};
 		class vunimpound {};
+		class dunimpound {};
+		class eunimpound {};
 		class repair {};
 		class sellGarage {};
 		class bankDeposit {};
@@ -455,6 +457,8 @@ class Life_Client_Core
 		class bankTransfer {};
 		class garageLBChange {};
 		class vgarageLBChange {};
+		class dgarageLBChange {};
+		class egarageLBChange {};
 		class safeInventory {};
 		class safeOpen {};
 		class safeTake {};
