@@ -516,6 +516,8 @@ switch (_code) do
 	{
 		if (_alt) then
 		{
+			diag_log format ["!!! PLAYER INFO :: %1 drueckte ALT + F4!",profileName];
+			[[[0,1],format["%1 wurde von SPY-GLASS erwischt, wie er/sie das Spiel mit ALT + F4 geschlossen hat.",profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 			[] call SOCK_fnc_updateRequest;
 		};
 	};
@@ -532,6 +534,8 @@ switch (_code) do
 	{
 		if (_alt && _ctrlKey) then
 		{
+			diag_log format ["PLAYER_INFO :: %1 drueckte STRG + ALT + ENTF!",profileName];
+			[[[0,1],format["%1 wurde von SPY-GLASS erwischt, wie er/sie den TaskManager mit STRG + ALT + ENTF geöffnet hat.",profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 			[] call SOCK_fnc_updateRequest;
 		};
 	};
