@@ -67,9 +67,10 @@ if(!isNil "life_copRecieve") then {
 };
 
 //So I guess a fellow gang member, cop or myself killed myself so get me off that Altis Most Wanted
+/*
 if(life_removeWanted) then {
-	[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
-};
+	[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;						// ** Einfach mal ausklammern und hoffen das es geht :P **
+};*/
 
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
