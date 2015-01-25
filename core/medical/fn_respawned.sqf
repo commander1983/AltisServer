@@ -5,7 +5,9 @@
 	Description:
 	Sets the player up if he/she used the respawn option.
 */
-private["_pic"];
+private["_pic","_killer"];
+
+_killer = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
 //Reset our weight and other stuff
 life_use_atm = TRUE;
 life_hunger = 100;
@@ -67,10 +69,11 @@ if(!isNil "life_copRecieve") then {
 };
 
 //So I guess a fellow gang member, cop or myself killed myself so get me off that Altis Most Wanted
-/*
 if(life_removeWanted) then {
-	[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;						// ** Einfach mal ausklammern und hoffen das es geht :P **
-};*/
+	if(side _killer == west) then {
+		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
+	};
+};
 
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
