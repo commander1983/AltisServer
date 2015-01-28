@@ -788,7 +788,8 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 • Snerz<br/>
 • Staiy<br/>
 • bekoo<br/>
-• mantis
+• mantis<br/>
+• Murphy
 <br/>
 <br/>
 <font color='#D60000'><font size='16'>Webseite:</font></font><br/>
