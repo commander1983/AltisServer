@@ -11,8 +11,8 @@ if(isNil "_sperre") exitWith {};
 
 if(([true,"sperre",1] call life_fnc_handleInv)) then
 {
-    titleText["Du hast die Straﬂensperre enfernt.","PLAIN"];
     player removeAction life_action_sperrePickup;
     life_action_sperrePickup = nil;
     deleteVehicle _sperre;
+    titleText["Du hast die Straﬂensperre aufgehoben.","PLAIN"];
 };
