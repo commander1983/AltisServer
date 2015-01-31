@@ -96,6 +96,7 @@ class Life_Client_Core
 		class adacSirenLights {};
 		class adacLights {};
 		class adacMarkers {};
+		class adacradarext {};
 	};
 	
 	class Actions

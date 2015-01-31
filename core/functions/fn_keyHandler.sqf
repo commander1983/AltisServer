@@ -464,6 +464,14 @@ switch (_code) do
 				[] spawn life_fnc_radar;
 			};
 		};
+		
+		if (!_alt && !_ctrlKey && playerSide == east) then
+		{
+			if(vehicle player != player) then
+			{
+				[] spawn life_fnc_adacradarext;
+			};
+		};
 	};
 	
 	//Earplugs - END 

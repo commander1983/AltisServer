@@ -131,7 +131,20 @@ _patchList =
 "A3_Soft_F_Heli_MRAP_01","A3_Air_F_Heli_Heli_Transport_04","A3_Soft_F_Heli_MRAP_02","A3_Soft_F_Heli_MRAP_03","A3_Soft_F_Heli_Quadbike","A3_Soft_F_Heli_SUV",
 "A3_Soft_F_Heli_Truck","A3_UI_F_Heli","A3_Air_F_Heli","A3_Air_F_Heli_Heli_Attack_01","A3_Air_F_Heli_Heli_Attack_02","A3_Air_F_Heli_Heli_Light_01","A3_Air_F_Heli_Heli_Light_02","A3_Air_F_Heli_Heli_Light_03",
 "A3_Air_F_Heli_Heli_Transport_01","A3_Air_F_Heli_Heli_Transport_02","A3_Air_F_Heli_Heli_Transport_03","A3_Air_F_Heli_Heli_Transport_04",
-"A3_CargoPoses_F_Heli","A3_Soft_F_Heli_Crusher_UGV"
+"A3_CargoPoses_F_Heli","A3_Soft_F_Heli_Crusher_UGV",
+"DragonFyre_Bullethits","DragonFyre_Explosions", "DragonFyre_Sonic_Cracks", "DragonFyre_230mm_Titan", "DragonFyre_Air_Weapons",
+"DragonFyre_35mm_Autocannon", "DragonFyre_120mm_Cannon", "DragonFyre_Autocannon", "DragonFyre_DAGR", "DragonFyre_DAR", "DragonFyre_Minigun", "DragonFyre_30mm_Cannon",
+"DragonFyre_Gau8", "DragonFyre_155mm_AMOS", "DragonFyre_M134", "DragonFyre_LMGRCWS", "DragonFyre_GMG20", "DragonFyre_GMG40", "DragonFyre_127", "DragonFyre_Skalpel_ATGM",
+"DragonFyre_Skyfire", "DragonFyre_Veh_Titan", "DragonFyre_4Five45", "DragonFyre_ACPC", "DragonFyre_MX", "DragonFyre_M6", "DragonFyre_Khaybar", "DragonFyre_M320R",
+"DragonFyre_EBR", "DragonFyre_FS2000", "DragonFyre_M200", "DragonFyre_P07", "DragonFyre_NLAW", "DragonFyre_PDW", "DragonFyre_Rahim", "DragonFyre_Rook40", "DragonFyre_RPG32",
+"DragonFyre_Scorpian", "DragonFyre_TRG20", "DragonFyre_UGL", "DragonFyre_SDAR", "DragonFyre_Vector", "DragonFyre_Zafir", "DragonFyre_Zubr45", "DragonFyre_Movement",
+"DragonFyre_Distance", "DragonFyre_FighterPlane3", "DragonFyre_CAS_Plane1", "DragonFyre_AH99_Blackfoot", "DragonFyre_AH9_Pawnee", "DragonFyre_UAV_1",
+"DragonFyre_CH67_Huron", "DragonFyre_CH49_Mohawk", "DragonFyre_Mi290_Taru", "DragonFyre_Mi48_Kajman", "DragonFyre_UAV_2", "DragonFyre_Po30_Orca", "DragonFyre_CAS_Plane2",
+"DragonFyre_UH80_GhostHawk", "DragonFyre_WY55_Hellcat", "DragonFyre_Boat_Armed_1", "DragonFyre_2S9_Sorcher", "DragonFyre_AFV4_Gorgon", "DragonFyre_AMV7_Marshal",
+"DragonFyre_BTRK_Kamysh", "DragonFyre_FV720_Mora", "DragonFyre_IFV6a_Cheetah", "DragonFyre_IFV6c_Panther", "DragonFyre_M2A1_Slammer", "DragonFyre_M4_Scorcher",
+"DragonFyre_M5_Sandstorm", "DragonFyre_MBT52_Kuma", "DragonFyre_MSE3_Marid", "DragonFyre_T100_Varsuk", "DragonFyre_ZSU39_Tigris", "DragonFyre_Hatchback",
+"DragonFyre_truck1", "DragonFyre_Hunter", "DragonFyre_Ifrit", "DragonFyre_Offroad", "DragonFyre_Quadbike", "DragonFyre_Strider", "DragonFyre_SUV", "DragonFyre_truck2",
+"DragonFyre_Van", "DragonFyre_Truck3"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
