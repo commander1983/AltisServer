@@ -22,8 +22,7 @@ while {true} do
 	
 	if(!(commandingMenu in _validMenus)) then {
 		[[profileName,getPlayerUID player,_lastMenu],"SPY_fnc_observe",false,false] call life_fnc_MP;
-		[[[0,1],format["%1 wurde von SPY-GLASS erwischt, wie er/sie versuchte das Menü:\n\n %2\n\n zu öffnen. Dieses Menü ist dem System jedoch nicht bekannt. Das heißt nicht, dass die Person hackt oder cheatet.",profileName,
-		_lastMenu]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		[[1,format["%1 wurde von SPY-GLASS erwischt, wie er/sie versuchte das Menü:\n\n %2\n\n zu öffnen. Dieses Menü ist dem System jedoch nicht bekannt. Das heißt nicht, dass die Person hackt oder cheatet.", profileName, _lastMenu]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		showCommandingMenu "";
 	};
 };
