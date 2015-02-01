@@ -278,7 +278,6 @@ switch(_shop) do
 		{
 			case (playerSide != west): {"Du bist kein Polizist"};
 			case (__GETC__(life_donator) == 0): {"Du bist kein Donator!"};
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) == 1):
 			{
 				["Cop Donator Shop",
@@ -294,7 +293,6 @@ switch(_shop) do
 				];
 			};
 			
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) == 2):
 			{
 				["Cop Donator Shop",
@@ -310,7 +308,6 @@ switch(_shop) do
 				];
 			};
 			
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) == 3):
 			{
 				["Cop Donator Shop",
@@ -329,7 +326,6 @@ switch(_shop) do
 				];
 			};
 			
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) == 4):
 			{
 				["Cop Donator Shop",
@@ -349,7 +345,6 @@ switch(_shop) do
 				];
 			};
 			
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) == 5):
 			{
 				["Cop Donator Shop",
@@ -371,7 +366,6 @@ switch(_shop) do
 				];
 			};
 			
-			case (__GETC__(life_donator) == 1):
 			case (__GETC__(life_coplevel) > 5):
 			{
 				["Cop Donator Shop",
