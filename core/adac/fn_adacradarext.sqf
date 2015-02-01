@@ -42,11 +42,11 @@ _data = format["<t color='#ffffff'><t size='2'>Fahrzeugradar</t></t><br/><t colo
 
 switch (true) do 
 {
-	case (_speed > 10): 
+	case (_speed >= 10): 
 	{	
 		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>In Bewegung:<br/><t color='#33CC33'><t align='center'><t size='1'>Ja",round _speed];
 	};
-	case (_speed < 10): 
+	case (_speed <= 10): 
 	{	
 		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>In Bewegung:<br/><t color='#FF0000'><t align='center'><t size='1'>Nein",round _speed];
 	};
