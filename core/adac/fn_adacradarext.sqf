@@ -42,23 +42,13 @@ _data = format["<t color='#ffffff'><t size='2'>Fahrzeugradar</t></t><br/><t colo
 
 switch (true) do 
 {
-	case ((_speed > 15 && _speed <= 50)): 
+	case (_speed > 10): 
 	{	
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#33CC33'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
+		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>In Bewegung:<br/><t color='#33CC33'><t align='center'><t size='1'>Ja",round _speed];
 	};
-	
-	case ((_speed > 51 && _speed <= 125)): 
+	case (_speed < 10): 
 	{	
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#EE7711'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
-	};
-	
-	case ((_speed > 126 && _speed <= 350)) : 
-	{
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#FF0000'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
-	};
-	case ((_speed > 351)) : 
-	{
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#FF0000'><t align='center'><t size='1'>Geschwindigkeit %1 km/h -Desync",round _speed];
+		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>In Bewegung:<br/><t color='#FF0000'><t align='center'><t size='1'>Nein",round _speed];
 	};
 };
 
