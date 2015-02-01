@@ -138,7 +138,7 @@ switch (true) do
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			life_battery = 100;
-			hint "Du hast deine Handybatterie wurde gegen eine aufgeladene ausgetauscht.";
+			hint "Du hast deine Handybatterie gegen eine aufgeladene ausgetauscht.";
 		};
 	};
 	
