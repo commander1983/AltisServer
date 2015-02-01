@@ -73,6 +73,7 @@ switch(_shop) do
 			{
 				["Mohammed's Jihadi Shop",
 					[
+						["arifle_SDAR_F",nil,20000],
 						["arifle_TRG20_F",nil,25000],
 						["arifle_Mk20_F",nil,25000],
 						["30Rnd_556x45_Stanag",nil,300],
@@ -115,6 +116,7 @@ switch(_shop) do
 			{
 				["Mohammed's Jihadi Shop",
 					[
+						["arifle_SDAR_F",nil,20000],
 						["arifle_TRG20_F",nil,25000],
 						["arifle_Mk20_F",nil,25000],
 						["30Rnd_556x45_Stanag",nil,300],
@@ -277,6 +279,100 @@ switch(_shop) do
 			case (playerSide != west): {"Du bist kein Polizist"};
 			case (__GETC__(life_donator) == 0): {"Du bist kein Donator!"};
 			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) == 1):
+			{
+				["Cop Donator Shop",
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250]
+					]
+				];
+			};
+			
+			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) == 2):
+			{
+				["Cop Donator Shop",
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250]
+					]
+				];
+			};
+			
+			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) == 3):
+			{
+				["Cop Donator Shop",
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250],
+						["arifle_MXC_F",nil,5000],
+						["arifle_MX_F",nil,5000],
+						["30Rnd_65x39_caseless_mag",nil,100]
+					]
+				];
+			};
+			
+			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) == 4):
+			{
+				["Cop Donator Shop",
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250],
+						["arifle_MXC_F",nil,5000],
+						["arifle_MX_F",nil,5000],
+						["arifle_MXM_F",nil,5000],
+						["30Rnd_65x39_caseless_mag",nil,100]
+					]
+				];
+			};
+			
+			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) == 5):
+			{
+				["Cop Donator Shop",
+					[
+						["H_Watchcap_blk","Beanie",50],
+						["NVGoggles_OPFOR","NV Schwarz",800],
+						["NVGoggles_INDEP","NV Gruen",800],
+						["Rangefinder",nil,800],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,500],
+						["FirstAidKit",nil,250],
+						["arifle_MXC_F",nil,5000],
+						["arifle_MX_F",nil,5000],
+						["arifle_MXM_F",nil,5000],
+						["arifle_MX_SW_F",nil,5000],
+						["30Rnd_65x39_caseless_mag",nil,100],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,100]
+					]
+				];
+			};
+			
+			case (__GETC__(life_donator) == 1):
+			case (__GETC__(life_coplevel) > 5):
 			{
 				["Cop Donator Shop",
 					[
