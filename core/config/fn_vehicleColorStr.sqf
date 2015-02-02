@@ -125,12 +125,13 @@ switch (_vehicle) do
 			case 4: {_color = "Carbon/Blau";};
 			case 5: {_color = "Gruen/Rebelle";};
 			case 6: {_color = "PinkKitty"};
-			case 7: {_color = "Donator P"};
-			case 8: {_color = "Fahrschule"};
-			case 9: {_color = "Notarzt"};
-			case 10: {_color = "Dunkel Rot";};
-			case 11: {_color = "Silver";};
-			case 12: {_color = "Orange";};
+			case 7: {_color = "Waben";};
+			case 8: {_color = "Donator P"};
+			case 9: {_color = "Fahrschule"};
+			case 10: {_color = "Notarzt"};
+			case 11: {_color = "Dunkel Rot";};
+			case 12: {_color = "Silver";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	

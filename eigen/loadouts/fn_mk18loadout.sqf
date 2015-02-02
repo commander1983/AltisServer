@@ -40,7 +40,7 @@ sleep 3;
 
 
 player addUniform "U_Rangemaster";
-player addHeadgear "H_Beret_blk_POLICE";
+player addHeadgear "H_Watchcap_blk";
 player addgoggles "G_Aviator";
 player addVest "V_TacVest_blk_POLICE";
 

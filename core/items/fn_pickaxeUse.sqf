@@ -29,6 +29,14 @@ if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
 
 if(life_action_gather) exitWith {}; // Q-Spam verhindern
 
+_playerUserID = getPlayerUID player;
+	// Wenn Ergeben, dann nix Farmen, sondern ""Admin Report"" ;D
+if((_mine != "") && player getVariable ["surrender", false]) exitWith {
+	life_action_gather = true; 			// Long text of doom haha
+	hint parseText format ["<t color='#ff0000' size='2' align='center'>ACHTUNG</t><br/><br/><t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird!<br/>Ein Admin wurde bereits kontaktiert.</t><br/><br/><br/><t color='#00ccff' size='1.2'>Spieler:</t> %1<br/><t color='#00ccff' size='1.2'>UID:</t> %2", profileName, _playerUserID];
+	sleep 5;	// Strafe muss sein -> 5 Sekunden lang nichts tun.
+};
+
 _diff = [_mine,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
 life_action_gather = true;
