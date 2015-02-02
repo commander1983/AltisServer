@@ -13,7 +13,7 @@ if(!isNull _source) then {
 					_damage = 0.5;
 				} else {
 					_damage = 0;
-					if(_unit distance _source < 75) then {
+					if(_unit distance _source < 110) then {
 						if(!life_istazed) then {
 							[_unit,_source] spawn life_fnc_tazed;
 						};
