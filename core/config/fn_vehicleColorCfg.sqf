@@ -134,7 +134,7 @@ switch (_vehicle) do
 			["images\vehicles\civ_suv_pink.jpg","donate"],
 			["images\vehicles\civ_suv_waben.jpg","donate"],
 			["images\vehicles\cop\cop_suv_d.jpg","donatecop"],
-			["images\vehicles\civ_suv.jpg","adac"],
+			["images\vehicles\adac_suv.jpg","adac"],
 			["images\vehicles\med_suv.jpg","med"],
 			[_path + "suv_01_ext_co.paa","donate"],
 			[_path + "suv_01_ext_03_co.paa","donate"],
