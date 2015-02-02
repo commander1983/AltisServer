@@ -74,8 +74,6 @@ player assignItem "NVGoggles";
 player addItemToBackpack "Rangefinder";
 // Munition im Rucksack
 player addItemToBackpack "30Rnd_9x21_Mag";
-player addItemToBackpack "HandGrenade_Stone";
-player addItemToBackpack "HandGrenade_Stone";
 player addItemToBackpack "100Rnd_65x39_caseless_mag_Tracer";
 // Attachment to Weapon
 player addPrimaryWeaponItem "muzzle_snds_H";
@@ -95,7 +93,7 @@ life_inv_redgull = life_inv_redgull + 10;
 */
 
 reload player;
-titleText [format["Sie sind vollständig nach der %1 ausgestattet.",_loadoutName],"PLAIN"];
+titleText [format["Sie sind vollständig nach der %1 ausgestattet. Vergesst nicht Steine und Z-Inventar zu kaufen.",_loadoutName],"PLAIN"];
 } else {
 			hint"Dann ein anderes Mal.";
 };

@@ -80,8 +80,6 @@ player addItemToBackpack "optic_SOS";
 player addItemToBackpack "30Rnd_9x21_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
-player addItemToBackpack "HandGrenade_Stone";
-player addItemToBackpack "HandGrenade_Stone";
 // Attachment to Weapon 
 player addPrimaryWeaponItem "muzzle_snds_B";
 player addPrimaryWeaponItem "optic_Arco";
@@ -100,7 +98,7 @@ life_inv_redgull = life_inv_redgull + 10;
 */
 
 reload player;
-titleText [format["Hier, Ihre %1",_loadoutName],"PLAIN"];
+titleText [format["Hier, Ihre %1. Vergesst nicht Steine und Z-Inventar zu kaufen.",_loadoutName],"PLAIN"];
 } else {
 			hint"Dann ein anderes Mal.";
 };
