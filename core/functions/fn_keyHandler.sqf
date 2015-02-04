@@ -321,6 +321,14 @@ switch (_code) do
 				[_curTarget] spawn life_fnc_revivePlayer;
 			};
 		};
+		
+		if (!_alt && !_ctrlKey && playerSide == east) then
+		{
+			if(vehicle player != player) then
+			{
+				[] spawn life_fnc_adacradarext;
+			};
+		};
 	};
 	
 	//Q Key
@@ -462,14 +470,6 @@ switch (_code) do
 				else 
 			{
 				[] spawn life_fnc_radar;
-			};
-		};
-		
-		if (!_alt && !_ctrlKey && playerSide == east) then
-		{
-			if(vehicle player != player) then
-			{
-				[] spawn life_fnc_adacradarext;
 			};
 		};
 	};
