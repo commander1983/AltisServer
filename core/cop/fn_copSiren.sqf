@@ -18,6 +18,6 @@ while {true} do
 	if(!alive _vehicle) exitWith {};
 	if(isNull _vehicle) exitWith {};
 	_vehicle say3D "SirenLong";
-	sleep 5.9;			// Testweise. 6 = Kurze Pause , 4.7 = Standard , 5.8 Testweise
+	sleep 5.808;			// Testweise. 6 = Kurze Pause , 4.7 = Standard , 5.8 Testweise // tor riecht nach chrome
 	if(!(_vehicle getVariable "siren")) exitWith {};
 };

@@ -99,7 +99,8 @@ life_inv_redgull = life_inv_redgull + 10;
 */
 
 reload player;
-titleText [format["Sie sind vollständig nach der %1 ausgestattet. Vergesst nicht Steine und Z-Inventar zu kaufen.",_loadoutName],"PLAIN"];
+sleep 2;
+titleText [format["Sie wurden vollständig nach der %1 ausgestattet. Vergessen Sie nicht die Steine und die Z-Items zu kaufen.",_loadoutName],"PLAIN"];
 } else {
 			hint"Dann ein anderes Mal.";
 };

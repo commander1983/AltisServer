@@ -99,6 +99,7 @@ life_inv_redgull = life_inv_redgull + 10;
 */
 
 reload player;
+sleep 2;
 titleText [format["Sie sind vollständig nach der %1 ausgestattet.",_loadoutName],"PLAIN"];
 } else {
 			hint"Dann ein anderes Mal.";

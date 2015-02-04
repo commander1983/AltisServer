@@ -477,7 +477,7 @@ switch (_code) do
 	//Earplugs - END 
     case 207:
     {
-         if(!_alt && !_ctrlKey && !_shift) then
+         if(!_alt && !_ctrlKey) then
     {
         [] call life_fnc_fadeSound;
         _handled = true;
