@@ -160,7 +160,7 @@ life_market_resources = [
 		]
 	],
 	
-		["kristalle", 2000, 850, 2850, 3, 1.5,
+		["kristalle", 2000, 450, 2850, 3, 1.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],
