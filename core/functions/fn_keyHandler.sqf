@@ -525,43 +525,7 @@ switch (_code) do
 		if(_shift) then {_handled = true;};
 		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
 		{
-			player playMove "Acts_PercMstpSlowWrflDnon_handup2b";
-		};
-	};
-	
-	case 77:
-	{
-		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
-		{
-			player playMove "Acts_PercMstpSlowWrflDnon_handup1b";
-		};
-	};
-	
-	case 71:
-	{
-		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
-		{
 			player playActionNow "gestureHi";
-		};
-	};
-	
-	case 72:
-	{
-		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
-		{
-			player playMove "Acts_PercMstpSlowWrflDnon_handup2";
-		};
-	};
-	
-	case 73:
-	{
-		if(_shift) then {_handled = true;};
-		if (_shift && !(player getVariable "restrained") && !(vehicle player != player)) then
-		{
-			player playMove "Acts_PercMstpSlowWrflDnon_handup1";
 		};
 	};
 	
