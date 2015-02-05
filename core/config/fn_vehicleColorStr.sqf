@@ -75,7 +75,7 @@ switch (_vehicle) do
 			case 5: {_color = "Weiss";};
 			case 6: {_color = "Grau";};
 			case 7: {_color = "Schwarz";};
-			case 8: {_color = "PinkKitty";};
+			case 8: {_color = "Hello Hugo";};
 			case 9: {_color = "Racing";};
 			case 10: {_color = "Kapow";};
 			case 11: {_color = "Polizei";};
@@ -101,7 +101,7 @@ switch (_vehicle) do
 			case 3: {_color = "Tan";};
 			case 4: {_color = "Gruen";};
 			case 5: {_color = "Polizei";};
-			case 6: {_color = "PinkKitty";};
+			case 6: {_color = "Hello Hugo";};
 			case 7: {_color = "Racing";};
 			case 8: {_color = "Kapow";};
 			case 9: {_color = "Notarzt"};
