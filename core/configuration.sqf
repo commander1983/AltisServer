@@ -221,6 +221,7 @@ life_licenses =
 	["license_civ_marijuana","civ"],
 	["license_civ_gang","civ"],
 	["license_civ_boat","civ"],
+	["license_civ_kristall","civ"],
 	["license_civ_oil","civ"],
 	["license_civ_dive","civ"],
 	["license_civ_truck","civ"],
@@ -244,8 +245,7 @@ life_licenses =
 	["license_civ_sotb","civ"],
 	["license_civ_mait","civ"],
 	["license_civ_home","civ"],
-	["license_civ_permanent","civ"],
-	["license_civ_kristall","civ"]
+	["license_civ_permanent","civ"]
 ];
 
 //Setup License Variables
