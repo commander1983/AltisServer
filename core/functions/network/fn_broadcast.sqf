@@ -56,6 +56,7 @@ if(typeName _type == typeName []) then
 			case 2: {titleText[format["%1",_message],"PLAIN"];};
 			case 3: {[_message] call life_fnc_ANN;};
 			case 4: {hint parseText format["%1", _message]};//new line
+			case 5: {hint parseText format["%1", _message]};//Airdrop
 		};
 	};
 }
@@ -68,5 +69,6 @@ if(typeName _type == typeName []) then
 		case 2: {titleText[format["%1",_message],"PLAIN"];};
 		case 3: {[_message] call life_fnc_ANN;};
 		case 4: {hint parseText format["%1", _message]};//new line
+		case 5: {hint parseText format["%1", _message]};//Airdrop
 	};
 };
