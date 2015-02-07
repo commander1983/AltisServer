@@ -14,7 +14,7 @@ _time = time + (_time * 60); //x Minutes
 
 //if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); }; //##80 (time loaded from DB)
 
-if(count _ret > 0) then { life_bail_amount = _time * 30; } else { life_bail_amount = _time * 30;};
+if(count _ret > 0) then { life_bail_amount = _time * 350; } else { life_bail_amount = _time * 350;};
 _esc = false;
 _bail = false;
 
@@ -86,7 +86,7 @@ switch (true) do
 		removeUniform player;
 		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
-		sleep 3;
+		sleep 2;
 		[] call SOCK_fnc_updateRequest;
 	};
 	
@@ -97,7 +97,7 @@ switch (true) do
 		[[0,"STR_Jail_EscapeNOTF",true,[profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 		[[getPlayerUID player,profileName,"901"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 		[5] call SOCK_fnc_updatePartial;
-		sleep 3;
+		sleep 2;
 		[] call SOCK_fnc_updateRequest;
 	};
 	
@@ -110,7 +110,7 @@ switch (true) do
 		removeUniform player;
 		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
-		sleep 3;
+		sleep 2;
 		[] call SOCK_fnc_updateRequest;
 	};
 };

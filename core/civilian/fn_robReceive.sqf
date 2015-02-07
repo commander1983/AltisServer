@@ -8,3 +8,5 @@ if(_cash == 0) exitWith {titleText[localize "STR_Civ_RobFail","PLAIN"]};
 
 ja_dzep = ja_dzep + _cash;
 titleText[format[localize "STR_Civ_Robbed",[_cash] call life_fnc_numberText],"PLAIN"];
+
+[] call SOCK_fnc_updateRequest;
