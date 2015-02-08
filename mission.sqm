@@ -174,11 +174,11 @@ class Mission
 		forecastWindDir=360;
 		wavesForced=1;
 		windForced=1;
-		year=2014;
-		month=8;
-		day=11;
-		hour=4;
-		minute=55;
+		year=2015;
+		month=1;
+		day=22;
+		hour=22;
+		minute=00;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
