@@ -23,4 +23,4 @@ _copname = profileName;
 /*
 diag_log format ["|| Wanted+ || %1 nahm eine Person (%2) von der Fahndungsliste!", _copname, _uid]; // Log-Eintrag vornehmen, wenn jemand wen von der Fahndungsliste streicht.
 */
-hint format ["|| Wanted+ || %1 nahm eine Person (%2) von der Fahndungsliste!", _copname, _uid];
+diag_log format ["|| Wanted+ || %1 nahm eine Person (%2) von der Fahndungsliste!", _copname, _uid];
