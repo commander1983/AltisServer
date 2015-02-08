@@ -209,6 +209,7 @@ Der Besitz folgender Waffen/Kleidung ist für Zivilisten/ Rebellen illegal:<br/>
 - Alle MX-Waffen<br/>
 - Sting<br/>
 - P07<br/>
+- 4-Five .45<br/>
 - Schalldämpfer 9mm<br/>
 - Schalldämpfer 6.5mm<br/>
 - Schalldämpfer 7.62mm
