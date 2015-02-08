@@ -143,6 +143,11 @@ player createDiarySubject ["platzh6","==================="];
 2. Zu Hot-Spots zählen: Drogendealer, Zentralbank, Schwarzmarkt, Drogenfelder sowie deren Verarbeitung und Gang-Hideouts.
 <br/>
 <br/>
+<font color='#ff0000'><font size='16'>§16 Gang-Regeln</font></font><br/>
+1. Das Zusammenarbeiten mit anderen Gruppierungen ist zu unterlassen.<br/>
+2. Wenn die Rebellen illegale Fahrzeuge der Polizei übergeben, darf die Polizei diese Fahrzeuge nicht mehr zerstören. Diese Fahrzeuge werden einkassiert.
+<br/>
+<br/>
 				"
 		]
 	];
