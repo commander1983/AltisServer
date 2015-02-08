@@ -24177,7 +24177,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=302;
+		items=303;
 		class Item0
 		{
 			position[]={8444.1855,93.040619,25195.545};
@@ -26741,6 +26741,17 @@ class Mission
 			name="adac_heli";
 			type="Empty";
 			angle=24.91448;
+		};
+		class Item302
+		{
+			position[]={3130.9924,2.0599999,12518.413};
+			name="SaveZone_5_1_4_2_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Horizontal";
+			a=60;
+			b=60;
 		};
 	};
 };
