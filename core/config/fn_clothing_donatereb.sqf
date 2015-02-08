@@ -18,7 +18,6 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_IG_Guerilla1_1",nil,4000],
 			["U_B_survival_uniform",nil,2000],
 			["U_I_CombatUniform_tshirt",nil,3000],
 			["U_IG_Guerilla1_1",nil,1250],
