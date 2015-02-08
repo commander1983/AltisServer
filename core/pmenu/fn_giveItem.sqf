@@ -24,7 +24,7 @@ if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Gib eine Zahl ein.";ctrlShow
 if(parseNumber(_val) <= 0) exitWith {hint "Du musst eine gültige Zahl eingeben.";ctrlShow[2002,true];};
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Der Spieler ist zu weit weg.";};
 if(!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint "Das geht nicht, eventuell hast du zu wenig davon!";ctrlShow[2002,true];};
-if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Items weitergeben, während du gefesselt bist!";};
+if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Items weitergeben, während du gefesselt bist!";ctrlShow[2002,true];};
 
 [[_unit,_val,_item,player],"life_fnc_receiveItem",_unit,false] spawn life_fnc_MP;
 _type = [_item,0] call life_fnc_varHandle;
