@@ -871,7 +871,7 @@
 			<Original>\n%1 hat %2 %3€ gestohlen!\n</Original>
 		</Key>
 		<Key ID="STR_NOTF_RobFail">
-			<Original>%1 hat kein Geld dabei!</Original>
+			<Original>%1 hat sein Portemonnaie nicht dabei!</Original>
 		</Key>
 		<Key ID="STR_NOTF_Tazed">
 			<Original>%1 wurde von %2 getazert.</Original>
