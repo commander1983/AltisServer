@@ -34,6 +34,7 @@ if((_zone != "") && player getVariable ["surrender", false]) exitWith {
 	life_action_gather = true; 			// Long text of doom haha
 	hint parseText format ["<t color='#ff0000' size='2' align='center'>ACHTUNG</t><br/><br/><t align='center'>Solltest du gerade versucht haben einen Farm-Bug auszunutzen, mache dich darauf gefasst, dass ein Admin dich ggf. wegen Bug-Using sperren wird!<br/>Ein Admin wurde bereits kontaktiert.</t><br/><br/><br/><t color='#00ccff' size='1.2'>Spieler:</t> %1<br/><t color='#00ccff' size='1.2'>UID:</t> %2", profileName, _playerUserID];
 	sleep 5;	// Strafe muss sein -> 5 Sekunden lang nichts tun.
+	player setVariable ["surrender", true];
 };
 
 //Get the resource that will be gathered from the zone name...
