@@ -141,6 +141,7 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='16'>§15 Hot-Spots</font></font><br/>
 1. Bei Hot-Spots darf man ohne Vorwarnung scharf auf die Polizei schiessen. Die Zivilisten müssen weiterhin nach den normalen Regeln behandelt werden.<br/>
 2. Zu Hot-Spots zählen: Drogendealer, Zentralbank, Schwarzmarkt, Drogenfelder sowie deren Verarbeitung und Gang-Hideouts.
+3. In den AirDrop Zonen (markiert auf der Karte) herrscht PvP-Zone. Dort darf man auf alles und jeden schießen.
 <br/>
 <br/>
 <font color='#ff0000'><font size='16'>§16 Gang-Regeln</font></font><br/>
