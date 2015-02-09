@@ -33,10 +33,6 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["G_Balaclava_blk",nil,25],
-			["G_Balaclava_lowprofile",nil,20],
-			["G_Balaclava_oli",nil,20],
-			["G_Balaclava_combat",nil,20],
 			["H_ShemagOpen_tan",nil,850],
 			["H_Shemag_olive",nil,850],
 			["H_ShemagOpen_khk",nil,800],
@@ -53,6 +49,10 @@ switch (_filter) do
 	case 2:
 	{
 		[
+			["G_Balaclava_blk",nil,25],
+			["G_Balaclava_lowprofile",nil,20],
+			["G_Balaclava_oli",nil,20],
+			["G_Balaclava_combat",nil,20],
 			["G_Shades_Black",nil,25],
 			["G_Shades_Blue",nil,20],
 			["G_Sport_Blackred",nil,20],
