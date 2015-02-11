@@ -84,6 +84,7 @@ switch (true) do
 		player setPos (getMarkerPos "jail_release");
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 		removeUniform player;
+		player removeItemFromBackpack "U_I_HeliPilotCoveralls";
 		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
 		sleep 2;
@@ -108,6 +109,7 @@ switch (true) do
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 		player setPos (getMarkerPos "jail_release");
 		removeUniform player;
+		player removeItemFromBackpack "U_I_HeliPilotCoveralls";
 		player addUniform "U_C_Poloshirt_blue";
 		[5] call SOCK_fnc_updatePartial;
 		sleep 2;
