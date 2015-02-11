@@ -61,7 +61,8 @@ player createDiarySubject ["platzh6","==================="];
 3. Beim Verwenden einer Zyankalikapsel wirst du nicht von der Fahndungsliste entfernt.<br/>
 3.1 Cyanidtod ist das Gleiche wie Erschossen werden - nicht mehr in die RP-Handlung eingreifen!<br/>
 4. Sobald man den Server verlässt (Verbindungsabbruch, Spielfehler o.Ä.) darfst du nicht mehr in die Roleplay-Handlung eingreifen!<br/>
-5. Das Missachten dieser Regel führt zu einem Bann!
+5. Es gibt eine Außnahmeregelung bezüglich der Waffenlieferungen. Näheres hierzu findet man unter §15, 3.1 .<br/>
+6. Das Missachten dieser Regel führt zu einem Bann!
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§5 Fahrzeug Zerstörung</font></font><br/>
@@ -141,7 +142,8 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='16'>§15 Hot-Spots</font></font><br/>
 1. Bei Hot-Spots darf man ohne Vorwarnung scharf auf die Polizei schiessen. Die Zivilisten müssen weiterhin nach den normalen Regeln behandelt werden.<br/>
 2. Zu Hot-Spots zählen: Drogendealer, Zentralbank, Schwarzmarkt, Drogenfelder sowie deren Verarbeitung und Gang-Hideouts.<br/>
-3. In den AirDrop Zonen (markiert auf der Karte) herrscht PvP-Zone. Dort darf man auf alles und jeden schießen.
+3. In den AirDrop Zonen (markiert auf der Karte) herrscht PvP-Zone. Dort darf man auf alles und jeden schießen.<br/>
+3.1 Während dieser Zeit gilt keine NewLife Regel innerhalb der PvP-Zone (markierten roten Bereich der Waffenlieferung).
 <br/>
 <br/>
 <font color='#ff0000'><font size='16'>§16 Gang-Regeln</font></font><br/>
