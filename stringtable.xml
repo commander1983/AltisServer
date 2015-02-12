@@ -1980,7 +1980,7 @@
 	</Package>
 	<Package name="Shop_Strings">
 		<Key ID="STR_Shop_ATMRobbed">
-			<Original>Da Sie die Bank/Tankstelle ausgeraubt haben können Sie den ATM für 5 Minuten nicht nutzen.</Original>
+			<Original>Da Sie die Tankstelle ausgeraubt haben können Sie den ATM für 5 Minuten nicht nutzen.</Original>
 		</Key>
 		<Key ID="STR_Shop_NoClothes">
 			<Original>Es wurde keine Kleidung ausgewählt.</Original>
