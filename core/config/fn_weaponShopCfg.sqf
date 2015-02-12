@@ -26,7 +26,7 @@ switch(_shop) do
 		{
 			case (playerSide != independent): {"Du bist kein Sanitaeter"};
 			default {
-				["Sani Shop",
+				["EMS Shop",
 					[
 						["ItemGPS",nil,100],
 						["Binocular",nil,150],
@@ -150,7 +150,7 @@ switch(_shop) do
 			
 			case (!license_civ_rebel):
 			{
-				["Hideout Armament",
+				["Gang-Versteck Ausruestung",
 					[
 						["arifle_SDAR_F",nil,20000],
 						["20Rnd_556x45_UW_mag","Unterwasser",125],
@@ -178,7 +178,7 @@ switch(_shop) do
 			case (!license_civ_gun): {"Du hast keinen Waffenschein!"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Billy Joe's Waffenladen",
 					[
 						["arifle_SDAR_F",nil,20000],
 						["20Rnd_556x45_UW_mag","Unterwasser",125],
@@ -268,9 +268,10 @@ switch(_shop) do
 			case (__GETC__(life_donator) == 0): {"Du bist kein Donator!"};
 			case (__GETC__(life_coplevel) == 1):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -283,9 +284,10 @@ switch(_shop) do
 			
 			case (__GETC__(life_coplevel) == 2):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -298,9 +300,10 @@ switch(_shop) do
 			
 			case (__GETC__(life_coplevel) == 3):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -316,9 +319,10 @@ switch(_shop) do
 			
 			case (__GETC__(life_coplevel) == 4):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -335,9 +339,10 @@ switch(_shop) do
 			
 			case (__GETC__(life_coplevel) == 5):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -356,9 +361,10 @@ switch(_shop) do
 			
 			case (__GETC__(life_coplevel) > 5):
 			{
-				["Cop Donator Shop",
+				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["Headgear_H_Cap_police","Polizeikappe",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -387,8 +393,8 @@ switch(_shop) do
 			{
 				["Anwaerter",
 					[
-						["hgun_P07_snds_F","Taserpistole",1000],
-						["16Rnd_9x21_Mag",nil,50],
+						["hgun_P07_snds_F","X26 Taser",1000],
+						["16Rnd_9x21_Mag","X26 Magazin",nil,50],
 						["Rangefinder",nil,1000],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,500],
@@ -403,7 +409,7 @@ switch(_shop) do
 			{
 				["Polizist",
 					[
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -430,7 +436,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["arifle_MX_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],	
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -464,7 +470,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["arifle_MX_Black_F",nil,5000],
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -501,7 +507,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["arifle_MX_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -539,7 +545,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["arifle_MX_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -581,7 +587,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["arifle_MX_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
@@ -623,7 +629,7 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,5000],
 						["arifle_MX_Black_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
-						["hgun_P07_snds_F","Taserpistole",1000],
+						["hgun_P07_snds_F","X26 Taser",1000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F","Tasergewehr",2500],
 						["30Rnd_9x21_Mag",nil,75],
