@@ -785,6 +785,10 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - Rotlicht / Gelblicht Umschalten
 <br/>
 <br/>
+<font color='#639C18'>F (im KFZ, nur ADAC)</font><br/>
+- Fahrzeugradar benutzen
+<br/>
+<br/>
 				"
 		]
 	];	player createDiaryRecord ["serv",
