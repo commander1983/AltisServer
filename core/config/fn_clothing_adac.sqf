@@ -10,7 +10,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Adac Uniform Shop"];
+ctrlSetText[3103,"ADAC Uniform-Shop"];
 
 switch (_filter) do
 {
