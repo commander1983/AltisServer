@@ -140,7 +140,7 @@ if(count (handGunItems player) > 0) then
 } forEach [
     ["life_inv_rabbit",life_inv_rabbit],["life_inv_water",life_inv_water],["life_inv_donuts",life_inv_donuts],
     ["life_inv_coffee",life_inv_coffee],["life_inv_tbacon",life_inv_tbacon],["life_inv_redgull",life_inv_redgull],
-	["life_inv_battery",life_inv_battery],["life_inv_handcuffs",life_inv_handcuffs],["life_inv_spikeStrip",life_inv_spikeStrip],
+	["life_inv_battery",life_inv_battery],["life_inv_handcuffs",life_inv_handcuffs],
 	["life_inv_spikeStrip",life_inv_spikeStrip],["life_inv_defusekit",life_inv_defusekit],["life_inv_fuelF",life_inv_fuelF],
 	["life_inv_sperre",life_inv_sperre],["life_inv_warnung",life_inv_warnung],["life_inv_keys",life_inv_keys],
 	["life_inv_lockpick",life_inv_lockpick]
