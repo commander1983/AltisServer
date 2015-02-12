@@ -12,10 +12,10 @@ if(!((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindO
 if(player distance cursorTarget > 10) exitWith {};
 if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship")) then
 {
-	if(_vehDmg >= 1) exitWith {hint parseText format "Dieses Fahrzeug kannst du nicht beschlagnahmen, da es komplett zerstört ist.";};
 	_vehicleData = _vehicle getVariable["vehicle_info_owners",[]];
-	if(count _vehicleData == 0) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
 	_vehicleName = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName");
+	if(_vehDmg >= 1) exitWith {hint parseText format ["Das Fahrzeug (%1) wurde komplett zerstört. Daher kannst du es nicht beschlagnahmen.",_vehicleName];};
+	if(count _vehicleData == 0) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
 	if(playerSide == west) then {
 		[[0,"STR_NOTF_BeingImpounded",true,[(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 	} else {
