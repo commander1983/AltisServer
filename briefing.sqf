@@ -733,7 +733,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - Person Niederschlagen
 <br/>
 <br/>
-<font color='#639C18'>STRG + G (nur als Rebelle)</font><br/>
+<font color='#639C18'>STRG + R (nur als Rebelle)</font><br/>
 - Person Festnehmen
 <br/>
 <br/>
