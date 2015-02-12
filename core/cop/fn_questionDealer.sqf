@@ -19,6 +19,6 @@ _names = "";
 	_names = _names + format["%1<br/>",_x select 1];
 } foreach _sellers;
 
-hint parseText format[(localize "STR_Cop_DealerMSG")+ "<br/><br/>%1",_names];
+hint parseText format["<t color='#D66321' size='2.2'>Kundenliste</t><br/><t size='1.4'>Folgende Personen haben bei mir ihren Stoff verkauft:</t>" + "<br/><br/><t color='#31ADA5' size='1.3'>%1</t>",_names];
 (_this select 0) setVariable["sellers",[],true];
 life_action_inUse = false;

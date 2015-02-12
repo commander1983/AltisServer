@@ -1160,9 +1160,6 @@
 		<Key ID="STR_Cop_DealerQuestion">
 			<Original>In letzter Zeit waren keine Personen bei mir und haben etwas verkauft!</Original>
 		</Key>
-		<Key ID="STR_Cop_DealerMSG">
-			<Original>Ja, ich kenne da einige Namen: \n </Original>
-		</Key>
 		<Key ID="STR_Cop_Radar">
 			<Original>Radar</Original>
 		</Key>
