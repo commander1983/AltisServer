@@ -997,9 +997,6 @@
 		<Key ID="STR_Jail_EscapeSelf">
 			<Original>Du wurdest ins Gefängnis gesteckt. Warte deine Haftzeit ab.\n\nSolltest du Respawnen oder dich selbst töten verdoppelt sich die Haftzeit.\nBugUsing wird mit einem Bann bestraft!</Original>
 		</Key>
-		<Key ID="STR_Jail_Released">
-			<Original>Sie haben Ihre Zeit im Gefängnis abgesessen. Sie wurden freigelassen.</Original>
-		</Key>
 		<Key ID="STR_Jail_Time">
 			<Original>Verbleibende Zeit </Original>
 		</Key>

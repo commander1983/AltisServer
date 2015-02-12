@@ -79,7 +79,7 @@ switch (true) do
 	{
 		life_is_arrested = false;
 		life_bail_paid = false;
-		hint parseText format ["<t align='center' size='1.5' color='#00cc00'>Kaution Bezahlt</t><br/>Da du deine Kaution bezahlt hast bist du nun wieder auf freiem Fuß. Die Gefängnisleitung hofft, dass du dich verbessert hast. Verhalte dich also anständig!"];
+		hint parseText format ["<t align='center' size='1.5' color='#00cc00'>Kaution Bezahlt</t><br/>Da du deine Kaution bezahlt hast bist du nun wieder auf freiem Fuß. Die Gefängnisleitung hofft, dass du dich gebessert hast. Verhalte dich also anständig!"];
 		serv_wanted_remove = [player];
 		player setPos (getMarkerPos "jail_release");
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
@@ -105,7 +105,7 @@ switch (true) do
 	case (alive player && !_esc && !_bail) :
 	{
 		life_is_arrested = false;
-		hint localize "STR_Jail_Released";
+		hint parseText format ["<t align='center' size='1.5' color='#00cc00'>Freigelassen</t><br/>Du hast deine Zeit abgesessen und bist nun wieder auf freiem Fuß. Die Gefängnisleitung hofft, dass du dich gebessert hast. Verhalte dich also anständig!"];
 		[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 		player setPos (getMarkerPos "jail_release");
 		removeUniform player;
