@@ -5,12 +5,14 @@
     Description:
     Impounds the vehicle
 */
-private["_vehicle","_type","_time","_price","_vehicleData","_upp","_ui","_progress","_pgText","_cP"];
+private["_vehicle","_type","_time","_price","_vehicleData","_upp","_ui","_progress","_pgText","_cP","_vehDmg"];
 _vehicle = cursorTarget;
+_vehDmg = getDammage _vehicle;
 if(!((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship"))) exitWith {};
 if(player distance cursorTarget > 10) exitWith {};
 if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship")) then
 {
+	if(_vehDmg >= 1) exitWith {hint parseText format "Dieses Fahrzeug kannst du nicht beschlagnahmen, da es komplett zerstört ist.";};
     _vehicleData = _vehicle getVariable["vehicle_info_owners",[]];
     if(count _vehicleData == 0) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
     _vehicleName = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName");
