@@ -25,11 +25,12 @@ if(life_is_arrested) then
 	life_is_arrested = false;
 	[player,true] spawn life_fnc_jail;
 	sleep 3;
+	player removeItemFromBackpack "ItemRadio";
+	player removeItemFromUniform "ItemRadio";
 	// Handy wird entfernt wenn man im Knast spawnt
 	if("ItemRadio" in assignedItems player) then {
 		player removeweapon "ItemRadio";
 	} else {};
-	
 }
 	else
 {

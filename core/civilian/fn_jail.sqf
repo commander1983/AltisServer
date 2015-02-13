@@ -49,10 +49,14 @@ life_is_arrested = true;
 
 removeAllWeapons player;
 
+player removeItemFromBackpack "ItemRadio";
+player removeItemFromUniform "ItemRadio";
+
 // Pruefe fuer Handy ausgerüstet , falls ja entfernen
 if("ItemRadio" in assignedItems player) then {
 	player removeweapon "ItemRadio";
 } else {};
+
 
 {player removeMagazine _x} foreach (magazines player);
 
