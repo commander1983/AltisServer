@@ -69,7 +69,7 @@ switch(_type) do
 		//ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Du hast den Sanitaetern folgenden Notruf gesendet: %1",_msg];
+		hint parseText format["Du hast den Sanitätern folgenden Notruf gesendet: %1",_msg];
 		//ctrlShow[888899,true];
 		closeDialog 887890;
 	};
