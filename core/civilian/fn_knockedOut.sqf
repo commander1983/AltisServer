@@ -23,4 +23,5 @@ sleep 15;
 player playMoveNow "amovppnemstpsraswrfldnon";
 detach player;
 deleteVehicle _obj;
+player setFatigue 0.6;
 player setVariable["robbed",FALSE,TRUE];

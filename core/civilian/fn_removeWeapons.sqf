@@ -60,7 +60,7 @@ if((license_civ_gun) && (_handgun) in _legal) then {
 		};
 	};
 } else {
-	hint "Du hast keinen Waffenschein, Alle Waffen wurden beschlagnahmt.";
+	hint "Du hast keinen Waffenschein, daher wurden alle Waffen beschlagnahmt.";
 };
 
 [[0,format["%1's Waffen wurden von %2 beschlagnahmt!", name player, name _cop]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;

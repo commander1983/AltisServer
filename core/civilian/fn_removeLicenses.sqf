@@ -20,7 +20,7 @@ switch (_state) do
 				license_civ_truck = false;
 			};
 		} else {
-			hint "Du hast einen Permanenten Führerschein";
+			hint "Du hast einen Permanenten Führerschein.";
 		};
 	};
 	
@@ -41,7 +41,7 @@ switch (_state) do
 				hint localize "STR_Civ_LicenseRemove_1";
 			};
 		} else {
-			hint "Du hast einen Permanenten Führerschein";
+			hint "Du hast einen Permanenten Führerschein.";
 		};
 	};
 	
@@ -58,7 +58,7 @@ switch (_state) do
     {
         if(license_civ_driver) then {
             license_civ_driver = false;
-            hint "Dir wurde dein B Schein entzogen.";
+            hint parseText format ["<t size='1.3'>Dir wurde dein Führerschein-B entzogen.</t>"];
         };
     };
 	
@@ -66,7 +66,7 @@ switch (_state) do
     {
         if(license_civ_truck) then {
             license_civ_truck = false;
-            hint "Dir wurde dein C Schein entzogen.";
+            hint parseText format ["<t size='1.3'>Dir wurde dein Führerschein-C entzogen.</t>"];
         };
     };
 	
@@ -74,7 +74,7 @@ switch (_state) do
     {
         if(license_civ_permanent) then {
             license_civ_permanent = false;
-            hint "Dir wurde dein Permanenter Führerschein entzogen.";
+            hint parseText format ["<t size='1.3'>Dir wurde dein Permanenten-Führerschein entzogen.</t>"];
         };
     };
 	
@@ -82,7 +82,7 @@ switch (_state) do
     {
         if(license_civ_gun) then {
             license_civ_gun = false;
-            hint "Dir wurde dein WaffenSchein entzogen.";
+            hint parseText format ["<t size='1.3'>Dir wurde dein Waffenschein entzogen.</t>"];
         };
     };
 };
