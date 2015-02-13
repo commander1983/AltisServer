@@ -20,7 +20,7 @@ _units = [];
 lbClear _players;
 
 {
-    _side = switch(side _x) do {case west: {"Cop"}; case civilian : {"Civ"}; case independent : {"Sani"}; case east : {"ADAC"}; default {"Unknown"};};
+    _side = switch(side _x) do {case west: {"Cop"}; case civilian : {"Civ"}; case independent : {"EMS"}; case east : {"ADAC"}; default {"Unbekannt"};};
     _players lbAdd format["%1 - %2", name _x,_side];
     _players lbSetdata [(lbSize _players)-1,str(_x)];
 } foreach playableUnits;
@@ -192,6 +192,11 @@ _list2 lbSetData [(lbSize _list2)-1,_data];
 
 _text = "Gefängnisausbruch -beihilfe";
 _data = "33";
+_list2 lbAdd format["%1 (%2)",_text,_data];
+_list2 lbSetData [(lbSize _list2)-1,_data];
+
+_text = "Besitz von Schmuggelware";
+_data = "34";
 _list2 lbAdd format["%1 (%2)",_text,_data];
 _list2 lbSetData [(lbSize _list2)-1,_data];
 
