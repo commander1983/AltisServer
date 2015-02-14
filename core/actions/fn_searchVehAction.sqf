@@ -8,7 +8,7 @@ if((_vehicle isKindOf "Car") || !(_vehicle isKindOf "Air") || !(_vehicle isKindO
 	_owners = _vehicle getVariable "vehicle_info_owners";
 	if(isNil {_owners}) exitWith {hint localize "STR_NOTF_VehCheat";};
 	life_action_inUse = true;
-	hint localize "STR_NOTF_Searching";
+	hint parseText format ["Prüfe das Kennzeichen..."];
 	sleep 3;
 	life_action_inUse = false;
 	if(player distance _vehicle > 10 || !alive player || !alive _vehicle) exitWith {hint localize "STR_NOTF_SearchVehFail";};
