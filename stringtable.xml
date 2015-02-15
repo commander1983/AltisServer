@@ -1095,7 +1095,7 @@
 			<Original>Sie haben ein Kopfgeld in Höhe von %1€ für die Tötung eines Kriminellen bekommen! Bei einer Festnahme wären es %2€ gewesen...</Original>
 		</Key>
 		<Key ID="STR_Cop_Contraband">
-			<Original>Bei %1 wurden Drogen/ Schmuggelware im Wert von %2€ sichergestellt.</Original>
+			<Original>Bei %1 wurden Drogen/ Schmuggelware im Wert von %2€ beschlagnahmt.</Original>
 		</Key>
 		<Key ID="STR_Cop_IllegalItems">
 			<Original>Illegale Gegenstände</Original>
@@ -1309,7 +1309,7 @@
 			<Original>Die Entfernung zum Haus ist zu groß!</Original>
 		</Key>
 		<Key ID="STR_House_Raid_Successful">
-			<Original>Ein Haus wurde durchsucht und es wurden Drogen/ Schmuggelware im Wert von %1€ beschlagnahmt.</Original>
+			<Original>Das Haus von %2 wurde durchsucht und es wurden Drogen/ Schmuggelware im Wert von %1€ sichergestellt.</Original>
 		</Key>
 		<Key ID="STR_House_Raid_NoIllegal">
 			<Original>Nichts Illegales in diesem Haus.</Original>
