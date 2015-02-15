@@ -26,7 +26,7 @@ _titleText = _ui displayCtrl 38202;
 _titleText ctrlSetText format["%2 (1%1) - ","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
-_cpRate = 0.00229;		// Von 0,0075 auf 0,0025 geändert -- Testweise. KA ob das geht.
+_cpRate = 0.00249;		// Von 0,0075 auf 0,0025 geändert -- Testweise. KA ob das geht.
 
 while {true} do
 {
@@ -68,7 +68,7 @@ _value = 0;
 } foreach (_houseInv select 0);
 
 if(_value > 0) then {
-	[[0,"STR_House_Raid_Successful",true,[[_value] call life_fnc_numberText],(_house getVariable "house_owner") select 1],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+	[[0,"STR_House_Raid_Successful",true,[[_value] call life_fnc_numberText]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 	ja_pare = ja_pare + _value;
 	_house setVariable["Trunk",[_houseInvData,_houseInvVal],true];
 	[[_house],"TON_fnc_updateHouseTrunk",false,false] spawn life_fnc_MP;
