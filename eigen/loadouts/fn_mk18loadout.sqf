@@ -82,7 +82,8 @@ player addItemToBackpack "20Rnd_762x51_Mag";
 player addItemToBackpack "20Rnd_762x51_Mag";
 // Attachment to Weapon 
 player addPrimaryWeaponItem "muzzle_snds_B";
-player addPrimaryWeaponItem "optic_Arco";
+player addPrimaryWeaponItem "optic_Mrco";
+player addPrimaryWeaponItem "acc_flashlight";
 
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 2];

@@ -83,6 +83,7 @@ player addItemToBackpack "Rangefinder";
 // Attachment to Weapon 
 player addPrimaryWeaponItem "muzzle_snds_H";
 player addPrimaryWeaponItem "optic_Arco";
+player addPrimaryWeaponItem "acc_flashlight";
 
 
 mybackpack = unitBackpack player;
