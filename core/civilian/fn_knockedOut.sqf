@@ -19,7 +19,9 @@ _obj = createVehicle ["Land_ClutterCutter_small_F", getPosATL player, [], 0, "NO
 
 _obj setPosATL (getPosATL player);
 player attachTo [_obj,[0,0,0]];
+disableUserInput true;
 sleep 15;
+disableUserInput false;
 player playMoveNow "amovppnemstpsraswrfldnon";
 detach player;
 deleteVehicle _obj;
