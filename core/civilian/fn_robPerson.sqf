@@ -8,8 +8,7 @@
 private["_robber"];
 _robber = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _robber) exitWith {}; //No one to return it to?
-if(currentWeapon _robber == "") exitWith {hint "Du kannst niemanden ausrauben, wenn du keine Waffe bei dir trägst!";};
-
+if(currentWeapon _robber == "") exitWith {[[4,format["Du kannst keine Person ohne eine Waffe in der Hand zu tragen, ausrauben!"]],"life_fnc_broadcast",_robber,false] spawn life_fnc_MP;};
 if(ja_dzep > 0) then
 {
 	[[ja_dzep],"life_fnc_robReceive",_robber,false] spawn life_fnc_MP;
