@@ -52,6 +52,7 @@ switch (true) do
 				player enableFatigue false;
 				waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
 				player enableFatigue true;
+				titleText["Die Wirkung des Energy-Drinks hat nachgelassen.", "PLAIN"];
 			};
 		};
 	};

@@ -16,8 +16,3 @@ detach _unit;
 [[_nearestVehicle],"life_fnc_moveIn",_unit,false] call life_fnc_MP;
 _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",TRUE,TRUE];
-if(currentWeapon _unit != "") then {
-	life_curWep_h = currentWeapon _unit;
-	_unit action ["SwitchWeapon", _unit, _unit, 100];
-	_unit switchcamera cameraView;
-};
