@@ -25,7 +25,7 @@ if(isNull _cop OR !(player getVariable["restrained",FALSE])) exitWith {};
 //First remove ALL Weapons and Magazines, later add them back if they where legit.
 removeAllWeapons player; 
 {player removeMagazine _x} foreach (magazines player); 
-hint "Alle illegalen Waffen wurden beschlagnahmt.";
+hint "Alle illegalen Waffen wurden dir entzogen.";
 
 //Add Back normal stuff
 

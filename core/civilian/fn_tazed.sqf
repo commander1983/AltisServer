@@ -48,6 +48,7 @@ if(_shooter isKindOf "Man" && alive player) then
 		};
 		life_istazed = false;
 		player allowDamage true;
+		player setFatigue 0.7;
 		disableUserInput false;
 	};
 }
