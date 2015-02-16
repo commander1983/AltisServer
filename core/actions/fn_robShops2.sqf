@@ -20,7 +20,7 @@ _kassa = 5000 + round(random 10000); //setting the money in the registry, anywhe
 [[_shop,_robber,_action,-1],"TON_fnc_shopState",false,false] spawn life_fnc_MP; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear. 
 
 _chance = random(50); //calling a random number between 0-100. 
-if(_chance >= 15) then { hint "Der Kassierer hat heimlich die Polizei informiert!"; [[4,format["<t size='2'><t color='#00FF00'>ALARM</t></t> <br/><t size='1'>%1 wird ausgeraubt!</t>", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 15) then { hint "Der Kassierer hat den Alarmknopf betätigt."; [[4,format["<t size='2'><t color='#00FF00'>ALARM</t></t> <br/><t size='1'>%1 wird ausgeraubt!</t>", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 //Setup our progress bar.
 disableSerialization;
@@ -28,7 +28,7 @@ disableSerialization;
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Es wird ausgeraubt , bleib in der nähe (5m) (1%1)...","%"];
+_pgText ctrlSetText format["Es wird ausgeraubt. Bleib in der Nähe (5m) (1%1)...","%"];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
 
