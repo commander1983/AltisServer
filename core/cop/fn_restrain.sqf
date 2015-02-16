@@ -61,7 +61,7 @@ while {player getVariable "restrained"} do
 	{
 		//disableUserInput true;
 		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["GetOut",vehicle player];};
-		hint "Du bist gefesselt! Du kannst in keine Fahrzeuge steigen!";
+		hint "Du bist gefesselt! Du kannst in keine Fahrzeuge einsteigen!";
 	};
 };
 
@@ -75,4 +75,10 @@ if(alive player) then
 	detach player;
 	player say3D "uncuff";
 	titleText ["Du wurdest freigelassen.", "PLAIN"];
+	// Waffe wegstecken
+	if(currentWeapon player != "") then {
+		life_curWep_h = currentWeapon player;
+		player action ["SwitchWeapon", player, player, 100];
+		player switchcamera cameraView;
+	};
 };
