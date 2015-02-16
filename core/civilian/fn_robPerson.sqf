@@ -8,6 +8,7 @@
 private["_robber"];
 _robber = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _robber) exitWith {}; //No one to return it to?
+if(currentWeapon _robber == "") exitWith {hint "Du kannst niemanden ausrauben, wenn du keine Waffe bei dir trägst!";};
 
 if(ja_dzep > 0) then
 {
