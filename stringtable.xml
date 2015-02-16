@@ -339,7 +339,7 @@
 			<Original>Versteck Einnehmen...</Original>
 		</Key>
 		<Key ID="STR_GNOTF_CaptureSuccess">
-			<Original>%1 und seine Bande: %2 - haben die Kontrolle über ein lokales Versteck übernommen!</Original>
+			<Original>%1 und seine Bande: %2 - haben die Kontrolle über ein Gangversteck übernommen!</Original>
 		</Key>
 		<Key ID="STR_GNOTF_Over32">
 			<Original>Ihr Gangname ist zu lang! Maximal 32 Zeichen!</Original>
