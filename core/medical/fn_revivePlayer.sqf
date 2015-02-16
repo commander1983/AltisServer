@@ -75,4 +75,5 @@ sleep 0.6;
 player reveal _target;
 
 _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];
+sleep 0.7;
 [] call life_fnc_updateClothing;

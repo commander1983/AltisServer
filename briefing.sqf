@@ -220,13 +220,16 @@ Der Besitz folgender Waffen/Kleidung ist für Zivilisten/ Rebellen illegal:<br/>
 - 4-Five .45<br/>
 - Schalldämpfer 9mm<br/>
 - Schalldämpfer 6.5mm<br/>
-- Schalldämpfer 7.62mm
+- Schalldämpfer 7.62mm<br/>
+- also: Alle Polizeiwaffen
 <br/>
 <br/>
 Kleidungsstücke welche für Rebellen illegal sind:<br/>
 - Schiessplatzverwalter-Anzug<br/>
 - Taktische Weste (Polizei)<br/>
 - Barett (Polizei)<br/>
+- Beanie<br/>
+- also: Alle Polizeikleidungsstücke<br/>
 - Maske (nur das Tragen ist verboten, der Besitz nicht)<br/><br/>Illegale Waffen und Kleidungsstücke werden von der Polizei beschlagnahmt und zerstört!
 <br/>
 <br/>

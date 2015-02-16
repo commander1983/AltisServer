@@ -42,4 +42,5 @@ player setVariable["name",nil,TRUE];
 player setVariable["Reviving",nil,TRUE];
 [] call life_fnc_hudUpdate; //Request update of hud.
 [] call life_fnc_equipGear;
+sleep 0.9;
 [] call life_fnc_updateClothing;
