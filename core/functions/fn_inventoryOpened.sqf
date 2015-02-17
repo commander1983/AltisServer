@@ -47,3 +47,11 @@ if(_container isKindOf "Man" && !alive _container) exitWith {
 		closeDialog 0;
 	};
 };
+
+if(player getVariable["restrained",false]) exitWith {
+	hint localize "STR_MISC_Restrained";
+	[] spawn {
+		waitUntil {!isNull (findDisplay 602)};
+		closeDialog 0;
+	};
+};
