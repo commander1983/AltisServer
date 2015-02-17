@@ -5,8 +5,6 @@ _source = _this select 3;
 _projectile = _this select 4;
 
 //Handle the tazer first (Top-Priority).
-if(isNil _unit) exitWith {};
-if!(alive _unit) exitWith {};
 
 if(!isNull _source) then {
 	if(_source != _unit) then {

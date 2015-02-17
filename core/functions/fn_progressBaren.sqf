@@ -61,6 +61,6 @@ _object setPos (getMarkerPos "jail_breakout");
 
 if (playerSide == civilian) then {
 [[getPlayerUID player,profileName,"902"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-else 
-hint "Hoffentlich hast du das richtige getan!";
+} else { 
+hint "Hoffentlich hast du das Richtige getan!";
 };
