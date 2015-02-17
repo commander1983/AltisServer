@@ -5,8 +5,6 @@
 private["_puller"];
 _puller = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
 
-if(isNil _puller) exitWith {};
-
 if(vehicle player == player) exitWith {};
 if(player getVariable "restrained") then
 {

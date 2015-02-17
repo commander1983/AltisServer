@@ -33,9 +33,10 @@ if(!isNull _source) then {
 		if (_curMag in ["30Rnd_556x45_Stanag_Tracer_Red"] && _curWeapon in ["arifle_SDAR_F"] && _projectile in ["B_556x45_Ball_Tracer_Red"]) then {	
 			_damage false;
 			if(_unit distance _source < 75) then {
+				_damage false;
 				[_unit,_source] spawn life_fnc_handleDowned;
 			} else {
-				_unit setDamage 0.5;
+				_damage true;
 		};
 	};
 };
