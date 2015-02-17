@@ -60,8 +60,7 @@ while {player getVariable "restrained"} do
 	if(vehicle player != player) then
 	{
 		//disableUserInput true;
-		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["GetOut",vehicle player];};
-		hint "Du bist gefesselt! Du kannst in keine Fahrzeuge einsteigen!";
+		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["GetOut",vehicle player]; hint "Du bist gefesselt! Du kannst in keine Fahrzeuge einsteigen!";};
 	};
 };
 
