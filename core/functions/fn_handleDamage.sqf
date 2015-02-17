@@ -5,6 +5,9 @@ _source = _this select 3;
 _projectile = _this select 4;
 
 //Handle the tazer first (Top-Priority).
+if(isNil _unit) exitWith {};
+if!(alive _unit) exitWith {};
+
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		if(_projectile == "B_9x21_Ball") then {
@@ -29,11 +32,12 @@ if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curMag = currentMagazine _source;
 		_curWeapon = currentWeapon _source;
-		if (_curMag in ["30Rnd_556x45_Stanag_Tracer_Red"] && _curWeapon in ["arifle_SDAR_F"] && _projectile in ["B_556x45_Ball_Tracer_Red"]) then {
-			_damage = false;	
+		if (_curMag in ["30Rnd_556x45_Stanag_Tracer_Red"] && _curWeapon in ["arifle_SDAR_F"] && _projectile in ["B_556x45_Ball_Tracer_Red"]) then {	
 			if(_unit distance _source < 75) then {
-					[_unit,_source] spawn life_fnc_handleDowned;
-			};
+				_damage false;
+				[_unit,_source] spawn life_fnc_handleDowned;
+			} else {
+			_damage = 0;
 		};
 	};
 };
