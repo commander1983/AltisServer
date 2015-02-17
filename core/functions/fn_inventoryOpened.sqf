@@ -48,7 +48,7 @@ if(_container isKindOf "Man" && !alive _container) exitWith {
 	};
 };
 
-if(player getVariable["restrained",false]) exitWith {
+if(player getVariable ["restrained", true]) exitWith {
 	hint localize "STR_MISC_Restrained";
 	[] spawn {
 		waitUntil {!isNull (findDisplay 602)};
