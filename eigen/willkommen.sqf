@@ -15,9 +15,9 @@ _role1names = ["StaiyLite","Altis Life Server"];
 _role2 = "Admins";
 _role2names = ["Staiy","Snerz","Spoilty","mantis","bekoo","Murphy"];
 _role3 = "Webseite/ Teamspeak";
-_role3names = ["www.staiylite.de","TeamSpeakIP: ts.staiylite.de"];
+_role3names = ["www.staiylite.de"," ","ts.staiylite.de"];
 _role4 = "Aktuelle Neuerungen/ ChangeLog";
-_role4names = ["Cop Shop Änderung","Neues Ausbruchsystem","Neue Map","Weitere Infos und ChangeLog: www.staiylite.de"];
+_role4names = ["BugFixes","Cop-Changes"," ","Infos: www.staiylite.de"];
 
 {
 sleep 2;
