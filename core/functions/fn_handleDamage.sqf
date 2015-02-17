@@ -4,8 +4,10 @@ _damage = _this select 2;
 _source = _this select 3;
 _projectile = _this select 4;
 
-//Handle the tazer first (Top-Priority).
+if!(alive _unit) exitWith {};
+if(isNil _unit) exitWith {};
 
+//Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		if(_projectile == "B_9x21_Ball") then {

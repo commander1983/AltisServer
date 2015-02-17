@@ -60,7 +60,7 @@ while {player getVariable "restrained"} do
 	if(vehicle player != player) then
 	{
 		//disableUserInput true;
-		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["GetOut",vehicle player]; hint "Du bist gefesselt! Du kannst in keine Fahrzeuge einsteigen!";};
+		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["GetOut",vehicle player]; hint parseText format ["Du bist gefesselt! Du kannst in keine Fahrzeuge einsteigen!<br/><br/>You are restrained! You cannot get into a vehicle as driver!<br/><br/>Vous êtes ligoté! Vous pouvez aller dans tous les véhicules!"];};
 	};
 };
 
