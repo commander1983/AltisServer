@@ -20,7 +20,7 @@ _kassa = 5000 + round(random 10000); //setting the money in the registry, anywhe
 [[_shop,_robber,_action,-1],"TON_fnc_shopState",false,false] spawn life_fnc_MP; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear. 
 
 _chance = random(50); //calling a random number between 0-100. 
-if(_chance >= 15) then { hint "Der Kassierer hat den Alarmknopf betätigt."; [[4,format["<t size='2'><t color='#00FF00'>ALARM</t></t> <br/><t size='1'>%1 wird ausgeraubt!</t>", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 15) then { hintC "Der Kassierer hat den Alarmknopf betätigt."; [[4,format["<t size='2'><t color='#FF0000'>! ALARM !</t></t> <br/><t size='1'>%1 wird ausgeraubt!</t>", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 //Setup our progress bar.
 disableSerialization;
@@ -49,7 +49,7 @@ if(_rip) then
     if(_robber distance _shop > 10) exitWith { hint "Du warst zu weit weg! - Hier kannst du nicht mehr ausrauben."; 5 cutText ["","PLAIN"]; _rip = false; _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
     if (vehicle player != _robber) exitWith { hint "Raus aus dem Fahrzeug du Pussy!"; _ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
 	5 cutText ["","PLAIN"];
-    titleText[format["Du hast %1€ geklaut, nichts wie weg hier , die Cops sind auf dem Weg!",[_kassa] call life_fnc_numberText],"PLAIN"];
+    titleText[format["Du hast %1€ geklaut. Nichts wie weg hier! Die Cops sind auf dem Weg!",[_kassa] call life_fnc_numberText],"PLAIN"];
     ja_dzep = ja_dzep + _kassa; 
 	_ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];
     _rip = false;
@@ -57,8 +57,8 @@ if(_rip) then
     sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery. 
     life_use_atm = true; // Robber can not use the ATM at this point.
     if!(alive _robber) exitWith {_ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
-	[[4,format["<t size='2'><t color='#00FF00'>NEWS</t></t> <br/><t size='1'>%2 wurde gerade von %1 ausgeraubt (%3€)</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-	[[4,format["<t size='2'><t color='#00FF00'>NEWS</t></t> <br/><t size='1'>%2 wurde gerade von %1 ausgeraubt (%3€)</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
+	[[4,format["<t size='2'><t color='#00FF00'>CH7 NEWS</t></t> <br/><t size='1'>%2 wurde von %1 ausgeraubt. Er hat eine Beute von insgesamt %3€ gemacht.</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
+	[[4,format["<t size='2'><t color='#00FF00'>CH7 NEWS</t></t> <br/><t size='1'>%2 wurde von %1 ausgeraubt. Er hat eine Beute von insgesamt %3€ gemacht.</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
 	
     [[getPlayerUID _robber,name _robber,"488"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 };
