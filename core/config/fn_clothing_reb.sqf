@@ -38,7 +38,7 @@ switch (_filter) do
 			["H_MilCap_oucamo",nil,1200],
 			["H_Bandanna_camo",nil,650],
 			["H_Beret_grn",nil,650],
-			["H_Beret_ocamo",nil,650],
+			["H_Beret_blk_POLICE",nil,650],
 			["H_Beret_02",nil,650]
 		];
 	};

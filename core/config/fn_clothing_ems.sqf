@@ -26,6 +26,13 @@ switch (_filter) do
 	case 1:
 	{
 		[
+			["H_Watchcap_blk","Beanie",50],
+			["H_Watchcap_khk","Beanie(Khaki)",50],
+			["H_Watchcap_camo","Beanie(Camo)",50],
+			["H_Watchcap_sgg","Beanie(Sage)",50],
+			["H_Beret_grn",nil,50],
+			["H_Beret_blk_POLICE",nil,50],
+			["H_Beret_02",nil,50],
 			["H_Bandanna_camo","Camo Bandanna",120],
 			["H_Bandanna_surfer","Surfer Bandanna",130],
 			["H_Bandanna_gry","Grey Bandanna",150],

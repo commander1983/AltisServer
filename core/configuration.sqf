@@ -454,7 +454,7 @@ life_garage_prices =
 	["O_Heli_Transport_04_F",5000],
 	["O_Truck_03_fuel_F",17500],
 	["O_Truck_03_device_F",17500],
-	["O_Heli_Transport_04_medevac_F",5000]
+	["O_Heli_Transport_04_medevac_F",25000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
