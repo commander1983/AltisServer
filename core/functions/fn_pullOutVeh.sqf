@@ -15,5 +15,5 @@ if(player getVariable "restrained") then
 
 player action ["Eject", vehicle player];
 player action ["GetOut", vehicle player];
-hint format parseText ["== Du wurdest von %1 aus dem Fahrzeug gezogen. ==",name _puller];
+hint format ["== Du wurdest von %1 aus dem Fahrzeug gezogen. ==",name _puller];
 titleFadeOut 4;
