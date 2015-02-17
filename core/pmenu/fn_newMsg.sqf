@@ -129,9 +129,6 @@ switch(_type) do
 		if(__GETC__(life_mediclevel) < 2) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
-		if(side player == independent) exitWith {
-			hint "Dazu bist du nicht berechtigt!";
-		};
 		if(side player == civilian) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
