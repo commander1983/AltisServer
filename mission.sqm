@@ -3532,7 +3532,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1938;
+		items=1940;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -24174,6 +24174,28 @@ class Mission
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
 		};
+		class Item1938
+		{
+			position[]={22165.412,3.0775988,14483.611};
+			azimut=-1.3076316;
+			id=2134;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Cross_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1939
+		{
+			position[]={22167.893,3.1780543,14465.754};
+			azimut=-2.04826;
+			id=2135;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Cross_F";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
 	};
 	class Markers
 	{
@@ -26391,7 +26413,7 @@ class Mission
 		};
 		class Item265
 		{
-			position[]={22166.496,3.0707679,14474.546};
+			position[]={22167,3.0664501,14475.168};
 			name="Rebelop_1";
 			text="Rebellen Gebiet";
 			type="mil_warning";
