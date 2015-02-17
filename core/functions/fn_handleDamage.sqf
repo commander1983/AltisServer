@@ -5,7 +5,6 @@ _source = _this select 3;
 _projectile = _this select 4;
 
 if!(alive _unit) exitWith {_damage;};
-if(isNil _unit) exitWith {_damage;};
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
