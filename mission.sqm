@@ -26391,7 +26391,7 @@ class Mission
 		};
 		class Item265
 		{
-			position[]={22151.797,3.1407959,14473.564};
+			position[]={22166.496,3.0707679,14474.546};
 			name="Rebelop_1";
 			text="Rebellen Gebiet";
 			type="mil_warning";
