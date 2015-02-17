@@ -123,7 +123,10 @@ switch(_type) do
 		if(__GETC__(life_coplevel) < 4) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
-		if(__GETC__(life_adaclevel) < 3) exitWith {
+		if(__GETC__(life_adaclevel) < 2) exitWith {
+			hint "Dazu bist du nicht berechtigt!";
+		};
+		if(__GETC__(life_mediclevel) < 2) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
 		if(side player == independent) exitWith {
