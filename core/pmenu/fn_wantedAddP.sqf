@@ -8,8 +8,8 @@ _amount = lbData [2407,lbCurSel 2407];
 _copName = profileName;
 if(isNil "_unit") exitWith {};
 if(isNull _unit) exitWith {};
-if((side _unit == west) OR (side _unit == east) OR (side _unit == independent)) exitWith {hint "Du kannst keine Polizeikollegen zur Fahndung ausschreiben.";};
 if(_unit == player) exitWith {hint "Genau! Schreibe dich doch selbst zur Fahndung aus.";};
+if((side _unit == west) OR (side _unit == east) OR (side _unit == independent)) exitWith {hint "Du kannst keine Beamten zur Fahndung ausschreiben.";};
 
 [[1,format["%1 wurde von %2 zur Fahndung ausgeschrieben.",_unit getVariable["realname",name _unit],_copName,_amount,getPlayerUID _unit]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 
