@@ -880,7 +880,7 @@
 			<Original>Ein Fahrzeug wurde durchsucht und es wurden Drogen/ Schmuggelware im Wert von %1€ beschlagnahmt!</Original>
 		</Key>
 		<Key ID="STR_NOTF_PulledOut">
-			<Original>%1 hat Sie aus dem Fahrzeug herausgezogen!</Original>
+			<Original>Sie wurden aus dem Fahrzeug herausgezogen!</Original>
 		</Key>
 		<Key ID="STR_NOTF_GivenItem">
 			<Original>%1 hat Ihnen %2 %3 gegeben.</Original>
