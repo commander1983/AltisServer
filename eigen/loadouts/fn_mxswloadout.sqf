@@ -77,7 +77,7 @@ player addItemToBackpack "30Rnd_9x21_Mag";
 player addItemToBackpack "100Rnd_65x39_caseless_mag_Tracer";
 // Attachment to Weapon
 player addPrimaryWeaponItem "muzzle_snds_H";
-player addPrimaryWeaponItem "optic_Arco";
+player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "acc_flashlight";
 
 mybackpack = unitBackpack player;
