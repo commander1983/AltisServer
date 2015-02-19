@@ -24,7 +24,7 @@ switch (true) do
 	default {_mine = "";};
 };
 //Mine check
-if(_mine == "") exitWith {hint localize "STR_ISTR_Pick_NotNear"};
+if(_mine == "") exitWith {};
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
 
 if(life_action_gather) exitWith {}; // Q-Spam verhindern

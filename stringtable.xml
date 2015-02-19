@@ -1639,9 +1639,6 @@
 		<Key ID="STR_ISTR_Lock_FailedNOTF">
 			<Original>%1 wurde gesehen wir er ein Fahrzeug aufbrechen wollte!</Original>
 		</Key>
-		<Key ID="STR_ISTR_Pick_NotNear">
-			<Original>Du bist nicht in der Nähe einer Mine!</Original>
-		</Key>
 		<Key ID="STR_ISTR_Pick_MineVeh">
 			<Original>Sie können nicht in einem Auto abbauen!</Original>
 		</Key>
