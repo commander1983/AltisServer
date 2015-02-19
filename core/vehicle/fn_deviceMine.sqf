@@ -21,7 +21,7 @@ _zone = "";
 } foreach _resourceZones;
 
 if(_zone == "") exitWith {
-	hint localize "STR_NOTF_notNearResource";
+	hint localize "STR_NOTF_DeviceNotNearResource";
 	life_action_inUse = false;
 };
 
@@ -53,18 +53,18 @@ life_action_inUse = false; //Unlock it since it's going to do it's own thing...
 
 while {true} do {
 	if(!alive _vehicle OR isNull _vehicle) exitWith {};
-	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"];};
+	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_DeviceMiningStopped","PLAIN"];};
 	titleText[localize "STR_NOTF_DeviceMining","PLAIN"];
 	_time = time + 27;
 	
 	//Wait for 27 seconds with a 'delta-time' wait.
 	waitUntil {
-		if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"]; true};
+		if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_DeviceMiningStopped","PLAIN"]; true};
 		if(round(_time - time) < 1) exitWith {true};
 		sleep 0.2;
 		false
 	};
-	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"];};
+	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_DeviceMiningStopped","PLAIN"];};
 	_vInv = _vehicle getVariable ["Trunk",[[],0]];
 	_items = _vInv select 0;
 	_space = _vInv select 1;
@@ -80,7 +80,7 @@ while {true} do {
 		_items set[_itemIndex,[_item,_val + _sum]];
 	};
 	
-	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];};
+	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_DeviceOutOfFuel","PLAIN"];};
 	
 	//Locality checks...
 	if(local _vehicle) then {
@@ -89,7 +89,7 @@ while {true} do {
 		[[_vehicle,(fuel _vehicle)-0.04],"life_fnc_setFuel",_vehicle,false] spawn life_fnc_MP;
 	};
 	
-	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];};
+	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_DeviceOutOfFuel","PLAIN"];};
 	titleText[format[localize "STR_NOTF_DeviceMined",_sum],"PLAIN"];
 	_vehicle setVariable["Trunk",[_items,_space + _itemWeight],true];
 	_weight = [_vehicle] call life_fnc_vehicleWeight;

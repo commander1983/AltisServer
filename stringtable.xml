@@ -805,7 +805,7 @@
 			<Original>%1 hat %2's %3 einkassiert.</Original>
 		</Key>
 		<Key ID="STR_NOTF_AbortESC">
-			<Original>Abbruch möglich in %1</Original>
+			<Original>Abbruch in %1</Original>
 		</Key>
 		<Key ID="STR_NOTF_DeviceIsMining">
 			<Original>Dieses Fahrzeug ist bereits am Sammeln.</Original>
@@ -813,11 +813,11 @@
 		<Key ID="STR_NOTF_DeviceFull">
 			<Original>Das Fahrzeug ist voll.</Original>
 		</Key>
-		<Key ID="STR_NOTF_notNearResource">
-			<Original>Du bist nicht in der nähe einer Mine</Original>
+		<Key ID="STR_NOTF_DeviceNotNearResource">
+			<Original>Du bist nicht in der Nähe einer Mine!</Original>
 		</Key>
-		<Key ID="STR_NOTF_MiningStopped">
-			<Original>Du kannst das Fahrzeug nicht starten solange es am Sammeln ist!</Original>
+		<Key ID="STR_NOTF_DeviceMiningStopped">
+			<Original>Du kannst den Motor nicht starten, solange der Gerät am Sammeln ist.</Original>
 		</Key>
 		<Key ID="STR_NOTF_DeviceMining">
 			<Original>Das Fahrzeug sammelt...</Original>
@@ -825,8 +825,8 @@
 		<Key ID="STR_NOTF_DeviceMined">
 			<Original>Sammeln abgeschlossen!\nDas Gerät hat %1 gesammelt!</Original>
 		</Key>
-		<Key ID="STR_NOTF_OutOfFuel">
-			<Original>Das Fahrzeug hat keinen Sprit mehr!</Original>
+		<Key ID="STR_NOTF_DeviceOutOfFuel">
+			<Original>Der Gerät hat keinen Tank mehr!</Original>
 		</Key>
 		<Key ID="STR_NOTF_SpikeStrip">
 			<Original>Sie haben das Krallenband verpackt!</Original>
@@ -838,7 +838,7 @@
 			<Original>Sie haben %1€ aufgehoben.</Original>
 		</Key>
 		<Key ID="STR_NOTF_Bail_Post">
-			<Original>Sie müssen mindestens 3 Minuten lang im Gefängnis bevor sie sich frei kaufen können.</Original>
+			<Original>Sie müssen mindestens 3 Minuten lang im Gefängnis sein, bevor Sie sich frei kaufen können.</Original>
 		</Key>
 		<Key ID="STR_NOTF_Bail_NotEnough">
 			<Original>Sie haben keine %1€ auf Ihrem Bankkonto um die Kaution zu zahlen.</Original>
