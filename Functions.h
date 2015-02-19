@@ -232,6 +232,8 @@ class Life_Client_Core
 	class Functions
 	{
 		file = "core\functions";
+		class nuke {};
+		class quake {};
 		class accType {};
 		class actionKeyHandler {};
 		class animSync {};
