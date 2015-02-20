@@ -436,6 +436,7 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
 		class pille {};
+		class weaknessEffects {};
 	};
 	
 	class Dialog_Controls
