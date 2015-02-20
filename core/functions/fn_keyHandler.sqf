@@ -170,7 +170,7 @@ switch (_code) do
 	//T Key (Trunk)
 	case 20:
 	{
-		if(!_alt && !_ctrlKey) then
+		if(!_alt && !_ctrlKey && !_shift) then
 		{
 			if(vehicle player != player && alive vehicle player) then
 			{
@@ -189,8 +189,16 @@ switch (_code) do
 					};
 				};
 			};
+		};	
+		if(_shift && !_alt && !_ctrlKey && playerSide == west ) then {
+			if(!isNull life_spikestrip) exitWith {hint "Du hast bereits ein Nagelband gelegt"};
+				if(([false,"spikeStrip",1] call life_fnc_handleInv)) then
+				{
+					[] spawn life_fnc_spikeStrip;
+				};
 		};
-	};
+	};	
+	
 	//L Key?
 	case 38: 
 	{
@@ -473,17 +481,7 @@ switch (_code) do
 			};
 		};
 	};
-	//Ü Key
-	case 26:
-	{	
-		if(_shift && !_alt && !_ctrlKey && playerSide == west ) then {
-			if(!isNull life_spikestrip) exitWith {hint "Du hast bereits ein Nagelband gelegt"};
-				if(([false,"spikeStrip",1] call life_fnc_handleInv)) then
-				{
-					[] spawn life_fnc_spikeStrip;
-				};
-		};
-	};	
+	
 	//Earplugs - END 
     case 207:
     {
