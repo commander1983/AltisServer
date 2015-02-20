@@ -14,7 +14,7 @@ if(_shooter isKindOf "Man" && alive player) then
 	if(!life_isdowned) then
 	{
 		life_isdowned = true;
-		player setDamage 0.5;
+		//player setDamage 0.5;
 		
 		_curWep = currentWeapon player;
 		_curMags = magazines player;
@@ -50,7 +50,7 @@ if(_shooter isKindOf "Man" && alive player) then
 		disableUserInput false;
 		detach player;
 		life_isdowned = false;
-		player setDamage 0.5;
+		//player setDamage 0.5;
 		player setFatigue 0.6;
 		player allowDamage true;
 	}
