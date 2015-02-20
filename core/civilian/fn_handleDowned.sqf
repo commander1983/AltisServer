@@ -33,8 +33,7 @@ if(_shooter isKindOf "Man" && alive player) then
 			{player addMagazine _x;} foreach _curMags;
 		};
 	
-		_obj = createVehicle ["Land_ClutterCutter_small_F", getPosATL _unit, [], 0, "NONE"];  
-	
+		_obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL _unit); 
 		_obj setPosATL (getPosATL _unit);
 		[[player,"AinjPfalMstpSnonWnonDf_carried_fallwc"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		[[0,format["%1 wurde von %2 mit Gummigeschossen ausser Gefecht gesetzt.", name _unit, name _shooter]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;

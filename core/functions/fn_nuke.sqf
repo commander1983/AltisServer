@@ -1,8 +1,8 @@
 _isCalledByPlayer = [_this,0,0,[0]] call BIS_fnc_param;
-
+/*
 if (_isCalledByPlayer!=1) then {
 	sleep 520;
-};
+};*/
 	[] spawn {
 		playSound "Alarm";
 		hintSilent parseText"<t size='1.1'>Nuke Detonation In</t><br/><br/><t size='2'>5</t>";
