@@ -29,7 +29,15 @@ _cP = 0.01;
 
 while{true} do
 {
-	sleep 0.2;
+	if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
+	player action ["SwitchWeapon", player, player, 100];   //EDIT
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1"; //Durée action 6.5 secondes
+	player playActionNow "stop";
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+	player playActionNow "stop";
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+	};
+	sleep 0.195;
 	if(isNull _ui) then {
 		5 cutRsc ["life_progress","PLAIN"];
 		_ui = uiNamespace getVariable "life_progress";
@@ -89,3 +97,4 @@ switch (true) do
 	};
 };
 titleText[format[localize "STR_ISTR_Jerry_Success",_displayName],"PLAIN"];
+[true,"fuelE",1] call life_fnc_handleInv;

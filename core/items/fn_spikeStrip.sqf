@@ -6,7 +6,7 @@
 	Creates a spike strip and preps it.
 */
 private["_position","_spikeStrip"];
-_spikeStrip = createVehicle ["Land_Razorwire_F", [0,0,0], [], 0, "NONE"];
+_spikeStrip = "Land_Razorwire_F" createVehicle [0,0,0];
 _spikeStrip attachTo[player,[0,5.5,0]];
 _spikeStrip setDir 90;
 _spikeStrip setVariable["item","spikeDeployed",true];
