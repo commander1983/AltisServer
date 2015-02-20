@@ -93,6 +93,10 @@ life_my_gang = ObjNull;
 life_smartphoneTarget = ObjNull;
 life_vehicles = [];
 bank_robber = [];
+life_drugged_cocaine = -1;
+life_drugged_cocaine_duration = 10; 
+life_drugged_weed = -1;
+life_drugged_weed_duration = 3;
 switch (playerSide) do
 {
 	case west: 
