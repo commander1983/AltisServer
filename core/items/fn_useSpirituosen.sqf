@@ -1,31 +1,24 @@
-/*
-    File: fn_weed.sqf
-    Author: Kuchiha
-
-    Description:
-    Marijuana effects.
-*/
-
 //Close inventory
 closeDialog 0;
 
-//Little hint then wait a litle before starting drugs effects
-hint "Gewinner benutzen keine Drogen...";
-sleep 5;
+//Little hint then wait a little before starting moonshine effects
+hint "Hicks, du fühlst dich sehr komisch.";
+sleep 3;
 
 //Activate ppEffects we need
 "chromAberration" ppEffectEnable true;
 "radialBlur" ppEffectEnable true;
 enableCamShake true;
 
-//Let's go for 45secs of effetcs
-for "_i" from 0 to 44 do
+//Let's go for 120secs of effetcs
+for "_i" from 0 to 300 do
 {
-    "chromAberration" ppEffectAdjust [random 0.25,random 0.25,true];
+    "chromAberration" ppEffectAdjust [random 0.05,random 0.05,true];
     "chromAberration" ppEffectCommit 1;   
-    "radialBlur" ppEffectAdjust  [random 0.02,random 0.02,0.15,0.15];
+    "radialBlur" ppEffectAdjust  [random 0.02,random 0.02,0.01,0.01];
     "radialBlur" ppEffectCommit 1;
-    addcamShake[random 3, 1, random 3];
+     addcamShake[random 4, 2, random 5];
+	player setVariable ["drug_sprit", true, true];
     sleep 1;
 };
 
@@ -40,3 +33,4 @@ sleep 6;
 "chromAberration" ppEffectEnable false;
 "radialBlur" ppEffectEnable false;
 resetCamShake;
+player setVariable ["drug_sprit", false, true];

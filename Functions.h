@@ -102,6 +102,7 @@ class Life_Client_Core
 	class Actions
 	{
 		file = "core\actions";
+		class drugtestAction {};
 		class arrestAction {};
 		class buyLicense {};
 		class catchFish {};
@@ -422,13 +423,10 @@ class Life_Client_Core
 	class Items
 	{
 		file = "core\items";
-		class cocaine {};
-		class heroine {};
 		class jerryRefuel {};
 		class lockpick {};
 		class lockpickV {};
 		class pickaxeUse {};
-		class weed {};
 		class flashbang {};
 		class spikeStrip {};
 		class warnung {};
