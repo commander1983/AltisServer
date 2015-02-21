@@ -1,17 +1,14 @@
 private["_dmg","_count"];
 
-life_drugged = life_drugged_cocaine;
-life_drugged_duration = life_drugged_cocaine_duration;
-
-if(life_drugged < 1) then { life_drugged = 1; } else {life_drugged = life_drugged + 1;};
+if(life_drugged_cocaine < 1) then { life_drugged_cocaine = 1; } else {life_drugged_cocaine = life_drugged_cocaine + 1;};
 
 // Overdose
-if ( life_drugged > 2) then
+if ( life_drugged_cocaine > 2) then
 {
-	_dmg = (damage player) + 0.3;
-	life_drugged = life_drugged - 1;
+	_dmg = (damage player) + 0.5;
+	life_drugged_cocaine = life_drugged_cocaine - 1;
 	
-	if (_dmg < 0.9) then
+	if (_dmg < 1) then
 	{
 		hint "Du erleidest Schaden wegen einer Ueberdosis!";
 		player setFatigue 1;
@@ -53,7 +50,7 @@ sleep 6;
 "radialBlur" ppEffectEnable false;
 resetCamShake;
 	//Effekt Ende
-	for [{_x=0},{_x < life_drugged_duration * 4 && Alive player},{_x=_x+1}] do
+	for [{_x=0},{_x < life_drugged_cocaine_duration * 4 && Alive player},{_x=_x+1}] do
 	{
 		if(_x % 4 == 0) then
 		{
@@ -63,12 +60,12 @@ resetCamShake;
 		sleep 15;	
 	};
 	
-	life_drugged = life_drugged - 1;
+	life_drugged_cocaine = life_drugged_cocaine - 1;
 
 	_count = 0;
-	while{life_drugged < 1 && Alive player} do 
+	while{life_drugged_cocaine < 1 && Alive player} do 
 	{
-		if(life_drugged < 0 OR _count > 100) exitWith { life_drugged = -1; hint "Du bist nun nicht mehr suechtig.";};
+		if(life_drugged_cocaine < 0 OR _count > 100) exitWith { life_drugged_cocaine = -1; hint "Du bist nun nicht mehr suechtig.";};
 		
 		if(_count < 1) then {hint "Du bist nun erschoepft und geschwaecht aufgrund einer Ueberdosis!";};
 		
@@ -84,6 +81,6 @@ resetCamShake;
 		sleep 12;
 	};
 	
-	if(life_drugged < 0 || !Alive player) then { player setVariable["drug_cocaine",false,true]; life_drugged = -1; };
+	if(life_drugged_cocaine < 0 || !Alive player) then { player setVariable["drug_cocaine",false,true]; life_drugged_cocaine = -1; };
 
 };

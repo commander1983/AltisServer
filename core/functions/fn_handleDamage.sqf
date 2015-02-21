@@ -79,7 +79,7 @@ if (vehicle _unit == _unit) then {
 			diag_log "Die Quelle ist ein Fahrzug mit Fahrer";
 			_damage = getDammage player;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-			[[3],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
+			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
 		};
 	};
 };
