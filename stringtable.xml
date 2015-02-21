@@ -447,6 +447,9 @@
 			<English>You have been unfrozen by an administrator</English>
 			<German>Du wurdest von einem Administrator aufgetaut.</German>
 		</Key>
+		<Key ID="STR_NOTF_LO_NoCash">
+			<Original>Du brauchst %1 für dein Loadout</Original>
+		</Key>
 	</Package>
 	<Package name="Garage_Strings">
 		<Key ID="STR_Garage_Title">
