@@ -14,7 +14,15 @@ if(_unit getVariable["drug_heroin",false]) then { _heroin = "Positiv"; } else { 
 if(_unit getVariable["drug_cocaine",false]) then { _cocaine = "Positiv"; } else { _cocaine = "Negativ"; };
 if(_unit getVariable["drug_lsd",false]) then { _lsd = "Positiv"; } else { _lsd = "Negativ"; };
 if(_unit getVariable["drug_alk",false]) then { _alk = "Positiv"; } else { _alk = "Negativ"; };
-if(_unit getVariable["drug_moon",false]) then { _sprit = "Positiv"; } else { _sprit = "Negativ"; };
+if(_unit getVariable["drug_moon",false]) then { _moon = "Positiv"; } else { _moon = "Negativ"; };
 
-hint parseText format["<t color='#FF0000'><t size='1'>%1</t></t><br/><t color='#FFD700'>Marihuana: </t>%2<br/><t color='#FFD700'>Kokain: </t>%3<br/><t color='#FFD700'>Starkbier: </t>%4<br/><t color='#FFD700'>Spirituosen: </t>%5<br/><t color='#FFD700'>Heroin: </t>%6<br/><t color='#FFD700'>Alkohol: </t>%7<br/><br/><t color='#FF0000'>%8</t>"
+hint parseText format["
+<t color='#FF0000'><t size='2'>%1</t></t><br/>
+<t color='#FFD700'>Methamphetamin: </t>%2<br/>
+<t color='#FFD700'>Mariuhana: </t>%3<br/>
+<t color='#FFD700'>Heroin: </t>%4<br/>
+<t color='#FFD700'>Kokain: </t>%5<br/>
+<t color='#FFD700'>LSD: </t>%6<br/><br/>
+<t color='#FFD700'>Alkohol: </t>%7<br/>
+<t color='#FFD700'>Moonshine: </t>%8<br/>"
 ,name _unit,_meth,_weed,_heroin,_cocaine,_lsd,_alk,_moon];

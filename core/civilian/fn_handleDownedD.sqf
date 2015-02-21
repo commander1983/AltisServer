@@ -4,8 +4,8 @@
 	
 	Description: Downed state for rubber bullets
 */
-//private["_unit","_shooter","_curWep","_curMags","_attach"];
-//_unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
+private["_unit","_attach"];
+_unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 //_shooter = [_this,1,Objnull,[Objnull]] call BIS_fnc_param;
 //if(isNull _unit OR isNull _shooter) exitWith {player allowDamage true; life_isdowned = false;};
 
@@ -39,10 +39,10 @@
 		//[[0,format["%1 wurde von %2 mit Gummigeschossen ausser Gefecht gesetzt.", name _unit, name _shooter]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		_unit attachTo [_obj,[0,0,0]];
 		disableUserInput true;
-		sleep 30;
+		sleep 1;
 		//if(!(player getVariable "restrained")) then {
 			[[player,"AinjPpneMstpSnonWrflDnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-			sleep 30;
+			sleep 120;
 		//};
 		//if (!(player getVariable "restrained")) then {
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;

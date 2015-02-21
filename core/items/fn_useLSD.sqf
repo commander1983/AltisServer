@@ -5,7 +5,7 @@ hint "Let´s dance !";
 sleep 3;
 
 player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
-[player,"dance"] call life_fnc_globalSound;
+//[player,"dance"] call life_fnc_globalSound;
 player setDamage (0.05 + (damage player));
 [] call life_fnc_hudUpdate;				
 		
