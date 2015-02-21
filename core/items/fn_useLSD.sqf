@@ -5,10 +5,10 @@ if(life_drugged_lsd < 1) then { life_drugged_lsd = 1; } else {life_drugged_lsd =
 // Overdose
 if ( life_drugged_lsd > 2) then
 {
-	_dmg = (damage player) + 0.3;
+	_dmg = (damage player) + 0.5;
 	life_drugged_lsd = life_drugged_lsd - 1;
 	
-	if (_dmg < 0.9) then
+	if (_dmg < 1) then
 	{
 		hint "Du erleidest Schaden wegen einer Ueberdosis!";
 		player setFatigue 1;
@@ -23,7 +23,7 @@ if ( life_drugged_lsd > 2) then
 	player setDamage (0.1 + (damage player));
 [] call life_fnc_hudUpdate;				
 		
-for "_i" from 0 to 600 do
+for "_i" from 0 to 300 do
 
 		{
 		

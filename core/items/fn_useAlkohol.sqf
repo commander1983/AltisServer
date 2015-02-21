@@ -5,10 +5,10 @@ if(life_drugged_alk < 1) then { life_drugged_alk = 1; } else {life_drugged_alk =
 // Overdose
 if ( life_drugged_alk > 2) then
 {
-	_dmg = (damage player) + 0.3;
+	_dmg = (damage player) + 0.5;
 	life_drugged_alk = life_drugged_alk - 1;
 	
-	if (_dmg < 0.9) then
+	if (_dmg < 1) then
 	{
 		hint "Du erleidest Schaden wegen einer Ueberdosis!";
 		player setFatigue 1;

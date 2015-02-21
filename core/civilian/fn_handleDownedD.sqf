@@ -38,6 +38,7 @@ _unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 		[[player,"AinjPfalMstpSnonWnonDf_carried_fallwc"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		//[[0,format["%1 wurde von %2 mit Gummigeschossen ausser Gefecht gesetzt.", name _unit, name _shooter]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		_unit attachTo [_obj,[0,0,0]];
+		closeDialog 0;
 		disableUserInput true;
 		sleep 2;
 		cutText ["","Black OUT"];
