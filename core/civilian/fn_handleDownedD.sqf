@@ -39,6 +39,7 @@ _unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 		//[[0,format["%1 wurde von %2 mit Gummigeschossen ausser Gefecht gesetzt.", name _unit, name _shooter]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		_unit attachTo [_obj,[0,0,0]];
 		disableUserInput true;
+		cutText ["","Black IN"];
 		sleep 1;
 		//if(!(player getVariable "restrained")) then {
 			[[player,"AinjPpneMstpSnonWrflDnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
@@ -48,6 +49,7 @@ _unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		//};
 		disableUserInput false;
+		cutText ["","Black OUT"];
 		detach player;
 		life_isdowned = false;
 		//player setDamage 0.5;

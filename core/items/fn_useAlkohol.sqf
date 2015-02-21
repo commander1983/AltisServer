@@ -1,11 +1,29 @@
-//Close inventory
-closeDialog 0;
+private["_dmg","_count"];
 
-//Little hint then wait a litle before starting drugs effects
-hint "Hicks, du fuehlst dich komisch.";
-sleep 3;
+life_drugged = life_drugged_alk;
+life_drugged_duration = life_drugged_alk_duration;
 
-//Activate ppEffects we need
+if(life_drugged < 1) then { life_drugged = 1; } else {life_drugged = life_drugged + 1;};
+
+// Overdose
+if ( life_drugged > 2) then
+{
+	_dmg = (damage player) + 0.3;
+	life_drugged = life_drugged - 1;
+	
+	if (_dmg < 0.9) then
+	{
+		hint "Du erleidest Schaden wegen einer Ueberdosis!";
+		player setFatigue 1;
+		player setDamage _dmg;
+	} else {
+		hint "Du bist aufgrund einer Ueberdosis bewusstlos geworden!";
+		[] spawn life_fnc_handleDownedD;
+	};
+} else {
+	sleep 5;
+	//Effekt Anfang
+	//Activate ppEffects we need
 "radialBlur" ppEffectEnable true;
 enableCamShake true;
 
@@ -32,4 +50,38 @@ sleep 6;
 "radialBlur" ppEffectEnable false;
 "filmGrain" ppEffectEnable false;
 resetCamShake;
-player setVariable ["drug_alk", false, true];
+	//Effekt Ende
+	for [{_x=0},{_x < life_drugged_duration * 4 && Alive player},{_x=_x+1}] do
+	{
+		if(_x % 4 == 0) then
+		{
+			life_hunger = life_hunger - 5;
+			[] spawn life_fnc_hudUpdate;
+		};
+		sleep 15;	
+	};
+	
+	life_drugged = life_drugged - 1;
+
+	_count = 0;
+	while{life_drugged < 1 && Alive player} do 
+	{
+		if(life_drugged < 0 OR _count > 100) exitWith { life_drugged = -1; hint "Du bist nun nicht mehr suechtig.";};
+		
+		if(_count < 1) then {hint "Du bist nun erschoepft und geschwaecht aufgrund einer Ueberdosis!";};
+		
+		if(_count % 10 == 0) then
+		{
+			player setFatigue 1;
+			player setDamage (damage player) + 0.05;	
+			[] spawn life_fnc_hudUpdate;
+		};
+		
+		_count = _count + 1;
+		
+		sleep 12;
+	};
+	
+	if(life_drugged < 0 || !Alive player) then { player setVariable["drug_alk",false,true]; life_drugged = -1; };
+
+};

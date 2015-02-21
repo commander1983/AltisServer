@@ -93,10 +93,28 @@ life_my_gang = ObjNull;
 life_smartphoneTarget = ObjNull;
 life_vehicles = [];
 bank_robber = [];
+//Koka
 life_drugged_cocaine = -1;
-life_drugged_cocaine_duration = 10; 
+life_drugged_cocaine_duration = 3; 
+//Gras
 life_drugged_weed = -1;
 life_drugged_weed_duration = 3;
+//Hero
+life_drugged_hero = -1;
+life_drugged_hero_duration = 3; 
+//LSD
+life_drugged_lsd = -1;
+life_drugged_lsd_duration = 3; 
+//Meth
+life_drugged_meth = -1;
+life_drugged_meth_duration = 3; 
+//Alk
+life_drugged_alk = -1;
+life_drugged_alk_duration = 3; 
+//Moonshine
+life_drugged_moon = -1;
+life_drugged_moon_duration = 3; 
+
 switch (playerSide) do
 {
 	case west: 

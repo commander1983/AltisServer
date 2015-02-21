@@ -6,7 +6,7 @@
     Holt das Item aus dem Inventar und setzt es auf der Map.
 */
 private["_position","_warnung"];
-_warnung = createVehicle ["RoadCone_L_F", [0,0,0], [], 0, "NONE"];
+_warnung = createVehicle ["RoadCone_F", [0,0,0], [], 0, "NONE"];
 _warnung attachTo[player,[0,5.5,0.2]];
 _warnung setDir 90;
 _warnung setVariable["item","warnungDeployed",true];
