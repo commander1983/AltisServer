@@ -157,6 +157,12 @@ class CfgSounds
 		sound[] = {"\sounds\alarmanlage.ogg", db-1, 1};
 		titles[] = {};
 	};
+	class hicks
+	{
+		name = "hicks";
+		sound[] = {"\sounds\hicks.ogg", 1.0, 1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing

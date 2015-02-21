@@ -19,6 +19,7 @@ if ( life_drugged > 2) then
 	} else {
 		hint "Du bist aufgrund einer Ueberdosis bewusstlos geworden!";
 		[] spawn life_fnc_handleDownedD;
+		[player,"hicks"] call life_fnc_globalSound;
 	};
 } else {
 	sleep 5;
