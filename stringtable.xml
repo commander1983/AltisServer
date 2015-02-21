@@ -1844,7 +1844,7 @@
 			<Original>Eskortieren</Original>
 		</Key>
 		<Key ID="STR_pInAct_TicketBtn">
-			<Original>Ticket Geben</Original>
+			<Original>Bußgeld</Original>
 		</Key>
 		<Key ID="STR_pInAct_Arrest">
 			<Original>Ins Gefängnis</Original>
@@ -1862,7 +1862,7 @@
 			<Original>Durchsuche Haus</Original>
 		</Key>
 		<Key ID="STR_pInAct_LockHouse">
-			<Original>Haus Schliessen</Original>
+			<Original>Haus Schließen</Original>
 		</Key>
 		<Key ID="STR_pInAct_BuyHouse">
 			<Original>Hausinfo</Original>
@@ -1941,7 +1941,6 @@
 		<Key ID="STR_vInAct_DeviceMine">
 			<Original>Gerät Starten</Original>
 		</Key>
-		
 		<Key ID="STR_vInAct_Impound_Perm">
             <Original>Permanent Beschlagnahmen</Original>
         </Key>
@@ -1971,7 +1970,7 @@
 			<Original>Aufgrund Cheater/Hacker bzw. Skript-Kiddies ist das BIS MP Framework beschädigt. Verständige umgehend einen Admin!</Original>
 		</Key>
 		<Key ID="STR_Session_SyncData">
-			<Original>Synchronisieren der Spieler Informationen mit dem Server.\n\nBitte warte 30 Sekunden bis zum LogOut.</Original>
+			<Original>Synchronisieren der Spieler Informationen mit der Datenbank.\n\nBitte warte 30 Sekunden bis zum LogOut.</Original>
 		</Key>
 	</Package>
 	<Package name="Shop_Strings">
