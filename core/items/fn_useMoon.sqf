@@ -1,8 +1,5 @@
 private["_dmg","_count"];
 
-life_drugged_moon = life_drugged_moon_moon;
-life_drugged_moon_moon_duration = life_drugged_moon_moon_duration;
-
 if(life_drugged_moon < 1) then { life_drugged_moon = 1; } else {life_drugged_moon = life_drugged_moon + 1;};
 
 // Overdose

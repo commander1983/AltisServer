@@ -1,8 +1,5 @@
 private["_dmg","_count"];
 
-life_drugged_meth = life_drugged_meth_meth;
-life_drugged_meth_meth_duration = life_drugged_meth_meth_duration;
-
 if(life_drugged_meth < 1) then { life_drugged_meth = 1; } else {life_drugged_meth = life_drugged_meth + 1;};
 
 // Overdose
