@@ -18,7 +18,7 @@ for "_i" from 0 to 300 do
     "radialBlur" ppEffectAdjust  [random 0.02,random 0.02,0.01,0.01];
     "radialBlur" ppEffectCommit 1;
      addcamShake[random 4, 2, random 5];
-	player setVariable ["drug_sprit", true, true];
+	player setVariable ["drug_moon", true, true];
     sleep 1;
 };
 
@@ -33,4 +33,4 @@ sleep 6;
 "chromAberration" ppEffectEnable false;
 "radialBlur" ppEffectEnable false;
 resetCamShake;
-player setVariable ["drug_sprit", false, true];
+player setVariable ["drug_moon", false, true];

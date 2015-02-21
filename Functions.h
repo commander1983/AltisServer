@@ -324,6 +324,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class handleDowned {};
+		class handleDownedD {};
 	};
 	
 	class Vehicle
@@ -437,6 +438,14 @@ class Life_Client_Core
 		class storageBox {};
 		class pille {};
 		class weaknessEffects {};
+		class useAlkohol {};
+		class useHeroin {};
+		class useKokain {};
+		class useLSD {};
+		class useMarihuana {};
+		class useMeth {};
+		class useMoon {};
+		class useUran {};
 	};
 	
 	class Dialog_Controls

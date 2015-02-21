@@ -15,8 +15,8 @@ if ( life_drugged_cocaine > 2) then
 		player setFatigue 1;
 		player setDamage _dmg;
 	} else {
-		hint "Du Stribst an einer Überdosis!";
-		player setDamage 1;
+		hint "Du bist wegen Überdosis bewusstlos geworden!";
+		[] spawn life_fnc_handleDownedD;
 	};
 } else {
 	sleep 5;
@@ -44,7 +44,7 @@ if ( life_drugged_cocaine > 2) then
 		player enableFatigue true;
 		if(life_drugged_cocaine < 0 OR _count > 100) exitWith { life_drugged_cocaine = -1; hint "Du bist nicht mehr von Kokain süchtig.";};
 		
-		if(_count < 1) then {hint "Du bist nun erschöpft und geschwächt aufgrund einer Überdosis! Rauch einen Joint oder nimm mehr um es zu stoppen!";};
+		if(_count < 1) then {hint "Du bist nun erschöpft und geschwächt aufgrund einer Überdosis!";};
 		
 		if(_count % 10 == 0) then
 		{

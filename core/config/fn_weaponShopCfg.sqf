@@ -242,6 +242,7 @@ switch(_shop) do
 					["NVGoggles_INDEP","NV Gruen",8000],
 					["Rangefinder",nil,8000],
 					["ItemGPS",nil,100],
+					["ItemRadio","Handy",500],
 					["optic_Aco",nil,3500],
 					["optic_ACO_grn",nil,3500],
 					["optic_ACO_grn_smg",nil,3500],

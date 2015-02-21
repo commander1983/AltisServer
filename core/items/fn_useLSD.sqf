@@ -13,7 +13,7 @@ for "_i" from 0 to 600 do
 
 		{
 		
-		player setVariable ["drug_pbrau", true, true];
+		player setVariable ["drug_lsd", true, true];
 		"colorCorrections" ppEffectEnable true;
 		"colorCorrections" ppEffectAdjust [1, 1, 0, [0,0,0,0.5], [random 5 - random 5,random 5 - random 5,random 5 - random 5,random 1], [random 5 - random 5,random 5 - random 5,random 5 - random 5, random 1]];
 		"colorCorrections" ppEffectCommit 1;
@@ -31,4 +31,4 @@ for "_i" from 0 to 600 do
 waitUntil {ppEffectCommitted "colorCorrections"};
 "colorCorrections" ppEffectEnable false;
 "chromAberration" ppEffectEnable false;
-player setVariable ["drug_pbrau", false, true];
+player setVariable ["drug_lsd", false, true];
