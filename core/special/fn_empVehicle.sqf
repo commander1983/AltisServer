@@ -12,6 +12,6 @@ if(!isNull (findDisplay 3494)) then {
 	if(isNull _vehicle) exitWith {};
 	(vehicle player) say3D "empacsound";
 	[[_vehicle], "life_fnc_vehicleEmpd",crew _vehicle,false] spawn life_fnc_MP;
-	sleep (8 * 60);
+	sleep (3 * 60);
 	nn_empInUse = false;
 };
