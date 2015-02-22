@@ -191,7 +191,7 @@ switch (_code) do
 			};
 		};	
 		if(_shift && !_alt && !_ctrlKey && playerSide == west ) then {
-			if(!isNull life_spikestrip) exitWith {hint "Du hast bereits ein Nagelband gelegt"};
+			if(!isNull life_spikestrip) exitWith {hint "Du hast bereits ein Nagelband gelegt!"};
 				if(([false,"spikeStrip",1] call life_fnc_handleInv)) then
 				{
 					[] spawn life_fnc_spikeStrip;
@@ -383,7 +383,7 @@ switch (_code) do
 						_veh animate [format["door_%1_rot",_door],1];
 						systemChat localize "STR_House_Door_Unlock";
 					};
-					};
+				};
 			} else {
 				_locked = locked _veh;
 				if(_veh in life_vehicles && player distance _veh < 8) then {
@@ -485,7 +485,7 @@ switch (_code) do
 	//EMP Konsole - K
     case 37:
     {
-        if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player && (typeOf vehicle player) in ["B_Heli_Light_01_F"])) then
+        if (!_shift && !_alt && _ctrlKey && (playerSide == west) && (vehicle player != player && (typeOf vehicle player) in ["B_Heli_Light_01_F"])) then
         {
             [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
         };

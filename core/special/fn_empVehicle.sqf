@@ -5,7 +5,7 @@
 private["_index","_vehicle"];
 disableSerialization;
 if(!isNull (findDisplay 3494)) then {
-	if(nn_empInUse) exitWith { hint "Das EMP warnt grade schon ein Fahrzeug oder die Batterie muss sich erst wieder aufladen"; };
+	if(nn_empInUse) exitWith { hint "Das EMP warnt bereits ein Fahrzeug oder die Batterie muss sich erst wieder aufladen!"; };
 	nn_empInUse = true;
 	_index = lbCurSel (2902);
 	_vehicle = nn_last_vehicles select _index;
