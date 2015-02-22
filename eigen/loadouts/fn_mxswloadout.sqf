@@ -72,6 +72,7 @@ player assignItem "ItemGPS";
 player addItem "NVGoggles";
 player assignItem "NVGoggles";
 player addItemToBackpack "Rangefinder";
+player addItemToBackpack "optic_SOS";
 // Munition im Rucksack
 player addItemToBackpack "30Rnd_9x21_Mag";
 player addItemToBackpack "100Rnd_65x39_caseless_mag_Tracer";

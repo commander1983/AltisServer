@@ -11,10 +11,7 @@ if(_vehicle isKindOf "Car") then {
 	_vehicle say3D "empwarn";
 	sleep 3.35;
 	if(local _vehicle) then {
-		_vehicle setFuel 0;
-		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 1];
-		sleep (10);
-		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 0];
+		_vehicle setFuel 0.01;
 	};
 };
 if(_vehicle isKindOf "Air") then {
@@ -25,19 +22,15 @@ if(_vehicle isKindOf "Air") then {
 	_vehicle say3D "empwarn";
 	sleep 3.35;
 	if(local _vehicle) then {
-		_vehicle setFuel 0;
-		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 1];
-		sleep (10);
-		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 0];
+		_vehicle setFuel 0.015;
 	}
 };
 if(_vehicle isKindOf "Ship") then {
 	_vehicle say3D "empwarn";
 	sleep 3.35;
 	if(local _vehicle) then {
-		_vehicle setFuel 0;
 		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 1];
-		sleep (10);
+		sleep (3 * 60);
 		_vehicle setHit [getText(configFile >> "cfgVehicles" >> typeOf _vehicle >> "HitPoints" >> "HitEngine" >> "name"), 0];
 	}
 };
