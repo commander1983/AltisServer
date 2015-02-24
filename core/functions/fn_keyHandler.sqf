@@ -20,11 +20,33 @@ _mapKey = actionKeys "ShowMap" select 0;
 //hint str _code;
 _interruptionKeys = [17,30,31,32]; //A,S,W,D
 
+//Vault handling...
+if((_code in (actionKeys "GetOver") || _code in (actionKeys "salute")) && {(player getVariable ["restrained",false])}) exitWith {
+	true;
+};
+//No circonflex
 if(life_action_inUse) exitWith {
 	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
 	_handled;
 };
 
+//Hotfix for Interaction key not being able to be bound on some operation systems.
+if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
+	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
+	if(!life_action_inUse) then {
+		[] spawn
+		{
+			private["_handle"];
+			_handle = [] spawn life_fnc_actionKeyHandler;
+			waitUntil {scriptDone _handle};
+			life_action_inUse = false;
+		};
+	};
+	true;
+};
+
+//disabled ^
+if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {_handled = true;};
 switch (_code) do
 {	
 	//Space key for Jumping
