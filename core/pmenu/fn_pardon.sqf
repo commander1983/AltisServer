@@ -20,7 +20,5 @@ if(count _data == 0) exitWith {};
 _uid = _data select 0;
 [[_uid],"life_fnc_wantedPardon",false,false] spawn life_fnc_MP;
 _copname = profileName;
-/*
-diag_log format ["|| Wanted+ || %1 nahm eine Person (%2) von der Fahndungsliste!", _copname, _uid]; // Log-Eintrag vornehmen, wenn jemand wen von der Fahndungsliste streicht.
-*/
+
 diag_log format ["|| Wanted+ || %1 nahm eine Person (%2) von der Fahndungsliste!", _copname, _uid];
