@@ -16,6 +16,7 @@ _index = (parseNumber(_list lbData _sel));
 _vehicle = life_vehicles select _index;
 if(_vehicle isKindOf "House_F") exitWith {hint "Du willst dich doch etwa nicht aussperren..."};
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Schlüssel wegwerfen, während du gefesselt bist!";};
+if(player getVariable ["surrender", true]) exitWith {hint "Du kannst keine Schlüssel wegwerfen, während du dich ergibst!";};
 _owners = _vehicle getVariable "vehicle_info_owners";
 
 _index2 = [(getPlayerUID player),_owners] call TON_fnc_index;

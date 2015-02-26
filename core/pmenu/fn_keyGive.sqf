@@ -22,6 +22,7 @@ _unit = _plist lbData _sel;
 _unit = call compile format["%1", _unit];
 if(isNull _unit OR isNil "_unit") exitWith {}; 
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Schlüssel weitergeben, während du gefesselt bist!";};
+if(player getVariable ["surrender", true]) exitWith {hint "Du kannst keine Schlüssel weitergeben, während du dich ergibst!";};
 
 _uid = getPlayerUID _unit;
 _owners = _vehicle getVariable "vehicle_info_owners";

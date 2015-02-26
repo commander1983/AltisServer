@@ -17,6 +17,7 @@ _ind = [_data,life_illegal_items] call TON_fnc_index;
 if(_ind != -1 && ([west,getPos player,100] call life_fnc_nearUnits)) exitWith {titleText["Das ist ein Illegales Item. Du kannst es nicht entfernen, da sich gerade Polizisten in der Nähe befinden.","PLAIN"]};
 if(player != vehicle player) exitWith {titleText["Du kannst keine Items entfernen wenn du im Fahrzeug bist!","PLAIN"]};
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Items entfernen, während du gefesselt bist!";};
+if(player getVariable ["surrender", true]) exitWith {hint "Du kannst keine Items entfernen, während du dich ergibst!";};
 if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {hint "Du kannst nicht so viele Items auswählen."};
 _type = [_data,0] call life_fnc_varHandle;
 _type = [_type] call life_fnc_varToStr;
