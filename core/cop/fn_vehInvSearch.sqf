@@ -34,7 +34,7 @@ _value = 0;
 if(_value > 0) then
 {
 	[[0,"STR_NOTF_VehContraband",true,[[_value] call life_fnc_numberText]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-	ja_pare = ja_pare + _value;
+	ja_pare = ja_pare + (_value / 4);		// Nur noch 25 Prozent der beschlagnahmten Summe
 	_vehicle setVariable["Trunk",[],true];
 }
 	else

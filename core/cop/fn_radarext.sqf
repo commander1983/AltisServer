@@ -49,16 +49,16 @@ switch (true) do
 	
 	case ((_speed > 51 && _speed <= 125)): 
 	{	
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#EE7711'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
+		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#E0CC14'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
 	};
 	
-	case ((_speed > 126 && _speed <= 350)) : 
+	case ((_speed > 126 && _speed <= 200)) : 
+	{
+		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#EE7711'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
+	};
+	case ((_speed > 201)) : 
 	{
 		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#FF0000'><t align='center'><t size='1'>Geschwindigkeit %1 km/h",round _speed];
-	};
-	case ((_speed > 351)) : 
-	{
-		_data = _data + format["<t color='#ffffff'><t size='2'><t align='center'>Geschwindigkeitsmessung<br/><t color='#FF0000'><t align='center'><t size='1'>Geschwindigkeit %1 km/h -Desync",round _speed];
 	};
 };
 

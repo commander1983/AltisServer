@@ -6,7 +6,7 @@
 	Master handling for picking up an item.
 */
 private["_obj","_itemInfo","_itemName","_illegal","_diff"];
-if((time - life_action_delay) < 2) exitWith {hint "You can't rapidly use action keys!"};
+if((time - life_action_delay) < 2) exitWith {hint "Du kannst die Aktions-Taste nicht so schnell benutzen!"};
 _obj = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _obj OR isPlayer _obj) exitWith {};
 if((_obj getVariable["PickedUp",false])) exitWith {deleteVehicle _obj;}; //Object was already picked up.

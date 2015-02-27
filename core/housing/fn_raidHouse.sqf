@@ -69,7 +69,7 @@ _value = 0;
 
 if(_value > 0) then {
 	[[0,"STR_House_Raid_Successful",true,[[_value] call life_fnc_numberText]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-	ja_pare = ja_pare + _value;
+	ja_pare = ja_pare + (_value / 2);		// Nur noch 50 Prozent der beschlagnahmten Summe
 	_house setVariable["Trunk",[_houseInvData,_houseInvVal],true];
 	[[_house],"TON_fnc_updateHouseTrunk",false,false] spawn life_fnc_MP;
 } else {

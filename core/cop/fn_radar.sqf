@@ -21,14 +21,14 @@ if((_vehicle isKindOf "Car") && (currentWeapon player) == "hgun_P07_snds_F") the
 		
 		case ((_speed > 51 && _speed <= 125)) : 
 		{	
-			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#EE7711'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed"),round  _speed];
+			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#E0CC14'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed"),round  _speed];
 		};
 		
-		case ((_speed > 126 && _speed <= 350)) : 
+		case ((_speed > 126 && _speed <= 200)) : 
 		{	
-			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#FF0000'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed"),round  _speed];
+			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#EE7711'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed"),round  _speed];
 		};
-		case ((_speed > 351)) : 
+		case ((_speed > 201)) : 
 		{	
 			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#FF0000'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed") + " -Desync",round  _speed];
 		};
