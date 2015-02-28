@@ -137,3 +137,11 @@
 		[[player,life_sidechat,playerSide,0],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
 	};
 };
+
+[] spawn {
+	while {true} do
+	{
+		enableSentences false;
+		sleep 20;
+	};
+};

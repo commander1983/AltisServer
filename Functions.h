@@ -529,8 +529,10 @@ class Life_Client_Core
 		class isEmpOperator {};
 		class scanVehicles {};
 		class warnVehicle {};
+		class HwarnVehicle {};
 		class empVehicle {};
 		class vehicleWarned {};
+		class vehicleLanden {};
 		class vehicleEmpd {};
 	};
 	

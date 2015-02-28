@@ -29,7 +29,7 @@ if(isDedicated && isNil("life_market_prices")) then
 StartProgress = true;
 
 
-[] execVM "eigen\zlt_fastrope.sqf";
+//[] execVM "eigen\zlt_fastrope.sqf";
 [] execVM "eigen\willkommen.sqf";
 [] execVM "eigen\weather.sqf";
 [] execVM "eigen\fn_statusBar.sqf";
