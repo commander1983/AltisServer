@@ -25,12 +25,12 @@ if(parseNumber(_val) <= 0) exitWith {hint "Du musst eine gültige Zahl eingeben.
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Der Spieler ist zu weit weg.";};
 if(!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint "Das geht nicht, eventuell hast du zu wenig davon!";ctrlShow[2002,true];};
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Items weitergeben, während du gefesselt bist!";ctrlShow[2002,true];};
-if(player getVariable ["surrender", true]) exitWith {hint "Du kannst keine Items weitergeben, während du dich ergibst!";ctrlShow[2002,true];};
+if(player getVariable ["surrender", false]) exitWith {hint "Du kannst keine Items weitergeben, während du dich ergibst!";ctrlShow[2002,true];};
 
 [[_unit,_val,_item,player],"life_fnc_receiveItem",_unit,false] spawn life_fnc_MP;
 _type = [_item,0] call life_fnc_varHandle;
 _type = [_type] call life_fnc_varToStr;
-hint format["Du hast %1 %2 %3 gegeben",_unit getVariable["realname",name _unit],_val,_type];
+hint format["Du hast %1 %2 %3 gegeben.",_unit getVariable["realname",name _unit],_val,_type];
 [] call life_fnc_p_updateMenu;
 
 ctrlShow[2002,true];

@@ -14,5 +14,5 @@ if(([true,"sperre",1] call life_fnc_handleInv)) then
     player removeAction life_action_sperrePickup;
     life_action_sperrePickup = nil;
     deleteVehicle _sperre;
-    titleText["Du hast die Straﬂensperre aufgehoben.","PLAIN"];
+    titleText["Du hast die Strassensperre aufgehoben.","PLAIN"];
 };

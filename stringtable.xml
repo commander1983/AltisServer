@@ -1181,10 +1181,10 @@
 			<Original>Du hast versucht %1 %2 %3 zu geben, aber die Person keinen Platz.</Original>
 		</Key>
 		<Key ID="STR_MISC_TooMuch_2">
-			<Original>Du hast %1 %2 %3 zurückgegeben, da du nicht so viel tragen kannst.</Original>
+			<Original>%1 hat dir %3 (%2x) zurückgegeben, da er nicht so viel tragen kann.</Original>
 		</Key>
 		<Key ID="STR_MISC_TooMuch_3">
-			<Original>%1 hat %2 %3 zurückgegeben, da er nicht soviel tragen kann.</Original>
+			<Original>Du hast %1 %2 %3 zurückgegeben, da du nicht soviel tragen kann.</Original>
 		</Key>
 		<Key ID="STR_MISC_AttachmentMSG">
 			<Original>Möchtest du dies zu deinem Inventar oder auf die Waffe hinzufügen? Solltest du es auf die Waffe setzen, wird dein jetziger Aufsatz entfernt!</Original>
@@ -1207,7 +1207,7 @@
 			<Original>Auf den Kofferraum wird bereit zugegriffen!</Original>
 		</Key>
 		<Key ID="STR_MISC_DialogError">
-			<Original>Erstellen des Dialogs gescheitert...</Original>
+			<Original>Erstellen des Dialogs gescheitert... Bitte einem Admin melden!</Original>
 		</Key>
 		<Key ID="STR_MISC_VehUnlock">
 			<Original>Aufgeschlossen!</Original>
@@ -1323,10 +1323,10 @@
 			<Original>Lagerplatz geschlossen</Original>
 		</Key>
 		<Key ID="STR_House_LockingUp">
-			<Original>Haus schließen, bitte warten ...</Original>
+			<Original>= Haus wird abgeschlossen, einen Moment =</Original>
 		</Key>
 		<Key ID="STR_House_LockedUp">
-			<Original>Haus wurde gesperrt.</Original>
+			<Original>= Haus wurde geschlossen =</Original>
 		</Key>
 		<Key ID="STR_House_SellHouseMSG">
 			<Original>Sind Sie sicher, dass Sie Ihr Haus verkaufen? Es wird für &lt;t color='#8cff9b'&gt;%1€&lt;/t&gt; verkauft.\nAll Ihre momentanen Items im Haus werden entfernt</Original>
