@@ -98,7 +98,7 @@ class nanoEMPConsole {
 			h = (1 / 25);
 		};
 		
-		class WarnEMP : Life_RscButtonMenu {
+		class LandEMP : Life_RscButtonMenu {
 			idc = 2030;
 			text = "Landen";
 			onButtonClick = "[] spawn life_fnc_HwarnVehicle;";
