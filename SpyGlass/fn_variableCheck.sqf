@@ -4,6 +4,10 @@
 	Description:
 	Checks against harmful variables, disable this if client-performance is 
 	to bad in the fn_initSpy.sqf, the menuCheck should be good enough!
+	
+	If ya read this you poor script-kiddy, have fun with our variables.
+	Remember: these variables are public and seeable for everyone who knows how to find and unpack the mission-file. BUT we also got an anti-cheat system in our life-server file.
+	Have fun lill boy while using scripts that are not made by your own.
 */
 private["_badVariables","_checkThread"];
 _badVariables = ["JxMxE_hide","JME_Keybinds","JME_has_yet_to_fuck_this_shit","JME_deleteC","JME_Tele","JME_ANAL_PLOW","JME_M_E_N_U_initMenu","JME_M_E_N_U_hax_toggled","W_O_O_K_I_E_FUD_Pro_RE","W_O_O_K_I_E_FUD_Car_RE","W_O_O_K_I_E_FUD_Car_RE",
@@ -19,8 +23,8 @@ _badVariables = ["JxMxE_hide","JME_Keybinds","JME_has_yet_to_fuck_this_shit","JM
 	"BIGM","Does_Tonic_Like_to_take_Turtle_penis_in_the_ass_LODESTARS","Does_Tonic_Like_to_take_Turtle_penis_in_the_ass_LODESTAR1","GMod","No_No_No_Tonic_likes_A_Big_Fat_Sheep_Cock_Right_in_the_bum_G0d_Mode",
 	"Sload","T3le","life_no_injection","Tonic_has_a_gaping_vagina","my_anus_hurtz","aKFerm","aKMMenu","aKTitans","aKLikeaG0d","riasgremory_G0d_Mode","aKCarG0d","riasgremory_Car_Jesus","aKE5p","riasgremory_isseilol","aKPMark",
 	"riasgremory_Noobs","riasgremory_Bitches","riasgremory_Map_Markers","aKUnMmo","jenesuispasuncheateur_unamo","aKVoit","Loljesaispasquoiecriremdr","isseigremory","gremorysama","aKTaCu","aKCardetroy","aKGetKey","aKKillcursor","fuckfest","fuckfestv2",
-	"aKNoEscort","aKEscort","aKtroll","aKTPall","aKUnrestrain","aKNoEscortMe","aKNoTaze","aKJailplayer","aKLisense","riasgremory_titans_shit_reold","Tonic_merde","jaimepaslepoisin_HLEAL","TTTT_IIII___TTTTTTT_RAP_FR","TTTT_IIII___TTTTTTT_REPGA","E_X_T_A_S_Y_Demenotter",
-	"TTTT_IIII___TTTTTTT_REPGAs","jaimepaslepoisin_HLEAL","Root_Main4","Root_Pistol4","Root_Rifle4","Root_Machinegun4","Root_Sniper4","Root_Launcher4","Root_Attachement4","Gef_Hack","G-E-F_Hack","G-E-F","GEF","GEF__","NOASDSASDASD","GGGG_EEEE_FFFF","GFGGG_EEEEE_FFFFF","GGGG_EEEE_FFFF_GGGG_EEEE_FFFF"
+	"aKNoEscort","aKEscort","aKtroll","aKTPall","aKUnrestrain","aKNoEscortMe","aKNoTaze","aKJailplayer","aKLisense","riasgremory_titans_shit_reold","Tonic_merde","jaimepaslepoisin_HLEAL","TTTT_IIII___TTTTTTT_RAP_FR","TTTT_IIII___TTTTTTT_REPGA","E_X_T_A_S_Y_Demenotter","GEF_____G_EF_ASKDLaskfjASDKSADEWjlksnfdngkjdsbkjsbdkfjbdsafkwakhegwakdsaw",
+	"TTTT_IIII___TTTTTTT_REPGAs","jaimepaslepoisin_HLEAL","Root_Main4","Root_Pistol4","Root_Rifle4","Root_Machinegun4","Root_Sniper4","Root_Launcher4","Root_Attachement4","Gef_Hack","G-E-F_Hack","G-E-F","GEF","GEF__","NOASDSASDASD","GGGG_EEEE_FFFF","GFGGG_EEEEE_FFFFF","GGGG_EEEE_FFFF_GGGG_EEEE_FFFF","G_EF_","BYPASSH4CKERS"
 ];
 
 _checkThread = {
