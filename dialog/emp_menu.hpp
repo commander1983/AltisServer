@@ -7,7 +7,7 @@ class nanoEMPConsole {
 	
 	class controlsBackground {
 		class Life_RscTitleBackground:Life_RscText {
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+			colorBackground[] = {0.09,0.55,0,1};
 			idc = -1;
 			x = 0.1;
 			y = 0.2;
@@ -29,7 +29,7 @@ class nanoEMPConsole {
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2901;
-			text = "nanoEMP Operator Konsole";
+			text = "EMP Konsole";
 			x = 0.1;
 			y = 0.2;
 			w = 0.6;
@@ -78,16 +78,6 @@ class nanoEMPConsole {
 			h = (1 / 25);
 		};
 
-		/*class WarnEMP : Life_RscButtonMenu {
-			idc = 2030;
-			text = "Warnen";
-			onButtonClick = "";
-			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.88 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};*/
-
 		class ExecEMP : Life_RscButtonMenu {
 			idc = 2070;
 			text = "Deaktivieren";
@@ -100,9 +90,19 @@ class nanoEMPConsole {
 
 		class WarnEMP : Life_RscButtonMenu {
 			idc = 2060;
-			text = "Warnen";
+			text = "Anhalten";
 			onButtonClick = "[] spawn life_fnc_warnVehicle;";
 			x = 0.42 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.88 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
+		class WarnEMP : Life_RscButtonMenu {
+			idc = 2030;
+			text = "Landen";
+			onButtonClick = "[] spawn life_fnc_HwarnVehicle;";
+			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.88 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);

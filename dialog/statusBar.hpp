@@ -24,7 +24,7 @@ class osefStatusBar {
 			size = 0.03;
 			type = 13;
 			style = 1;
-			text="StaiyLite | TS³: ts.staiylite.de | Forum: www.Staiylite.de";
+			text="Lade Informationen...";
 			class Attributes {
 				align="right";
 				color = "#00C628";
