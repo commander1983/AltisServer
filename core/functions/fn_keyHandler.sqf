@@ -143,12 +143,12 @@ switch (_code) do
 			if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
 			if((_veh getVariable "siren2")) then
 			{
-				titleText ["== Schrecksirene AUS ==","PLAIN"];
+				titleText [localize "STR_MISC_CopYelpOFF","PLAIN"];
 				_veh setVariable["siren2",false,true];
 			}
 				else
 			{
-				titleText ["== Schrecksirene AN ==","PLAIN"];
+				titleText [localize "STR_MISC_CopYelpON","PLAIN"];
 				_veh setVariable["siren2",true,true];
 				[[_veh],"life_fnc_copSiren2",nil,true] spawn life_fnc_MP;
 			};

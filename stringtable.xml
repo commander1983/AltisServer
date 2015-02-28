@@ -1221,6 +1221,12 @@
 		<Key ID="STR_MISC_SirensOFF">
 			<Original>== Sirene Deaktiviert ==</Original>
 		</Key>
+		<Key ID="STR_MISC_CopYelpOFF">
+			<Original>== Schrecksirene Deaktiviert ==</Original>
+		</Key>
+		<Key ID="STR_MISC_CopYelpON">
+			<Original>== Schrecksirene Aktiviert ==</Original>
+		</Key>
 		<Key ID="STR_MISC_NoStorageWarn">
 			<Original>Sie müssen Lagerboxen kaufen um etwas lagern zu können!</Original>
 		</Key>
