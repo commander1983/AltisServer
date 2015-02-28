@@ -11,7 +11,7 @@ if(!isNull (findDisplay 3494)) then {
 	_vehicle = nn_last_vehicles select _index;
 	if(isNull _vehicle) exitWith {};
 	[[_vehicle], "life_fnc_vehicleWarned",crew _vehicle,false] spawn life_fnc_MP;
-	[[[2,1],"Das EMP-Modul wird auf dich gerichtet! Das ist die letzte Warnung! Landen Sie bitte umgehend!"],"life_fnc_broadcast",crew _vehicle,false] spawn life_fnc_MP;
+	[[[2,1],"Das EMP-Modul wird auf Sie gerichtet! Das ist die letzte Warnung! Halten Sie unverzüglich an!"],"life_fnc_broadcast",crew _vehicle,false] spawn life_fnc_MP;
 	sleep 10;
 	nn_warnInUse = false;
 };
