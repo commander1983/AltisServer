@@ -80,7 +80,8 @@ class Mission
 		"A3_Structures_F_Heli_Ind_Machines",
 		"A3_Structures_F_Heli_Civ_Garbage",
 		"A3_Structures_F_EPB_Civ_Garbage",
-		"A3_Structures_F_Civ_Garbage"
+		"A3_Structures_F_Civ_Garbage",
+		"A3_Structures_F_Mil_Radar"
 	};
 	addOnsAuto[]=
 	{
@@ -154,6 +155,7 @@ class Mission
 		"A3_Structures_F_Heli_Civ_Garbage",
 		"A3_Structures_F_EPB_Civ_Garbage",
 		"A3_Structures_F_Civ_Garbage",
+		"A3_Structures_F_Mil_Radar",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -162,15 +164,12 @@ class Mission
 		briefingName="Altis Life RPG";
 		overviewText="Altis Life RPG 3.1.4.8";
 		resistanceEast=1;
-		//timeOfChanges=18000;
 		startWeather=0;
 		startWind=0.25;
 		startWindDir=15;
-		//startGust=0.099999994;
 		forecastWeather=0;
 		forecastWind=0.25;
 		forecastWaves=0;
-		//forecastGust=0.099999994;
 		forecastWindDir=10;
 		rainForced=1;
 		lightningsForced=1;
@@ -3534,7 +3533,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1940;
+		items=1949;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -14264,7 +14263,7 @@ class Mission
 		class Item1005
 		{
 			position[]={22192.229,3.2681983,14547.309};
-			azimut=153.71143;
+			azimut=153.711;
 			id=1201;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
@@ -24195,6 +24194,95 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Obstacle_Cross_F";
 			lock="UNLOCKED";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1940
+		{
+			position[]={15260.723,19.325264,17092.355};
+			azimut=0.231985;
+			id=2136;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1941
+		{
+			position[]={15270.762,19.339962,17092.104};
+			azimut=90.815697;
+			id=2137;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1942
+		{
+			position[]={15260.802,19.327736,17082.227};
+			azimut=0.231985;
+			id=2138;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1943
+		{
+			position[]={15260.629,19.325012,17092.338};
+			azimut=90.815697;
+			id=2139;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1944
+		{
+			position[]={22043.332,6.1293397,14775.636};
+			id=2140;
+			side="EMPTY";
+			vehicle="Land_Radar_Small_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1945
+		{
+			position[]={22038.338,6.2564845,14781.503};
+			azimut=0.231985;
+			id=2141;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1946
+		{
+			position[]={22048.377,6.1906018,14781.251};
+			azimut=90.815697;
+			id=2142;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1947
+		{
+			position[]={22038.416,6.136045,14771.374};
+			azimut=0.231985;
+			id=2143;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1948
+		{
+			position[]={22038.244,6.2564836,14781.485};
+			azimut=90.815697;
+			id=2144;
+			side="EMPTY";
+			vehicle="Land_New_WiredFence_10m_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
 		};
