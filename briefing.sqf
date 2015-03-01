@@ -86,6 +86,8 @@ player createDiarySubject ["platzh6","==================="];
 4. Sollte ein Sanitäter zum Wiederbeleben requestet werden, so wird eine mögliche Nachricht des Sanitäters unten Links im Chat dargestellt.<br/>
 5. Das Beleidigen von Zivilisten und Beamten ohne Roleplay-Hintergrund ist verboten.<br/>
 6. Rassismus ist auf dem gesamten Server untersagt.
+7. Wenn du kein Handy (Mobil-Telefon / Funkgerät) mehr besitzt, darfst du keine Informationen über deinen Aufenthaltsort, Informationen o.Ä. weitergeben. Solltest du dich in einer Gang befinden, wissen diese rein roleplaytechnisch überhaupt nicht wo du dich aufhältst. Reden im TeamSpeak3 sowie im Gruppen-Kanal ist daher verboten. Einfach stummschalten im TeamSpeak3.<br/>
+7.1 Das Missachten dieser Regel kann je nach entstehenden Folgen zu einem Bann führen.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§8 Verhalten bei polizeilichen Maßnahmen</font></font><br/>
