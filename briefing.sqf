@@ -80,7 +80,7 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§7 Kommunikation</font></font><br/>
-1. Das Sprechen im Sidechat ist TABU!<br/>
+1. Das Sprechen im Sidechat ist tabu!<br/>
 2. Das Abspielen von Musik ist in allen Kanälen zu unterlassen!<br/>
 3. Das Posten von Links ist verboten (Fremdwerbung).<br/>
 4. Sollte ein Sanitäter zum Wiederbeleben requestet werden, so wird eine mögliche Nachricht des Sanitäters unten Links im Chat dargestellt.<br/>
@@ -138,7 +138,9 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <font color='#FF0000'><font size='16'>§14 Plündern / Looten</font></font><br/>
 1. Das Plündern von Items, Waffen und Kleidungsstücke ist nicht mehr möglich.<br/>
-2. Das Ausnutzen von bestimmten Bugs um beispielsweise die Waffe(n) aufzuheben, ist Bug-Abuse und wird dementsprechend bestraft.
+2. Das Ausnutzen von bestimmten Bugs um beispielsweise die Waffen aufzuheben, ist Bug-Abuse und wird dementsprechend bestraft.<br/>
+2.1 Dazu gehört auch das sogenannte Aufnehmen-Symbol (Hand) oder Neu-Bewaffnen bei toten Personen sowie deren herumliegende Waffe.<br/>
+3. Eine Missachtung dieser Regel wird mit Bug-Using gleichgestellt und führt zu einer permanenten Sperre.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§15 Hot-Spots</font></font><br/>
@@ -220,13 +222,14 @@ Der Besitz folgender Waffen/Kleidung ist für Zivilisten/ Rebellen illegal:<br/>
 - Sting<br/>
 - P07<br/>
 - 4-Five .45<br/>
+- Stein (Flashbang)<br/>
 - Schalldämpfer 9mm<br/>
 - Schalldämpfer 6.5mm<br/>
 - Schalldämpfer 7.62mm<br/>
 - also: Alle Polizeiwaffen
 <br/>
 <br/>
-Kleidungsstücke welche für Rebellen illegal sind:<br/>
+Kleidungsstücke welche für Zivilisten illegal sind:<br/>
 - Schiessplatzverwalter-Anzug<br/>
 - Taktische Weste (Polizei)<br/>
 - Barett (Polizei)<br/>
