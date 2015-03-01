@@ -151,9 +151,28 @@ if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (g
 
 if(_curTarget getVariable["surrender",false]) then
 {
-	_Btn1 ctrlShow false;
-	_Btn4 ctrlShow false;
+_Btn1 ctrlSetText localize "STR_pInAct_checkLicenses";
+_Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_entzugInteractionMenu;";
+
+_Btn2 ctrlSetText localize "STR_pInAct_SearchPlayer";
+_Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";	
+	
+_Btn3 ctrlSetText localize "STR_pInAct_TicketBtn";
+_Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";	
+	
+_Btn4 ctrlSetTooltip "Handy Entnehmen";
+_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_HandyEntnehmen; closeDialog 0;";
+
+_Btn5 ctrlSetTooltip "Maske Entfernen";
+_Btn5 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeMaskdrop; closeDialog 0;";
+
 	_Btn6 ctrlShow false;
 	_Btn7 ctrlShow false;
 	_Btn8 ctrlShow false;
+	_Btn9 ctrlShow false;
+	_Btn10 ctrlShow false;
+	_Btn11 ctrlShow false;
+	_Btn12 ctrlShow false;
+	_Btn13 ctrlShow false;
+	_Btn14 ctrlShow false;
 };
