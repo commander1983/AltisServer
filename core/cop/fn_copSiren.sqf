@@ -18,6 +18,6 @@ while {true} do
 	if(!alive _vehicle) exitWith {};
 	if(isNull _vehicle) exitWith {};
 	_vehicle say3D "SirenLong";
-	sleep 5.9840;			// Testweise. 5.9840 ist die jetzige -- GENAUSTE wäre: 5.984060
+	sleep 5.865440;			// Testweise. Genauste ABstimmung
 	if(!(_vehicle getVariable "siren")) exitWith {};
 };
