@@ -55,7 +55,7 @@ life_market_resources = [
 		]
 	],
 	
-	["salt_r", 950, 285, 1330, 2, 0.25,
+	["salt_r", 950, 285, 1330, 2, 0.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],
@@ -85,7 +85,7 @@ life_market_resources = [
 		]
 	],
 	
-	["iron_r", 950, 285, 1330, 2, 0.25,
+	["iron_r", 950, 285, 1330, 2, 0.5,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -100,7 +100,7 @@ life_market_resources = [
 		]
 	],
 	
-	["glass", 950, 285, 1330, 2, 0.25,
+	["glass", 950, 285, 1330, 2, 0.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],
@@ -115,7 +115,7 @@ life_market_resources = [
 		]
 	],
 	
-	["vodka", 450, 135, 630, 2, 0.25,
+	["vodka", 450, 135, 630, 2, 0.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],
@@ -160,7 +160,7 @@ life_market_resources = [
 		]
 	],
 	
-		["kristalle", 2000, 400, 2900, 3, 1.5,
+		["kristalle", 2000, 400, 2900, 3, 0.5,
 		[ 
 			["diamondc",1], 
 			["iron_r",1],
