@@ -12,7 +12,7 @@ if(isNull _unit) exitWith {};
 if((lbCurSel 2703) == -1) exitWith {hint localize "STR_ATM_NoneSelected"};
 if(isNil "_unit") exitWith {hint localize "STR_ATM_DoesntExist"};
 if(_val > 999999) exitWith {hint localize "STR_ATM_TransferMax";};
-if(_val < 250) exitWith {hint "You can't transfer less then 250€"};
+if(_val < 250) exitWith {hint "Der Überweisungsbetrag muss 250€ oder höher betragen!"};
 if(!([str(_val)] call life_fnc_isnumeric)) exitWith {hint localize "STR_ATM_notnumeric"};
 if(_val > ja_pare) exitWith {hint localize "STR_ATM_NotEnough"};
 _tax = [_val] call life_fnc_taxRate;
