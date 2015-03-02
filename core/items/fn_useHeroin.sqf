@@ -10,11 +10,11 @@ if ( life_drugged_hero > 2) then
 	
 	if (_dmg < 1) then
 	{
-		hint "Du erleidest Schaden wegen einer Ueberdosis!";
+		hint "Du erleidest Schaden wegen einer Überdosis!";
 		player setFatigue 1;
 		player setDamage _dmg;
 	} else {
-		hint "Du bist aufgrund einer Ueberdosis bewusstlos geworden!";
+		hint "Du bist aufgrund einer Überdosis bewusstlos geworden!";
 		[] spawn life_fnc_handleDownedD;
 	};
 } else {
