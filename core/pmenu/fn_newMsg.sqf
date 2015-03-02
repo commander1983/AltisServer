@@ -120,13 +120,13 @@ switch(_type) do
 	//coptozivi
 	case 9:
 	{
-		if(__GETC__(life_coplevel) < 4) exitWith {
+		if(side player == west && __GETC__(life_coplevel) < 4) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
-		if(__GETC__(life_adaclevel) < 2) exitWith {
+		if(side player == east && __GETC__(life_adaclevel) < 2) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
-		if(__GETC__(life_mediclevel) < 2) exitWith {
+		if(side player == independent && __GETC__(life_mediclevel) < 2) exitWith {
 			hint "Dazu bist du nicht berechtigt!";
 		};
 		if(side player == civilian) exitWith {
