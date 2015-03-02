@@ -106,7 +106,7 @@ class pInteraction_Reb
 		class bHandy: life_RscButtonMenu
 		{
 			idc = 2407;
-			text = "Handy entnehmen"; //--- ToDo: Localize;
+			text = "Handy Entnehmen"; //--- ToDo: Localize;
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.27;
@@ -117,7 +117,7 @@ class pInteraction_Reb
 		class bMask: life_RscButtonMenu
 		{
 			idc = 2408;
-			text = "Maske entfernen"; //--- ToDo: Localize;
+			text = "Maske Entfernen"; //--- ToDo: Localize;
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.32;
