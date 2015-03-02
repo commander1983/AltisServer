@@ -21,8 +21,8 @@ if (_respondmode==2) then {
     removeGoggles player;
     removeHeadGear player;
     player forceAddUniform "U_I_Protagonist_VR";
-    player addWeaponGlobal "hgun_Pistol_heavy_02_Yorris_F";
-    player addMagazines ["6Rnd_45ACP_Cylinder" , 25];
+    player addWeaponGlobal "hgun_Pistol_Signal_F";
+    player addMagazines ["6Rnd_GreenSignal_F" , 25];
     {
         player unassignItem _x;
         player removeItem _x;
