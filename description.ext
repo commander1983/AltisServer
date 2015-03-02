@@ -145,6 +145,18 @@ class CfgSounds
 		sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class siren_razzia
+	{
+		name = "siren_razzia";
+		sound[] = {"\sounds\siren_razzia.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class siren_boden
+	{
+		name = "siren_boden";
+		sound[] = {"\sounds\siren_boden.ogg", 1.0, 1};
+		titles[] = {};
+	};
 	class repair
 	{
 		name = "Repair";

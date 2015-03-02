@@ -130,13 +130,16 @@ switch (_code) do
 			};
 			_handled = true;
 		};
+				/*
+						Polizei Sirene - Yelp - Schrecksirene
+				*/
 		
-		if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
+		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren2_active && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
         {
             [] spawn
 			{
 				life_siren2_active = true;
-				sleep 1;
+				sleep 1.2;
 				life_siren2_active = false;
 			};
 			_veh = vehicle player;
@@ -151,6 +154,29 @@ switch (_code) do
 				titleText [localize "STR_MISC_CopYelpON","PLAIN"];
 				_veh setVariable["siren2",true,true];
 				[[_veh],"life_fnc_copSiren2",nil,true] spawn life_fnc_MP;
+			};
+		};
+		
+		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren2_active && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
+        {
+            [] spawn
+			{
+				life_siren_boden_active = true;
+				sleep 8.0;
+				life_siren_boden_active = false;
+			};
+			_veh = vehicle player;
+			if(isNil {_veh getVariable "siren_boden"}) then {_veh setVariable["siren_boden",false,true];};
+			if((_veh getVariable "siren_boden")) then
+			{
+				titleText ["== Auf-Den-Boden Sirene deaktiviert ==","PLAIN"];
+				_veh setVariable["siren_boden",false,true];
+			}
+				else
+			{
+				titleText ["== Auf-Den-Boden Sirene aktiviert ==","PLAIN"];
+				_veh setVariable["siren_boden",true,true];
+				[[_veh],"life_fnc_copSirenBoden",nil,true] spawn life_fnc_MP;
 			};
 		};
 	};
@@ -299,7 +325,10 @@ switch (_code) do
     //F Key
 	case 33:
     {   
-		if(playerSide == west && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+				/*
+						Polizei Sirene - Normal
+				*/
+		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
 		{
 			[] spawn
 			{
@@ -319,6 +348,31 @@ switch (_code) do
 				titleText [localize "STR_MISC_SirensON","PLAIN"];
 				_veh setVariable["siren",true,true];
 				[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+			};
+		};
+				/*
+						Polizei Sirene - Razzia
+				*/
+		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren_active && !life_siren_razzia_active  && !life_siren_boden_active && !life_siren2_active && ((driver vehicle player) == player)) then
+		{
+			[] spawn
+			{
+				life_siren_razzia_active = true;
+				sleep 6.0;
+				life_siren_razzia_active = false;
+			};
+			_veh = vehicle player;
+			if(isNil {_veh getVariable "siren_razzia"}) then {_veh setVariable["siren_razzia",false,true];};
+			if((_veh getVariable "siren_razzia")) then
+			{
+				titleText ["== Razzia-Sirene deaktiviert ==","PLAIN"];
+				_veh setVariable["siren_razzia",false,true];
+			}
+				else
+			{
+				titleText [localize "STR_MISC_SirensON","PLAIN"];
+				_veh setVariable["siren_razzia",true,true];
+				[[_veh],"life_fnc_copSirenRazzia",nil,true] spawn life_fnc_MP;
 			};
 		};
 		

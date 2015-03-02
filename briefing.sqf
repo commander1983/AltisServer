@@ -771,6 +771,14 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - Schrecksirene Umschalten
 <br/>
 <br/>
+<font color='#639C18'>STRG + R (im KFZ)</font><br/>
+- Razzia Sirene Umschalten
+<br/>
+<br/>
+<font color='#639C18'>STRG + F (im KFZ)</font><br/>
+- Auf-Den-Boden Sirene Umschalten
+<br/>
+<br/>
 <font color='#639C18'>O (im KFZ)</font><br/>
 - Schranke öffnen/schließen (75 Meter)
 <br/>

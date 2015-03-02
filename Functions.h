@@ -362,6 +362,8 @@ class Life_Client_Core
 		class copSearch {};
 		class copSiren {};
 		class copSiren2 {};
+		class copSirenRazzia {};
+		class copSirenBoden {};
 		class licenseCheck {};
 		class licensesRead {};
 		class loadGear {};
