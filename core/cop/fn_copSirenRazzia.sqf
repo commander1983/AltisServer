@@ -16,7 +16,5 @@ while {true} do
     if(isNull _vehicle) exitWith {};
     _vehicle say3D "siren_razzia";
     sleep 5.7380;	// Sirene automatisch ausschalten
-	titleText ["== Razzia-Sirene deaktiviert ==","PLAIN"];
-	_veh setVariable["siren_razzia",false,true];
     if(!(_vehicle getVariable "siren_razzia")) exitWith {};
 };

@@ -134,12 +134,12 @@ switch (_code) do
 						Polizei Sirene - Yelp - Schrecksirene
 				*/
 		
-		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren2_active && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
+		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
         {
             [] spawn
 			{
 				life_siren2_active = true;
-				sleep 1.2;
+				sleep 1.0;
 				life_siren2_active = false;
 			};
 			_veh = vehicle player;
@@ -157,12 +157,12 @@ switch (_code) do
 			};
 		};
 		
-		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren2_active && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
+		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren_boden_active && ((driver vehicle player) == player)) then
         {
             [] spawn
 			{
 				life_siren_boden_active = true;
-				sleep 8.0;
+				sleep 6.5;
 				life_siren_boden_active = false;
 			};
 			_veh = vehicle player;
@@ -328,12 +328,12 @@ switch (_code) do
 				/*
 						Polizei Sirene - Normal
 				*/
-		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren_active && !life_siren_razzia_active && !life_siren_boden_active && ((driver vehicle player) == player)) then
+		if(!_ctrlKey && playerSide == west && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
 		{
 			[] spawn
 			{
 				life_siren_active = true;
-				sleep 6.5;
+				sleep 2.0;
 				life_siren_active = false;
 			};
 			_veh = vehicle player;
@@ -353,7 +353,7 @@ switch (_code) do
 				/*
 						Polizei Sirene - Razzia
 				*/
-		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren_active && !life_siren_razzia_active  && !life_siren_boden_active && !life_siren2_active && ((driver vehicle player) == player)) then
+		if(_ctrlKey && playerSide == west && vehicle player != player && !life_siren_razzia_active && ((driver vehicle player) == player)) then
 		{
 			[] spawn
 			{

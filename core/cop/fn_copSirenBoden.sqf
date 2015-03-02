@@ -16,7 +16,5 @@ while {true} do
     if(isNull _vehicle) exitWith {};
     _vehicle say3D "siren_boden";
     sleep 7.2810;	// Sirene automatisch ausschalten
-	titleText ["== Auf-Den-Boden Sirene deaktiviert ==","PLAIN"];
-	_veh setVariable["siren_boden",false,true];
     if(!(_vehicle getVariable "siren_boden")) exitWith {};
 };
