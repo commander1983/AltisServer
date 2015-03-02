@@ -30,6 +30,13 @@ if(life_action_inUse) exitWith {
 	_handled;
 };
 
+//Kein Commander-Mode mehr :P 
+
+if((_code in (actionKeys "TacticalView")) then {
+	_handled=true;
+	[[1,format["%1 wurde von SPY-GLASS erwischt, wie er/sie versuchte die Funktion:\n\nTacticalView\nbzw.\nTaktischeAnsicht\n\n zu aktivieren. Diese Funktion ist jedoch auf dem Server nicht verfügbar.", profileName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+};
+
 //Hotfix for Interaction key not being able to be bound on some operation systems.
 if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
