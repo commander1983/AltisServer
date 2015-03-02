@@ -51,6 +51,7 @@ waitUntil {ppEffectCommitted "colorCorrections"};
 		if(_x % 4 == 0) then
 		{
 			life_hunger = life_hunger - 5;
+			life_thirst = life_thirst - 10;
 			[] spawn life_fnc_hudUpdate;
 		};
 		sleep 15;	
