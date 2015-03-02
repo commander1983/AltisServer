@@ -8,7 +8,7 @@ if (_respondmode==1) then {
 };
 
 if (_respondmode==2) then {
-    hint "Willkommen in der Paintballarena! Das kommende Spiel wird 5 Minuten gehen, viel Spaß!";
+    hint "Willkommen in der Paintballarena! Das kommende Spiel wird 10 Minuten gehen, viel Spaß!";
     meinePos = getPos player;
     [] call life_fnc_saveGear;
     meingear = life_gear;
