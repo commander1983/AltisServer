@@ -14,7 +14,7 @@ if(_data == "") exitWith {hint "Du hast nichts zum entfernen ausgewählt.";};
 if(!([_value] call TON_fnc_isnumber)) exitWith {hint "Du hast keine gültige Zahl eingegeben."};
 if(parseNumber(_value) <= 0) exitWith {hint "Du musst eine Menge eingeben."};
 _ind = [_data,life_illegal_items] call TON_fnc_index;
-if(_ind != -1 && ([west,getPos player,100] call life_fnc_nearUnits)) exitWith {titleText["Das ist ein Illegales Item. Du kannst es nicht entfernen, da sich gerade Polizisten in der Nähe befinden.","PLAIN"]};
+if(_ind != -1) exitWith {titleText["Das ist ein Illegales Item. Du kannst es nicht entfernen.","PLAIN"]};
 if(player != vehicle player) exitWith {titleText["Du kannst keine Items entfernen wenn du im Fahrzeug bist!","PLAIN"]};
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Items entfernen, während du gefesselt bist!";};
 if(player getVariable ["surrender", false]) exitWith {hint "Du kannst keine Items entfernen, während du dich ergibst!";};
