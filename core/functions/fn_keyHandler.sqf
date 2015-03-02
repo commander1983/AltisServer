@@ -139,7 +139,7 @@ switch (_code) do
             [] spawn
 			{
 				life_siren2_active = true;
-				sleep 1.0;
+				sleep 0.5;
 				life_siren2_active = false;
 			};
 			_veh = vehicle player;
@@ -162,7 +162,7 @@ switch (_code) do
             [] spawn
 			{
 				life_siren_boden_active = true;
-				sleep 6.5;
+				sleep 4.5;
 				life_siren_boden_active = false;
 			};
 			_veh = vehicle player;
@@ -333,7 +333,7 @@ switch (_code) do
 			[] spawn
 			{
 				life_siren_active = true;
-				sleep 2.0;
+				sleep 5.0;
 				life_siren_active = false;
 			};
 			_veh = vehicle player;
@@ -358,7 +358,7 @@ switch (_code) do
 			[] spawn
 			{
 				life_siren_razzia_active = true;
-				sleep 6.0;
+				sleep 4.0;
 				life_siren_razzia_active = false;
 			};
 			_veh = vehicle player;
@@ -370,7 +370,7 @@ switch (_code) do
 			}
 				else
 			{
-				titleText [localize "STR_MISC_SirensON","PLAIN"];
+				titleText [localize "== Razzia-Sirene aktiviert ==","PLAIN"];
 				_veh setVariable["siren_razzia",true,true];
 				[[_veh],"life_fnc_copSirenRazzia",nil,true] spawn life_fnc_MP;
 			};
