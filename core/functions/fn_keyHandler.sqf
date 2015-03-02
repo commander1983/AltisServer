@@ -370,7 +370,7 @@ switch (_code) do
 			}
 				else
 			{
-				titleText [localize "== Razzia-Sirene aktiviert ==","PLAIN"];
+				titleText ["== Razzia-Sirene aktiviert ==","PLAIN"];
 				_veh setVariable["siren_razzia",true,true];
 				[[_veh],"life_fnc_copSirenRazzia",nil,true] spawn life_fnc_MP;
 			};
