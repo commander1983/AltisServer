@@ -18,6 +18,6 @@ while {true} do
 	if(!alive _vehicle) exitWith {};
 	if(isNull _vehicle) exitWith {};
 	_vehicle say3D "SirenLong";
-	sleep 5.865440;			// Testweise. Genauste ABstimmung
+	sleep 3.0			// Testweise. Genauste ABstimmung
 	if(!(_vehicle getVariable "siren")) exitWith {};
 };
