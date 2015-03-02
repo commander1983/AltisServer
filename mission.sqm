@@ -3533,7 +3533,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1949;
+		items=1950;
 		class Item0
 		{
 			position[]={8087.9106,77.660484,22619.809};
@@ -13033,14 +13033,15 @@ class Mission
 		};
 		class Item893
 		{
-			position[]={22161.551,3.3757558,14418.681};
+			position[]={22154.877,3.204381,14463.516};
 			azimut=-273.62399;
 			id=1089;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Heli Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""reb_2"";  }]; this addAction[""Autogarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""reb_2"";  }]; this addAction[""Einparken"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""Es ist kein Fahrzeug in der Nähe."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] spawn life_fnc_MP;   hint ""Das Auto wird in die Garage gestellt..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+			text="Paintball";
+			init="this enableSimulation false; this allowDamage false; this addaction [""Join Paintball"",""core\paintball\pb_join.sqf""]; ";
 		};
 		class Item894
 		{
@@ -24285,6 +24286,17 @@ class Mission
 			vehicle="Land_New_WiredFence_10m_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1949
+		{
+			position[]={22161.551,3.3757558,14418.681};
+			azimut=-273.62399;
+			id=2145;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Heli Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""reb_2"";  }]; this addAction[""Autogarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Wird geladen...""];   life_garage_sp = ""reb_2"";  }]; this addAction[""Einparken"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""Es ist kein Fahrzeug in der Nähe."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] spawn life_fnc_MP;   hint ""Das Auto wird in die Garage gestellt..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
 		};
 	};
 	class Markers
