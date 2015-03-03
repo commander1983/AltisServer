@@ -30,7 +30,7 @@ if(playerSide == west) then
 		case 8: { _rank = "Polizeidirektor"; };
 	};
 	
-	_message = format["<t color='#00A5C6' size='2.0' font='TahomaB'>APD| Polizeimarke</t><br/><br/><t color='#FFFFFF' size='1.7'>%1</t><br/><t size='0.9' color='#FFFFFF'>%2</t>", name player, _rank];
+	_message = format["<t color='#00A5C6' size='1.5' font='TahomaB'>APD| Polizeimarke</t><br/><br/><t color='#FFFFFF' size='1.1'>%2</t><br/><t size='1.3' color='#FFFFFF'>%1</t>", name player, _rank];
 	
 	[[player, _message],"life_fnc_copLicenseShown",_target,false] spawn life_fnc_MP;
 };
@@ -48,7 +48,7 @@ if(playerSide == independent) then
 		case 5: { _rank = "Oberarzt"; };
 		case 6: { _rank = "Chefarzt"; };
 	};
-	_message = format["<t color='#FF0000' size='2.0' font='TahomaB'>EMS| Dienstausweis</t><br/><br/><t color='#FFFFFF' size='1.7'>%1</t><br/><t size='0.9' color='#FFFFFF'>%2</t>", name player, _rank];
+	_message = format["<t color='#FF0000' size='1.5' font='TahomaB'>EMS| Dienstausweis</t><br/><br/><t color='#FFFFFF' size='1.1'>%2</t><br/><t size='1.3' color='#FFFFFF'>%1</t>", name player, _rank];
 	
 	[[player, _message],"life_fnc_copLicenseShown",_target,false] spawn life_fnc_MP;
 };
@@ -65,14 +65,14 @@ if(playerSide == east) then
 		case 4: { _rank = "Werkstattmeister"; };
 		case 5: { _rank = "Technischer Leiter"; };
 	};
-	_message = format["<t color='#FFFF10' size='2.0' font='TahomaB'>ADAC| Dienstausweis</t><br/><br/><t color='#FFFFFF' size='1.7'>%1</t><br/><t size='0.9' color='#FFFFFF'>%2</t>", name player, _rank];
+	_message = format["<t color='#FFFF10' size='1.5' font='TahomaB'>ADAC| Dienstausweis</t><br/><br/><t color='#FFFFFF' size='1.1'>%2</t><br/><t size='1.3' color='#FFFFFF'>%1</t>", name player, _rank];
 	
 	[[player, _message],"life_fnc_copLicenseShown",_target,false] spawn life_fnc_MP;
 };
 
 if(playerSide == civilian) then
 {
-	_message = format["<t size='2' font='TahomaB' color='#FFFFFF'>Personalausweis</t><br/><br/><t size='1.7' color='#FFFFFF'>%1</t>", name player];
+	_message = format["<t size='1.5' font='TahomaB' color='#FFFFFF'>Personalausweis</t><br/><br/><t size='1.3' color='#FFFFFF'>%1</t>", name player];
 	
 	[[player, _message],"life_fnc_copLicenseShown",_target,false] spawn life_fnc_MP;
 };
