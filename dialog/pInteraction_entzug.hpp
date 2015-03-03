@@ -4,7 +4,7 @@
 
 class pInteraction_entzug
 {
-	idd = 37400;
+	idd = 8000;
 	movingEnabled = false;
 	enableSimulation = true;
 	
@@ -33,8 +33,8 @@ class pInteraction_entzug
 		class Title : life_RscTitle
 		{
 			colorBackground[] = {0,0,0,0};
-			idc = 37401;
-			text = "Lizensmenü";
+			idc = 8007;
+			text = "Lizenzmenü";
 			x = BGX;
 			y = BGY;
 			w = BGW;

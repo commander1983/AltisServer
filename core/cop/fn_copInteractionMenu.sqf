@@ -78,7 +78,7 @@ _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDi
 
 //Set Check Licenses Button
 _Btn2 ctrlSetText localize "STR_pInAct_Licenses";
-_Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_entzugInteractionMenu;";
+_Btn2 buttonSetAction "closeDialog 0; [life_pInact_curTarget] spawn life_fnc_entzugInteractionMenu;";
 
 //Set Search Button
 _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";

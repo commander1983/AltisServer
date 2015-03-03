@@ -34,7 +34,7 @@ class pInteraction_Menu
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = 37401;
-			text = "Personenmenu";
+			text = "Personen-Menu";
 			x = BGX;
 			y = BGY;
 			w = BGW;
@@ -210,7 +210,7 @@ class vInteraction_Menu
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = 37401;
-			text = "Fahrzeugmenu";
+			text = "Fahrzeug-Menü";
 			x = BGX;
 			y = BGY;
 			w = BGW;

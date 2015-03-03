@@ -11,17 +11,19 @@
 #define Btn4 8004
 #define Btn5 8005
 #define Btn6 8006
+#define Title 8007
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];
-
-createDialog "pInteraction_entzug";
+if(!dialog) then {
+	createDialog "pInteraction_Menu";
+};
 
 disableSerialization;
 _curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
 
 if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;}; //Bad side check?
-_display = findDisplay 37400;
+_display = findDisplay 8000;
 _Btn1 = _display displayCtrl Btn1;
 _Btn2 = _display displayCtrl Btn2;
 _Btn3 = _display displayCtrl Btn3;
