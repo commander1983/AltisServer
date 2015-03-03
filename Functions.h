@@ -148,12 +148,6 @@ class Life_Client_Core
 		class removeMaskdrop {};
 		class gatherKristall {};
 	};
-    
-    class Paintball
-	{
-		file = "core\paintball";
-		class pb_response {};
-	};
 	
 	class Housing
  	{
@@ -295,7 +289,6 @@ class Life_Client_Core
 		class prisionbreak {};
 		class progressBaren {};
 		class fadeSound {};
-        class ryn_message {};
 	};
 	
 	class Network
