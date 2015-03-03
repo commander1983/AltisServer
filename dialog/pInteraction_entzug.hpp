@@ -46,7 +46,7 @@ class pInteraction_entzug
 	{
 		class ButtonClose : life_RscButtonMenu 
 		{
-			idc = -1;
+			idc = 8008;
 			//shortcuts[] = {0x00050000 + 2};
 			text = "$STR_Global_Back";
 			onButtonClick = "closeDialog 0;";

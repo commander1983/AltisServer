@@ -125,6 +125,7 @@ if(playerSide == west) then {
 
 
 if(playerSide == east) then {
+	_Btn6 ctrlShow false;
 	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
 	_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_searchVehAction;";
 	
@@ -144,15 +145,14 @@ if(playerSide == east) then {
 	if(typeOf (_curTarget) in ["C_Kart_01_Blu_F","C_Kart_01_Red_F","C_Kart_01_Fuel_F","C_Kart_01_Vrana_F","B_Heli_Transport_03_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F","O_Heli_Transport_04_ammo_F","O_Heli_Transport_04_bench_F","O_Heli_Transport_04_box_F","O_Heli_Transport_04_covered_F","O_Heli_Transport_04_fuel_F","O_Heli_Transport_04_medevac_F","O_Heli_Transport_04_repair_F"]) then {
 			_Btn5 ctrlSetText localize "STR_vInAct_GetInKart";
 			_Btn5 buttonSetAction "player moveInDriver life_vInact_curTarget; closeDialog 0;";
-			if(count crew _curTarget == 0 && {canMove _curTarget} && {locked _curTarget == 0}) then {_Btn5 ctrlEnable true;} else {_Btn5 ctrlEnable false};
-			
+			//if(count crew _curTarget == 0 && {canMove _curTarget} && {locked _curTarget == 0}) then {_Btn5 ctrlEnable true;} else {_Btn5 ctrlEnable false};
+			_Btn6 ctrlShow true;
 			_Btn6 ctrlSetText localize "STR_vInAct_Unlock";
 			_Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockpickV; closeDialog 0;";
 		} else {
 		_Btn5 ctrlSetText localize "STR_vInAct_Unlock";
 		_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockpickV; closeDialog 0;";
 		};	
-	_Btn6 ctrlShow false;
 	_Btn7 ctrlShow false;
 	_Btn8 ctrlShow false;
 };
