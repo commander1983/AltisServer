@@ -5,8 +5,9 @@
 	Description:
 	Main functionality for lock-picking.
 */
-private["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance"];
+private["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance","_vDmg"];
 _curTarget = cursorTarget;
+_vDmg = getDammage _curTarget;
 life_interrupted = false;
 if(life_action_inUse) exitWith {};
 if(isNull _curTarget) exitWith {}; //Bad type
@@ -14,6 +15,7 @@ _distance = ((boundingBox _curTarget select 1) select 0) + 2;
 if(player distance _curTarget > _distance) exitWith {}; //Too far
 _isVehicle = if((_curTarget isKindOf "LandVehicle") OR (_curTarget isKindOf "Ship") OR (_curTarget isKindOf "Air")) then {true} else {false};
 if(_isVehicle && _curTarget in life_vehicles) exitWith {hint localize "STR_ISTR_Lock_AlreadyHave"};
+if(_isVehicle && _vDmg >= 1) exitWith {hint "Dieses Fahrzeug ist zerstört und hat daher kein Schloss mehr."};
 
 //More error checks
 if(!_isVehicle && !isPlayer _curTarget) exitWith {};
