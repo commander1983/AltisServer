@@ -156,7 +156,7 @@ class pInteraction_Menu
 		{
 			idc = 37458;
 			colorBackground[] = {0.09,0.55,0,1};
-			text = "Handy entnehmen";
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.47;
@@ -168,61 +168,13 @@ class pInteraction_Menu
 		{
 			idc = 37459;
 			colorBackground[] = {0.09,0.55,0,1};
-			text = "Maske entfernen";
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.52;
 			w = 0.24;
 			h = 0.038;
 		};
-		
-		class ButtonEleven : life_RscButtonMenu
-        {
-            idc = 37460;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-            sizeEx = 0.025;
-            x = BGX + 0.03;
-            y = BGY + 0.57;
-            w = 0.24;
-            h = 0.038;
-        };
-		
-		class ButtonTwelve : life_RscButtonMenu
-        {
-            idc = 37461;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-            sizeEx = 0.025;
-            x = BGX + 0.03;
-            y = BGY + 0.62;
-            w = 0.24;
-            h = 0.038;
-        };
-		
-		class Buttonthirteen : life_RscButtonMenu
-        {
-            idc = 37462;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-            sizeEx = 0.025;
-            x = BGX + 0.03;
-            y = BGY + 0.67;
-            w = 0.24;
-            h = 0.038;
-        };
-		
-		class Buttonfourteen : life_RscButtonMenu
-        {
-            idc = 37463;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-            sizeEx = 0.025;
-            x = BGX + 0.03;
-            y = BGY + 0.72;
-            w = 0.24;
-            h = 0.038;
-        };
 	};
 };
 

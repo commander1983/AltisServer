@@ -1,10 +1,6 @@
-//Grid macros
-#define GUI_GRID_X	(0)
-#define GUI_GRID_Y	(0)
-#define GUI_GRID_W	(0.025)
-#define GUI_GRID_H	(0.04)
-#define GUI_GRID_WAbs	(1)
-#define GUI_GRID_HAbs	(1)
+#define BGX 0.35
+#define BGY 0.2
+#define BGW 0.3
 
 class pInteraction_entzug
 {
@@ -31,7 +27,7 @@ class pInteraction_entzug
 			x = BGX;
 			y = BGY + (11 / 250);
 			w = BGW;
-			h = 0.6 - (22 / 250);
+			h = 0.85 - (22 / 250);
 		};
 		
 		class Title : life_RscTitle
@@ -48,48 +44,88 @@ class pInteraction_entzug
 	
 	class controls
 	{
-		class bB: life_RscButtonMenu
+		class ButtonClose : life_RscButtonMenu 
+		{
+			idc = -1;
+			//shortcuts[] = {0x00050000 + 2};
+			text = "$STR_Global_Back";
+			onButtonClick = "closeDialog 0;";
+			x = BGX;
+			y = 1.0 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
+		class ButtonOne : life_RscButtonMenu
 		{
 			idc = 2501;
-			text = "$STR_pInAct_driverfalseB";
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.07;
 			w = 0.24;
 			h = 0.038;
-			
 		};
-		class bC: life_RscButtonMenu
+		
+		class ButtonTwo : life_RscButtonMenu
 		{
-			idc = 2504;
-			text = "$STR_pInAct_driverfalseC";
+			idc = 2502;
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.12;
 			w = 0.24;
 			h = 0.038;
-			
 		};
-		class bPerm: life_RscButtonMenu
+		
+		class ButtonThree : life_RscButtonMenu
 		{
-			idc = 2505;
-			text = "$STR_pInAct_driverfalsePerm";
+			idc = 2503;
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.17;
 			w = 0.24;
 			h = 0.038;
-			
 		};
-		class bWaffen: life_RscButtonMenu
+		
+		class ButtonFour : life_RscButtonMenu
 		{
-			idc = 2506;
-			text = "$STR_pInAct_driverfalseWaffen";
+			idc = 2504;
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.22;
 			w = 0.24;
 			h = 0.038;
 		};
+		
+		class ButtonFive : life_RscButtonMenu
+		{
+			idc = 2505;
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
+			sizeEx = 0.025;
+			x = BGX + 0.03;
+			y = BGY + 0.27;
+			w = 0.24;
+			h = 0.038;
+		};
+		
+		class ButtonSix : life_RscButtonMenu
+		{
+			idc = 2506;
+			colorBackground[] = {0.09,0.55,0,1};
+			text = "";
+			sizeEx = 0.025;
+			x = BGX + 0.03;
+			y = BGY + 0.32;
+			w = 0.24;
+			h = 0.038;
+		};
 	};
-};
+};	

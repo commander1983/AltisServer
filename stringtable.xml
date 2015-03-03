@@ -4,6 +4,9 @@
 		<Key ID="STR_Global_Close">
 			<Original>Schließen</Original>
 		</Key>
+		<Key ID="STR_Global_Back">
+			<Original>Zurück</Original>
+		</Key>
 		<Key ID="STR_Global_Sell">
 			<Original>Verkaufen</Original>
 		</Key>
@@ -1840,6 +1843,9 @@
 		<Key ID="STR_pInAct_checkLicenses">
 			<Original>Lizenzen Prüfen</Original>
 		</Key>
+		<Key ID="STR_pInAct_Licenses">
+			<Original>Lizenzmenü</Original>
+		</Key>
 		<Key ID="STR_pInAct_SearchPlayer">
 			<Original>Durchsuchen</Original>
 		</Key>
@@ -1900,8 +1906,8 @@
 		<Key ID="STR_pInAct_DepositToGang">
 			<Original>Einzahlen (Gangkonto)</Original>
 		</Key>
-		<Key ID="STR_pInAct_driverfalse">
-            <Original>Lizenz entnehmen</Original>
+		<Key ID="STR_pInAct_driverfalseP">
+            <Original>Pilotenschein</Original>
         </Key>
 		<Key ID="STR_pInAct_driverfalseB">
             <Original>B Führerschein</Original>
@@ -1914,6 +1920,12 @@
         </Key>
 		<Key ID="STR_pInAct_driverfalseWaffen">
             <Original>Waffenlizenz</Original>
+        </Key>
+		<Key ID="STR_pInAct_handy">
+            <Original>Handy Entnehmen</Original>
+        </Key>
+		<Key ID="STR_pInAct_maske">
+            <Original>Maske Entfernen</Original>
         </Key>
 	</Package>
 		<Package name="Vehicle_Interaction">

@@ -85,4 +85,12 @@ switch (_state) do
             hint parseText format ["<t size='1.3'>Dir wurde dein Waffenschein entzogen.</t>"];
         };
     };
+	
+	case 8:
+    {
+        if(license_civ_air) then {
+            license_civ_air = false;
+            hint parseText format ["<t size='1.3'>Dir wurde dein Pilotenschein entzogen.</t>"];
+        };
+    };
 };

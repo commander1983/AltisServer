@@ -15,13 +15,9 @@
 #define Btn8 37457
 #define Btn9 37458
 #define Btn10 37459
-#define Btn11 37460
-#define Btn12 37461
-#define Btn13 37462
-#define Btn14 37463
 #define Title 37401
 
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn8","_Btn9","_Btn10","_Btn11","_Btn12","_Btn13","_Btn14"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn8","_Btn9","_Btn10"];
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
@@ -42,10 +38,6 @@ if(_curTarget isKindOf "House_F") exitWith {
 		_Btn8 = _display displayCtrl Btn8;
 		_Btn9 = _display displayCtrl Btn9;
 		_Btn10 = _display displayCtrl Btn10;
-		_Btn11 = _display displayCtrl Btn11;
-		_Btn12 = _display displayCtrl Btn12;
-		_Btn13 = _display displayCtrl Btn13;
-		_Btn14 = _display displayCtrl Btn14;
 		life_pInact_curTarget = _curTarget;
 
 		_Btn1 ctrlSetText localize "STR_pInAct_Repair";
@@ -61,10 +53,6 @@ if(_curTarget isKindOf "House_F") exitWith {
 		_Btn8 ctrlShow false;
 		_Btn9 ctrlShow false;
 		_Btn10 ctrlShow false;
-		_Btn11 ctrlShow false;
-		_Btn12 ctrlShow false;
-		_Btn13 ctrlShow false;
-		_Btn14 ctrlShow false;
 	} else {
 		closeDialog 0;
 	};
@@ -82,10 +70,6 @@ _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
 _Btn9 = _display displayCtrl Btn9;
 _Btn10 = _display displayCtrl Btn10;
-_Btn11 = _display displayCtrl Btn11;
-_Btn12 = _display displayCtrl Btn12;
-_Btn13 = _display displayCtrl Btn13;
-_Btn14 = _display displayCtrl Btn14;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
@@ -93,8 +77,8 @@ _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
 _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 
 //Set Check Licenses Button
-_Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
-_Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget,FALSE] spawn life_fnc_MP";
+_Btn2 ctrlSetText localize "STR_pInAct_Licenses";
+_Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_entzugInteractionMenu;";
 
 //Set Search Button
 _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
@@ -122,26 +106,11 @@ _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 _Btn8 ctrlSetText localize "STR_pInAct_RemoveWeapons";
 _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeWeaponAction; closeDialog 0;";
 
-_Btn9 ctrlSetTooltip "Handy Entnehmen";
+_Btn9 ctrlSetText localize "STR_pInAct_handy";
 _Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_HandyEntnehmen; closeDialog 0;";
 
-_Btn10 ctrlSetTooltip "Maske Entfernen";
+_Btn10 ctrlSetText localize "STR_pInAct_maske";
 _Btn10 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeMaskdrop; closeDialog 0;";
-
-//_Btn11 ctrlSetText localize "STR_pInAct_driverfalse";
-//_Btn11 buttonSetAction "closeDialog 0; [life_pInact_curTarget] call life_fnc_entzugInteractionMenu;";
-
-_Btn11 ctrlSetText localize "STR_pInAct_driverfalseB";
-_Btn11 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_scheinBEntzug; closeDialog 0;";
-
-_Btn12 ctrlSetText localize "STR_pInAct_driverfalseC";
-_Btn12 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_scheinCEntzug; closeDialog 0;";
-
-_Btn13 ctrlSetText localize "STR_pInAct_driverfalsePerm";
-_Btn13 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_scheinPermEntzug; closeDialog 0;";
-
-_Btn14 ctrlSetText localize "STR_pInAct_driverfalseWaffen";
-_Btn14 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_scheinWaffenEntzug; closeDialog 0;";
 
 //Check that you are near a place to jail them.
 if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_4") < 30) OR (player distance (getMarkerPos "Grenze_1_1") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
@@ -151,7 +120,7 @@ if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (g
 
 if(_curTarget getVariable["surrender",false]) then
 {
-_Btn1 ctrlSetText localize "STR_pInAct_checkLicenses";
+_Btn1 ctrlSetText localize "STR_pInAct_Licenses";
 _Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_entzugInteractionMenu;";
 
 _Btn2 ctrlSetText localize "STR_pInAct_SearchPlayer";
@@ -160,10 +129,10 @@ _Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; clos
 _Btn3 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";	
 	
-_Btn4 ctrlSetTooltip "Handy Entnehmen";
+_Btn4 ctrlSetText localize "STR_pInAct_handy";
 _Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_HandyEntnehmen; closeDialog 0;";
 
-_Btn5 ctrlSetTooltip "Maske Entfernen";
+_Btn5 ctrlSetText localize "STR_pInAct_maske";
 _Btn5 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeMaskdrop; closeDialog 0;";
 
 	_Btn6 ctrlShow false;
@@ -171,8 +140,4 @@ _Btn5 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_removeMaskdrop; cl
 	_Btn8 ctrlShow false;
 	_Btn9 ctrlShow false;
 	_Btn10 ctrlShow false;
-	_Btn11 ctrlShow false;
-	_Btn12 ctrlShow false;
-	_Btn13 ctrlShow false;
-	_Btn14 ctrlShow false;
 };
