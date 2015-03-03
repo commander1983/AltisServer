@@ -22,7 +22,7 @@ switch (playerSide) do
 		
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Straßensperre entfernen</t>",life_fnc_packupsperre,"",0,false,false,"",' _sperre = nearestObjects[getPos player,["RoadBarrier_F"],2] select 0; !isNil "_sperre" && !isNil {(_sperre getVariable "item")}']];
 	
-		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Polizeimarke zeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
+		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Zeige Polizeimarke</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
 	};
 	
     case civilian:
@@ -34,7 +34,7 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Person ausrauben",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" || animationState cursorTarget == "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon"  && !(cursorTarget getVariable["robbed",FALSE]) ']];
 	
-		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Ausweis zeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == civilian &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
+		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Zeige Ausweis</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == civilian &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
 	};
 	
 	case east:
@@ -43,7 +43,7 @@ switch (playerSide) do
 		
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Straßensperre entfernen</t>",life_fnc_packupsperre,"",0,false,false,"",' _sperre = nearestObjects[getPos player,["RoadBarrier_F"],2] select 0; !isNil "_sperre" && !isNil {(_sperre getVariable "item")}']];
 	
-		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Dienstmarke zeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == east &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
+		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Zeige Dienstmarke</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == east &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
 	};
 	
 	case independent:
@@ -52,6 +52,6 @@ switch (playerSide) do
 		
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Straßensperre entfernen</t>",life_fnc_packupsperre,"",0,false,false,"",' _sperre = nearestObjects[getPos player,["RoadBarrier_F"],2] select 0; !isNil "_sperre" && !isNil {(_sperre getVariable "item")}']];
 		
-		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Dienstmarke zeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == independent &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
+		life_actions = life_actions + [player addAction["<t color='#FFFFFF'>Zeige Dienstmarke</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == independent &&  !isNull cursorTarget && player distance cursorTarget < 3.5 && cursorTarget isKindOf "Man" ']];
 	};
 };
