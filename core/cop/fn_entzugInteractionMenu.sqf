@@ -5,12 +5,12 @@
 	Description:
 	Replaces the mass addactions for various cop actions towards another player.
 */
-#define Btn1 2501
-#define Btn2 2502
-#define Btn3 2503
-#define Btn4 2504
-#define Btn5 2505
-#define Btn6 2506
+#define Btn1 8001
+#define Btn2 8002
+#define Btn3 8003
+#define Btn4 8004
+#define Btn5 8005
+#define Btn6 8006
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];
 

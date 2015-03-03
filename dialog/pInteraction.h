@@ -27,7 +27,7 @@ class pInteraction_Menu
 			x = BGX;
 			y = BGY + (11 / 250);
 			w = BGW;
-			h = 0.53 - (22 / 250);
+			h = 0.6 - (22 / 250);
 		};
 		
 		class Title : life_RscTitle
@@ -51,7 +51,7 @@ class pInteraction_Menu
 			text = "$STR_Global_Close";
 			onButtonClick = "closeDialog 0;";
 			x = BGX;
-			y = 0.73 - (1 / 25);
+			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
@@ -319,30 +319,6 @@ class vInteraction_Menu
 		class ButtonEight : life_RscButtonMenu
 		{
 			idc = 37457;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.17;
-			w = 0.24;
-			h = 0.038;
-		};
-		
-		class ButtonNine : life_RscButtonMenu
-		{
-			idc = 37458;
-			colorBackground[] = {0.09,0.55,0,1};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.27;
-			w = 0.24;
-			h = 0.038;
-		};
-		
-		class ButtonTen : life_RscButtonMenu
-		{
-			idc = 37459;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;

@@ -58,7 +58,7 @@ class pInteraction_entzug
 		
 		class ButtonOne : life_RscButtonMenu
 		{
-			idc = 2501;
+			idc = 8001;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
@@ -70,7 +70,7 @@ class pInteraction_entzug
 		
 		class ButtonTwo : life_RscButtonMenu
 		{
-			idc = 2502;
+			idc = 8002;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
@@ -82,7 +82,7 @@ class pInteraction_entzug
 		
 		class ButtonThree : life_RscButtonMenu
 		{
-			idc = 2503;
+			idc = 8003;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
@@ -94,7 +94,7 @@ class pInteraction_entzug
 		
 		class ButtonFour : life_RscButtonMenu
 		{
-			idc = 2504;
+			idc = 8004;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
@@ -106,7 +106,7 @@ class pInteraction_entzug
 		
 		class ButtonFive : life_RscButtonMenu
 		{
-			idc = 2505;
+			idc = 8005;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
@@ -118,7 +118,7 @@ class pInteraction_entzug
 		
 		class ButtonSix : life_RscButtonMenu
 		{
-			idc = 2506;
+			idc = 8006;
 			colorBackground[] = {0.09,0.55,0,1};
 			text = "";
 			sizeEx = 0.025;
