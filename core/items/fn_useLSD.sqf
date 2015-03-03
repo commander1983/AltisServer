@@ -62,9 +62,9 @@ waitUntil {ppEffectCommitted "colorCorrections"};
 	_count = 0;
 	while{life_drugged_lsd < 1 && Alive player} do 
 	{
-		if(life_drugged_lsd < 0 OR _count > 100) exitWith { life_drugged_lsd = -1; hint "Du bist nun nicht mehr suechtig.";};
+		if(life_drugged_lsd < 0 OR _count > 100) exitWith { life_drugged_lsd = -1; hint "Du bist nun nicht mehr süchtig.";};
 		
-		if(_count < 1) then {hint "Du bist nun erschoepft und geschwaecht aufgrund einer Ueberdosis!";};
+		if(_count < 1) then {hint "Du bist nun erschoepft und geschwaecht aufgrund einer Überdosis!";};
 		
 		if(_count % 10 == 0) then
 		{
