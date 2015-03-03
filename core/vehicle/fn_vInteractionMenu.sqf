@@ -49,7 +49,7 @@ if(playerSide == west) then {
 	
 	_Btn5 ctrlSetText localize "STR_vInAct_PullOut";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
-	if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
+	if(count crew _curTarget == 0) then {_Btn5 ctrlEnable false;};
 	
 	_Btn6 ctrlSetText localize "STR_vInAct_Unlock";
 	_Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_lockpickV; closeDialog 0;";
@@ -95,15 +95,17 @@ if(playerSide == west) then {
 			};
 		};
 		
+		_Btn3 ctrlSetText localize "STR_vInAct_PullOut";
+		_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+			
 		if(license_civ_rebel) then {
 			_Btn3 ctrlSetText localize "STR_vInAct_PullOut";
 			_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
 			if(count crew _curTarget == 0) then {_Btn3 ctrlEnable false;};
 		} else {
-			_Btn3 ctrlShow false;
+			_Btn3 ctrlEnable false;
 		};		
 		
-	if(license_civ_rebel) then {
 		if(typeOf _curTarget == "O_Truck_03_device_F") then {
 			_Btn4 ctrlSetText localize "STR_vInAct_DeviceMine";
 			_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_deviceMine";
@@ -115,18 +117,6 @@ if(playerSide == west) then {
 		} else {
 			_Btn4 ctrlShow false;
 		};
-	} else {
-		if(typeOf _curTarget == "O_Truck_03_device_F") then {
-			_Btn3 ctrlSetText localize "STR_vInAct_DeviceMine";
-			_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_deviceMine";
-			if(!isNil {(_curTarget getVariable "mining")} OR !local _curTarget && {_curTarget in life_vehicles}) then {
-				_Btn3 ctrlEnable false;
-			} else {
-				_Btn3 ctrlEnable true;
-			};
-		} else {
-			_Btn3 ctrlShow false;
-		};	
 	};
 		_Btn5 ctrlShow false;
 		_Btn6 ctrlShow false;
