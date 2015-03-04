@@ -41,12 +41,11 @@ if(playerSide == independent) then
 	
 	switch ( _mediclevel ) do
 	{
-		case 1: { _rank = "Praktikant"; };
-		case 2: { _rank = "Assistent"; };	
-		case 3: { _rank = "Mediziner"; };	
-		case 4: { _rank = "Arzt"; };
-		case 5: { _rank = "Oberarzt"; };
-		case 6: { _rank = "Chefarzt"; };
+		case 1: { _rank = "Assistent"; };	
+		case 2: { _rank = "Mediziner"; };	
+		case 3: { _rank = "Arzt"; };
+		case 4: { _rank = "Oberarzt"; };
+		case 5: { _rank = "Chefarzt"; };
 	};
 	_message = format["<t color='#FF0000' size='1.5' font='TahomaB'>EMS| Dienstausweis</t><br/><br/><t color='#FFFFFF' size='1.1'>%2</t><br/><t size='1.3' color='#FFFFFF'>%1</t>", name player, _rank];
 	
