@@ -9,7 +9,7 @@ private["_vehicle","_type","_time","_price","_vehicleData","_upp","_ui","_progre
 _vehicle = cursorTarget;
 _vehDmg = getDammage _vehicle;
 if(!((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship"))) exitWith {};
-if(side player == west && playersNumber east > 2) exitWith {hint"Du kannst keine Fahrzeuge beschlagnahmen, da derzeit die Pannenhilfe im Dienst ist!";};
+if(side player == west && playersNumber east >= 2) exitWith {hint"Du kannst keine Fahrzeuge beschlagnahmen, da derzeit die Pannenhilfe im Dienst ist!";};
 if(player distance cursorTarget > 10) exitWith {};
 if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship")) then
 {
