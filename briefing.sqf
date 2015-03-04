@@ -37,9 +37,10 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='16'>§2 Exploits, Hacks und Bugs</font></font><br/>
 1. Das Ausnutzen von Bugs ist Verboten!<br/>
 1.1 Das Nutzen von Cheats, Hacks, Exploits und Scripten ist verboten!<br/>
-1.2. Das Nutzen von gecheateten Items/ Fahrzeugen/ Objekten ist zu unterlassen! Dies ist einem Administrator mitzuteilen. Ein Verstoß kann mit einem Bann bestraft werden.<br/>
-1.3. Sollte dir jemand einen seltsam hohen Geldbetrag überweisen, ohne Grund, ist dies ebenfalls einem Administrator mitzuteilen. <br/>
-1.4. Das Processen, Glitchen oder Durchspringen durch Fahrzeuge/ Wände bzw. Objekte fällt ebenso unter Bugusing und wird dementsprechend bestraft.<br/>
+1.2 Das Nutzen von gecheateten Items/ Fahrzeugen/ Objekten ist zu unterlassen! Dies ist einem Administrator mitzuteilen. Ein Verstoß kann mit einem Bann bestraft werden.<br/>
+1.3 Sollte dir jemand einen seltsam hohen Geldbetrag überweisen, ohne Grund, ist dies ebenfalls einem Administrator mitzuteilen. <br/>
+1.4 Das Processen, Glitchen oder Durchspringen durch Fahrzeuge/ Wände bzw. Objekte fällt ebenso unter Bugusing und wird dementsprechend bestraft.<br/>
+1.5 Das Nachladen, während man gefesselt ist oder sich ergibt, ist ebenfalls Bug-Use.<br/>
 2. Bugs sind im Forum zu Melden!
 <br/>
 <br/>
@@ -62,6 +63,8 @@ player createDiarySubject ["platzh6","==================="];
 3.1 Cyanidtod ist das Gleiche wie Erschossen werden - nicht mehr in die RP-Handlung eingreifen!<br/>
 4. Sobald man den Server verlässt (Verbindungsabbruch, Spielfehler o.Ä.) darfst du nicht mehr in die Roleplay-Handlung eingreifen!<br/>
 5. Es gibt eine Außnahmeregelung bezüglich der Waffenlieferungen. Näheres hierzu findet man unter §15, 3.1 .<br/>
+6. Das Umspawnen (Lobby-Hopping) um beispielsweise in ein laufendes RP einzugreifen, ist verboten.<br/>
+6.1 So darfst du z.B. nicht von Sofia nach Kavala umspawnen mit der Absicht, da dort dein Kollege von den Cops festgehalten wird, ihn zu befreien.<br/>
 6. Das Missachten dieser Regel führt zu einem Bann!
 <br/>
 <br/>
@@ -74,9 +77,12 @@ player createDiarySubject ["platzh6","==================="];
 <font color='#FF0000'><font size='16'>§6 Random Deathmatch (RDM) und Vehicle Deathmatch (VDM)</font></font><br/>
 1. Das Töten von anderen Spielern ohne Roleplay Hintergrund ist verboten und wird als RDM gewertet.<br/>
 2. Unbewaffnete Personen oder Personen von denen keine Gefahr ausgeht, dürfen nicht erschossen werden.<br/>
-3. Das wahllose Töten von Spielern durch Fahrzeuge und Fahrweise ist verboten und wird als VRDM gewertet.<br/>
-3.1 Die Mitgliedschaft bei einer Rebellengruppe ist kein Freifahrtschein zum Töten von Zivilisten/ Polizisten.<br/>
-4. Es gilt nicht als RDM, wenn man bei einem Roleplayevent von einem “Querschläger” getroffen wird.
+2.1 Ausgenommen sind Personen die sich deinen Anweisungen widersetzen (z.B. Überfall).<br/>
+3. Das wahllose Umfahren von Spielern durch Fahrzeuge und Fahrweise ist verboten und wird als Trolling gewertet.<br/>
+3.1 Auch wenn Spieler durch Fahrzeuge nicht mehr sterben können, ist es verboten Spieler umzufahren. Dies gilt als Trolling und wird bestraft.<br/>
+3.2 Das Vorwerfen vor Fahrzeuge nur um Überfahren zu werden ist verboten und wird als Trolling gewertet.<br/>
+4. Die Mitgliedschaft bei einer Rebellengruppe ist kein Freifahrtschein zum Töten von Zivilisten/ Polizisten.<br/>
+5. Es gilt nicht als RDM, wenn man bei einem Roleplayevent von einem “Querschläger” getroffen wird.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§7 Kommunikation</font></font><br/>
@@ -85,7 +91,7 @@ player createDiarySubject ["platzh6","==================="];
 3. Das Posten von Links ist verboten (Fremdwerbung).<br/>
 4. Sollte ein Sanitäter zum Wiederbeleben requestet werden, so wird eine mögliche Nachricht des Sanitäters unten Links im Chat dargestellt.<br/>
 5. Das Beleidigen von Zivilisten und Beamten ohne Roleplay-Hintergrund ist verboten.<br/>
-6. Rassismus ist auf dem gesamten Server untersagt.
+6. Rassismus ist auf dem gesamten Server untersagt.<br/>
 7. Wenn du kein Handy (Mobil-Telefon / Funkgerät) mehr besitzt, darfst du keine Informationen über deinen Aufenthaltsort, Informationen o.Ä. weitergeben. Solltest du dich in einer Gang befinden, wissen diese rein roleplaytechnisch überhaupt nicht wo du dich aufhältst. Reden im TeamSpeak3 sowie im Gruppen-Kanal ist daher verboten. Einfach stummschalten im TeamSpeak3.<br/>
 7.1 Das Missachten dieser Regel kann je nach entstehenden Folgen zu einem Bann führen.
 <br/>
@@ -102,7 +108,8 @@ player createDiarySubject ["platzh6","==================="];
 1. Bei einer Razzia müssen mindestens vier Beamte Anwesend sein.<br/>
 2. Bei einer Razzia darf jede Person zunächst kontrolliert und festgehalten werden bis die Roleplay-Handlung vorbei ist.<br/>
 3. Nach einer Razzia darf das entsprechende Gebiet für mindestens 30 Minuten nicht erneut betreten werden.<br/>
-4. Polizisten dürfen sich zur Observierung für maximal 15 Minuten im entsprechenden Gebiet aufhalten.
+4. Polizisten dürfen sich zur Observierung für maximal 15 Minuten im entsprechenden Gebiet aufhalten.<br/>
+5. Eine allgemeine Warnung gibt ggf. die Razzia-Sirene der Polizei.
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§10 Festnahmen und Bußgelder</font></font><br/>
@@ -132,7 +139,9 @@ player createDiarySubject ["platzh6","==================="];
 <br/>
 <font color='#FF0000'><font size='16'>§13 Raub und Überfälle</font></font><br/>
 1. Bei jedem Raub ist jedes mal eine Kommunikation mit dem Spieler erforderlich!<br/>
-2. Eine allgemeine Nachricht im Chat (Side-, Vehicle-, Direct- oder GroupChat) zählt nicht als Vorwarnung.<br/>
+2. Eine allgemeine Nachricht im Chat (Side-, Vehicle-, Direct-, Group-Chat oder per SMS) zählt nicht als Vorwarnung.<br/>
+2.1 Eine Vorwarnung via Handy, also SMS, ist gegenüber der Polizei erlaubt. Diese Vorwarnung muss jedoch als Notruf an die Polizei erfolgen.<br/>
+2.2 Genaue Angaben sind hierbei wichtig! Ein -Abziehen oder ihr sterbt- ist keine gültige Vorwarnung. Wohl eher wäre ein -Der CopOffroader hinter uns abziehen!-.<br/>
 3. Jeder Spieler ist vor jedem Angriff anzusprechen. Er sollte Zeit haben auf die Situation zu reagieren bevor Gewalt angewendet wird.
 <br/>
 <br/>
