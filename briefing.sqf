@@ -802,6 +802,10 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - EMP Konsole starten
 <br/>
 <br/>
+<font color='#639C18'>SHIFT + T (zu Fuß)</font><br/>
+- Nagelband auspacken
+<br/>
+<br/>
 <font color='#639C18'>O (im KFZ/Heli)</font><br/>
 - Schranke öffnen/schließen (75 Meter)
 <br/>
