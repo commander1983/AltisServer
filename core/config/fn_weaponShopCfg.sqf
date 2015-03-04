@@ -272,6 +272,9 @@ switch(_shop) do
 				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["H_Watchcap_khk","Beanie(Khaki)",50],
+						["H_Watchcap_camo","Beanie(Camo)",50],
+						["H_Watchcap_sgg","Beanie(Sage)",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -287,6 +290,9 @@ switch(_shop) do
 				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["H_Watchcap_khk","Beanie(Khaki)",50],
+						["H_Watchcap_camo","Beanie(Camo)",50],
+						["H_Watchcap_sgg","Beanie(Sage)",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -302,6 +308,9 @@ switch(_shop) do
 				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["H_Watchcap_khk","Beanie(Khaki)",50],
+						["H_Watchcap_camo","Beanie(Camo)",50],
+						["H_Watchcap_sgg","Beanie(Sage)",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -320,6 +329,9 @@ switch(_shop) do
 				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["H_Watchcap_khk","Beanie(Khaki)",50],
+						["H_Watchcap_camo","Beanie(Camo)",50],
+						["H_Watchcap_sgg","Beanie(Sage)",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
@@ -339,6 +351,9 @@ switch(_shop) do
 				["Polizei Donator-Shop",
 					[
 						["H_Watchcap_blk","Beanie",50],
+						["H_Watchcap_khk","Beanie(Khaki)",50],
+						["H_Watchcap_camo","Beanie(Camo)",50],
+						["H_Watchcap_sgg","Beanie(Sage)",50],
 						["NVGoggles_OPFOR","NV Schwarz",800],
 						["NVGoggles_INDEP","NV Gruen",800],
 						["Rangefinder",nil,800],
