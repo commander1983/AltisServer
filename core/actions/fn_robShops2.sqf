@@ -57,8 +57,8 @@ if(_rip) then
     sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery. 
     life_use_atm = true; // Robber can not use the ATM at this point.
     if!(alive _robber) exitWith {_ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];};
-	[[4,format["<t color='#3152A5' font='TahomaB' size='2'>CH7 NEWS</t><br/>%2 wurde von <t color='#D6C610'>%1</t> ausgeraubt. Er hat eine Beute von insgesamt <t color='#299C39'>%3€</t> gemacht.",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-	[[4,format["<t color='#3152A5' font='TahomaB' size='2'>CH7 NEWS</t><br/>%2 wurde von <t color='#D6C610'>%1</t> ausgeraubt. Er hat eine Beute von insgesamt <t color='#299C39'>%3€</t> gemacht.",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
+	[[4,format["<t color='#3152A5' font='TahomaB' size='1.7'>CH7 NEWS</t><br/><t size='1.3'>%2 wurde von <t color='#D6C610'>%1</t> ausgeraubt. Er hat eine Beute von insgesamt <t color='#299C39'>%3€</t> gemacht.</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
+	[[4,format["<t color='#3152A5' font='TahomaB' size='1.7'>CH7 NEWS</t><br/><t size='1.3'>%2 wurde von <t color='#D6C610'>%1</t> ausgeraubt. Er hat eine Beute von insgesamt <t color='#299C39'>%3€</t> gemacht.</t>",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
 	
     [[getPlayerUID _robber,name _robber,"488"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 };
