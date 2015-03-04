@@ -1,6 +1,8 @@
 ﻿waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
+//Bekoo smells. mfg matze
+
 player createDiarySubject ["platzh1","==================="];
 player createDiarySubject ["serverrules","Grundgesetz"];
 player createDiarySubject ["serverrulesstvo","LuftVO u. StVO"];
@@ -549,6 +551,10 @@ Drogenbesitz/ Schmuggelware/ illegale Ware ::<br/>
 - 15.000 - 75.000
 <br/>
 <br/>
+<font color='#FF3118'>Drogenkonsum:</font><br/>
+- 35.000 - 65.000
+<br/>
+<br/>
 <br/>
 Innerorts Gebühr für Strafzettel welche ein * tragen.<br />
 Sie ist standartmäßig auf 1.000 - 5.000.<br />
@@ -561,7 +567,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 			"Umgang mit Beamten",
 				"
 <font size='18'><font color='#31B5D6'>• Umgang mit Beamten •</font></font><br/>
-<font color='#FF3118'>Versuchter Diebstahl eines Fahrzeugs*:</font><br/>
+<font color='#FF3118'>Versuchter Diebstahl eines Fahrzeugs pro Versuch*:</font><br/>
 - 15.000 - 30.000
 <br/>
 <br/>
@@ -603,7 +609,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 <br/>
 <br/>
 <font color='#FF3118'>Sich als Beamten ausgeben:</font><br/>
-- 5 Minuten Gefängnis <font size='10'>-- Waffe+Fahrzeug Beschlagnahmen</font>
+- 5 Minuten Gefängnis <font size='10'>-- Waffe+Fahrzeug Einkassieren</font>
 <br/>
 <br/>
 <font color='#FF3118'>Versuchte Bestechung:</font><br/>
@@ -632,7 +638,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 <br/>
 <br/>
 <font color='#FF3118'>Trolling:</font><br/>
-- 30 Minuten Gefängnis
+- +40 Minuten Gefängnis
 <br/>
 <br/>
 <br/>
@@ -660,6 +666,10 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 - 2.500 - 7.500
 <br/>
 <br/>
+<font color='#FF3118'>Fahren unter Drogeneinfluss:</font><br/>
+- 10.000 - 45.000  <font size='10'>-- Fahrzeug Beschlagnahmen</font>
+<br/>
+<br/>
 <font color='#FF3118'>Lärmbelästigung:</font><br/>
 - 1.500 - 7.000
 <br/>
@@ -670,7 +680,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 <br/>
 <br/>
 <font color='#FF3118'>Fahrerflucht vor der Polizei*:</font><br/>
-- 5.000 - 20.000 <font size='10'>-- Fahrzeug Beschlagnahmen</font>
+- 5.000 - 20.000 <font size='10'>-- Fahrzeug Einkassieren</font>
 <br/>
 <br/>
 <font color='#FF3118'>Überfahren einer Person (ausg: Desync/Troller)*:</font><br/>
@@ -686,7 +696,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 <br/>
 <br/>
 <font color='#FF3118'>Landen in HQs u. Stadt:</font><br/>
-- 50.000 - 75.000 <font size='10'>-- Fahrzeug Beschlagnahmen</font>
+- 50.000 - 75.000 <font size='10'>-- Fahrzeug Einkassieren</font>
 <br/>
 <br/>
 <font color='#FF3118'>Fliegen ohne Pilotenschein:</font><br/>
@@ -694,7 +704,7 @@ Kann vom Ranghöchsten Polizist geändert werden!<br />
 <br/>
 <br/>
 <font color='#FF3118'>Fliegen/ Hovern über einer Stadt:</font><br/>
-- 10.000 - 30.000 <font size='10'>-- Fahrzeug Beschlagnahmen/Beschießen</font>
+- 10.000 - 30.000 <font size='10'>-- Fahrzeug Einkassieren/Beschießen</font>
 <br/>
 <br/>
 <font color='#FF3118'>Fallschirmspringen über einer Stadt:</font><br/>
@@ -781,18 +791,22 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <br/>
 <br/>
 <font color='#639C18'>STRG + R (im KFZ)</font><br/>
-- Razzia Sirene Umschalten
+- Auf-den-Boden Sirene Umschalten
 <br/>
 <br/>
 <font color='#639C18'>STRG + F (im KFZ)</font><br/>
-- Auf-Den-Boden Sirene Umschalten
+- Razzia Sirene Umschalten
 <br/>
 <br/>
-<font color='#639C18'>O (im KFZ)</font><br/>
+<font color='#639C18'>STRG + K (im KFZ/Heli)</font><br/>
+- EMP Konsole starten
+<br/>
+<br/>
+<font color='#639C18'>O (im KFZ/Heli)</font><br/>
 - Schranke öffnen/schließen (75 Meter)
 <br/>
 <br/>
-<font color='#639C18'>O (im KFZ)</font><br/>
+<font color='#639C18'>O (im KFZ/Heli)</font><br/>
 - Fahrzeugradar Benutzen (250 Meter)
 <br/>
 <br/>
@@ -846,3 +860,5 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 	];	
 	
 	//#oesiistschuld mfg matze
+	
+	//These rules were made for the Altis Life RPG Server StaiyLite.DE
