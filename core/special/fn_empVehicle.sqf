@@ -10,6 +10,7 @@ if(!isNull (findDisplay 3494)) then {
 	_index = lbCurSel (2902);
 	_vehicle = nn_last_vehicles select _index;
 	if(isNull _vehicle) exitWith {};
+	if((lbCurSel 2902) == -1) exitWith {hint "Du hast kein Fahrzeug ausgewählt!";};
 	(vehicle player) say3D "empacsound";
 	[[_vehicle], "life_fnc_vehicleEmpd",crew _vehicle,false] spawn life_fnc_MP;
 	hint "Das EMP lädt sich nun wieder auf. Du kannst es wieder in circa 3 Minuten verwenden!";
