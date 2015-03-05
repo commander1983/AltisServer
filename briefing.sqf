@@ -67,6 +67,7 @@ player createDiarySubject ["platzh6","==================="];
 5. Es gibt eine Außnahmeregelung bezüglich der Waffenlieferungen. Näheres hierzu findet man unter §15, 3.1 .<br/>
 6. Das Umspawnen (Lobby-Hopping) um beispielsweise in ein laufendes RP einzugreifen, ist verboten.<br/>
 6.1 So darfst du z.B. nicht von Sofia nach Kavala umspawnen mit der Absicht, da dort dein Kollege von den Cops festgehalten wird, ihn zu befreien.<br/>
+6.2 Auch das Umspawnen um sich dem Roleplay zu entziehen gilt als Combat-Logging.<br/>
 6. Das Missachten dieser Regel führt zu einem Bann!
 <br/>
 <br/>
