@@ -490,6 +490,11 @@ Drogenbesitz/ Schmuggelware/ illegale Ware ::<br/>
 - 250.000
 <br/>
 <br/>
+<font color='#FF3118'>Drogenkonsum:</font><br/>
+- 35.000 - 65.000
+<br/>
+<br/>
+<br/>
 				"
 		]
 	];
@@ -549,10 +554,6 @@ Drogenbesitz/ Schmuggelware/ illegale Ware ::<br/>
 <br/>
 <font color='#FF3118'>Gefährliche Körperverletzung (Foltern)*:</font><br/>
 - 15.000 - 75.000
-<br/>
-<br/>
-<font color='#FF3118'>Drogenkonsum:</font><br/>
-- 35.000 - 65.000
 <br/>
 <br/>
 <br/>
