@@ -9,6 +9,8 @@ private["_item"];
 disableSerialization;
 if((lbCurSel 2005) == -1) exitWith {hint localize "STR_ISTR_SelectItemFirst";};
 _item = lbData[2005,(lbCurSel 2005)];
+if(player getVariable ["restrained", true] && _item != "pille") exitWith {hint "Du kannst kein Items (ausgenommen: Zyankalikapsel) verwenden während du gefesselt bist.";};
+if(player getVariable ["surrender", false] && _item != "pille") exitWith {hint "Du kannst kein Items (ausgenommen: Zyankalikapsel) verwenden während du dich ergibst.";};
 
 switch (true) do
 {

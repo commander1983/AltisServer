@@ -139,7 +139,7 @@ switch (_code) do
             [] spawn
 			{
 				life_siren2_active = true;
-				sleep 1.5;
+				sleep 0.3;
 				life_siren2_active = false;
 			};
 			_veh = vehicle player;
