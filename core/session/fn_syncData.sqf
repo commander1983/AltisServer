@@ -26,6 +26,7 @@ switch (typeName life_fnc_MP_packet) do
 if(!isNil "_exit") exitWith {hint localize "STR_Session_SyncCheater";};
 
 [] call SOCK_fnc_updateRequest;
+[] call life_fnc_updateClothing;
 hint localize "STR_Session_SyncData";
 [] spawn
 {
