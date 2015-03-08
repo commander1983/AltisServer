@@ -68,7 +68,8 @@ player createDiarySubject ["platzh6","==================="];
 6. Das Umspawnen (Lobby-Hopping) um beispielsweise in ein laufendes RP einzugreifen, ist verboten.<br/>
 6.1 So darfst du z.B. nicht von Sofia nach Kavala umspawnen mit der Absicht, da dort dein Kollege von den Cops festgehalten wird, ihn zu befreien.<br/>
 6.2 Auch das Umspawnen um sich dem Roleplay zu entziehen gilt als Combat-Logging.<br/>
-6. Das Missachten dieser Regel führt zu einem Bann!
+7. Polizisten dürfen nach 20 Minuten nachdem sie getötet wurden, wieder in eine laufende Roleplay-Handlung eingreifen.<br/>
+8. Das Missachten dieser Regel führt zu einem Bann!
 <br/>
 <br/>
 <font color='#FF0000'><font size='16'>§5 Fahrzeug Zerstörung</font></font><br/>

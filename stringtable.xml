@@ -1203,6 +1203,7 @@
 		</Key>
 		<Key ID="STR_MISC_Backpack">
 			<Original>Sie haben keine Berechtigung in andere Rucksäcke zu schauen!</Original>
+		</Key>
 		<Key ID="STR_MISC_VehInventory">
 			<Original>Das Fahrzeug ist abgeschlossen. Somit können Sie nicht auf das Inventar zugreifen.</Original>
 		</Key>
