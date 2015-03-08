@@ -31,7 +31,7 @@ switch(_type) do
 	//normal message
 	case 1:
 	{
-		if(isNUll life_smartphoneTarget) exitWith {hint format["Du hast keine Person ausgwaehlt!"];};
+		if(isNUll life_smartphoneTarget) exitWith {hint format["Du hast keine Person ausgwählt!"];};
 		ctrlShow[88885, false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
@@ -42,7 +42,7 @@ switch(_type) do
 	//copmessage
 	case 2:
 	{
-		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Polizeibeamter im Dienst. Bitte probieren Sie es spaeter erneut."];};
+		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Polizeibeamter im Dienst. Bitte probieren Sie es später erneut."];};
 		ctrlShow[888895,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
@@ -65,7 +65,7 @@ switch(_type) do
 	//emsrequest
 	case 4:
 	{
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Sanitaeter im Dienst. Bitte probieren Sie es spaeter erneut."];};
+		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Sanitäter im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
@@ -77,7 +77,7 @@ switch(_type) do
 	case 5:
 	{
 		if((call life_adminlevel) < 1) exitWith {hint "Du bist kein Admin!";};
-		if(isNULL life_smartphoneTarget) exitWith {hint format["Es wurde keine Person ausgwaehlt!"];};
+		if(isNULL life_smartphoneTarget) exitWith {hint format["Es wurde keine Person ausgwählt!"];};
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";};
 		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Du hast folgende Adminnachricht an %1 gesendet: %2",name life_smartphoneTarget,_msg];
@@ -108,7 +108,7 @@ switch(_type) do
 	//adacrequest
 	case 8:
 	{
-		if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Pannenhelfer im Dienst. Bitte probieren Sie es spaeter erneut."];};
+		if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Pannenhelfer im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888900,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888900,true];};
 		[[ObjNull,_msg,player,6],"TON_fnc_handleMessages",false] spawn life_fnc_MP;

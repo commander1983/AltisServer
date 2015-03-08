@@ -5,6 +5,7 @@
 private["_vehicle"];
 _vehicle =  [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _vehicle) exitWith {};
+if(isNil "_vehicle") exitWith {hint "Fahrzeug nicht mehr in Reichweite?"};
 if((_vehicle getVariable ["nano_empd", false])) exitWith {};
 _vehicle setVariable["nano_empd",true,true];
 if(_vehicle isKindOf "Car") then {
