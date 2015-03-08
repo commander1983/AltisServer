@@ -557,6 +557,10 @@ Drogenbesitz/ Schmuggelware/ illegale Ware ::<br/>
 - 15.000 - 75.000
 <br/>
 <br/>
+<font color='#FF3118'>Versuchter Fahrzeugmord*:</font><br/>
+- 20.000 - 45.000
+<br/>
+<br/>
 <br/>
 Innerorts Gebühr für Strafzettel welche ein * tragen.<br />
 Sie ist standartmäßig auf 1.000 - 5.000.<br />

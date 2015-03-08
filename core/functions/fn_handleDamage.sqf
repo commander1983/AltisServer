@@ -22,6 +22,7 @@ if(!isNull _source) then {
 					if(!life_istazed && !(_unit getVariable["restrained",false])) then {
 						if(_isVehicle && _isQuad) then {
 							player action ["Eject",vehicle player];
+							player action ["GetOut",vehicle player];
 							[_unit,_source] spawn life_fnc_tazed;
 						} else {
 							[_unit,_source] spawn life_fnc_tazed;
@@ -54,6 +55,7 @@ if(!isNull _source) then {
 					if(!life_istazed && !(_unit getVariable["restrained",false])) then {
 						if(_isVehicle && _isQuad) then {
 							player action ["Eject",vehicle player];
+							player action ["GetOut",vehicle player];
 							[_unit,_source] spawn life_fnc_handleDowned;
 						} else {
 							[_unit,_source] spawn life_fnc_handleDowned;
@@ -69,17 +71,18 @@ if (vehicle _unit == _unit) then {
 
 		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Boat" ) then
 		{
-		diag_log "Die Quelle ist ein Fahrzug ohne Fahrer";
+		//diag_log "Die Quelle ist ein Fahrzug ohne Fahrer";
 		_damage = getDammage player;
 		[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		} else {	
 		_isVehicle = vehicle _source;
 		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Boat") then 
 		{
-			diag_log "Die Quelle ist ein Fahrzug mit Fahrer";
+			//diag_log "Die Quelle ist ein Fahrzug mit Fahrer";
 			_damage = getDammage player;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
+			if(side _source == civilian) then {[[getPlayerUID _source,name _source,"666"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;};
 		};
 	};
 };

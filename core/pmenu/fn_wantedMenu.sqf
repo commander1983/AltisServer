@@ -135,7 +135,7 @@ _data = "21";
 _list2 lbAdd format["%1 (%2)",_text,_data];
 _list2 lbSetData [(lbSize _list2)-1,_data];
 
-_text = "Geiselnahme -beamter";
+_text = "Geiselnahme /Beamten";
 _data = "22";
 _list2 lbAdd format["%1 (%2)",_text,_data];
 _list2 lbSetData [(lbSize _list2)-1,_data];
@@ -197,6 +197,11 @@ _list2 lbSetData [(lbSize _list2)-1,_data];
 
 _text = "Besitz von Schmuggelware";
 _data = "34";
+_list2 lbAdd format["%1 (%2)",_text,_data];
+_list2 lbSetData [(lbSize _list2)-1,_data];
+
+_text = "Drogenkonsum";
+_data = "35";
 _list2 lbAdd format["%1 (%2)",_text,_data];
 _list2 lbSetData [(lbSize _list2)-1,_data];
 
