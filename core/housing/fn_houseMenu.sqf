@@ -59,6 +59,8 @@ _Btn13 ctrlShow false;
 _Btn14 ctrlShow false;
 
 life_pInact_curTarget = _curTarget;
+
+if((playerSide == east) OR (playerSide == independent)) exitWith {closeDialog 0;};
 if(_curTarget isKindOf "House_F" && playerSide == west) exitWith {
 	if((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget) then {
 
