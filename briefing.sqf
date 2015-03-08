@@ -839,6 +839,10 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 - Fahrzeugradar benutzen
 <br/>
 <br/>
+<font color='#639C18'>F (im KFZ, nur Medic)</font><br/>
+- Sirene Umschalten
+<br/>
+<br/>
 				"
 		]
 	];	player createDiaryRecord ["serv",
