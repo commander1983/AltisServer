@@ -6,6 +6,7 @@
 private["_shop","_display","_list","_array","_units","_Btn1","_unit"];
 _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 disableSerialization;
+if((playerSide == independent) OR (playerSide == east)) exitWith {hint parseText format ["<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>SystemHack Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.inject_hack.side</t><br/>Dazu haben Sie keine Berechtigung. Authentifizierung Erforderlich"];};
 if(player distance _shop > 2) exitWith {};	// Distanz zu gross
 if(playersNumber west < 5) exitWith {	// Check for cops online - 5 minimum
 	hint parseText format ["<t size='2'>APBO_SL v2.0</t><br/><t color='#ff0000' size='1.5' align='center'>ERROR</t><br/><br/><t size='1.3'>SystemHack Rejected!</t><br/>Fehler in <t color='#66ffff'>apbo.sl.inject_hack</t><br/>System ist offline. Versuchen Sie es später erneut!"];
