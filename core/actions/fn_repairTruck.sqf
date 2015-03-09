@@ -10,9 +10,9 @@ _veh = cursorTarget;
 _vehD = getDammage _vehicle;
 life_interrupted = false;
 if(isNull _veh) exitwith {};
-if(_vehD >= 1) exitWith {hint "Das Fahrzeug hat einen Totalschaden. Du kannst es in der Werkstatt wiederherstellen lassen."};
 if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) then
 {
+if(_vehD >= 1) exitWith {hint "Das Fahrzeug hat einen Totalschaden. Du kannst es in der Werkstatt wiederherstellen lassen."};
 	if("ToolKit" in (items player)) then
 	{
 		life_action_inUse = true;
