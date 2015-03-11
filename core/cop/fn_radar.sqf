@@ -30,7 +30,7 @@ if((_vehicle isKindOf "Car") && (currentWeapon player) == "hgun_P07_snds_F") the
 		};
 		case ((_speed > 201)) : 
 		{	
-			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#FF0000'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed") + " -Desync",round  _speed];
+			hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>" +(localize "STR_Cop_Radar")+ "<br/><t color='#FF0000'><t align='center'><t size='1'>" +(localize "STR_Cop_VehSpeed"),round  _speed];
 		};
 	};
 };
