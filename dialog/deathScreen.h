@@ -26,7 +26,7 @@ class DeathScreen
 		{
 			idc = 7305;
 			colorBackground[] = {0,0,0,0};
-			text = "Sani in der Naehe: Nein";
+			text = "Sani in der Naehe (5km): Nein";
 			x = 0.00190622 * safezoneW + safezoneX;
 			y = 0.0776 * safezoneH + safezoneY;
 			w = 0.8;

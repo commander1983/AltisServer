@@ -175,6 +175,12 @@ class CfgSounds
 		sound[] = {"\sounds\hicks.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class med_notif
+	{
+		name = "med_notif";
+		sound[] = {"\sounds\medic_notification.ogg", 1.0, 1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing

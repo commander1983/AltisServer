@@ -12,3 +12,7 @@ _callerName = [_this,1,"Unknown Player",[""]] call BIS_fnc_param;
 if(isNull _caller) exitWith {}; //Bad data
 
 ["MedicalRequestEmerg",[format[localize "STR_Medic_Request",_callerName]]] call BIS_fnc_showNotification;
+{switch (side _x) do {
+		case independent: {playSound "med_notif"};
+};} 
+foreach playableUnits;
