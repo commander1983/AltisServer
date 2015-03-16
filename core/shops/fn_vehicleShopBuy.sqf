@@ -99,6 +99,7 @@ if(_mode) then {
 	};
 };
 
+[] call SOCK_fnc_updateRequest;
 [0] call SOCK_fnc_updatePartial;
 closeDialog 0; //Exit the menu.
 true;

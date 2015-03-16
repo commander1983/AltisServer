@@ -630,6 +630,15 @@ switch (_code) do
 			diag_log format ["!!! PLAYER INFO :: %1 drueckte ALT + F4!",profileName];
 			[] call SOCK_fnc_updateRequest;
 		};
+		if(_alt && player getVariable["Revive",FALSE,TRUE]) then {
+            [] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_stripDownPlayer;
+                waitUntil {scriptDone _handle};
+                [] call SOCK_fnc_updateRequest;
+            };
+        };
 	};
 	
 	case 15:
