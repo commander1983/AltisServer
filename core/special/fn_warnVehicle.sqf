@@ -10,7 +10,7 @@ if(!isNull (findDisplay 3494)) then {
 	_index = lbCurSel (2902);
 	_vehicle = nn_last_vehicles select _index;
 	if(isNull _vehicle) exitWith {};
-	if(isNil "_vehicle") exitWith {hint "Fahrzeug nicht mehr in Reichweite?";};
+	//if(isNil "_vehicle") exitWith {hint "Fahrzeug nicht mehr in Reichweite?";};
 	if((lbCurSel 2902) == -1) exitWith {hint "Du hast kein Fahrzeug ausgewählt!";};
 	[[_vehicle], "life_fnc_vehicleWarned",crew _vehicle,false] spawn life_fnc_MP;
 	[[[2,1],"Das EMP-Modul wird auf Sie gerichtet! Das ist die letzte Warnung! Halten Sie unverzüglich an!"],"life_fnc_broadcast",crew _vehicle,false] spawn life_fnc_MP;
