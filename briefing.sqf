@@ -778,8 +778,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <font color='#639C18'>Windowstaste</font><br/>
 - Farmen / Sammeln
 <br/>
-<br/>		
-//!-- ########## POLIZEI STEUERUNG ########## --!
+<br/>		<!-- ########## POLIZEI STEUERUNG ########## -->
 <br/>
 <font size='18'><font color='#3152A5'>Polizei</font></font><br/>
 <font color='#639C18'>SHIFT + L (im KFZ)</font><br/>
@@ -829,8 +828,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <font color='#639C18'>O (mit P07 in Hand)</font><br/>
 - Geschwindigkeitsmessung Vornehmen
 <br/>
-<br/>		
-//!-- ########## ADAC und MEDIC STEUERUNG ########## --!
+<br/>		<!-- ########## ADAC und MEDIC STEUERUNG ########## -->
 <br/>
 <font size='18'><font color='#D60000'>Sanitäter</font> /<font color='#FF8429'> Pannenhilfe</font></font><br/>
 <font color='#639C18'>SHIFT + L (im KFZ)</font><br/>
