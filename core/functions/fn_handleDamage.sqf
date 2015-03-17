@@ -82,8 +82,7 @@ if (vehicle _unit == _unit) then {
 			_damage = getDammage player;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
-			sleep 10;
-			if(side _source == civilian) then {[[getPlayerUID _source,name _source,"666"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;};
+			//if(side _source == civilian) then {[[getPlayerUID _source,name _source,"666"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;};
 		};
 	};
 };
