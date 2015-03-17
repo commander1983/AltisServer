@@ -7,7 +7,7 @@
 */
 private["_veh","_upp","_ui","_progress","_pgText","_cP","_displayName","_vehD"];
 _veh = cursorTarget;
-_vehD = getDammage _vehicle;
+_vehD = getDammage _veh;
 life_interrupted = false;
 if(isNull _veh) exitwith {};
 if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) then
