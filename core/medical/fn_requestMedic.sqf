@@ -23,6 +23,6 @@ Life_request_timer = true;
 [] spawn 
 {
 	((findDisplay 7300) displayCtrl 7303) ctrlEnable false;
-	sleep (5 * 60);
+	sleep (3 * 60);
 	((findDisplay 7300) displayCtrl 7303) ctrlEnable true;
 };
