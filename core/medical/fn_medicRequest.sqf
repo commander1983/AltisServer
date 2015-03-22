@@ -16,3 +16,4 @@ if(isNull _caller) exitWith {}; //Bad data
 		case independent: {playSound "med_notif"};
 };} 
 foreach playableUnits;
+[[4,format["<t color='#FF9900' size='2.3'>Notruf</t><br/><br/><t size='1.3'>%1</t><br/><t size='1.2'> benötigt medizinische Hilfe!</t>", _callerName]],"life_fnc_broadcast",independent,false] spawn life_fnc_MP;};
