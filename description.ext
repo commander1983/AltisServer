@@ -4,7 +4,7 @@ onLoadMission = "www.twitch.tv/staiy";
 joinUnassigned = 1;
 loadScreen = "images\loading.jpg";
 respawn = BASE;
-respawndelay = 10;
+respawndelay = 2;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 0;
@@ -220,7 +220,7 @@ class CfgNotifications
 {
 	class MedicalRequestEmerg
 	{
-		title = "EMS Requested";
+		title = "EMS Notruf";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 5;
