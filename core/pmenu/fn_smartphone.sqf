@@ -28,9 +28,9 @@ switch(_type) do
 			{
 				switch(side _x) do
 				{
-					case west: {_type = "Cop"};
-					case civilian: {_type = "Civ"};
-					case independent: {_type = "Sani"};
+					case west: {_type = "APD"};
+					case civilian: {_type = "CIV"};
+					case independent: {_type = "MEDIC"};
 					case east: {_type = "ADAC"};
 				};
 				_cPlayerList lbAdd format["%1 (%2)",_x getVariable["realname", name _x],_type];

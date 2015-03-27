@@ -21,6 +21,7 @@ _sel = lbCurSel _plist;
 _unit = _plist lbData _sel;
 _unit = call compile format["%1", _unit];
 if(isNull _unit OR isNil "_unit") exitWith {}; 
+if(isNil "_vehicle" OR isNull _vehicle OR _vehicle == "") exitWith {hint "Du hast keinen Schlüssel ausgewählt!";};
 if(player getVariable ["restrained", true]) exitWith {hint "Du kannst keine Schlüssel weitergeben, während du gefesselt bist!";};
 if(player getVariable ["surrender", false]) exitWith {hint "Du kannst keine Schlüssel weitergeben, während du dich ergibst!";};
 
