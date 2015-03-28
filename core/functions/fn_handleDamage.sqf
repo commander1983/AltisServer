@@ -69,14 +69,14 @@ if(!isNull _source) then {
 //anti vdm
 if (vehicle _unit == _unit) then {
 
-		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Boat" ) then
+		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Ship" ) then
 		{
 		//diag_log "Die Quelle ist ein Fahrzug ohne Fahrer";
 		_damage = getDammage player;
 		[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		} else {	
 		_isVehicle = vehicle _source;
-		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Boat") then 
+		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Ship") then 
 		{
 			//diag_log "Die Quelle ist ein Fahrzug mit Fahrer";
 			_damage = getDammage player;
