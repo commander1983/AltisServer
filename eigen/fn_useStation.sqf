@@ -6,7 +6,7 @@ _fuel_price_one_step = _fuel_price / _steps;
 
 while {true} do
 {
-	waitUntil {sleep 1; ((vehicle player != player) && ((driver (vehicle player)) == player) && (fuel (vehicle player)) < 0.99 && (speed (vehicle player)) < 0.1 && count (nearestObjects [player, ["Land_fs_feed_F"], _fuel_min_distance]) > 0)};
+	waitUntil {sleep 1; ((vehicle player != player) && ((driver (vehicle player)) == player) && (!isEngineOn (vehicle player)) && (fuel (vehicle player)) < 0.99 && (speed (vehicle player)) < 0.1 && count (nearestObjects [player, ["Land_fs_feed_F"], _fuel_min_distance]) > 0)};
 	_veh = vehicle player;
 	_veh_type = typeof _veh;
 	
@@ -22,6 +22,7 @@ while {true} do
 		if((fuel (vehicle player)) >= 0.99) exitWith {};
 		if((speed (vehicle player)) > 0.1) exitWith {};
 		if(!(alive (vehicle player))) exitWith {};
+		if(isEngineOn (vehicle player)) exitWith {hint "Du musst den Motor ausschalten, bevor du beginnst zu tanken!";};
 		if((player distance _fuelstation) > _fuel_min_distance) exitWith {};
 		if(ja_pare < _fuel_price_one_step) exitWith {hint "Du brauchst mehr Geld um weiter zu Tanken. Voller Tank kostet 1500!"; sleep 1;};
 
