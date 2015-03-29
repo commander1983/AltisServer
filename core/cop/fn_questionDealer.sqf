@@ -23,3 +23,4 @@ ja_dzep = ja_dzep - 7500;
 hint parseText format["<t color='#D66321' size='2.2'>Kundenliste</t><br/><t size='1.4'>Folgende Personen haben bei mir ihren Stoff verkauft:</t>" + "<br/><br/><t color='#31ADA5' size='1.3'>%1</t>",_names];
 (_this select 0) setVariable["sellers",[],true];
 life_action_inUse = false;
+[0] call SOCK_fnc_updatePartial;
