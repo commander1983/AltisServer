@@ -70,20 +70,22 @@ if(!isNull _source) then {
 if (vehicle _unit == _unit) then {
 
 		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Ship" ) then {
-			_damage = setDammage 0.8;
+			_damage = getDammage player;
+			player setDammage 0.8;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		} else {	
 			_isVehicle = vehicle _source;
 		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Ship") then  {
-			_damage = setDammage 0.8;
+			_damage = getDammage player;
+			player setDammage 0.8;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
-			[] spawn {
-				life_antiVDM_noWanted = true;			// Timer - mal schauen ob's geht
-				sleep (3 * 5);	// 15 Sekunden
-				life_antiVDM_noWanted = false;
-			};
 			if(side _source == civilian && (!life_antiVDM_noWanted)) then {
+				[] spawn {
+					life_antiVDM_noWanted = true;			// Timer - mal schauen ob's geht
+					sleep (3 * 5);	// 15 Sekunden
+					life_antiVDM_noWanted = false;
+				};
 				[[getPlayerUID _source,name _source,"666"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 			};		
 		};
