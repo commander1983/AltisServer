@@ -80,14 +80,14 @@ if (vehicle _unit == _unit) then {
 			player setDammage 0.8;
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
-			if(side _source == civilian && (!life_antiVDM_noWanted)) then {
+			/*if(side _source == civilian && (!life_antiVDM_noWanted)) then {
 				[] spawn {
 					life_antiVDM_noWanted = true;			// Timer - mal schauen ob's geht
 					sleep (3 * 5);	// 15 Sekunden
 					life_antiVDM_noWanted = false;
 				};
 				[[getPlayerUID _source,name _source,"666"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-			};		
+			};	*/
 		};
 	};
 };
