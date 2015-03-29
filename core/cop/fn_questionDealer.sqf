@@ -5,7 +5,7 @@
 	Description:
 	Questions the drug dealer and sets the sellers wanted.
 */
-private["_sellers","_names"];
+private["_sellers","_names","_val"];
 _sellers = (_this select 0) getVariable["sellers",[]];
 if(count _sellers == 0) exitWith {hint localize "STR_Cop_DealerQuestion";}; //No data.
 if(ja_dzep < 7500) exitWith {hint "Ohne Knete keine Infos, yo.";};
