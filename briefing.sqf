@@ -308,7 +308,8 @@ player createDiaryRecord ["lizenz",
 - <font color='#FFB573'>Pilotenschein:</font> 25.000,-<br/>
 - <font color='#FFB573'>Bootschein:</font> 1.200,-<br/>
 - <font color='#FFB573'>Taucherschein:</font> 2.000,-<br/>
-- <font color='#FF8429'>Waffenschein:</font> 25.000,-
+- <font color='#FF8429'>Waffenschein:</font> 25.000,-<br/>
+- <font color='#FFB573'>Hausbesitzerlizenz:</font> 175.000,-
 <br/>
 <br/>
 <font color='#31B5D6'><font size='18'>Verarbeitung</font></font><br/>
@@ -763,7 +764,7 @@ Das Interaktionsmenü kann auch auf eine beliebige Taste gelegt werden: Einstell
 <br/>
 <br/>
 <font size='18'><font color='#9C2994'>Zivilist/Rebelle</font></font><br/>
-<font color='#639C18'>SHIFT + G (Waffe in Hand)</font><br/>
+<font color='#639C18'>SHIFT + R (Waffe in Hand)</font><br/>
 - Person Niederschlagen
 <br/>
 <br/>
