@@ -2,7 +2,7 @@ private ["_speed","_meters","_vehicle", "_targets", "_validtargets", "_data", "_
 if((playerSide != east) OR  !(vehicle player != player)) exitWith {};
 _vehicle = vehicle player;
 if(isNull _vehicle) exitWith {};
-if(!((typeOf _vehicle) in ["B_Quadbike_01_F","C_Hatchback_01_sport_F","C_Offroad_01_F","C_SUV_01_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F","I_MRAP_03_F","O_MRAP_02_F","C_Hatchback_01_F","B_Heli_Transport_01_F","B_Heli_Transport_03_unarmed_F"])) exitWith {}; 
+if(!((typeOf _vehicle) in ["B_Quadbike_01_F","C_Hatchback_01_sport_F","C_Offroad_01_F","B_Truck_01_transport_F","C_SUV_01_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F","I_MRAP_03_F","O_MRAP_02_F","C_Hatchback_01_F","B_Heli_Transport_01_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F"])) exitWith {}; 
 if(count (crew (_vehicle)) == 0) exitWith {};
 if(!alive _vehicle) exitWith {};
 
