@@ -14,23 +14,24 @@ _vehicle = (call compile format["%1",_vehicle]) select 0;
 _vid = lbValue[2802,(lbCurSel 2802)];
 _pid = getPlayerUID player;
 _unit = player;
-if (life_action_inUse) exitWith {};
+if(life_action_inUse) exitWith {};
+if(playerSide != civilian) exitWith {hint "Du kannst als Beamter keine Fahrzeuge verkaufen, da das ganze durch Steuern finanziert wird."; closeDialog 0;};		//Momentaner TempFix da die Verkaufspreise kaputt sind.
 
 if(isNil "_vehicle") exitWith {hint localize "STR_Garage_Selection_Error"};
 life_action_inUse = true;
 if(isNil "life_cgar_inUse") then {life_cgar_inUse = time-301;};
 if(life_cgar_inUse+(300) >= time) exitWith {closeDialog 0;hint format["Du kannst dein Fahrzeug erst wieder in 5 Minuten verkaufen %1:%2",4 - floor ((time - life_cgar_inUse) / 60),59 - round (time - life_cgar_inUse - (floor ((time - life_cgar_inUse) / 60)) * 60)];};
 
-
 _price = [_vehicle,__GETC__(life_garage_sell)] call TON_fnc_index;
 if(_price == -1) then {_price = 1000;} else {_price = (__GETC__(life_garage_sell) select _price) select 1;};
 
-[[_vid,_pid,_price,player,life_garage_type],"TON_fnc_vehicleDelete",false,false] spawn life_fnc_MP;
+	[[_vid,_pid,_price,player,life_garage_type],"TON_fnc_vehicleDelete",false,false] spawn life_fnc_MP;
 
-hint format[localize "STR_Garage_SoldCar",[_price] call life_fnc_numberText];
-ja_pare = ja_pare + _price;
+	hint format[localize "STR_Garage_SoldCar",[_price] call life_fnc_numberText];
+	ja_pare = ja_pare + _price;
 
-life_action_inUse = false;
+	life_action_inUse = false;
 
-closeDialog 0;
-life_cgar_inUse = time
+	closeDialog 0;
+	[1] call SOCK_fnc_updatePartial;
+	life_cgar_inUse = time
