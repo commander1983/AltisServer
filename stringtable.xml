@@ -1166,6 +1166,18 @@
 		<Key ID="STR_Cop_DealerQuestion">
 			<Original>In letzter Zeit waren keine Personen bei mir und haben etwas verkauft!</Original>
 		</Key>
+		<Key ID="STR_Cop_DealerQuestionNoMoney">
+			<Original>Hast wohl keine Knete dabei, yo. Dann bekommste auch keine Infos von mir.</Original>
+		</Key>
+		<Key ID="STR_Cop_DealerQuestionKenneNamen">
+			<Original>Danke nochmal, bro. Ich kenne da einige Namen... hier die Kundenliste.</Original>
+		</Key>
+		<Key ID="STR_Cop_DealerQuestionVerziehDich">
+			<Original>Wieso sollte ich euch Bullen Infos geben? Verzieht euch bevor was passiert! Danke nochmal für die Kohle ihr Grünlinge!</Original>
+		</Key>
+		<Key ID="STR_Cop_DealerQuestionZuerstMoney">
+			<Original>Dann lass mal die Knete rüberwachsen...</Original>
+		</Key>
 		<Key ID="STR_Cop_Radar">
 			<Original>Radar</Original>
 		</Key>

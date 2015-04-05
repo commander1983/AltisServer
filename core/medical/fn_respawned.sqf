@@ -28,7 +28,9 @@ player setVariable["Reviving",nil,TRUE];
 //Load gear for a 'new life'
 switch(playerSide) do
 {
-	case west: {[] spawn life_fnc_copDefault;};
+	case west: {
+		[] spawn life_fnc_copDefault;
+	};
 	case civilian: {
 		[] spawn life_fnc_civLoadout;
 	};
@@ -47,7 +49,7 @@ if(!isNull life_corpse) then {
 	life_corpse setVariable["Revive",TRUE,TRUE];
 	_containers = nearestObjects[life_corpse,["WeaponHolderSimulated"],5];
 	{deleteVehicle _x;} foreach _containers; //Delete the containers.
-	hideBody life_corpse;
+	deleteVehicle life_corpse;	//hideBody life_corpse;	- Soll den Bug beheben, dass nach dem Respawnen Leichen aufm Boden liegen.
 };
 
 //Destroy our camera...

@@ -71,13 +71,17 @@ if (vehicle _unit == _unit) then {
 
 		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Ship" ) then {
 			_damage = getDammage player;
-			player setDammage 0.8;
+			if!(_damage >= 0.80) then {
+				player setDamage 0.8;
+			};
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		} else {	
 			_isVehicle = vehicle _source;
 		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Ship") then  {
 			_damage = getDammage player;
-			player setDammage 0.8;
+			if!(_damage >= 0.80) then {
+				player setDamage 0.8;
+			};
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 			[[2],"life_fnc_removeLicenses",_source,FALSE] spawn life_fnc_MP;
 			/*if(side _source == civilian && (!life_antiVDM_noWanted)) then {

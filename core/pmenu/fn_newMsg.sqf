@@ -6,12 +6,13 @@
 	
 */
 
-private["_to","_type","_playerData","_msg"];
+private["_to","_type","_playerData","_msg","_plPos"];
 disableSerialization;
 
 _type = [_this,0,-1] call BIS_fnc_param;
 _playerData = [_this,1,-1] call BIS_fnc_param;
 _msg = [_this,2,"",[""]] call BIS_fnc_param;
+_plPos = mapGridPosition player;
 
 _display = findDisplay 88888;
 _cPlayerList = _display displayCtrl 88881;
@@ -68,7 +69,7 @@ switch(_type) do
 		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Sanitäter im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888899,true];};
-		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+		[[ObjNull,_msg,player,3,_plPos],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint parseText format["Du hast den Sanitätern folgenden Notruf gesendet: %1",_msg];
 		//ctrlShow[888899,true];
 		closeDialog 887890;
@@ -111,7 +112,7 @@ switch(_type) do
 		if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit befindet sich kein Pannenhelfer im Dienst. Bitte probieren Sie es später erneut."];};
 		//ctrlShow[888900,false];
 		if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben!";ctrlShow[888900,true];};
-		[[ObjNull,_msg,player,6],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
+		[[ObjNull,_msg,player,6,_plPos],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Du hast den Pannenhelfern folgende Nachricht gesendet: %1 ",_msg];
 		//[] spawn life_fnc_adaceinsatz;
 		//ctrlShow[888900,true];

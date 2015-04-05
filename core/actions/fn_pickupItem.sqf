@@ -11,9 +11,11 @@ _obj = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _obj OR isPlayer _obj) exitWith {};
 if((_obj getVariable["PickedUp",false])) exitWith {deleteVehicle _obj;}; //Object was already picked up.
 if(player distance _obj > 3) exitWith {};
+if(({side _x != civilian} count playableUnits >= 4) && (playerSide == civilian)) exitWith {};
 _itemInfo = _obj getVariable "item";
 _itemName = [([_itemInfo select 0,0] call life_fnc_varHandle)] call life_fnc_varToStr;
 _illegal = [_itemInfo select 0,life_illegal_items] call TON_fnc_index;
+
 if(playerSide == west && _illegal != -1) exitWith
 {
 	titleText[format[localize "STR_NOTF_PickedEvidence",_itemName,[(life_illegal_items select _illegal) select 1] call life_fnc_numberText],"PLAIN"];
@@ -23,10 +25,11 @@ if(playerSide == west && _illegal != -1) exitWith
 	life_action_delay = time;
 };
 life_action_delay = time;
+
 _diff = [_itemInfo select 0,_itemInfo select 1,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff <= 0) exitWith {hint localize "STR_NOTF_InvFull"};
-_obj setVariable["PickedUp",TRUE,TRUE];
-if(({side _x != civilian} count playableUnits < 4) && (playerside == civilian)) then {
+//_obj setVariable["PickedUp",TRUE,TRUE];
+if(playerside == civilian) then {
 	if(_diff != _itemInfo select 1) then
 	{
 		if(([true,_itemInfo select 0,_diff] call life_fnc_handleInv)) then
@@ -37,11 +40,10 @@ if(({side _x != civilian} count playableUnits < 4) && (playerside == civilian)) 
 			_obj setVariable["PickedUp",false,true];
 			titleText[format[localize "STR_NOTF_Picked",_diff,_itemName],"PLAIN"];
 		};
-	}
-		else
-	{
+	} else {
 		if(([true,_itemInfo select 0,_itemInfo select 1] call life_fnc_handleInv)) then
 		{
+			_obj setVariable["PickedUp",false,true];
 			deleteVehicle _obj;
 			//waitUntil{isNull _obj};
 			player playmove "AinvPknlMstpSlayWrflDnon";
@@ -67,6 +69,7 @@ if(playerside != civilian) then {
 	{
 		if(([true,_itemInfo select 0,_itemInfo select 1] call life_fnc_handleInv)) then
 		{
+			_obj setVariable["PickedUp",false,true];
 			deleteVehicle _obj;
 			//waitUntil{isNull _obj};
 			player playmove "AinvPknlMstpSlayWrflDnon";

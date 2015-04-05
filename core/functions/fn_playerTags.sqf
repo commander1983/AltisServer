@@ -10,7 +10,7 @@ private["_ui","_units"];
 #define iconID 78000
 #define scale 0.8
 _headgear = ["H_Shemag_olive","H_ShemagOpen_tan","H_ShemagOpen_khk"];
-_goggles = ["G_Balaclava_blk","G_Balaclava_lowprofile","G_Balaclava_oli","G_Balaclava_combat"];
+//_goggles = ["G_Balaclava_blk","G_Balaclava_lowprofile","G_Balaclava_oli","G_Balaclava_combat"];
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {
 	500 cutText["","PLAIN"];
@@ -61,10 +61,10 @@ _units = _units - [player];
 				case ((headgear _x) in _headgear): {
 					_text = format["<t color='#000000'>Maskiert</t>"];
 				};
-				case ((goggles _x) in _goggles): {
+			/*	case ((goggles _x) in _goggles): {
 					_text = format["<t color='#000000'>Maskiert</t>"];
 				};
-
+			*/
 				
 				//Cops
 				case(_x getVariable["coplevel", 0] > 0) : {
