@@ -2191,4 +2191,18 @@
 			<Original>Sie haben einen Gehaltsscheck von %1€ erhalten!</Original>
 		</Key>
 	</Package>
+	<Package name="EMP_Strings">
+		<Key ID="STR_EMP_Reichweite">
+			<Original>Das Fahrzeug ist nicht mehr in Reichweite.</Original>
+		</Key>
+		<Key ID="STR_EMP_NoVehicleSel">
+			<Original>Du hast kein Fahrzeug ausgewählt.</Original>
+		</Key>
+		<Key ID="STR_EMP_BereitsAmWarnen">
+			<Original>Das EMP warnt bereits ein Fahrzeug.</Original>
+		</Key>
+		<Key ID="STR_EMP_BatterieAufladen">
+			<Original>Das EMP Modul wird initialisiert sich nun wieder neu. Es ist in circa drei Minuten erneut verwendbar.</Original>
+		</Key>
+	</Package>
 </Project>
