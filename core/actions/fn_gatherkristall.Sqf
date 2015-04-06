@@ -5,6 +5,7 @@ Description:
 Kristall
 */
 private["_sum"];
+if(playerSide != civilian) exitWith {};
 _sum = ["kristall",1,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 
 if(_sum > 0) then

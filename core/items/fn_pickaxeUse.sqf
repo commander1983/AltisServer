@@ -7,6 +7,7 @@
 */
 closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName","_val"];
+if(playerSide != civilian) exitWith {};
 switch (true) do
 {
 	case (player distance (getMarkerPos "lead_1") < 35): {_mine = "copperore"; _val = 2;};

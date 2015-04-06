@@ -7,6 +7,7 @@
 */
 
 
+if(playerSide != civilian) exitWith {};
 if(isNil "life_action_gather") then {life_action_gather = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
 _resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","meth_1","grape_1","grape_2","grape_3","grape_4","frogs_1","cerises_1","cerises_2","cerises_3","cerises_4","banane_1","banane_2","banane_3","banane_4","birne_1","birne_2","birne_3","birne_4"];
