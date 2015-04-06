@@ -15,7 +15,7 @@ _vid = lbValue[2802,(lbCurSel 2802)];
 _pid = getPlayerUID player;
 _unit = player;
 if(life_action_inUse) exitWith {};
-if(playerSide != civilian) exitWith {hint "Du kannst als Beamter keine Fahrzeuge verkaufen, da das ganze durch Steuern finanziert wird."; closeDialog 0;};		//Momentaner TempFix da die Verkaufspreise kaputt sind.
+if(playerSide != civilian) exitWith {hint "Du kannst doch nicht dein eigenes Dienstfahrzeug verkaufen!"; closeDialog 0;};		//Momentaner TempFix da die Verkaufspreise kaputt sind.
 
 if(isNil "_vehicle") exitWith {hint localize "STR_Garage_Selection_Error"};
 life_action_inUse = true;
