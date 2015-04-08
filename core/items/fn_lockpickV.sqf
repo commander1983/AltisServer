@@ -18,6 +18,7 @@ if(_isVehicle && _curTarget in life_vehicles) exitWith {hint localize "STR_ISTR_
 //More error checks
 if(!_isVehicle && !isPlayer _curTarget) exitWith {};
 if(!_isVehicle && !(_curTarget getVariable["restrained",false])) exitWith {};
+if(_isVehicle && _vDmg >= 1) exitWith {hint "Dieses Fahrzeug ist zerstört und hat daher kein Schloss mehr."};
 
 _title = format[localize "STR_ISTR_Lock_Process",if(!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
 life_action_inUse = true; //Lock out other actions
@@ -77,7 +78,6 @@ if(!_isVehicle) then {
 	_curTarget setVariable["transporting",false,true];
 } else {
 	_dice = random(100);
-	if(_dice < 30) then {
 		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 		life_vehicles pushBack _curTarget;
 		[_curTarget,"alarmanlage"] call life_fnc_globalSound;

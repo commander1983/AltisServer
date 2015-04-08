@@ -15,7 +15,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
     _vehicleData = _vehicle getVariable["vehicle_info_owners",[]];
     _vehicleName = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName");
 	if(_vehDmg >= 1) exitWith {hint parseText format ["Das Fahrzeug (%1) wurde komplett zerstört. Man kann es wieder in der Werkstatt reparieren lassen.",_vehicleName];};
-    if(count _vehicleData == 0) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
+	if(count _vehicleData == 0) exitWith {hint "Das Fahrzeug wurde vermutlich durch Cheats gespawnt. Es wird gelöscht."; sleep 3; deleteVehicle _vehicle}; //Bad vehicle.
     [[0,format[localize "STR_NOTF_BeingImpoundedPerm",(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
     life_action_inUse = true;
     
