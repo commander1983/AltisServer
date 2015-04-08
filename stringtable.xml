@@ -1164,7 +1164,7 @@
 			<Original>Keine Lizenzen&lt;br/&gt;</Original>
 		</Key>
 		<Key ID="STR_Cop_DealerQuestion">
-			<Original>In letzter Zeit waren keine Personen bei mir und haben etwas verkauft!</Original>
+			<Original>War wohl doch keiner bei mir, Bulle!</Original>
 		</Key>
 		<Key ID="STR_Cop_DealerQuestionNoMoney">
 			<Original>Hast wohl keine Knete dabei, yo. Dann bekommste auch keine Infos von mir.</Original>
@@ -1176,7 +1176,7 @@
 			<Original>Wieso sollte ich euch Bullen Infos geben? Verzieht euch bevor was passiert! Danke nochmal für die Kohle ihr Grünlinge!</Original>
 		</Key>
 		<Key ID="STR_Cop_DealerQuestionZuerstMoney">
-			<Original>Dann lass mal die Knete rüberwachsen...</Original>
+			<Original>Zuerst die Knete rüberwachsen lassen ...</Original>
 		</Key>
 		<Key ID="STR_Cop_Radar">
 			<Original>Radar</Original>

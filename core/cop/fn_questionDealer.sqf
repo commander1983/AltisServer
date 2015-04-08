@@ -8,7 +8,7 @@
 private["_sellers","_names","_val"];
 _sellers = (_this select 0) getVariable["sellers",[]];
 if(ja_dzep < 10000) exitWith {hint localize "STR_Cop_DealerQuestionNoMoney";};
-if(count _sellers == 0) exitWith {hint localize "STR_Cop_DealerQuestion"; ja_dzep = ja_dzep - 10000;}; //No data.
+if(count _sellers == 0) exitWith {hint localize "STR_Cop_DealerQuestionZuerstMoney"; ja_dzep = ja_dzep - 10000; sleep 3; hint localize "STR_Cop_DealerQuestion";}; //No data.
 	// prozentuale Chance und Geld benoetigt zusammen mit bekoo und mantis besprochen.54015
 _chance = random(100);
 if(_chance >=45) then {	//55 proz. Chance dass er Infos ausspuckt.
