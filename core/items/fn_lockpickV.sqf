@@ -78,6 +78,7 @@ if(!_isVehicle) then {
 	_curTarget setVariable["transporting",false,true];
 } else {
 	_dice = random(100);
+	if(_dice < 45) then {
 		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 		life_vehicles pushBack _curTarget;
 		[_curTarget,"alarmanlage"] call life_fnc_globalSound;
