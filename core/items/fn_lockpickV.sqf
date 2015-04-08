@@ -5,8 +5,9 @@
 	Description:
 	Main functionality for lock-picking.
 */
-private["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance"];
+private["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance","_vDmg"];
 _curTarget = cursorTarget;
+_vDmg = getDammage _curTarget;
 life_interrupted = false;
 if(life_action_inUse) exitWith {};
 if(isNull _curTarget) exitWith {}; //Bad type
