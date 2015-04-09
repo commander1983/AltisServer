@@ -79,6 +79,7 @@ player addItemToBackpack "100Rnd_65x39_caseless_mag_Tracer";
 player addPrimaryWeaponItem "muzzle_snds_H";
 player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "acc_flashlight";
+player addPrimaryWeaponItem "bipod_01_F_snd";
 
 mybackpack = unitBackpack player;
 mybackpack addItemCargoGlobal ["Toolkit", 2];
