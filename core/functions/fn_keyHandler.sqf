@@ -658,6 +658,13 @@ switch (_code) do
 		};
 	};
 	
+	case 23:
+	{
+		if (!(isNull (findDisplay 602)) && (isPlayer cursorTarget OR vehicle cursorTarget != cursorTarget OR alive cursorTarget)) then {
+			closeDialog 0;
+			closeDialog 0;
+		};
+	};
 };
 
 _handled;
