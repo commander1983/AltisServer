@@ -389,7 +389,10 @@ switch(_shop) do
 						["arifle_MXM_F",nil,5000],
 						["arifle_MX_SW_F",nil,5000],
 						["30Rnd_65x39_caseless_mag",nil,100],
-						["100Rnd_65x39_caseless_mag_Tracer",nil,100]
+						["100Rnd_65x39_caseless_mag_Tracer",nil,100],
+						["bipod_02_F_tan","Zweibein (Braun)",1000],
+						["bipod_02_F_hex","Zweibein (Hex)",1000],
+						["bipod_01_F_snd","Zweibein (Sand)",1000]
 					]
 				];
 			};
@@ -401,7 +404,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"Du bist kein Polizist"};
-			case (__GETC__(life_coplevel) == 0): {"Du bist nicht berechtigt den Polizeishop zu Benutzen!"};
+			case (__GETC__(life_coplevel) == 0): {"Du bist nicht berechtigt den Polizeishop zu benutzen!"};
 			case (__GETC__(life_coplevel) == 1):
 			{
 				["Anwaerter",
@@ -532,6 +535,7 @@ switch(_shop) do
 						["HandGrenade_Stone","Blendgranate",500],
 						["muzzle_snds_H",nil,500],
 						["acc_flashlight",nil,500],
+						["bipod_03_F_blk","Zweibein (Black)",1000],
 						["optic_Arco",nil,1000],
 						["optic_Hamr",nil,1000],
 						["optic_ACO_grn",nil,500],
@@ -571,6 +575,7 @@ switch(_shop) do
 						["muzzle_snds_H",nil,500],
 						["muzzle_snds_B",nil,500],
 						["acc_flashlight",nil,500],
+						["bipod_03_F_blk","Zweibein (Black)",1000],
 						["optic_Arco",nil,1000],
 						["optic_Hamr",nil,1000],
 						["optic_ACO_grn",nil,500],
@@ -613,6 +618,7 @@ switch(_shop) do
 						["muzzle_snds_H",nil,500],
 						["muzzle_snds_B",nil,500],
 						["acc_flashlight",nil,500],
+						["bipod_03_F_blk","Zweibein (Black)",1000],
 						["optic_Arco",nil,1000],
 						["optic_Hamr",nil,1000],
 						["optic_ACO_grn",nil,500],
@@ -657,6 +663,7 @@ switch(_shop) do
 						["muzzle_snds_H",nil,500],
 						["muzzle_snds_B",nil,500],
 						["acc_flashlight",nil,500],
+						["bipod_03_F_blk","Zweibein (Black)",1000],
 						["optic_Arco",nil,1000],
 						["optic_Hamr",nil,1000],
 						["optic_ACO_grn",nil,500],
