@@ -69,7 +69,7 @@ if(!isNull _source) then {
 //anti vdm
 if (vehicle _unit == _unit) then {
 
-		if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Ship" ) then {
+		if (_source isKindOf "Car" OR _source isKindOf "Ship") then {
 			_damage = getDammage player;
 			if!(_damage >= 0.80) then {
 				player setDamage 0.8;
@@ -77,7 +77,7 @@ if (vehicle _unit == _unit) then {
 			[[player,"amovppnemstpsraswrfldnon"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		} else {	
 			_isVehicle = vehicle _source;
-		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Ship") then  {
+		if ((typeOf _isVehicle != "B_G_Offroad_01_armed_F") && _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Ship") then  {
 			_damage = getDammage player;
 			if!(_damage >= 0.80) then {
 				player setDamage 0.8;
